@@ -1,0 +1,22 @@
+﻿@using MvcFrontEnd.BusinessObjects
+@model NewsBOL
+
+<link rel="stylesheet" href="~/Content/css/about.css"/>
+
+@{
+    ViewBag.Title = "Giới Thiệu";
+    Layout = "~/Views/Shared/_LayoutDetails.cshtml";
+}
+
+<div class="box_mid">
+    @*<div class="mid-title">
+        <div class="titleL">
+            <h1>@Model.Name_VN</h1>
+        </div>
+        <div class="titleR"></div>
+        <div class="clear"></div>
+    </div>*@
+    <div class="mid-content" style="padding-bottom: 160px;">
+        @Html.Raw(Model.Content_VN)
+    </div>
+</div>

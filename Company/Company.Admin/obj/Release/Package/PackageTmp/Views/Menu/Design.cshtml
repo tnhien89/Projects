@@ -1,0 +1,286 @@
+﻿
+@{
+    ViewBag.Title = "Design";
+}
+
+<!-- Multi select -->
+<!--<link rel="stylesheet" type="text/css" href="~/Assets/widgets/multi-select/multiselect.css">-->
+<script type="text/javascript" src="~/Assets/widgets/multi-select/multiselect.js"></script>
+<script type="text/javascript">
+    /* Multiselect inputs */
+
+    $(function () {
+        "use strict";
+        //$("#listMenu").multiSelect({
+        //    afterSelect: function (item) {
+        //        var obj = {
+        //            id: item.attr('data-menuId'),
+        //            key: item.val(),
+        //            name: item.text()
+        //        }
+        //    }
+        //});
+        //$(".ms-container").append('<i class="glyph-icon icon-exchange"></i>');
+    });
+</script>
+
+<!-- JS Interactions -->
+<script type="text/javascript" src="~/Assets/widgets/interactions-ui/resizable.js"></script>
+<script type="text/javascript" src="~/Assets/widgets/interactions-ui/draggable.js"></script>
+<script type="text/javascript" src="~/Assets/widgets/interactions-ui/sortable.js"></script>
+<script type="text/javascript" src="~/Assets/widgets/interactions-ui/selectable.js"></script>
+<script type="text/javascript">
+    /* Sortable elements */
+
+    $(function () {
+        "use strict";
+        $(".sortable-elements").sortable();
+    });
+
+    $(function () {
+        "use strict";
+        $(".column-sort").sortable({
+            connectWith: ".column-sort"
+        });
+    });
+</script>
+<!-- Nestable -->
+<!--<link rel="stylesheet" type="text/css" href="~/Assets/widgets/nestable/nestable.css">-->
+<script type="text/javascript" src="~/Assets/widgets/nestable/nestable.js"></script>
+<script type="text/javascript" src="~/Assets/widgets/nestable/nestable-demo.js"></script>
+
+<style type="text/css">
+    .dd-handle {
+        padding-right: 25px;
+    }
+
+    .dd-item img {
+        height: 16px;
+        position: relative;
+        float: right;
+        vertical-align: middle;
+        top: -28px;
+        right: 7px;
+    }
+
+        .dd-item img:hover {
+            cursor: pointer;
+        }
+</style>
+
+<div id="page-title">
+    <h2>Menu</h2>
+</div>
+
+<div class="panel">
+    <div class="panel-body">
+        <h3 class="title-hero">
+            Design Menu
+        </h3>
+        <div class="example-box-wrapper">
+            <form class="form-horizontal bordered-row">
+                <div class="form-group">
+                    <label class="col-sm-1 control-label">Menu Items</label>
+                    <div class="col-sm-4">
+                        <div class="row ms-container">
+                            <div class="col-md-12 ms-selectable" style="width: 100%;">
+                                <ul id="listMenu" multiple="" class="form-control ms-list" style="height: 300px;"></ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="cf clearfix nestable-lists">
+                            <div class="row">
+                                <div class="dd" id="nestable" style="margin: 0;">
+                                    <ol id="listMenuDesign" class="dd-list"></ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="panel-footer">
+        <div class="text-center">
+            <button id="btnSave" type="submit" class="btn btn-lg btn-info">Save</button>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        startGetData();
+    });
+
+    function startGetData() {
+        $.ajax({
+            url: '/Menu/GetDesignInfo',
+            type: 'GET',
+            contentType: 'application/json',
+            success: function (rs) {
+                if (!rs) {
+                    console.log('null result');
+                    return false;
+                }
+
+                if (rs.Code < 0) {
+                    console.log(rs.ErrorMessage);
+                    alert(rs.Message);
+                    return false;
+                }
+
+                if (rs.Data && rs.Data.length > 0) {
+                    startBindingMenu(rs.Data[0]);
+
+                    if (rs.Data[1] && (rs.Data[1])[0])
+                    {
+                        var obj = (rs.Data[1])[0];
+                        var arrDesign = JSON.parse(obj.Value);
+                        if (arrDesign && arrDesign.length > 0) {
+                            $.each(arrDesign, function (idx, item) {
+                                startBindingMenuDesign($('#listMenuDesign'), item);
+                            });
+                        }
+                    }
+                }
+            },
+            error: function (xhr, status, error) {
+                console.log(error);
+                alert(error);
+            }
+        });
+    }
+
+    function startBindingMenu(items) {
+        if (!items || items.length == 0) {
+            return false;
+        }
+
+        var root = $('#listMenu');
+        $.each(items, function (idx, item) {
+            var li = '<li class="ms-elem-selectable" data-menuKey="' + item.ItemKey + '" data-menuId="' + item.Id + '">' +
+                '<span>' + item.Name + '</span>' +
+                '</li>';
+            //var opt = '<option value="' + item.ItemKey + '" data-menuId="' + item.Id + '">' + item.Name + '</option>'
+            root.append(li);
+        });
+    }
+
+    function startBindingMenuDesign(rootElement, item) {
+        var li = '<li class="dd-item" data-id="' + item.id + '" ' +
+            'data-key="' + item.key + '" ' +
+            'data-name="' + item.name + '">' +
+            '<div class="dd-handle">' + item.name + '</div><img src="/Assets/images/delete.png">' +
+            '</li>';
+        rootElement.append(li);
+
+        if (item.children && item.children.length > 0) {
+            var ol = '<ol class="dd-list" data-rootId="' + item.id + '"></ol>';
+            $($('[data-id="' + item.id + '"]')[0]).append(ol);
+            var root = $($('[data-rootId="' + item.id + '"]')[0]);
+
+            for (var i = 0; i < item.children.length; i++) {
+                startBindingMenuDesign(root, item.children[i]);
+            }
+        }
+    }
+
+    $(document).on('click', '[data-menuId]', function (e) {
+        var li = $(this);
+        var obj = {
+            id: li.attr('data-menuId'),
+            key: li.attr('data-menuKey'),
+            name: li.find('span').text()
+        }
+
+        li.hide();
+        startBindingMenuDesign($('#listMenuDesign'), obj);
+    });
+
+    $(document).on('click', '.dd-item img', function (e) {
+        var li = $(this).parent();
+        var obj = {
+            Id: li.attr('data-Id'),
+            ItemKey: li.attr('data-Key'),
+            Name: li.attr('data-Name')
+        };
+
+        showOldMenu(li);
+        li.remove();
+    });
+
+    function showOldMenu(element) {
+        var id = element.attr('data-Id');
+        var li = $('[data-menuId="' + id + '"]')
+        if (li && li.length > 0) {
+            li.show();
+        }
+        else {
+            var obj = {
+                Id: id,
+                ItemKey: element.attr('data-Key'),
+                Name: element.attr('data-Name')
+            }
+
+            startBindingMenu([obj]);
+        }
+
+        var childrens = element.find('ol>.dd-item');
+        if (childrens && childrens.length > 0) {
+            for (var i = 0; i < childrens.length; i++) {
+                showOldMenu($(childrens[i]));
+            }
+        }
+    }
+
+    $(document).on('click', '#btnSave', function (e) {
+        var json = JSON.stringify($('#nestable').nestable('serialize'));
+        var ids = "";
+
+        var arr = $('[data-id]');
+        if (arr && arr.length > 0) {
+            for (var i = 0; i < arr.length; i++) {
+                var id = $(arr[i]).attr('data-id');
+                if (id && $.isNumeric(id)) {
+                    if (ids == "") {
+                        ids = id;
+                    }
+                    else {
+                        ids += "," + id;
+                    }
+                }
+            }
+        }
+
+        var btn = $('#btnSave');
+        btn.addClass('disabled');
+
+        $.ajax({
+            url: '/Menu/Design',
+            type: 'POST',
+            dataType: 'json',
+            contentType: 'application/json',
+            data: JSON.stringify({ data: json, menuIds: ids }),
+            success: function (rs) {
+                btn.removeClass('disabled');
+                if (!rs) {
+                    console.log('null result');
+                    return false;
+                }
+
+                if (rs.Code < 0) {
+                    console.log(rs.ErrorMessage);
+                    alert(rs.Message);
+                    
+                    return false;
+                }
+            },
+            error: function (xhr, status, error) {
+                console.log(error);
+                alert(error);
+                btn.removeClass('disabled');
+            }
+        });
+    })
+</script>

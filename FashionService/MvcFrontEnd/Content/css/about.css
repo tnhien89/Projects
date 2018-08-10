@@ -1,0 +1,10 @@
+.desc {
+	padding-left:30px;
+	font-size:14px;
+	line-height:20px;
+}
+
+#box-cat .box-title .fTitle {
+	background-image:url(../images/text_title_box_about.png);
+	height:90px;
+}

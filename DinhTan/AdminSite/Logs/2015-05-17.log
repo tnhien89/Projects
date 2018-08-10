@@ -1,0 +1,20 @@
+2015-05-17 01:44:38.1223 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-17 01:44:38.1303 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-17 01:45:09.6984 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-17 01:45:09.6984 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-17 01:45:40.3287 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-17 01:45:40.3287 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-17 01:46:10.6100 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-17 01:46:10.6100 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-17 01:46:38.7410 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-17 01:46:38.7410 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295

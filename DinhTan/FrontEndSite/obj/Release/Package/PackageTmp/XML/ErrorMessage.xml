@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Errors>
+  <Error Key="NullObject" Value="Object reference not set to an instance of an object."/>
+  <Error Key="TableUsed" Value="Table has been used in the project."/>
+</Errors>

@@ -1,0 +1,179 @@
+﻿.topmenu {
+    /* float: right; */
+    position: relative;
+    text-align: center;
+    /*padding-top: 26px;*/
+    /* height: 100%; */
+    /* margin-top: 5px; */
+    /*margin-bottom: 6px;*/
+    /* margin-top: 50%; */
+    /* margin: auto; */
+}
+
+    .topmenu li a {
+        /*font-family: Tahoma, Arial, Helvetica, sans-serif;*/
+        font-size: 17px;
+        font-weight: 300;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+
+
+    .topmenu li:last-child {
+        border: none;
+    }
+
+
+
+    .topmenu li a:hover {
+        color: #cccccc;
+    }
+
+    .topmenu > ul > li:hover {
+        background: #72448d;
+    }
+
+        .topmenu > ul > li:hover a {
+            color: #bf360c;
+        }
+
+    .topmenu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        /*background: #1bc2a2;*/
+    }
+
+        .topmenu ul li {
+            display: block;
+            position: relative;
+            float: left;
+            /*background: #1bc2a2;*/
+        }
+
+    /* This hides the dropdowns */
+
+
+    .topmenu li ul {
+        display: none;
+        background: #7c5494;
+        z-index: 999;
+        border-left: 1px solid #eee;
+    }
+
+        .topmenu li ul li {
+            padding: 2px 8px 2px 8px;
+            border-top: 1px solid #eee;
+        }
+
+li ul li:first-child {
+    border-top: none;
+}
+
+.topmenu > ul {
+    position: relative;
+    bottom: 0px;
+    padding: 10px;
+    /*background-image: linear-gradient(to bottom, #337AB7 0px, #2E6DA4 100%);*/
+    margin-top: 25px;
+    /* margin-bottom: 5px; */
+}
+
+    .topmenu > ul > li {
+        display: inline;
+        /*border-right: 1px solid #ffffff;
+		border-right-style: inset;*/
+        /* padding: 10px; */
+        margin: 2px;
+    }
+
+        .topmenu > ul > li > ul {
+            margin-top: 10px;
+            margin-left: -10px;
+            border-left: none;
+        }
+
+.topmenu ul li a {
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+}
+
+    .topmenu ul li a:hover {
+        /*background: #2c3e50;*/
+    }
+
+/* Display the dropdown */
+
+
+.topmenu li:hover > ul {
+    display: block;
+    position: absolute;
+}
+
+.topmenu li:hover li {
+    float: none;
+}
+
+.topmenu li:hover a {
+    /*background: #1bc2a2;*/
+}
+
+.topmenu li li:hover {
+    background: #72448d;
+}
+
+.topmenu li:hover li a:hover {
+}
+
+.topmenu .main-navigation li ul li {
+    border-top: 0;
+    padding: 8px 10px 8px 10px;
+    text-align: left;
+    border-bottom: dotted #ccc 1px;
+}
+
+.topmenu .main-navigation > li > ul {
+    border-top: 0;
+    padding-top: 13px;
+    text-align: left;
+}
+
+/* Displays second level dropdowns to the right of the first level dropdown */
+
+
+.topmenu ul ul ul {
+    left: 100%;
+    top: 0;
+    background: #72448d;
+}
+
+/* Simple clearfix */
+
+
+
+.topmenu ul:before,
+.topmenu ul:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.topmenu ul:after {
+    clear: both;
+}
+
+@media (max-width:991px) {
+    .topmenu > ul > li {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .topmenu li:hover > ul {
+        display: block !important;
+        position: relative !important;
+    }
+}

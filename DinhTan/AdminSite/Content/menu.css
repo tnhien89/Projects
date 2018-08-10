@@ -1,0 +1,88 @@
+﻿#menu_box ul, #menu_box ul li{
+    margin:0;
+    padding:0;
+    list-style:none;
+	z-index: 9999999;
+}
+
+/* We apply background color and border bottom white and width to 150px */
+#menu_box ul li{
+    background-color:#537FA3;
+    border-bottom:solid 1px white;
+    cursor:pointer;
+}
+
+/* We apply the background hover color when user hover the mouse over of the li component */
+#menu_box ul li:hover{
+    background-color:#7CA0D0;
+    position:relative;
+}
+
+/* We apply the link style */
+#menu_box ul li a{
+    padding:10px 15px;
+    color:#ffffff;
+    display:inline-block;
+    text-decoration:none;
+}
+
+/**** SECOND LEVEL MENU ****/
+/* We make the position to absolute for flyout menu and hidden the ul until the user hover the parent li item */
+#menu_box ul li ul{
+    position:absolute;
+    display:none;
+}
+
+/* When user has hovered the li item, we show the ul list by applying display:block, note: 150px is the individual menu width.  */
+#menu_box ul li:hover ul{
+    left:100%;
+    top:0px;
+    display:block;
+}
+
+/* we apply different background color to 2nd level menu items*/
+#menu_box ul li ul li{
+    background-color:#7CA0D0;
+}
+
+/* We change the background color for the level 2 submenu when hovering the menu */
+#menu_box ul li:hover ul li:hover{
+    background-color:#86d3fa;
+}
+
+/* We style the color of level 2 links */
+#menu_box ul li ul li a{
+    /*color:#454444;*/
+    display:inline-block;
+    min-width: 150px;
+}
+
+/**** THIRD LEVEL MENU ****/
+/* We need to hide the 3rd menu, when hovering the first level menu */
+#menu_box ul li:hover ul li ul{
+    position:absolute;
+    display:none;
+}
+
+/* We show the third level menu only when they hover the second level menu parent */
+#menu_box ul li:hover ul li:hover ul{
+    display:block;
+    left:100%;
+    top:0;
+}
+
+/* We change the background color for the level 3 submenu*/
+#menu_box ul li:hover ul li:hover ul li{
+    background:#86d3fa;
+}
+
+/* We change the background color for the level 3 submenu when hovering the menu */
+
+#menu_box ul li:hover ul li:hover ul li:hover{
+    background:#358ebc;
+}
+
+/* We change the level 3 link color */
+#menu_box ul li:hover ul li:hover ul li a{
+    color:#ffffff;
+}

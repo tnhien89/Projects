@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TownItems>
+  <Item>
+    <Name>Quận 1</Name>
+    <Key>quan-1</Key>
+  </Item>
+  <Item>
+    <Name>Quận 2</Name>
+    <Key>quan-2</Key>
+  </Item>
+  <Item>
+    <Name>Quận 3</Name>
+    <Key>quan-3</Key>
+  </Item>
+  <Item>
+    <Name>Quận 4</Name>
+    <Key>quan-4</Key>
+  </Item>
+  <Item>
+    <Name>Quận 5</Name>
+    <Key>quan-5</Key>
+  </Item>
+  <Item>
+    <Name>Quận 6</Name>
+    <Key>quan-6</Key>
+  </Item>
+  <Item>
+    <Name>Quận 7</Name>
+    <Key>quan-7</Key>
+  </Item>
+  <Item>
+    <Name>Quận 8</Name>
+    <Key>quan-8</Key>
+  </Item>
+  <Item>
+    <Name>Quận 9</Name>
+    <Key>quan-9</Key>
+  </Item>
+  <Item>
+    <Name>Quận 10</Name>
+    <Key>quan-10</Key>
+  </Item>
+  <Item>
+    <Name>Quận 11</Name>
+    <Key>quan-11</Key>
+  </Item>
+  <Item>
+    <Name>Quận 12</Name>
+    <Key>quan-12</Key>
+  </Item>
+  <Item>
+    <Name>Bình Tân</Name>
+    <Key>binh-tan</Key>
+  </Item>
+  <Item>
+    <Name>Bình Thạnh</Name>
+    <Key>binh-thanh</Key>
+  </Item>
+  <Item>
+    <Name>Gò Vấp</Name>
+    <Key>go-vap</Key>
+  </Item>
+  <Item>
+    <Name>Phú Nhuận</Name>
+    <Key>phu-nhuan</Key>
+  </Item>
+  <Item>
+    <Name>Tân Bình</Name>
+    <Key>tan-binh</Key>
+  </Item>
+  <Item>
+    <Name>Tân Phú</Name>
+    <Key>tan-phu</Key>
+  </Item>
+  <Item>
+    <Name>Thủ Đức</Name>
+    <Key>thu-duc</Key>
+  </Item>
+</TownItems>

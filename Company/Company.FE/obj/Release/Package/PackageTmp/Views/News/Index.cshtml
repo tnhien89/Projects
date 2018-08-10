@@ -1,0 +1,111 @@
+﻿@using Company.Models
+@using System.Collections
+@model List<PostInfo>
+
+@{
+    ViewBag.Title = "Tin Tức";
+    Hashtable townItems = ViewData["TownItems"] == null ? new Hashtable() : ViewData["TownItems"] as Hashtable;
+    Hashtable countItems = ViewData["CountItems"] == null ? new Hashtable() : ViewData["CountItems"] as Hashtable;
+}
+
+<script type="text/javascript">
+    $(function () {
+        $('#newsItems').easyPaginate({
+            paginateElement: '.new-item',
+            elementsPerPage: 20,
+            firstButtonText: 'First',
+            prevButtonText: 'Prev',
+            nextButtonText: 'Next',
+            lastButtonText: 'Last',
+            effect: 'climb'
+        });
+    });
+</script>
+
+<div class="blog">
+    <!-- container -->
+    <div class="container">
+        <div class="col-md-9 blog-top-left-grid">
+            <div class="left-blog left-single">
+                <div id="newsItems" class="blog-left">
+                    <div class="row single-left-left Categories" style="margin-bottom: 20px;">
+                        <h3>Tin Tức</h3>
+                    </div>
+                    @if (Model.Count == 0)
+                    {
+                        <span style="text-align: center; display: block; padding: 10px;">Đang cập nhật</span>
+                    }
+                    else
+                    {
+                        foreach (PostInfo item in Model)
+                        {
+                            <div class="row news-item">
+                                <div class="col-md-4 text-center">
+                                    <img class="img-fluid" src="@Url.Action("Files", "Home", new { key = item.Images })" alt="@item.Title" />
+                                </div>
+                                <div class="col-md-8">
+                                    <h2 class="title-news-cate">
+                                        <a href="@Url.Action("Index", "News", new { key = item.ItemKey })">@item.Title</a>
+                                    </h2>
+                                    <p class="post-box">
+                                        <span class="time-date">
+                                            <i class="icon wait"></i> @string.Format("{0}", item.UpdatedAt.HasValue ? item.UpdatedAt.Value.ToString("dd/MM/yyyy") : "")
+                                        </span>
+                                    </p>
+                                    <p class="sapo-news-title">
+                                        @item.Description
+                                    </p>
+                                    <p class="entry-news">
+                                        <a href="@Url.Action("Index", "News", new { key = item.ItemKey })">Xem thêm »</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <hr />
+                        }
+                    }
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-3 blog-top-right-grid">
+            <div class="Categories">
+                <h3>Khu Vực Tuyển Bảo Vệ</h3>
+                <ul>
+                    @foreach (DictionaryEntry entry in townItems)
+                    {
+                        <li>
+                            @if (countItems[entry.Key] != null)
+                            {
+                                <a href="@Url.Action("Index", "Town", new { key = entry.Key.ToString() })">@Html.Raw(entry.Value.ToString() + " (" + countItems[entry.Key].ToString() + ")")</a>
+                            }
+                            else
+                            {
+                                <a href="@Url.Action("Index", "Town", new { key = entry.Key.ToString() })">@entry.Value.ToString()</a>
+                            }
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div class="Categories">
+                <h2 class="agileits-title">Chăm Sóc Khách Hàng</h2>
+                <ul class="marked-list w3-agileits-offs1">
+                    <li>
+                        <span>Chi nhánh HCM - </span><a href="tel:0964266679">0964 266 679</a>
+                        <a href="#">tuyendung@timvieclamsaigon.vn</a>
+                        <p class="contact_home"><i class="glyphicon glyphicon-home"></i>609/25, Lê Quang Định, P1, Q.Gò Vấp, TP HCM.</p>
+
+                    </li>
+                    <li>
+                        <span>Chi nhánh Hà Nội - </span><a href="tel:02466526711">024 665 26711</a>
+                        <a href="mailto:info@baovedaiquangminh.vn">info@baovedaiquangminh.vn</a>
+                        <p class="contact_home"><i class="glyphicon glyphicon-home"></i>Số 65 - Miếu Đầm - Phường Mễ Trì - Quận Nam Từ Liêm - Tp.Hà Nội.</p>
+
+                    </li>
+                </ul>
+            </div>
+            <img src="images/ads-tuyen-dung.jpg">
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <!-- //container -->
+</div>

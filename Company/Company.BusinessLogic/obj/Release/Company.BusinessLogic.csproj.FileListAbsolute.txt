@@ -1,0 +1,16 @@
+F:\TNHien\Git Projects\Company\Company.BusinessLogic\bin\Release\NLog.config
+F:\TNHien\Git Projects\Company\Company.BusinessLogic\bin\Release\Company.BusinessLogic.dll
+F:\TNHien\Git Projects\Company\Company.BusinessLogic\bin\Release\Company.BusinessLogic.pdb
+F:\TNHien\Git Projects\Company\Company.BusinessLogic\bin\Release\Company.DataAccess.dll
+F:\TNHien\Git Projects\Company\Company.BusinessLogic\bin\Release\Company.Interfaces.dll
+F:\TNHien\Git Projects\Company\Company.BusinessLogic\bin\Release\Company.Models.dll
+F:\TNHien\Git Projects\Company\Company.BusinessLogic\bin\Release\NLog.dll
+F:\TNHien\Git Projects\Company\Company.BusinessLogic\bin\Release\Company.Extensions.dll
+F:\TNHien\Git Projects\Company\Company.BusinessLogic\bin\Release\Company.DataAccess.pdb
+F:\TNHien\Git Projects\Company\Company.BusinessLogic\bin\Release\Company.Interfaces.pdb
+F:\TNHien\Git Projects\Company\Company.BusinessLogic\bin\Release\Company.Models.pdb
+F:\TNHien\Git Projects\Company\Company.BusinessLogic\bin\Release\NLog.xml
+F:\TNHien\Git Projects\Company\Company.BusinessLogic\bin\Release\Company.Extensions.pdb
+F:\TNHien\Git Projects\Company\Company.BusinessLogic\obj\Release\Company.BusinessLogic.csprojResolveAssemblyReference.cache
+F:\TNHien\Git Projects\Company\Company.BusinessLogic\obj\Release\Company.BusinessLogic.dll
+F:\TNHien\Git Projects\Company\Company.BusinessLogic\obj\Release\Company.BusinessLogic.pdb

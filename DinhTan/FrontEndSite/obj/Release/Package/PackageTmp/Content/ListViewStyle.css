@@ -1,0 +1,125 @@
+﻿
+
+.More {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+    .More a {
+        text-decoration: none;
+    }
+
+.list-group-item-header-custom {
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid;
+    /* padding-bottom: 5px; */
+    margin: 0 -5px;
+    padding: 0 10px 5px 10px;
+}
+
+.list-group-item-text-custom {
+    display: block;
+    display: -webkit-box;
+    max-height: 225px;
+    margin: 0 auto;
+    line-height: 1.4;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lvError {
+}
+
+.ProjectItem {
+    height: 260px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    overflow: hidden;
+    padding: 0;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 0px #AAA;
+}
+
+    .ProjectItem img {
+        max-height: 210px;
+        position: relative;
+        top: 0px;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: block;
+    }
+
+        .ProjectItem img:hover {
+            max-height: 210px;
+            position: relative;
+            top: 0px;
+            bottom: 0px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            display: block;
+            cursor: pointer;
+        }
+
+.ProjectItem-Image {
+    width: 100%;
+    max-height: 210px;
+    position: relative;
+}
+
+    .ProjectItem-Image img {
+        max-width: 100%;
+        max-height: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        position: absolute;
+    }
+
+        .ProjectItem-Image img:hover {
+            transform: scale(1.8);
+            transform-origin: 3rem;
+            z-index: 999999;
+            transition-duration: 1s;
+            cursor: pointer;
+        }
+
+.ProjectItem-Name {
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+
+    .ProjectItem-Name a {
+        text-decoration: none;
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+        .ProjectItem-Name a:last-child {
+            color: #686868;
+        }
+
+@media (min-width: 768px) {
+    div.col-md-3.ProjectItem {
+        width: 24% !important;
+        float: left;
+    }
+}
+
+@media (min-width: 768px) {
+    div.col-md-4.ProjectItem {
+        width: 32.1% !important;
+        float: left;
+    }
+}

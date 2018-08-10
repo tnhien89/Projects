@@ -1,0 +1,354 @@
+2015-05-20 00:13:07.6776 INFO  -  [Utilities][Utilities] Status: Start...
+2015-05-20 00:15:14.1609 ERROR  -  [Utilities][SaveFileToServer] Error: System.Web.HttpException (0x80004005): 'F:/Hien/Cong Ty/Web Application/DinhTan/Projects/DinhTan/AdminSite/Upload/Images/Projects/05202015' is a physical path, but a virtual path was expected.
+   at System.Web.Util.UrlPath.CheckValidVirtualPath(String path)
+   at System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   at System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 265
+2015-05-20 00:15:14.1609 ERROR  -  [Utilities][SaveFileToServer] Error: System.Web.HttpException (0x80004005): 'F:/Hien/Cong Ty/Web Application/DinhTan/Projects/DinhTan/AdminSite/Upload/Images/Projects/05202015' is a physical path, but a virtual path was expected.
+   at System.Web.Util.UrlPath.CheckValidVirtualPath(String path)
+   at System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   at System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 265
+2015-05-20 00:15:14.1609 ERROR  -  [Utilities][SaveFileToServer] Error: System.Web.HttpException (0x80004005): 'F:/Hien/Cong Ty/Web Application/DinhTan/Projects/DinhTan/AdminSite/Upload/Images/Projects/05202015' is a physical path, but a virtual path was expected.
+   at System.Web.Util.UrlPath.CheckValidVirtualPath(String path)
+   at System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   at System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 265
+2015-05-20 00:15:14.1609 ERROR  -  [Utilities][SaveFileToServer] Error: System.Web.HttpException (0x80004005): 'F:/Hien/Cong Ty/Web Application/DinhTan/Projects/DinhTan/AdminSite/Upload/Images/Projects/05202015' is a physical path, but a virtual path was expected.
+   at System.Web.Util.UrlPath.CheckValidVirtualPath(String path)
+   at System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   at System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 265
+2015-05-20 00:15:14.1709 ERROR  -  [Utilities][SaveFileToServer] Error: System.Web.HttpException (0x80004005): 'F:/Hien/Cong Ty/Web Application/DinhTan/Projects/DinhTan/AdminSite/Upload/Images/Projects/05202015' is a physical path, but a virtual path was expected.
+   at System.Web.Util.UrlPath.CheckValidVirtualPath(String path)
+   at System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   at System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 265
+2015-05-20 00:16:31.0508 INFO  -  [Utilities][Utilities] Status: Start...
+2015-05-20 00:17:03.2242 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND02 copy (1).jpg'. ---> System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND02 copy (1).jpg'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND02 copy (1).jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 274
+2015-05-20 00:17:03.2242 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND03 copy_0.jpg'. ---> System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND03 copy_0.jpg'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND03 copy_0.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 274
+2015-05-20 00:17:03.2342 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND04 copy_0.jpg'. ---> System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND04 copy_0.jpg'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND04 copy_0.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 274
+2015-05-20 00:17:03.2342 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND08 copy_0.jpg'. ---> System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND08 copy_0.jpg'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND08 copy_0.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 274
+2015-05-20 00:17:03.2342 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND09 copy_0.jpg'. ---> System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND09 copy_0.jpg'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND09 copy_0.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 274
+2015-05-20 00:23:35.2535 INFO  -  [Utilities][Utilities] Status: Start...
+2015-05-20 00:23:40.0395 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND02 copy (1).jpg - Dir: Upload/Images/Projects/05202015] Status: Start...
+2015-05-20 00:24:52.8363 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: An exception occurred during a WebClient request. ---> System.IO.FileNotFoundException: Could not find file 'F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Upload\Images\Projects\05202015\05202015-002341838.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.OpenFileInternal(Boolean needsHeaderAndBoundary, String fileName, FileStream& fs, Byte[]& buffer, Byte[]& formHeaderBytes, Byte[]& boundaryBytes)
+   at System.Net.WebClient.UploadFile(Uri address, String method, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.UploadFile(Uri address, String method, String fileName)
+   at System.Net.WebClient.UploadFile(String address, String fileName)
+   at AdminSite.Utilities.UploadFileToServer(String address, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 354
+2015-05-20 00:24:52.8363 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND02 copy (1).jpg - Dir: Upload/Images/Projects/05202015] Status: End.
+2015-05-20 00:24:52.8363 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND03 copy_0.jpg - Dir: Upload/Images/Projects/05202015] Status: Start...
+2015-05-20 00:24:52.8453 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: An exception occurred during a WebClient request. ---> System.IO.FileNotFoundException: Could not find file 'F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Upload\Images\Projects\05202015\05202015-002452845.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.OpenFileInternal(Boolean needsHeaderAndBoundary, String fileName, FileStream& fs, Byte[]& buffer, Byte[]& formHeaderBytes, Byte[]& boundaryBytes)
+   at System.Net.WebClient.UploadFile(Uri address, String method, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.UploadFile(Uri address, String method, String fileName)
+   at System.Net.WebClient.UploadFile(String address, String fileName)
+   at AdminSite.Utilities.UploadFileToServer(String address, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 354
+2015-05-20 00:24:52.8453 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND03 copy_0.jpg - Dir: Upload/Images/Projects/05202015] Status: End.
+2015-05-20 00:24:52.8453 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND04 copy_0.jpg - Dir: Upload/Images/Projects/05202015] Status: Start...
+2015-05-20 00:24:52.8453 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: An exception occurred during a WebClient request. ---> System.IO.FileNotFoundException: Could not find file 'F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Upload\Images\Projects\05202015\05202015-002452854.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.OpenFileInternal(Boolean needsHeaderAndBoundary, String fileName, FileStream& fs, Byte[]& buffer, Byte[]& formHeaderBytes, Byte[]& boundaryBytes)
+   at System.Net.WebClient.UploadFile(Uri address, String method, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.UploadFile(Uri address, String method, String fileName)
+   at System.Net.WebClient.UploadFile(String address, String fileName)
+   at AdminSite.Utilities.UploadFileToServer(String address, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 354
+2015-05-20 00:24:52.8583 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND04 copy_0.jpg - Dir: Upload/Images/Projects/05202015] Status: End.
+2015-05-20 00:24:52.8583 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND08 copy_0.jpg - Dir: Upload/Images/Projects/05202015] Status: Start...
+2015-05-20 00:24:52.8583 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: An exception occurred during a WebClient request. ---> System.IO.FileNotFoundException: Could not find file 'F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Upload\Images\Projects\05202015\05202015-002452863.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.OpenFileInternal(Boolean needsHeaderAndBoundary, String fileName, FileStream& fs, Byte[]& buffer, Byte[]& formHeaderBytes, Byte[]& boundaryBytes)
+   at System.Net.WebClient.UploadFile(Uri address, String method, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.UploadFile(Uri address, String method, String fileName)
+   at System.Net.WebClient.UploadFile(String address, String fileName)
+   at AdminSite.Utilities.UploadFileToServer(String address, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 354
+2015-05-20 00:24:52.8583 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND08 copy_0.jpg - Dir: Upload/Images/Projects/05202015] Status: End.
+2015-05-20 00:24:52.8583 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND09 copy_0.jpg - Dir: Upload/Images/Projects/05202015] Status: Start...
+2015-05-20 00:24:52.8583 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: An exception occurred during a WebClient request. ---> System.IO.FileNotFoundException: Could not find file 'F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Upload\Images\Projects\05202015\05202015-002452871.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.OpenFileInternal(Boolean needsHeaderAndBoundary, String fileName, FileStream& fs, Byte[]& buffer, Byte[]& formHeaderBytes, Byte[]& boundaryBytes)
+   at System.Net.WebClient.UploadFile(Uri address, String method, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.UploadFile(Uri address, String method, String fileName)
+   at System.Net.WebClient.UploadFile(String address, String fileName)
+   at AdminSite.Utilities.UploadFileToServer(String address, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 354
+2015-05-20 00:24:52.8743 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND09 copy_0.jpg - Dir: Upload/Images/Projects/05202015] Status: End.
+2015-05-20 00:24:52.8743 INFO  -  [Utilities][Utilities] Status: End.
+2015-05-20 00:25:58.2677 INFO  -  [Utilities][Utilities] Status: Start...
+2015-05-20 00:26:02.8138 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND02 copy (1).jpg - Dir: Upload/Images/Projects/05202015] Status: Start...
+2015-05-20 00:26:53.0543 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND02 copy (1).jpg'. ---> System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND02 copy (1).jpg'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND02 copy (1).jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at System.Net.WebClient.DownloadFile(String address, String fileName)
+   at AdminSite.Utilities.UploadFileToServer(String address, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 354
+2015-05-20 00:26:53.0543 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND02 copy (1).jpg - Dir: Upload/Images/Projects/05202015] Status: End.
+2015-05-20 00:26:53.0543 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND03 copy_0.jpg - Dir: Upload/Images/Projects/05202015] Status: Start...
+2015-05-20 00:26:53.0643 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND03 copy_0.jpg'. ---> System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND03 copy_0.jpg'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND03 copy_0.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at System.Net.WebClient.DownloadFile(String address, String fileName)
+   at AdminSite.Utilities.UploadFileToServer(String address, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 354
+2015-05-20 00:26:53.0643 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND03 copy_0.jpg - Dir: Upload/Images/Projects/05202015] Status: End.
+2015-05-20 00:26:53.0643 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND04 copy_0.jpg - Dir: Upload/Images/Projects/05202015] Status: Start...
+2015-05-20 00:26:53.0643 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND04 copy_0.jpg'. ---> System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND04 copy_0.jpg'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND04 copy_0.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at System.Net.WebClient.DownloadFile(String address, String fileName)
+   at AdminSite.Utilities.UploadFileToServer(String address, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 354
+2015-05-20 00:26:53.0773 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND04 copy_0.jpg - Dir: Upload/Images/Projects/05202015] Status: End.
+2015-05-20 00:26:53.0773 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND08 copy_0.jpg - Dir: Upload/Images/Projects/05202015] Status: Start...
+2015-05-20 00:26:53.0773 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND08 copy_0.jpg'. ---> System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND08 copy_0.jpg'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND08 copy_0.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at System.Net.WebClient.DownloadFile(String address, String fileName)
+   at AdminSite.Utilities.UploadFileToServer(String address, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 354
+2015-05-20 00:26:53.0773 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND08 copy_0.jpg - Dir: Upload/Images/Projects/05202015] Status: End.
+2015-05-20 00:26:53.0773 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND09 copy_0.jpg - Dir: Upload/Images/Projects/05202015] Status: Start...
+2015-05-20 00:26:53.0933 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND09 copy_0.jpg'. ---> System.Net.WebException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND09 copy_0.jpg'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\fakepath\ConfidentialCampus_ND09 copy_0.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at System.Net.WebClient.DownloadFile(String address, String fileName)
+   at AdminSite.Utilities.UploadFileToServer(String address, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 354
+2015-05-20 00:26:53.0933 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\ConfidentialCampus_ND09 copy_0.jpg - Dir: Upload/Images/Projects/05202015] Status: End.
+2015-05-20 00:26:53.0933 INFO  -  [Utilities][Utilities] Status: End.
+2015-05-20 00:31:16.3362 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-20 11:06:25.0295 ERROR  -  [DataAccessHelpers][ExecuteStoredReturnDataSet] Error: System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at AdminSite.DataAccessHelpers.ExecuteStoredReturnDataSet(String stored, Object obj) in c:\Hien\WebApp\DinhTan\AdminSite\DataAccessHelpers.cs:line 333
+ClientConnectionId:b064f1b4-6209-49fd-88fc-fff231206152
+2015-05-20 12:26:08.2721 INFO  -  [Utilities][Utilities] Status: Start...
+2015-05-20 12:26:12.2653 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\AdvancED Break Room view 1 copy.jpg - Dir: Upload/Images/Projects/] Status: Start...
+2015-05-20 12:27:11.9497 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: Could not find a part of the path 'C:\fakepath\AdvancED Break Room view 1 copy.jpg'. ---> System.Net.WebException: Could not find a part of the path 'C:\fakepath\AdvancED Break Room view 1 copy.jpg'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\fakepath\AdvancED Break Room view 1 copy.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at System.Net.WebClient.DownloadFile(String address, String fileName)
+   at AdminSite.Utilities.UploadFileToServer(String address, String dir) in c:\Hien\WebApp\DinhTan\AdminSite\Utilities.cs:line 354
+2015-05-20 12:27:11.9497 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\AdvancED Break Room view 1 copy.jpg - Dir: Upload/Images/Projects/] Status: End.
+2015-05-20 12:27:11.9497 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\AdvancED Ideation Room copy.jpg - Dir: Upload/Images/Projects/] Status: Start...
+2015-05-20 12:27:11.9497 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: Could not find a part of the path 'C:\fakepath\AdvancED Ideation Room copy.jpg'. ---> System.Net.WebException: Could not find a part of the path 'C:\fakepath\AdvancED Ideation Room copy.jpg'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\fakepath\AdvancED Ideation Room copy.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at System.Net.WebClient.DownloadFile(String address, String fileName)
+   at AdminSite.Utilities.UploadFileToServer(String address, String dir) in c:\Hien\WebApp\DinhTan\AdminSite\Utilities.cs:line 354
+2015-05-20 12:27:11.9497 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\AdvancED Ideation Room copy.jpg - Dir: Upload/Images/Projects/] Status: End.
+2015-05-20 12:27:11.9497 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\AdvancED Large Conference Center with AV copy.jpg - Dir: Upload/Images/Projects/] Status: Start...
+2015-05-20 12:27:11.9607 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: Could not find a part of the path 'C:\fakepath\AdvancED Large Conference Center with AV copy.jpg'. ---> System.Net.WebException: Could not find a part of the path 'C:\fakepath\AdvancED Large Conference Center with AV copy.jpg'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\fakepath\AdvancED Large Conference Center with AV copy.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at System.Net.WebClient.DownloadFile(String address, String fileName)
+   at AdminSite.Utilities.UploadFileToServer(String address, String dir) in c:\Hien\WebApp\DinhTan\AdminSite\Utilities.cs:line 354
+2015-05-20 12:27:11.9607 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\AdvancED Large Conference Center with AV copy.jpg - Dir: Upload/Images/Projects/] Status: End.
+2015-05-20 12:27:11.9607 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\AdvancED Solar Panels 1 copy.jpg - Dir: Upload/Images/Projects/] Status: Start...
+2015-05-20 12:27:11.9607 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: Could not find a part of the path 'C:\fakepath\AdvancED Solar Panels 1 copy.jpg'. ---> System.Net.WebException: Could not find a part of the path 'C:\fakepath\AdvancED Solar Panels 1 copy.jpg'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\fakepath\AdvancED Solar Panels 1 copy.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at System.Net.WebClient.DownloadFile(String address, String fileName)
+   at AdminSite.Utilities.UploadFileToServer(String address, String dir) in c:\Hien\WebApp\DinhTan\AdminSite\Utilities.cs:line 354
+2015-05-20 12:27:11.9607 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\AdvancED Solar Panels 1 copy.jpg - Dir: Upload/Images/Projects/] Status: End.
+2015-05-20 12:27:11.9607 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\AdvancED sw elev night copy.jpg - Dir: Upload/Images/Projects/] Status: Start...
+2015-05-20 12:27:11.9757 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: Could not find a part of the path 'C:\fakepath\AdvancED sw elev night copy.jpg'. ---> System.Net.WebException: Could not find a part of the path 'C:\fakepath\AdvancED sw elev night copy.jpg'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\fakepath\AdvancED sw elev night copy.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at System.Net.WebClient.DownloadFile(String address, String fileName)
+   at AdminSite.Utilities.UploadFileToServer(String address, String dir) in c:\Hien\WebApp\DinhTan\AdminSite\Utilities.cs:line 354
+2015-05-20 12:27:11.9757 INFO  -  [Utilities][SaveFileToServer]-[Address: C:\fakepath\AdvancED sw elev night copy.jpg - Dir: Upload/Images/Projects/] Status: End.
+2015-05-20 12:27:11.9757 INFO  -  [Utilities][Utilities] Status: End.

@@ -1,0 +1,1506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>E:\TNHien\Public Projects\DinhTan\FrontEnd</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>07/01/2016 13:07:34</publishTime>
+    </File>
+    <File Include="bin/CKEditor.NET.dll">
+      <publishTime>07/01/2016 13:10:14</publishTime>
+    </File>
+    <File Include="bin/FrontEndSite.dll">
+      <publishTime>07/01/2016 13:59:31</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>07/01/2016 13:14:49</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>07/01/2016 13:13:09</publishTime>
+    </File>
+    <File Include="bin/NLog.config">
+      <publishTime>07/01/2016 13:09:10</publishTime>
+    </File>
+    <File Include="bin/NLog.dll">
+      <publishTime>07/01/2016 13:12:18</publishTime>
+    </File>
+    <File Include="ContactForm.aspx">
+      <publishTime>07/01/2016 13:09:08</publishTime>
+    </File>
+    <File Include="ContactInfo.aspx">
+      <publishTime>07/01/2016 13:08:28</publishTime>
+    </File>
+    <File Include="Content/About.css">
+      <publishTime>07/01/2016 13:09:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>07/01/2016 13:09:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>07/01/2016 13:09:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>07/01/2016 13:09:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>07/01/2016 13:09:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>07/01/2016 13:09:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>07/01/2016 13:09:10</publishTime>
+    </File>
+    <File Include="Content/ListViewStyle.css">
+      <publishTime>07/01/2016 13:09:10</publishTime>
+    </File>
+    <File Include="Content/MenuFrontEnd.css">
+      <publishTime>07/01/2016 13:09:10</publishTime>
+    </File>
+    <File Include="Content/ProjectsInfo.css">
+      <publishTime>07/01/2016 13:09:10</publishTime>
+    </File>
+    <File Include="Content/style.css">
+      <publishTime>07/01/2016 13:09:10</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="EN/About.aspx">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="EN/ContactForm.aspx">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="EN/ContactInfo.aspx">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="EN/Default.aspx">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="EN/Home.aspx">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="EN/News.aspx">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="EN/NewsInfo.aspx">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="EN/Projects.aspx">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="EN/ProjectsInfo.aspx">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="EN/Recruitment.aspx">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="EN/RecruitmentInfo.aspx">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="EN/Service.aspx">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="EN/ServiceInfo.aspx">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/01/2016 13:08:28</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/01/2016 13:08:28</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/01/2016 13:08:28</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/01/2016 13:08:28</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>07/01/2016 13:08:28</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="Home.Master">
+      <publishTime>07/01/2016 13:08:28</publishTime>
+    </File>
+    <File Include="Icon.png">
+      <publishTime>07/01/2016 13:09:11</publishTime>
+    </File>
+    <File Include="Images/architectural-pattern.gif">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/arrow.png">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/banner-demo.jpg">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/banner.jpg">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/bg.jpg">
+      <publishTime>07/01/2016 13:07:50</publishTime>
+    </File>
+    <File Include="Images/bg.png">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/facebook-icon.png">
+      <publishTime>07/01/2016 13:07:49</publishTime>
+    </File>
+    <File Include="Images/fb_fanpage.png">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/footer.jpg">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/great-mosque-of-cordoba-250.jpg">
+      <publishTime>07/01/2016 13:07:50</publishTime>
+    </File>
+    <File Include="Images/headingblackbg.gif">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/ico-email.png">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/ico-fax.png">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/ico-med-1.png">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/ico-med-2.png">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/ico-med-3.png">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/ico-med-4.png">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/ico-phone.png">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/ico-support.png">
+      <publishTime>07/01/2016 13:07:50</publishTime>
+    </File>
+    <File Include="Images/ico-twitter.png">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/ico-website.png">
+      <publishTime>07/01/2016 13:07:49</publishTime>
+    </File>
+    <File Include="Images/ico1.png">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/ico2.png">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/ico3.png">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/ico4.png">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/ico5.png">
+      <publishTime>07/01/2016 13:07:49</publishTime>
+    </File>
+    <File Include="Images/ico6.png">
+      <publishTime>07/01/2016 13:07:49</publishTime>
+    </File>
+    <File Include="Images/ico7.png">
+      <publishTime>07/01/2016 13:07:49</publishTime>
+    </File>
+    <File Include="Images/ico8.png">
+      <publishTime>07/01/2016 13:07:49</publishTime>
+    </File>
+    <File Include="Images/insidebanner.jpg">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/Langue/en.gif">
+      <publishTime>07/01/2016 13:07:50</publishTime>
+    </File>
+    <File Include="Images/Langue/vn.gif">
+      <publishTime>07/01/2016 13:07:50</publishTime>
+    </File>
+    <File Include="Images/light-gray-fabric-pattern-with-faded-stripes.jpg">
+      <publishTime>07/01/2016 13:07:49</publishTime>
+    </File>
+    <File Include="Images/loading.gif">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/logo.jpg">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/logo.png">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/Logo/img_logo_vne_web.gif">
+      <publishTime>07/01/2016 13:07:49</publishTime>
+    </File>
+    <File Include="Images/Logo/logo-tuoitre.png">
+      <publishTime>07/01/2016 13:07:49</publishTime>
+    </File>
+    <File Include="Images/Logo/logo.png">
+      <publishTime>07/01/2016 13:07:49</publishTime>
+    </File>
+    <File Include="Images/Logo/vietnamnet-logo.gif">
+      <publishTime>07/01/2016 13:07:49</publishTime>
+    </File>
+    <File Include="Images/more-news.jpg">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/noimage.png">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/phone.png">
+      <publishTime>07/01/2016 13:07:49</publishTime>
+    </File>
+    <File Include="Images/Phone_alt.png">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/photo-about.jpg">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/photo-contact.jpg">
+      <publishTime>07/01/2016 13:07:50</publishTime>
+    </File>
+    <File Include="Images/project1.jpg">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/project2.jpg">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/project3.jpg">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/project4.jpg">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/projectimg1.jpg">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/projectimg2.jpg">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/projectimg3.jpg">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Images/tumblr_static_subtle-mosaic-pattern.png">
+      <publishTime>07/01/2016 13:08:25</publishTime>
+    </File>
+    <File Include="Introductions.aspx">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="MainFrontEnd.Master">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="News.aspx">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="NewsInfo.aspx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="NLog.config">
+      <publishTime>07/01/2016 13:09:10</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="Projects.aspx">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="ProjectsInfo.aspx">
+      <publishTime>07/01/2016 13:08:28</publishTime>
+    </File>
+    <File Include="Recruitment.aspx">
+      <publishTime>07/01/2016 13:09:11</publishTime>
+    </File>
+    <File Include="RecruitmentInfo.aspx">
+      <publishTime>07/01/2016 13:07:35</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>07/01/2016 13:09:07</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/change.langue.processing.js">
+      <publishTime>07/01/2016 13:09:07</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/adapters/jquery.js">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/CHANGES.html">
+      <publishTime>07/01/2016 13:09:06</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/ckeditor.asp">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/ckeditor.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/ckeditor.pack">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/ckeditor.php">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/ckeditor_basic.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/ckeditor_basic_source.js">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/ckeditor_php4.php">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/ckeditor_php5.php">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/ckeditor_source.js">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/config.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/contents.css">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/images/spacer.gif">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/INSTALL.html">
+      <publishTime>07/01/2016 13:09:06</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/af.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/ar.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/bg.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/bn.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/bs.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/ca.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/cs.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/cy.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/da.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/de.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/el.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/en-au.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/en-ca.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/en-gb.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/en.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/eo.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/es.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/et.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/eu.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/fa.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/fi.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/fo.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/fr-ca.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/fr.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/gl.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/gu.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/he.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/hi.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/hr.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/hu.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/id.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/is.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/it.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/ja.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/ka.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/km.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/ko.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/lt.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/lv.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/mk.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/mn.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/ms.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/nb.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/nl.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/no.js">
+      <publishTime>07/01/2016 13:09:03</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/pl.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/pt-br.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/pt.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/ro.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/ru.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/sk.js">
+      <publishTime>07/01/2016 13:09:03</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/sl.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/sr-latn.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/sr.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/sv.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/th.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/tr.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/ug.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/uk.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/vi.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/zh-cn.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/zh.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/_languages.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/lang/_translationstatus.txt">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/LICENSE.html">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/cs.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/cy.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/da.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/de.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/el.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/en.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/eo.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/fa.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/fi.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/fr.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/gu.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/he.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/it.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/mk.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/nb.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/nl.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/no.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/pt-br.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/ro.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/tr.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/ug.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/vi.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/zh-cn.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/a11yhelp/lang/_translationstatus.txt">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/about/dialogs/about.js">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/about/dialogs/logo_ckeditor.png">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/adobeair/plugin.js">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/ajax/plugin.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/autogrow/plugin.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/bbcode/plugin.js">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/clipboard/dialogs/paste.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/colordialog/dialogs/colordialog.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/bg.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/cs.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/cy.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/da.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/de.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/el.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/en.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/eo.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/et.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/fa.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/fi.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/fr.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/gu.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/he.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/hr.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/it.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/nb.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/nl.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/no.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/pl.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/pt-br.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/tr.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/ug.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/uk.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/vi.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/zh-cn.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/lang/_translationstatus.txt">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/devtools/plugin.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/dialog/dialogDefinition.js">
+      <publishTime>07/01/2016 13:08:50</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/div/dialogs/div.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/docprops/dialogs/docprops.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/docprops/plugin.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/find/dialogs/find.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/flash/dialogs/flash.js">
+      <publishTime>07/01/2016 13:08:50</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/flash/images/placeholder.png">
+      <publishTime>07/01/2016 13:08:50</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/forms/dialogs/button.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/forms/dialogs/checkbox.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/forms/dialogs/form.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/forms/dialogs/hiddenfield.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/forms/dialogs/radio.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/forms/dialogs/select.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/forms/dialogs/textarea.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/forms/dialogs/textfield.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/forms/images/hiddenfield.gif">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/iframe/dialogs/iframe.js">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/iframe/images/placeholder.png">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/iframedialog/plugin.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/image/dialogs/image.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/link/dialogs/anchor.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/link/dialogs/link.js">
+      <publishTime>07/01/2016 13:08:50</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/link/images/anchor.gif">
+      <publishTime>07/01/2016 13:08:50</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/liststyle/dialogs/liststyle.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/pagebreak/images/pagebreak.gif">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/pastefromword/filter/default.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/pastetext/dialogs/pastetext.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/dialogs/placeholder.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/bg.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/cs.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/cy.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/da.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/de.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/el.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/en.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/eo.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/et.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/fa.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/fi.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/fr.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/he.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/hr.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/it.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/nb.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/nl.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/no.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/pl.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/pt-br.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/tr.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/ug.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/uk.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/vi.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/zh-cn.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/lang/_translationstatus.txt">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/placeholder.gif">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/placeholder/plugin.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/preview/preview.html">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/scayt/dialogs/options.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/scayt/dialogs/toolbar.css">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/showblocks/images/block_address.png">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/showblocks/images/block_blockquote.png">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/showblocks/images/block_div.png">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/showblocks/images/block_h1.png">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/showblocks/images/block_h2.png">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/showblocks/images/block_h3.png">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/showblocks/images/block_h4.png">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/showblocks/images/block_h5.png">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/showblocks/images/block_h6.png">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/showblocks/images/block_p.png">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/showblocks/images/block_pre.png">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/dialogs/smiley.js">
+      <publishTime>07/01/2016 13:08:50</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/angel_smile.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/angry_smile.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/broken_heart.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/confused_smile.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/cry_smile.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/devil_smile.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/embaressed_smile.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/envelope.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/heart.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/kiss.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/lightbulb.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/omg_smile.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/regular_smile.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/sad_smile.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/shades_smile.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/teeth_smile.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/thumbs_down.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/thumbs_up.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/tounge_smile.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/smiley/images/wink_smile.gif">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/dialogs/specialchar.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/cs.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/cy.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/de.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/el.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/en.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/eo.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/et.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/fa.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/fi.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/fr.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/he.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/hr.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/it.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/nb.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/nl.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/no.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/pt-br.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/tr.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/ug.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/zh-cn.js">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/specialchar/lang/_translationstatus.txt">
+      <publishTime>07/01/2016 13:08:52</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/styles/styles/default.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/stylesheetparser/plugin.js">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/table/dialogs/table.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/tableresize/plugin.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/tabletools/dialogs/tableCell.js">
+      <publishTime>07/01/2016 13:08:51</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/templates/dialogs/templates.js">
+      <publishTime>07/01/2016 13:08:50</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/templates/templates/default.js">
+      <publishTime>07/01/2016 13:08:50</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/templates/templates/images/template1.gif">
+      <publishTime>07/01/2016 13:08:50</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/templates/templates/images/template2.gif">
+      <publishTime>07/01/2016 13:08:50</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/templates/templates/images/template3.gif">
+      <publishTime>07/01/2016 13:08:50</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/dialogs/uicolor.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/bg.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/cs.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/cy.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/da.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/de.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/el.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/en.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/eo.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/et.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/fa.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/fi.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/fr.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/he.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/hr.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/it.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/mk.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/nb.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/nl.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/no.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/pl.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/pt-br.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/tr.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/ug.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/uk.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/vi.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/zh-cn.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/lang/_translationstatus.txt">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/plugin.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/uicolor.gif">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/yui/assets/hue_bg.png">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/yui/assets/hue_thumb.png">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/yui/assets/picker_mask.png">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/yui/assets/picker_thumb.png">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/yui/assets/yui.css">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/uicolor/yui/yui.js">
+      <publishTime>07/01/2016 13:08:48</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/wsc/dialogs/ciframe.html">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/wsc/dialogs/tmpFrameset.html">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/wsc/dialogs/wsc.css">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/wsc/dialogs/wsc.js">
+      <publishTime>07/01/2016 13:08:49</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/plugins/xml/plugin.js">
+      <publishTime>07/01/2016 13:08:50</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/kama/dialog.css">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/kama/editor.css">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/kama/icons.png">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/kama/icons_rtl.png">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/kama/images/dialog_sides.gif">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/kama/images/dialog_sides.png">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/kama/images/dialog_sides_rtl.png">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/kama/images/mini.gif">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/kama/images/noimage.png">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/kama/images/sprites.png">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/kama/images/sprites_ie6.png">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/kama/images/toolbar_start.gif">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/kama/skin.js">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/kama/templates.css">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/office2003/dialog.css">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/office2003/editor.css">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/office2003/icons.png">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/office2003/icons_rtl.png">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/office2003/images/dialog_sides.gif">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/office2003/images/dialog_sides.png">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/office2003/images/dialog_sides_rtl.png">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/office2003/images/mini.gif">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/office2003/images/noimage.png">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/office2003/images/sprites.png">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/office2003/images/sprites_ie6.png">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/office2003/skin.js">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/office2003/templates.css">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/v2/dialog.css">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/v2/editor.css">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/v2/icons.png">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/v2/icons_rtl.png">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/v2/images/dialog_sides.gif">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/v2/images/dialog_sides.png">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/v2/images/dialog_sides_rtl.png">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/v2/images/mini.gif">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/v2/images/noimage.png">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/v2/images/sprites.png">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/v2/images/sprites_ie6.png">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/v2/images/toolbar_start.gif">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/v2/skin.js">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/skins/v2/templates.css">
+      <publishTime>07/01/2016 13:09:05</publishTime>
+    </File>
+    <File Include="Scripts/ckeditor/themes/default/theme.js">
+      <publishTime>07/01/2016 13:09:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.4.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.4.min.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.4.min.map">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>07/01/2016 13:09:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>07/01/2016 13:09:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>07/01/2016 13:09:07</publishTime>
+    </File>
+    <File Include="Scripts/npm.js">
+      <publishTime>07/01/2016 13:09:07</publishTime>
+    </File>
+    <File Include="Service.aspx">
+      <publishTime>07/01/2016 13:08:26</publishTime>
+    </File>
+    <File Include="ServiceInfo.aspx">
+      <publishTime>07/01/2016 13:08:47</publishTime>
+    </File>
+    <File Include="ShowProjects.Master">
+      <publishTime>07/01/2016 13:07:34</publishTime>
+    </File>
+    <File Include="UserControls/ucAboutMain.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucBanner.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucContactForm.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucContactInfo.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucContactMod.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucExpressLink.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucFanPage.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucFontEndMenuBar.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucFrontEndFooter.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucGold.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucGoogleMaps.ascx">
+      <publishTime>07/01/2016 13:59:25</publishTime>
+    </File>
+    <File Include="UserControls/ucHomeNews.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucHomeProjects.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucLangue.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucMainRight.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucMainRightItem.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucMenuFooter.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucNewsDetail.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucNewsList.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucNewsMain.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucOnlineVisitors.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucProjectDetail.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucProjectsInfo.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="UserControls/ucProjectsList.ascx">
+      <publishTime>07/01/2016 13:08:30</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/01/2016 14:00:39</publishTime>
+    </File>
+    <File Include="WebHandler/GetProjectsHandler.ashx">
+      <publishTime>07/01/2016 13:08:26</publishTime>
+    </File>
+    <File Include="XML/ErrorMessage.xml">
+      <publishTime>07/01/2016 13:07:34</publishTime>
+    </File>
+    <File Include="XML/MenuRedirectUrl.xml">
+      <publishTime>07/01/2016 13:07:34</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

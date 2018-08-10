@@ -1,0 +1,29 @@
+﻿.field-validation-error 
+{
+    color: red;
+    display: block;
+    padding-bottom: 8px;
+}
+
+.ms-elem-selectable:hover {
+    cursor: pointer;
+    border-color: rgba(158, 173, 195, 0.16);
+    color: #fff;
+    background: #E91E63;
+    border-radius: 3px;
+}
+
+.row-image-thumb {
+    text-align: center !important;
+    vertical-align: middle !important;
+    width: 210px;
+}
+
+    .row-image-thumb img {
+        max-height: 200px;
+        max-width: 200px;
+    }
+
+.parsley-errors-list {
+    color: red;
+}

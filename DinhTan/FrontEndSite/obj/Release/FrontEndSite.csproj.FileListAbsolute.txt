@@ -1,0 +1,16 @@
+E:\TNHien\Projects\DinhTan\FrontEndSite\bin\NLog.config
+E:\TNHien\Projects\DinhTan\FrontEndSite\bin\FrontEndSite.dll.config
+E:\TNHien\Projects\DinhTan\FrontEndSite\bin\FrontEndSite.dll
+E:\TNHien\Projects\DinhTan\FrontEndSite\bin\FrontEndSite.pdb
+E:\TNHien\Projects\DinhTan\FrontEndSite\bin\CKEditor.NET.dll
+E:\TNHien\Projects\DinhTan\FrontEndSite\bin\HtmlAgilityPack.dll
+E:\TNHien\Projects\DinhTan\FrontEndSite\bin\Newtonsoft.Json.dll
+E:\TNHien\Projects\DinhTan\FrontEndSite\bin\NLog.dll
+E:\TNHien\Projects\DinhTan\FrontEndSite\bin\CKEditor.NET.pdb
+E:\TNHien\Projects\DinhTan\FrontEndSite\bin\HtmlAgilityPack.pdb
+E:\TNHien\Projects\DinhTan\FrontEndSite\bin\HtmlAgilityPack.xml
+E:\TNHien\Projects\DinhTan\FrontEndSite\bin\Newtonsoft.Json.xml
+E:\TNHien\Projects\DinhTan\FrontEndSite\bin\NLog.xml
+E:\TNHien\Projects\DinhTan\FrontEndSite\obj\Release\FrontEndSite.csprojResolveAssemblyReference.cache
+E:\TNHien\Projects\DinhTan\FrontEndSite\obj\Release\FrontEndSite.dll
+E:\TNHien\Projects\DinhTan\FrontEndSite\obj\Release\FrontEndSite.pdb

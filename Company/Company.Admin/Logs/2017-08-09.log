@@ -1,0 +1,120 @@
+[Aug/09/2017 05:00:29.907PM] (7) Company.DataAccess.PostRepository.InsertWithBigId DEBUG Id: 0 - Title: test  
+[Aug/09/2017 05:00:30.047PM] (7) Company.DataAccess.DataProvider.ExecuteStoredBigId ERROR System.InvalidCastException: Specified cast is not valid.
+   at Company.DataAccess.DataProvider.ExecuteStoredBigId(String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 486 
+[Aug/09/2017 05:00:30.053PM] (7) Company.DataAccess.PostRepository.InsertWithBigId ERROR Specified cast is not valid. 
+[Aug/09/2017 05:00:39.028PM] (7) Company.Admin.Controllers.PostsController.Index ERROR Specified cast is not valid. 
+[Aug/09/2017 05:00:39.187PM] (12) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:984b3021-1e42-4905-9e0f-4fef16aead77
+Error Number:207,State:1,Class:16 
+[Aug/09/2017 05:00:39.202PM] (12) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/09/2017 05:00:39.214PM] (12) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/09/2017 05:03:43.347PM] (5) Company.DataAccess.PostRepository.InsertWithBigId DEBUG Id: 0 - Title: test  
+[Aug/09/2017 05:03:44.734PM] (5) Company.DataAccess.DataProvider.ExecuteStoredBigId ERROR System.InvalidCastException: Specified cast is not valid.
+   at Company.DataAccess.DataProvider.ExecuteStoredBigId(String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 486 
+[Aug/09/2017 05:03:44.747PM] (5) Company.DataAccess.PostRepository.InsertWithBigId ERROR Specified cast is not valid. 
+[Aug/09/2017 05:03:50.098PM] (5) Company.Admin.Controllers.PostsController.Index ERROR Specified cast is not valid. 
+[Aug/09/2017 05:04:13.160PM] (8) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:984b3021-1e42-4905-9e0f-4fef16aead77
+Error Number:207,State:1,Class:16 
+[Aug/09/2017 05:04:13.160PM] (8) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/09/2017 05:04:13.184PM] (8) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/09/2017 06:20:18.722PM] (7) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 0 - Title: test new post 
+[Aug/09/2017 06:20:18.881PM] (8) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/09/2017 06:20:19.027PM] (8) Company.DataAccess.DataProvider.ExcuteStoredReturnCollection ERROR System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'.
+   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Company.Extensions.DataExtensions.SetValueForObject[T](T obj, DataRow row) in D:\TNHien\Projects\GitProjects\Company\Company.Extensions\DataExtensions.cs:line 166
+   at Company.Extensions.DataExtensions.ToObject[T](DataRow row) in D:\TNHien\Projects\GitProjects\Company\Company.Extensions\DataExtensions.cs:line 59
+   at Company.Extensions.DataExtensions.ToList[T](DataTable table) in D:\TNHien\Projects\GitProjects\Company\Company.Extensions\DataExtensions.cs:line 21
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnCollection[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 687 
+[Aug/09/2017 06:20:19.037PM] (8) Company.DataAccess.MenuRepository.Get ERROR Object of type 'System.String' cannot be converted to type 'System.Int64'. 
+[Aug/09/2017 06:20:19.037PM] (8) Company.Admin.Controllers.MenuController.Index ERROR Object of type 'System.String' cannot be converted to type 'System.Int64'. 
+[Aug/09/2017 06:27:34.489PM] (17) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/09/2017 06:29:10.636PM] (6) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/09/2017 06:29:10.736PM] (6) Company.DataAccess.DataProvider.ExcuteStoredReturnCollection ERROR System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'.
+   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Company.Extensions.DataExtensions.SetValueForObject[T](T obj, DataRow row) in D:\TNHien\Projects\GitProjects\Company\Company.Extensions\DataExtensions.cs:line 166
+   at Company.Extensions.DataExtensions.ToObject[T](DataRow row) in D:\TNHien\Projects\GitProjects\Company\Company.Extensions\DataExtensions.cs:line 59
+   at Company.Extensions.DataExtensions.ToList[T](DataTable table) in D:\TNHien\Projects\GitProjects\Company\Company.Extensions\DataExtensions.cs:line 21
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnCollection[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 687 
+[Aug/09/2017 06:29:10.741PM] (6) Company.DataAccess.MenuRepository.Get ERROR Object of type 'System.String' cannot be converted to type 'System.Int64'. 
+[Aug/09/2017 06:29:28.802PM] (6) Company.Admin.Controllers.MenuController.Index ERROR Object of type 'System.String' cannot be converted to type 'System.Int64'. 
+[Aug/09/2017 06:34:12.905PM] (7) Company.DataAccess.DataProvider.ExcuteStoredReturnCollection ERROR System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'.
+   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Company.Extensions.DataExtensions.SetValueForObject[T](T obj, DataRow row) in D:\TNHien\Projects\GitProjects\Company\Company.Extensions\DataExtensions.cs:line 166
+   at Company.Extensions.DataExtensions.ToObject[T](DataRow row) in D:\TNHien\Projects\GitProjects\Company\Company.Extensions\DataExtensions.cs:line 59
+   at Company.Extensions.DataExtensions.ToList[T](DataTable table) in D:\TNHien\Projects\GitProjects\Company\Company.Extensions\DataExtensions.cs:line 21
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnCollection[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 687 
+[Aug/09/2017 06:34:12.984PM] (7) Company.DataAccess.MenuRepository.Get ERROR Object of type 'System.String' cannot be converted to type 'System.Int64'. 
+[Aug/09/2017 06:34:12.990PM] (7) Company.Admin.Controllers.MenuController.Index ERROR Object of type 'System.String' cannot be converted to type 'System.Int64'. 
+[Aug/09/2017 06:37:41.004PM] (7) Company.DataAccess.DataProvider.ExcuteStoredReturnCollection ERROR System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Int64'.
+   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Company.Extensions.DataExtensions.SetValueForObject[T](T obj, DataRow row) in D:\TNHien\Projects\GitProjects\Company\Company.Extensions\DataExtensions.cs:line 166
+   at Company.Extensions.DataExtensions.ToObject[T](DataRow row) in D:\TNHien\Projects\GitProjects\Company\Company.Extensions\DataExtensions.cs:line 59
+   at Company.Extensions.DataExtensions.ToList[T](DataTable table) in D:\TNHien\Projects\GitProjects\Company\Company.Extensions\DataExtensions.cs:line 21
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnCollection[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 687 
+[Aug/09/2017 06:37:41.041PM] (7) Company.DataAccess.MenuRepository.Get ERROR Object of type 'System.String' cannot be converted to type 'System.Int64'. 
+[Aug/09/2017 06:37:41.041PM] (7) Company.Admin.Controllers.MenuController.Index ERROR Object of type 'System.String' cannot be converted to type 'System.Int64'. 

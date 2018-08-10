@@ -1,0 +1,18 @@
+﻿@using FrontEnd.Models
+@model News
+
+@{
+    ViewBag.Title = Model.Title_VN;
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="news-header">
+            @Model.Title_VN
+        </div>
+        <div class="news-content">
+            @Html.Raw(Model.Content_VN)
+        </div>
+    </div>
+
+</div>

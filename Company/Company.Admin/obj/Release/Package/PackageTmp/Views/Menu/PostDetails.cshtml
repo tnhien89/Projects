@@ -1,0 +1,211 @@
+﻿@using Company.Models
+@model Menu
+
+@{
+    ViewBag.Title = "Index";
+    bool isActive = Model.Status != "Inactive";
+}
+
+<!-- Ckeditor -->
+<script type="text/javascript" src="~/Assets/widgets/ckeditor/ckeditor.js"></script>
+
+<script>
+
+    // This code is generally not necessary, but it is here to demonstrate
+    // how to customize specific editor instances on the fly. This fits well
+    // this demo because we have editable elements (like headers) that
+    // require less features.
+
+    // The "instanceCreated" event is fired for every editor instance created.
+    CKEDITOR.on( 'instanceCreated', function( event ) {
+        var editor = event.editor,
+                element = editor.element;
+
+        // Customize editors for headers and tag list.
+        // These editors don't need features like smileys, templates, iframes etc.
+        if ( element.is( 'h1', 'h2', 'h3' ) || element.getAttribute( 'id' ) == 'taglist' ) {
+            // Customize the editor configurations on "configLoaded" event,
+            // which is fired after the configuration file loading and
+            // execution. This makes it possible to change the
+            // configurations before the editor initialization takes place.
+            editor.on( 'configLoaded', function() {
+
+                // Remove unnecessary plugins to make the editor simpler.
+                editor.config.removePlugins = 'colorbutton,find,flash,font,' +
+                'forms,iframe,image,newpage,removeformat,' +
+                'smiley,specialchar,stylescombo,templates';
+
+                // Rearrange the layout of the toolbar.
+                editor.config.toolbarGroups = [
+                    { name: 'editing',		groups: [ 'basicstyles', 'links' ] },
+                    { name: 'undo' },
+                    { name: 'clipboard',	groups: [ 'selection', 'clipboard' ] },
+                    { name: 'about' }
+                ];
+            });
+        }
+    });
+
+</script>
+<style>
+    *[contenteditable="true"] {
+        padding: 10px;
+    }
+
+    #container {
+        width: 960px;
+        margin: 30px auto 0;
+    }
+
+    #header {
+        overflow: hidden;
+        padding: 0 0 30px;
+        border-bottom: 5px solid #05B2D2;
+        position: relative;
+    }
+
+    #headerLeft,
+    #headerRight {
+        width: 49%;
+        overflow: hidden;
+    }
+
+    #headerLeft {
+        float: left;
+        padding: 10px 1px 1px;
+    }
+
+        #headerLeft h2,
+        #headerLeft h3 {
+            text-align: right;
+            margin: 0;
+            overflow: hidden;
+            font-weight: normal;
+        }
+
+        #headerLeft h2 {
+            font-family: "Arial",sans-serif;
+            font-size: 4.6em;
+            line-height: 1.1;
+            text-transform: uppercase;
+        }
+
+        #headerLeft h3 {
+            font-size: 2.3em;
+            line-height: 1.1;
+            margin: .2em 0 0;
+            color: #666;
+        }
+
+    #headerRight {
+        float: right;
+        padding: 1px;
+    }
+
+        #headerRight p {
+            line-height: 1.8;
+            text-align: justify;
+            margin: 0;
+        }
+
+            #headerRight p + p {
+                margin-top: 20px;
+            }
+
+        #headerRight > div {
+            padding: 20px;
+            margin: 0 0 0 30px;
+            font-size: 1.4em;
+            color: #666;
+        }
+
+    #columns {
+        color: #333;
+        overflow: hidden;
+        padding: 20px 0;
+    }
+
+        #columns > div {
+            float: left;
+            width: 33.3%;
+        }
+
+        #columns #column1 > div {
+            margin-left: 1px;
+        }
+
+        #columns #column3 > div {
+            margin-right: 1px;
+        }
+
+        #columns > div > div {
+            margin: 0px 10px;
+            padding: 10px 20px;
+        }
+
+        #columns blockquote {
+            margin-left: 15px;
+        }
+
+    #tagLine {
+        border-top: 5px solid #05B2D2;
+        padding-top: 20px;
+    }
+
+    #taglist {
+        display: inline-block;
+        margin-left: 20px;
+        font-weight: bold;
+        margin: 0 0 0 20px;
+    }
+</style>
+
+
+<div id="page-title">
+    <h2>Menu</h2>
+</div>
+
+<div class="panel">
+    <div class="panel-body">
+        <h3 class="title-hero">
+            @{
+                @Html.Raw(Model.Id > 0 ? "Update" : "Add")
+            }
+        </h3>
+        <div class="example-box-wrapper">
+            @Html.ValidationMessage("Error")
+            <form action="@Url.Action("Index", "Menu")" method="post" class="form-horizontal bordered-row" data-parsley-validate>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">Name</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="" name="Name" required placeholder="Name" value="@Model.Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">Description</label>
+                    <div class="col-sm-6">
+                        <textarea id="" class="form-control" name="Description" placeholder="Description">@Model.Description</textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">Content</label>
+                    <div class="col-sm-6">
+                        <textarea class="ckeditor" cols="80" id="editorPostContent" name="PostContent" rows="10" placeholder="Content">@Model.PostContent</textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">Status</label>
+                    <div class="col-sm-1">
+                        <select class="form-control" name="Status">
+                            <option @Html.Raw(isActive ? "selected" : "")>Active</option>
+                            <option @Html.Raw(isActive ? "" : "selected")>Inactive</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="bg-default content-box text-center pad20A mrg25T">
+                    <button type="submit" class="btn btn-lg btn-info">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

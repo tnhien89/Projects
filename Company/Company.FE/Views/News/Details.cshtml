@@ -1,0 +1,20 @@
+﻿@using Company.Models
+@model PostInfo
+
+@{
+    ViewBag.Title = Model.Title == null ? "" : Model.Title;
+}
+
+<div class="gallery-top agileits-w3layouts chitietcongviec">
+    <!-- container-wrap -->
+    <div class="container">
+        <h4>@Model.Title</h4>
+        <div class="row">
+            <div class="col-md-12">
+                @Html.Raw(Model.Content)
+            </div>
+        </div>
+    </div>
+    <!-- //container -->
+</div>
+

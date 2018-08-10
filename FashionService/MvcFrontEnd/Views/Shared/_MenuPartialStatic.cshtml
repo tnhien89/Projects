@@ -1,0 +1,29 @@
+﻿<a id="menu_home" class="lik-menu" name="home" href="~/">Trang chủ</a>
+
+<a class="lik-menu" name="about" href="~/About">Giới thiệu</a>
+
+<a class="lik-menu" name="train" href="~/Train">Khóa học</a>
+
+<a class="lik-menu" name="service" href="~/Service">Dịch vụ</a>
+
+<a class="lik-menu" name="news" href="~/News">Tin tức</a>
+
+<a class="lik-menu" name="contact" href="@Url.Action("Contact", "Home")">Liên hệ</a>
+
+<script type="text/javascript">
+    $(function () {
+        var actived = false;
+        $('.lik-menu').each(function (idx, item) {
+            var name = $(item).attr('name');
+            if (window.location.href.toLowerCase().indexOf('/' + name) > 0) {
+                $(item).addClass('active-link');
+                actived = true;
+                return false;
+            }
+        });
+
+        if (!actived) {
+            $('#menu_home').addClass('active-link');
+        }
+    });
+</script>

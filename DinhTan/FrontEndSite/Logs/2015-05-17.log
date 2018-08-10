@@ -1,0 +1,814 @@
+2015-05-17 01:46:58.1436 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 01:46:58.1930 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 01:47:01.1364 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 01:47:01.1754 ERROR  -  [GetProjectsHandler][ProcessRequest] Exception: System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at FrontEndSite.WebHandler.GetProjectsHandler.ProcessRequest(HttpContext context) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\WebHandler\GetProjectsHandler.ashx.cs:line 31
+2015-05-17 01:47:09.0156 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 01:47:09.0156 ERROR  -  [GetProjectsHandler][ProcessRequest] Exception: System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at FrontEndSite.WebHandler.GetProjectsHandler.ProcessRequest(HttpContext context) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\WebHandler\GetProjectsHandler.ashx.cs:line 31
+2015-05-17 01:47:11.4688 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 01:47:11.4688 ERROR  -  [GetProjectsHandler][ProcessRequest] Exception: System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at FrontEndSite.WebHandler.GetProjectsHandler.ProcessRequest(HttpContext context) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\WebHandler\GetProjectsHandler.ashx.cs:line 31
+2015-05-17 01:47:40.2830 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 01:47:46.5641 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 01:47:54.8337 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 01:48:14.8236 ERROR  -  [GetProjectsHandler][ProcessRequest] Exception: System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at FrontEndSite.WebHandler.GetProjectsHandler.ProcessRequest(HttpContext context) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\WebHandler\GetProjectsHandler.ashx.cs:line 31
+2015-05-17 01:48:35.7299 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 01:48:35.7549 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 01:48:42.4539 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 01:48:50.2837 ERROR  -  [GetProjectsHandler][ProcessRequest] Exception: System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at FrontEndSite.WebHandler.GetProjectsHandler.ProcessRequest(HttpContext context) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\WebHandler\GetProjectsHandler.ashx.cs:line 31
+2015-05-17 01:49:18.3108 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 01:49:18.3367 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 01:49:23.7388 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 01:49:55.8705 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 01:59:53.8642 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:00:02.1810 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:06:14.1412 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:06:14.1572 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:06:15.4081 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:08:32.0359 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:08:32.0747 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:08:34.5868 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:11:07.5185 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:11:07.5535 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:11:57.0790 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:11:57.1395 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:12:43.9445 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:12:44.0170 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:12:46.9961 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:13:18.3408 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:13:33.2050 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:13:33.2050 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:13:46.2065 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:13:46.2065 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:13:56.4600 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:14:04.4177 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:14:04.4768 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:14:04.5208 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:14:04.5488 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:14:04.5859 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:14:30.8417 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:14:30.8437 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:14:51.4320 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:15:26.7280 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:15:26.7340 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:15:56.7421 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:18:07.2522 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:18:07.2522 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:18:36.5150 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:18:36.5150 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:19:07.4269 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:19:42.1736 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:19:42.1736 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:19:57.0728 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:20:28.7480 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:23:06.5463 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:23:06.5463 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:23:29.7786 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:25:09.5032 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:25:09.5753 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:25:10.4661 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:25:10.4681 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:25:12.3813 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:25:40.5332 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:26:35.6795 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:26:35.6795 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:26:41.3699 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:26:55.4886 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:27:33.0681 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:27:57.0710 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:27:57.1013 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:28:12.4272 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:28:29.5298 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:28:48.8203 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:29:14.5418 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:29:14.6259 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:29:19.7060 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:29:56.0632 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:29:56.0939 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:30:06.7983 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:30:06.8123 ERROR  -  [GetProjectsHandler][ProcessRequest] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.IsLangueEN() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 435
+   at FrontEndSite.WebHandler.GetProjectsHandler.ProcessRequest(HttpContext context) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\WebHandler\GetProjectsHandler.ashx.cs:line 48
+2015-05-17 02:30:34.4618 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:30:34.4958 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:30:49.4671 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:30:49.4691 ERROR  -  [GetProjectsHandler][ProcessRequest] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.IsLangueEN() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 435
+   at FrontEndSite.WebHandler.GetProjectsHandler.ProcessRequest(HttpContext context) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\WebHandler\GetProjectsHandler.ashx.cs:line 48
+2015-05-17 02:31:00.0313 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:31:00.0908 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:31:02.0487 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:31:33.3442 ERROR  -  [GetProjectsHandler][ProcessRequest] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.IsLangueEN() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 435
+   at FrontEndSite.WebHandler.GetProjectsHandler.ProcessRequest(HttpContext context) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\WebHandler\GetProjectsHandler.ashx.cs:line 48
+2015-05-17 02:32:28.6266 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:32:28.6816 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:32:29.6529 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:33:17.7756 ERROR  -  [GetProjectsHandler][ProcessRequest] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.IsLangueEN() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 435
+   at FrontEndSite.WebHandler.GetProjectsHandler.ProcessRequest(HttpContext context) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\WebHandler\GetProjectsHandler.ashx.cs:line 48
+2015-05-17 02:35:05.9126 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:35:05.9836 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:35:09.7413 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:35:35.8360 ERROR  -  [GetProjectsHandler][ProcessRequest] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.IsLangueEN() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 435
+   at FrontEndSite.WebHandler.GetProjectsHandler.ProcessRequest(HttpContext context) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\WebHandler\GetProjectsHandler.ashx.cs:line 48
+2015-05-17 02:35:54.8167 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:35:54.8531 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:35:55.7837 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:36:13.6971 ERROR  -  [GetProjectsHandler][ProcessRequest] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.IsLangueEN() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 435
+   at FrontEndSite.WebHandler.GetProjectsHandler.ProcessRequest(HttpContext context) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\WebHandler\GetProjectsHandler.ashx.cs:line 49
+2015-05-17 02:36:48.2412 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:36:48.2973 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:36:50.3597 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:37:13.8932 ERROR  -  [GetProjectsHandler][ProcessRequest] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.IsLangueEN() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 435
+   at FrontEndSite.WebHandler.GetProjectsHandler.ProcessRequest(HttpContext context) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\WebHandler\GetProjectsHandler.ashx.cs:line 49
+2015-05-17 02:40:02.7922 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:40:02.8343 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:40:03.7855 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:40:28.4506 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:41:18.4371 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:41:18.4371 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:41:32.2112 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:43:31.0719 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:43:31.0719 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:43:38.5896 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:45:03.4755 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:45:03.4755 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:45:24.7090 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:47:22.9102 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:47:22.9102 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:47:28.3636 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:47:51.7989 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:47:51.8289 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:47:58.1631 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:49:47.5481 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:49:47.5481 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:49:55.9759 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:50:08.8034 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:50:10.6436 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:50:11.7529 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:51:16.7377 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:51:16.7377 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:51:18.8883 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:51:21.9124 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:51:26.1151 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:51:27.2580 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:51:28.2412 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:51:29.0678 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:51:29.6910 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:51:30.3524 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:52:17.8068 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:52:17.8118 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:52:33.3113 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:53:11.3368 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:53:11.3368 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:53:12.0603 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:53:13.7437 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:53:15.1828 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:53:15.9918 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:53:17.5023 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:53:18.6632 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:53:19.3700 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:53:52.8150 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:53:52.8446 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:53:53.3929 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:53:57.9483 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:53:57.9534 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:53:59.6515 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:54:01.1126 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:54:02.0658 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:54:03.0189 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:54:03.9851 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:57:17.8049 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 02:57:17.8341 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 02:57:19.2901 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:57:20.4306 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:57:21.2017 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:57:22.0398 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:57:23.0505 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:57:24.1012 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:57:24.8881 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:57:25.8277 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:57:26.7119 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:57:27.7268 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:57:29.2520 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:57:30.6491 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:57:45.2218 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:57:46.0085 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:57:46.9355 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 02:57:48.6854 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:03:34.8181 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:03:34.8502 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:03:36.4479 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:03:37.1904 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:03:38.2007 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:03:38.9827 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:03:39.6183 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:08:05.2887 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:08:05.3197 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:08:06.5487 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:08:07.5570 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:08:07.6841 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:08:08.1391 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:08:08.8747 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:08:13.7533 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:08:14.5097 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:08:15.9150 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:08:16.5696 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:08:17.3568 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:08:19.1690 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:08:20.3844 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:08:21.4072 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:09:57.6470 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:09:57.6470 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:09:59.9863 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:10:01.1485 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:10:01.7609 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:10:02.0967 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:10:02.7060 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:10:03.3077 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:10:04.4699 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:10:35.8299 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:10:35.8299 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:10:37.6507 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:10:39.7627 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:10:43.6442 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:10:43.6582 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:10:45.2639 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:10:46.0318 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:10:46.6343 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:10:46.9356 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:12:51.1450 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:13:08.0376 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:18:36.5344 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:18:36.5632 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:18:37.6370 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:18:38.3284 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:18:39.9038 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:18:42.3426 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:23:17.3666 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:23:17.3666 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:23:18.8518 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:23:20.6124 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:23:22.6876 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:24:23.6206 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:24:23.6256 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:24:24.1494 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:24:25.5216 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:24:26.5236 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:24:28.6080 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:24:50.2581 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:24:50.2581 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:24:50.7994 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:24:52.4399 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:25:35.8236 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:25:35.8577 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:25:36.3878 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:25:37.4003 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:25:38.5317 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:25:39.6755 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:25:41.7416 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:25:51.9241 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:25:53.2071 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:26:05.9579 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:26:05.9579 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:26:06.5579 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:26:07.8017 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:26:16.9233 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:26:16.9233 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:26:17.4659 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:26:18.2538 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:26:19.5422 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:26:21.4465 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:26:36.8422 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:26:38.3132 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:26:38.3132 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:26:38.8714 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:26:39.8796 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:26:40.8668 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:26:41.6908 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:26:42.9511 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:26:43.8157 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:26:44.5761 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:26:45.5009 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:26:49.3680 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:26:49.3750 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:26:51.6524 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:26:52.5746 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:28:15.1662 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:28:15.2032 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:28:17.0110 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:28:17.6039 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:28:18.8345 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:29:39.8241 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:29:39.8291 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:29:40.3951 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:29:42.0136 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:29:43.1223 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:29:44.7118 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:30:17.9806 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:30:17.9856 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:30:18.5438 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:30:19.6959 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:30:20.6867 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:30:21.4738 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:30:22.6041 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:30:23.4181 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:31:55.5869 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:31:55.5869 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:31:56.1950 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:31:57.4562 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:31:58.2680 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:31:59.2912 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:32:00.0119 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:34:25.8757 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:34:25.8757 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:34:26.4833 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:34:27.2653 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:34:28.9417 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:34:47.9400 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:34:47.9689 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:34:48.5272 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:34:49.6437 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:34:49.6907 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:34:51.3001 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:34:51.7871 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:34:52.9441 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:34:53.2103 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:34:54.6028 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:34:55.0038 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:34:56.2621 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:34:58.4084 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:34:58.4084 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:35:00.1086 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:35:04.0579 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:35:04.9958 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:35:05.5142 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:35:06.6550 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:35:06.8562 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:35:08.3159 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:35:08.9530 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:35:09.9735 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:35:11.6403 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:35:12.0366 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:35:13.3340 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:36:34.4302 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:36:34.4623 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:36:35.9572 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:36:36.7784 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:36:36.8094 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:36:38.4356 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:36:38.9550 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:36:40.0788 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:36:40.9498 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:36:41.3012 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:36:42.5941 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:36:44.9746 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:36:45.7439 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:36:54.7139 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:36:54.7469 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:36:56.2559 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:36:57.1787 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:37:16.5476 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:37:16.5476 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:37:17.0768 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:37:17.8147 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:37:22.5521 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:37:22.5631 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:37:24.6888 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:37:28.0140 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:37:28.0180 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:37:33.0703 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:37:37.2810 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:37:37.8279 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:37:38.9358 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:37:39.2703 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:37:40.5952 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:37:41.0811 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:37:42.2559 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:37:54.3974 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:37:54.4774 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:37:56.0191 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:39:45.7252 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:39:45.7252 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:39:48.6793 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-17 03:39:48.6893 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-17 03:40:23.7118 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-17 03:40:23.7477 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-17 03:40:35.4099 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:40:35.4377 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:40:36.9538 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:40:38.0947 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:40:40.0564 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:40:40.4162 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:40:43.0224 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:40:49.7384 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:40:49.7384 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:40:50.9876 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:40:52.3974 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:40:52.9898 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:40:54.0458 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:40:54.4812 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:40:55.7053 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:47:32.5488 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:47:32.5799 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:47:33.5459 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:47:34.3463 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:47:34.8457 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:47:37.4368 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-17 03:47:37.4368 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-17 03:48:53.0444 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 03:48:53.0474 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 03:48:54.1544 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:48:55.1682 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:48:55.5794 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 03:56:48.7045 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-17 03:56:48.7045 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-17 04:04:12.0055 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 04:04:12.0334 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 04:04:13.9210 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-17 04:04:13.9210 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-17 04:04:14.6385 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:04:14.9750 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:04:16.2672 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:04:16.6512 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:04:17.9253 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:04:18.7637 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:04:18.8298 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:04:20.4070 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:04:45.1558 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:06:01.7937 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 04:06:01.8437 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 04:06:03.7105 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-17 04:06:18.6823 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-17 04:06:20.3899 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:07:04.3534 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 04:07:04.3923 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 04:07:05.4473 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:07:39.7399 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 04:07:39.7772 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 04:07:41.4439 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-17 04:07:41.4619 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-17 04:07:42.4310 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:08:05.6649 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:08:42.5289 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 04:08:42.5609 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 04:08:44.3082 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-17 04:08:44.3152 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-17 04:08:45.0392 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:08:45.2714 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:08:46.6460 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:08:47.1969 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:08:48.3037 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:08:50.9795 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:08:51.3546 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:08:52.6134 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:09:43.6992 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:09:43.7392 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:10:22.6746 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-17 04:10:22.6746 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-17 04:10:25.4174 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:10:25.8169 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:10:27.0584 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:10:36.4849 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 04:10:36.4849 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 04:10:37.2249 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:10:37.9226 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:10:38.8764 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:10:41.7287 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-17 04:10:41.7287 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-17 04:11:21.9878 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:11:22.3608 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:11:23.6020 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:11:26.4409 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 5] Status: Start.
+2015-05-17 04:11:26.4880 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 5] Status: End.
+2015-05-17 04:11:30.2792 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:14:37.7926 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:14:37.9772 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:14:39.3995 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:14:39.6336 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:14:41.1680 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:14:41.4273 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:14:43.6505 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:14:43.7075 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:14:46.8177 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-17 04:14:46.8363 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-17 04:14:48.2979 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:14:48.5871 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:14:49.9442 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:14:50.4976 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:14:51.5867 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:14:54.3994 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:14:54.4584 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:14:56.7009 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:14:56.7179 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:14:58.3436 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:15:15.1546 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-17 04:15:15.1586 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-17 04:15:16.4507 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:15:16.8837 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:15:18.0939 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:15:18.4241 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:15:21.8290 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:15:21.8785 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:17:18.0673 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:17:18.5537 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:17:19.6414 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:17:20.2308 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:17:21.3029 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:31:04.8205 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:31:05.2965 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 04:31:06.4541 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 05:08:34.9966 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:37:01.5135 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 6] Status: Start.
+2015-05-17 06:37:01.6140 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 350
+2015-05-17 06:37:01.6140 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 6] Status: End.
+2015-05-17 06:37:04.7454 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 7] Status: Start.
+2015-05-17 06:37:04.7494 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 350
+2015-05-17 06:37:04.7494 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 7] Status: End.
+2015-05-17 06:37:11.5655 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 6] Status: Start.
+2015-05-17 06:37:11.5655 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 350
+2015-05-17 06:37:11.5655 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 6] Status: End.
+2015-05-17 06:37:14.4483 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 9] Status: Start.
+2015-05-17 06:37:14.4543 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 350
+2015-05-17 06:37:14.4543 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 9] Status: End.
+2015-05-17 06:37:17.1460 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 10] Status: Start.
+2015-05-17 06:37:17.1460 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 350
+2015-05-17 06:37:17.1460 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 10] Status: End.
+2015-05-17 06:37:20.5377 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:37:22.3821 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 6] Status: Start.
+2015-05-17 06:37:22.3821 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 350
+2015-05-17 06:37:22.3821 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 6] Status: End.
+2015-05-17 06:37:23.3925 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:37:27.9129 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:37:28.2821 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:37:29.5552 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:37:29.9418 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:37:31.1982 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:37:32.5426 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:37:32.5736 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:37:34.1992 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:37:34.6855 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:37:35.8586 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:37:53.9536 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:38:33.1524 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:55:21.5280 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-17 06:55:21.5720 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-17 06:55:29.7350 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 9] Status: Start.
+2015-05-17 06:55:29.8080 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 350
+2015-05-17 06:55:29.8080 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 9] Status: End.
+2015-05-17 06:55:54.6433 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:56:40.1196 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:56:45.5457 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 6] Status: Start.
+2015-05-17 06:56:45.5911 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 350
+2015-05-17 06:56:45.5926 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 6] Status: End.
+2015-05-17 06:56:50.2194 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:57:32.9668 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:57:33.4793 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:57:34.6033 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:57:36.4978 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:57:36.5468 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:57:38.1407 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:59:11.8228 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-17 06:59:11.8851 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-17 06:59:16.3770 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:59:18.4665 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 06:59:22.2944 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 6] Status: Start.
+2015-05-17 06:59:22.3615 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 350
+2015-05-17 06:59:22.3615 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 6] Status: End.
+2015-05-17 08:07:55.5967 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 47
+2015-05-17 08:07:55.6127 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 47
+2015-05-17 08:07:55.6257 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 47
+2015-05-17 08:07:55.6257 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 47
+2015-05-17 08:07:55.6257 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 47
+2015-05-17 08:07:55.6257 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 47
+2015-05-17 08:07:55.6397 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 47
+2015-05-17 08:07:55.6397 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 47
+2015-05-17 08:07:55.6397 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 47
+2015-05-17 08:15:22.3973 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:15:22.4053 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:15:22.4053 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:15:22.4053 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:15:22.4233 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:15:22.4233 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:15:22.4233 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:15:22.4233 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:15:22.4233 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:17:56.9270 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:17:56.9370 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:17:56.9370 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:17:56.9520 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:17:56.9520 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:17:56.9520 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:17:56.9520 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:17:56.9520 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:17:56.9520 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:21:15.8722 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:22:02.7988 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:22:02.7988 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:22:02.7988 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:22:02.7988 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:22:02.8138 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:22:02.8138 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:22:02.8138 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:22:02.8138 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 54
+2015-05-17 08:23:12.8352 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 57
+2015-05-17 08:23:12.8432 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 57
+2015-05-17 08:23:12.8432 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 57
+2015-05-17 08:23:12.8582 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 57
+2015-05-17 08:23:12.8582 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 57
+2015-05-17 08:23:12.8582 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 57
+2015-05-17 08:23:12.8582 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 57
+2015-05-17 08:23:12.8582 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 57
+2015-05-17 08:23:12.8582 ERROR  -  [ucProjectsInfo][lvProjectsCarousel_ItemDataBound] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucProjectsInfo.lvProjectsCarousel_ItemDataBound(Object sender, ListViewItemEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucProjectsInfo.ascx.cs:line 57
+2015-05-17 18:32:07.0879 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-17 18:32:07.2654 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-17 18:32:09.3298 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 18:32:19.7750 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 18:32:19.7810 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 18:32:20.8785 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.
+2015-05-17 23:00:10.3073 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-17 23:00:10.4697 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-17 23:00:37.1689 INFO  -  [GetProjectsHandler][ProcessRequest] Status: Start.

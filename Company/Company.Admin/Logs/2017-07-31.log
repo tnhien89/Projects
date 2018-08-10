@@ -1,0 +1,120 @@
+[Jul/31/2017 04:53:50.351PM] (7) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Jul/31/2017 04:58:16.797PM] (8) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Jul/31/2017 04:59:58.207PM] (7) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Jul/31/2017 05:01:38.196PM] (7) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Jul/31/2017 05:02:22.609PM] (7) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Jul/31/2017 05:15:58.980PM] (7) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Jul/31/2017 05:15:59.125PM] (7) Company.DataAccess.DataProvider.ExcuteStoredReturnCollection ERROR System.ArgumentException: Object of type 'System.DateTime' cannot be converted to type 'System.Nullable`1[System.DateTimeOffset]'.
+   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Company.Extensions.DataExtensions.SetValueForObject[T](T obj, DataRow row) in F:\TNHien\Git Projects\Company\Company.Extensions\DataExtensions.cs:line 166
+   at Company.Extensions.DataExtensions.ToObject[T](DataRow row) in F:\TNHien\Git Projects\Company\Company.Extensions\DataExtensions.cs:line 59
+   at Company.Extensions.DataExtensions.ToList[T](DataTable table) in F:\TNHien\Git Projects\Company\Company.Extensions\DataExtensions.cs:line 21
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnCollection[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 639 
+[Jul/31/2017 05:15:59.125PM] (7) Company.DataAccess.MenuRepository.Get ERROR Object of type 'System.DateTime' cannot be converted to type 'System.Nullable`1[System.DateTimeOffset]'. 
+[Jul/31/2017 05:15:59.133PM] (7) Company.Admin.Controllers.MenuController.Index ERROR Object of type 'System.DateTime' cannot be converted to type 'System.Nullable`1[System.DateTimeOffset]'. 
+[Jul/31/2017 05:16:09.647PM] (7) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Jul/31/2017 05:16:55.000PM] (7) Company.DataAccess.DataProvider.ExcuteStoredReturnCollection ERROR System.ArgumentException: Object of type 'System.DateTime' cannot be converted to type 'System.Nullable`1[System.DateTimeOffset]'.
+   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at Company.Extensions.DataExtensions.SetValueForObject[T](T obj, DataRow row) in F:\TNHien\Git Projects\Company\Company.Extensions\DataExtensions.cs:line 166
+   at Company.Extensions.DataExtensions.ToObject[T](DataRow row) in F:\TNHien\Git Projects\Company\Company.Extensions\DataExtensions.cs:line 59
+   at Company.Extensions.DataExtensions.ToList[T](DataTable table) in F:\TNHien\Git Projects\Company\Company.Extensions\DataExtensions.cs:line 21
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnCollection[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 639 
+[Jul/31/2017 05:16:55.000PM] (7) Company.DataAccess.MenuRepository.Get ERROR Object of type 'System.DateTime' cannot be converted to type 'System.Nullable`1[System.DateTimeOffset]'. 
+[Jul/31/2017 05:16:55.007PM] (7) Company.Admin.Controllers.MenuController.Index ERROR Object of type 'System.DateTime' cannot be converted to type 'System.Nullable`1[System.DateTimeOffset]'. 
+[Jul/31/2017 05:16:57.696PM] (7) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Jul/31/2017 05:18:45.594PM] (7) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Jul/31/2017 05:46:56.436PM] (8) Company.DataAccess.MenuRepository.InserOrUpdate DEBUG Id: 0 - Name: test add 
+[Jul/31/2017 05:46:56.539PM] (8) Company.DataAccess.DataProvider.ExecuteStored ERROR System.Data.SqlClient.SqlException (0x80131904): @RootId is not a parameter for procedure usp_Users_Insert_Update.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Company.DataAccess.DataProvider.ExecuteStored(String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 437
+ClientConnectionId:55d6168d-7dc2-4025-a351-5dccc4318a80
+Error Number:8145,State:1,Class:16 
+[Jul/31/2017 05:46:56.539PM] (8) Company.DataAccess.MenuRepository.InserOrUpdate ERROR @RootId is not a parameter for procedure usp_Users_Insert_Update. 
+[Jul/31/2017 05:46:56.559PM] (8) Company.Admin.Controllers.MenuController.Index ERROR @RootId is not a parameter for procedure usp_Users_Insert_Update. 
+[Jul/31/2017 05:48:15.329PM] (7) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Jul/31/2017 05:49:20.301PM] (13) Company.DataAccess.MenuRepository.InserOrUpdate DEBUG Id: 0 - Name: test add 
+[Jul/31/2017 05:49:20.347PM] (13) Company.DataAccess.DataProvider.ExecuteStored ERROR System.Data.SqlClient.SqlException (0x80131904): @RootId is not a parameter for procedure usp_Users_Insert_Update.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Company.DataAccess.DataProvider.ExecuteStored(String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 437
+ClientConnectionId:55d6168d-7dc2-4025-a351-5dccc4318a80
+Error Number:8145,State:1,Class:16 
+[Jul/31/2017 05:49:20.363PM] (13) Company.DataAccess.MenuRepository.InserOrUpdate ERROR @RootId is not a parameter for procedure usp_Users_Insert_Update. 
+[Jul/31/2017 05:49:22.410PM] (13) Company.Admin.Controllers.MenuController.Index ERROR @RootId is not a parameter for procedure usp_Users_Insert_Update. 
+[Jul/31/2017 05:51:33.027PM] (7) Company.DataAccess.MenuRepository.InserOrUpdate DEBUG Id: 0 - Name: test add 
+[Jul/31/2017 05:51:33.130PM] (7) Company.DataAccess.DataProvider.ExecuteStored ERROR System.Data.SqlClient.SqlException (0x80131904): @UpdatedByUsername is not a parameter for procedure usp_Users_Insert_Update.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Company.DataAccess.DataProvider.ExecuteStored(String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 437
+ClientConnectionId:848f83f4-8cf8-4de0-ad09-8c5281ec517c
+Error Number:8145,State:1,Class:16 
+[Jul/31/2017 05:51:33.145PM] (7) Company.DataAccess.MenuRepository.InserOrUpdate ERROR @UpdatedByUsername is not a parameter for procedure usp_Users_Insert_Update. 
+[Jul/31/2017 05:51:39.563PM] (7) Company.Admin.Controllers.MenuController.Index ERROR @UpdatedByUsername is not a parameter for procedure usp_Users_Insert_Update. 
+[Jul/31/2017 05:52:37.476PM] (7) Company.DataAccess.MenuRepository.InserOrUpdate DEBUG Id: 0 - Name: test add 
+[Jul/31/2017 05:52:37.575PM] (7) Company.DataAccess.DataProvider.ExecuteStored ERROR System.Data.SqlClient.SqlException (0x80131904): @Priority is not a parameter for procedure usp_Users_Insert_Update.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Company.DataAccess.DataProvider.ExecuteStored(String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 437
+ClientConnectionId:a0d873c0-0925-4c75-a93b-b821d97ed7ed
+Error Number:8145,State:1,Class:16 
+[Jul/31/2017 05:52:37.590PM] (7) Company.DataAccess.MenuRepository.InserOrUpdate ERROR @Priority is not a parameter for procedure usp_Users_Insert_Update. 
+[Jul/31/2017 05:54:03.725PM] (7) Company.DataAccess.MenuRepository.InserOrUpdate DEBUG Id: 0 - Name: test add 
+[Jul/31/2017 05:54:03.840PM] (7) Company.DataAccess.DataProvider.ExecuteStored ERROR System.Data.SqlClient.SqlException (0x80131904): Procedure or function usp_Menu_Insert_Update has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Company.DataAccess.DataProvider.ExecuteStored(String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 437
+ClientConnectionId:cbd7fe9f-7ba5-4a45-86e6-e643f19d8fae
+Error Number:8144,State:2,Class:16 
+[Jul/31/2017 05:54:03.855PM] (7) Company.DataAccess.MenuRepository.InserOrUpdate ERROR Procedure or function usp_Menu_Insert_Update has too many arguments specified. 
+[Jul/31/2017 05:55:41.401PM] (8) Company.DataAccess.MenuRepository.InserOrUpdate DEBUG Id: 0 - Name: test add 
+[Jul/31/2017 05:55:43.222PM] (6) Company.DataAccess.MenuRepository.Get DEBUG itemKey: test-add 
+[Jul/31/2017 05:56:28.025PM] (6) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Jul/31/2017 05:56:41.532PM] (12) Company.DataAccess.MenuRepository.Get DEBUG itemKey: test-add 

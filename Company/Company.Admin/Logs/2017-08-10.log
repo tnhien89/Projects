@@ -1,0 +1,617 @@
+[Aug/10/2017 11:13:16.778AM] (8) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/10/2017 11:13:26.136AM] (7) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/10/2017 11:13:32.232AM] (12) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/10/2017 11:19:39.133AM] (7) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/10/2017 11:20:20.645AM] (7) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/10/2017 11:21:09.093AM] (10) Company.DataAccess.PostRepository.Get DEBUG itemKey: test-test-test 
+[Aug/10/2017 11:21:09.117AM] (10) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'usp_Posts_Get' expects parameter '@Condition', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:9edb68b0-90ec-4f92-b317-89d477196f17
+Error Number:201,State:4,Class:16 
+[Aug/10/2017 11:21:09.129AM] (10) Company.DataAccess.PostRepository.Get ERROR Procedure or function 'usp_Posts_Get' expects parameter '@Condition', which was not supplied. 
+[Aug/10/2017 11:21:09.140AM] (10) Company.Admin.Controllers.PostsController.Index ERROR Procedure or function 'usp_Posts_Get' expects parameter '@Condition', which was not supplied. 
+[Aug/10/2017 11:21:39.219AM] (10) Company.DataAccess.PostRepository.Get DEBUG itemKey: test-test-test 
+[Aug/10/2017 11:21:45.863AM] (7) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 0 - Title: test test test 
+[Aug/10/2017 11:21:53.721AM] (12) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/10/2017 11:23:31.405AM] (7) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/10/2017 11:24:40.168AM] (7) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/10/2017 11:24:42.678AM] (7) Company.DataAccess.PostRepository.Get DEBUG itemKey: test-test-test 
+[Aug/10/2017 11:25:24.230AM] (11) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 0 - Title: test test test 
+[Aug/10/2017 11:27:42.709AM] (7) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/10/2017 11:27:43.117AM] (8) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:e8b594d5-a1f5-44e0-82c3-e6e4556fa8e8
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:27:43.128AM] (8) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:27:43.138AM] (8) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:27:43.138AM] (11) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:e8b594d5-a1f5-44e0-82c3-e6e4556fa8e8
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:27:43.160AM] (7) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:825e7b77-07ee-4316-a21d-30515011d8c0
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:27:43.167AM] (10) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:396e3ba7-a981-4d0d-85aa-383877b82654
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:27:43.167AM] (8) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:955b051d-0cb3-447d-a877-729b2f4d1e5f
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:27:43.167AM] (11) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:27:43.183AM] (7) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:27:43.197AM] (10) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:27:43.197AM] (8) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:27:43.222AM] (11) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:27:43.234AM] (7) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:27:43.245AM] (10) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:27:43.245AM] (8) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:27:43.270AM] (11) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:955b051d-0cb3-447d-a877-729b2f4d1e5f
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:27:43.285AM] (7) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:396e3ba7-a981-4d0d-85aa-383877b82654
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:27:43.318AM] (11) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:27:43.334AM] (7) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:27:43.348AM] (11) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:27:43.360AM] (7) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:28:48.463AM] (5) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/10/2017 11:29:03.470AM] (12) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:a0c3eb30-aa9a-4749-9d59-7a99fc88b6a6
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:29:03.470AM] (8) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:08ac1f45-7e91-4d2a-b6e8-0454b6cfee98
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:29:03.490AM] (12) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:29:03.470AM] (7) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:98cecb54-3988-46fe-82ce-6ec5c6fbd8ad
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:29:03.525AM] (6) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:667ad608-eb9d-499f-8408-684e370d7b09
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:29:03.525AM] (8) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:29:03.525AM] (5) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:bacf1e43-97fc-4adf-8297-92867adc454d
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:29:06.031AM] (6) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:29:03.562AM] (7) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:29:06.595AM] (8) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:29:06.595AM] (5) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:29:06.005AM] (12) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:29:07.085AM] (6) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:29:07.470AM] (7) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:29:06.009AM] (13) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:ad86342f-ab15-41b0-915b-ecd5e4993ac8
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:29:07.712AM] (5) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:29:07.781AM] (13) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:29:07.781AM] (8) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:bacf1e43-97fc-4adf-8297-92867adc454d
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:29:07.804AM] (13) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:29:07.816AM] (8) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:29:07.838AM] (8) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'. 
+[Aug/10/2017 11:30:03.593AM] (5) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/10/2017 11:30:03.752AM] (7) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+Invalid column name 'test'.
+Invalid column name 'test'.
+Invalid column name 'test'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:bacf1e43-97fc-4adf-8297-92867adc454d
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:30:03.764AM] (7) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+Invalid column name 'test'.
+Invalid column name 'test'.
+Invalid column name 'test'. 
+[Aug/10/2017 11:30:03.775AM] (7) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+Invalid column name 'test'.
+Invalid column name 'test'.
+Invalid column name 'test'. 
+[Aug/10/2017 11:30:03.957AM] (8) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+Invalid column name 'test'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:667ad608-eb9d-499f-8408-684e370d7b09
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:30:03.970AM] (8) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+Invalid column name 'test'. 
+[Aug/10/2017 11:30:03.996AM] (8) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+Invalid column name 'test'. 
+[Aug/10/2017 11:30:04.012AM] (13) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+Invalid column name 'test'.
+Invalid column name 'test'.
+Invalid column name 'test'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:98cecb54-3988-46fe-82ce-6ec5c6fbd8ad
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:30:04.055AM] (12) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+Invalid column name 'test'.
+Invalid column name 'new'.
+Invalid column name 'post'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:ad86342f-ab15-41b0-915b-ecd5e4993ac8
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:30:04.044AM] (5) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'order'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:bacf1e43-97fc-4adf-8297-92867adc454d
+Error Number:156,State:1,Class:15 
+[Aug/10/2017 11:30:04.055AM] (14) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+Invalid column name 'test'.
+Invalid column name 'test'.
+Invalid column name 'test'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:a0c3eb30-aa9a-4749-9d59-7a99fc88b6a6
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:30:04.055AM] (13) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+Invalid column name 'test'.
+Invalid column name 'test'.
+Invalid column name 'test'. 
+[Aug/10/2017 11:30:04.073AM] (12) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+Invalid column name 'test'.
+Invalid column name 'new'.
+Invalid column name 'post'. 
+[Aug/10/2017 11:30:04.106AM] (6) Company.DataAccess.DataProvider.ExcuteStoredReturnObject ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+Invalid column name 'test'.
+Invalid column name 'test'.
+Invalid column name 'test'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnObject[T](String stored, Object obj) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 629
+ClientConnectionId:08ac1f45-7e91-4d2a-b6e8-0454b6cfee98
+Error Number:207,State:1,Class:16 
+[Aug/10/2017 11:30:04.119AM] (5) Company.DataAccess.FileRepository.Get ERROR Incorrect syntax near the keyword 'order'. 
+[Aug/10/2017 11:30:04.119AM] (14) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+Invalid column name 'test'.
+Invalid column name 'test'.
+Invalid column name 'test'. 
+[Aug/10/2017 11:30:04.144AM] (13) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+Invalid column name 'test'.
+Invalid column name 'test'.
+Invalid column name 'test'. 
+[Aug/10/2017 11:30:04.155AM] (12) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+Invalid column name 'test'.
+Invalid column name 'new'.
+Invalid column name 'post'. 
+[Aug/10/2017 11:30:04.165AM] (5) Company.Admin.Controllers.HomeController.Files ERROR Incorrect syntax near the keyword 'order'. 
+[Aug/10/2017 11:30:04.165AM] (6) Company.DataAccess.FileRepository.Get ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+Invalid column name 'test'.
+Invalid column name 'test'.
+Invalid column name 'test'. 
+[Aug/10/2017 11:30:04.189AM] (14) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+Invalid column name 'test'.
+Invalid column name 'test'.
+Invalid column name 'test'. 
+[Aug/10/2017 11:30:04.233AM] (6) Company.Admin.Controllers.HomeController.Files ERROR Invalid column name 'Status'.
+Invalid column name 'ItemKey'.
+Invalid column name 'test'.
+Invalid column name 'test'.
+Invalid column name 'test'. 
+[Aug/10/2017 11:34:48.863AM] (16) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/10/2017 12:18:48.010PM] (7) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/10/2017 12:19:07.996PM] (5) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/10/2017 12:19:49.867PM] (7) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/10/2017 12:19:53.235PM] (29) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/10/2017 12:20:17.276PM] (25) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/10/2017 12:21:41.420PM] (25) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/10/2017 12:21:58.875PM] (18) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/10/2017 12:23:07.026PM] (19) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 

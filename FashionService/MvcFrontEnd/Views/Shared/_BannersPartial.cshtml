@@ -1,0 +1,52 @@
+﻿@using MvcFrontEnd.BusinessObjects
+@model List<OtherBOL>
+
+@{
+    int n = Model.Count;
+}
+
+<div style="background: #a21a58; opacity: 0.8; width: 100%; height: 100%; display: block; position: absolute;"></div>
+<div id="banner-carousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol id="ucBanner_olbanners" class="carousel-indicators">
+        @for (int i = 0; i < n; i++)
+        {
+            if (i == 0)
+            {
+                <li data-target="#banner-carousel" data-slide-to="@i" class="active"></li>
+            }
+            else
+            {
+                <li data-target="#banner-carousel" data-slide-to="@i" class=""></li>
+            }
+
+        }
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div id="ucBanner_BannerCarouselInner" class="carousel-inner carousel-inner-banners" role="listbox">
+        @for (int i = 0; i < n; i++)
+        {
+            if (i == 0)
+            {
+                @Html.Raw("<div class='item active'>")
+            }
+            else
+            {
+                @Html.Raw("<div class='item'>")
+            }
+            
+            <a href="@Model[i].Link">
+                <img src="@Model[i].ImageUrl"/>
+            </a>
+            
+            @Html.Raw("</div>")
+        }
+    </div>
+</div>
+
+<script type="text/javascript">
+    $('.jcarousel').jcarouselAutoscroll({
+        interval: 1000
+    });
+</script>

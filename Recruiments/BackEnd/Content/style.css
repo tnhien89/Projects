@@ -1,0 +1,12 @@
+﻿body .main-content {
+  margin-top: 15px;
+}
+body .form-group-logo label {
+  color: black;
+}
+body .form-group-logo img {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  max-height: 150px;
+}
+/*# sourceMappingURL=style.css.map */

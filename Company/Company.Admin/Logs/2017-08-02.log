@@ -1,0 +1,9 @@
+[Aug/02/2017 01:44:07.357PM] (554) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/02/2017 01:44:30.408PM] (606) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/02/2017 01:44:39.172PM] (606) Company.DataAccess.MenuRepository.Get DEBUG itemKey: Menu 
+[Aug/02/2017 01:44:39.188PM] (552) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/02/2017 01:47:51.268PM] (31) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/02/2017 01:48:03.549PM] (565) Company.DataAccess.MenuRepository.Get DEBUG itemKey: Menu 
+[Aug/02/2017 01:48:03.564PM] (535) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/02/2017 02:54:36.837PM] (557) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/02/2017 05:37:00.893PM] (6) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 

@@ -1,0 +1,41 @@
+[Aug/04/2017 02:36:19.041PM] (203) Company.DataAccess.OptionRepository.InsertOrUpdate DEBUG Name: menu-data - Value: [{"name":"test add","key":"test-add","id":2001,"children":[{"name":"test 2","key":"test-2","id":4001}]},{"name":"ccc","key":"ccc","id":1001,"children":[{"name":"test 3","key":"test-3","id":5001}]}] 
+[Aug/04/2017 02:39:34.292PM] (205) Company.DataAccess.DataProvider.ExcuteStoredReturnCollection ERROR System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value '2001,4001,1001,5001' to data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnCollection(String stored, Object obj, Type[] types) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 727
+ClientConnectionId:9a75745c-3cdd-43ce-9ad5-201da4959178
+Error Number:245,State:1,Class:16 
+[Aug/04/2017 02:39:34.292PM] (205) Company.DataAccess.MenuRepository.GetDesignInfo ERROR Conversion failed when converting the nvarchar value '2001,4001,1001,5001' to data type int. 
+[Aug/04/2017 02:39:34.301PM] (205) Company.Admin.Controllers.MenuController.GetDesignInfo ERROR Conversion failed when converting the nvarchar value '2001,4001,1001,5001' to data type int. 
+[Aug/04/2017 02:39:48.020PM] (183) Company.DataAccess.DataProvider.ExcuteStoredReturnCollection ERROR System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the nvarchar value '2001,4001,1001,5001' to data type int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Company.DataAccess.DataProvider.ExcuteStoredReturnCollection(String stored, Object obj, Type[] types) in F:\TNHien\Git Projects\Company\Company.DataAccess\DataProvider.cs:line 727
+ClientConnectionId:9a75745c-3cdd-43ce-9ad5-201da4959178
+Error Number:245,State:1,Class:16 
+[Aug/04/2017 02:39:48.020PM] (183) Company.DataAccess.MenuRepository.GetDesignInfo ERROR Conversion failed when converting the nvarchar value '2001,4001,1001,5001' to data type int. 
+[Aug/04/2017 02:39:48.020PM] (183) Company.Admin.Controllers.MenuController.GetDesignInfo ERROR Conversion failed when converting the nvarchar value '2001,4001,1001,5001' to data type int. 
+[Aug/04/2017 04:43:25.731PM] (214) Company.DataAccess.OptionRepository.InsertOrUpdate DEBUG Name: menu-data - Value: [{"name":"test 2","key":"test-2","id":4001,"children":[{"name":"test add","key":"test-add","id":2001,"children":[{"name":"test 4","key":"test-4","id":6001}]}]},{"name":"test 1","key":"test-1","id":3001},{"name":"aaa","key":"aaa","id":1,"children":[{"name":"ccc","key":"ccc","id":1001}]}] 
+[Aug/04/2017 04:45:20.842PM] (888) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 

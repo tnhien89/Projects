@@ -1,0 +1,59 @@
+﻿@using FrontEnd.Models
+@model SiteConfig
+
+<style>
+    .google-maps {
+        width: 100%;
+        height: 400px;
+        display: block;
+        position: relative;
+        float: left;
+    }
+</style>
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        initialize();
+    });
+    function initialize() {
+        var pos = new google.maps.LatLng(10.768135, 106.699701);
+        if (@Model.Latitude != 0 && @Model.longitude != 0) {
+            pos = new google.maps.LatLng(@Model.Latitude, @Model.longitude)
+        }
+
+        var title = 'Ho Chi Minh City';
+        if ('@string.IsNullOrEmpty(Model.GoogleMapsLocation).ToString().ToLower()' === 'false'){
+            title = '@Model.GoogleMapsLocation.ToString()';
+        }
+
+        var mapOptions = {
+            center: pos,
+            zoom: 14,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+          mapOptions);
+
+        // create a marker
+        var marker = new google.maps.Marker({
+            position: pos,
+            map: map,
+            title: title
+        });
+    }
+</script>
+
+
+
+
+
+<div class="row" style="border-top: 1px solid #ccc; margin-top: 15px; padding: 15px;">
+    <div class="col-sm-6">
+        @Html.Raw(Model.Information)
+    </div>
+    <div class="col-sm-6">
+        <div id="map_canvas" class="google-maps"></div>
+    </div>
+</div>

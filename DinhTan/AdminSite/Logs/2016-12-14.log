@@ -1,0 +1,148 @@
+2016-12-14 14:26:12.8405 ERROR  -  [DataAccessHelpers][ExecuteStoredReturnDataSet] Error: System.Data.SqlClient.SqlException (0x80131904): Cannot open database "DinhTanDB" requested by the login. The login failed.
+Login failed for user 'sa'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at AdminSite.DataAccessHelpers.ExecuteStoredReturnDataSet(String stored, Object obj) in D:\TNHien\Projects\DinhTan\AdminSite\DataAccessHelpers.cs:line 408
+ClientConnectionId:e126fe07-3a2c-499d-be55-fa69ae080a2f
+Error Number:4060,State:1,Class:11
+2016-12-14 14:29:32.8593 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 234
+2016-12-14 14:29:32.8753 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:29:32.8913 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:29:36.6523 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.InvalidCastException: Unable to cast object of type 'System.Web.UI.LiteralControl' to type 'System.Web.UI.WebControls.HyperLink'.
+   at AdminSite.UserControls.ucProjectItems.grvProjectItems_RowDataBound(Object sender, GridViewRowEventArgs e) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 201
+2016-12-14 14:29:36.6643 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:29:36.6643 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:29:39.9141 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 234
+2016-12-14 14:29:39.9334 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 234
+2016-12-14 14:29:39.9526 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 234
+2016-12-14 14:29:39.9833 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 234
+2016-12-14 14:29:39.9948 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:29:40.0066 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:30:24.8454 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 234
+2016-12-14 14:30:24.8564 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 234
+2016-12-14 14:30:24.8694 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 234
+2016-12-14 14:30:24.8694 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 234
+2016-12-14 14:30:24.8814 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:30:24.8814 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:31:40.9136 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:31:40.9462 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:31:44.3145 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:31:44.3256 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:31:46.1819 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:31:46.1959 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:31:46.2519 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in D:\TNHien\Projects\DinhTan\AdminSite\Utilities.cs:line 431
+2016-12-14 14:31:46.2667 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 113
+2016-12-14 14:31:51.6786 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:31:51.6786 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:31:53.9606 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:31:53.9606 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:31:53.9932 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in D:\TNHien\Projects\DinhTan\AdminSite\Utilities.cs:line 431
+2016-12-14 14:31:54.0082 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in D:\TNHien\Projects\DinhTan\AdminSite\Utilities.cs:line 431
+2016-12-14 14:31:54.0232 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 113
+2016-12-14 14:31:59.5594 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:31:59.5705 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:32:01.9636 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.InvalidCastException: Unable to cast object of type 'System.Web.UI.LiteralControl' to type 'System.Web.UI.WebControls.HyperLink'.
+   at AdminSite.UserControls.ucProjectItems.grvProjectItems_RowDataBound(Object sender, GridViewRowEventArgs e) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 201
+2016-12-14 14:32:01.9636 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:32:01.9774 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:32:03.9375 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:32:03.9485 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:32:05.3570 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:32:05.3685 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:32:05.3941 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in D:\TNHien\Projects\DinhTan\AdminSite\Utilities.cs:line 431
+2016-12-14 14:32:05.3981 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 113
+2016-12-14 14:32:07.0033 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.InvalidCastException: Unable to cast object of type 'System.Web.UI.LiteralControl' to type 'System.Web.UI.WebControls.HyperLink'.
+   at AdminSite.UserControls.ucProjectItems.grvProjectItems_RowDataBound(Object sender, GridViewRowEventArgs e) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 201
+2016-12-14 14:32:07.0082 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.InvalidCastException: Unable to cast object of type 'System.Web.UI.LiteralControl' to type 'System.Web.UI.WebControls.HyperLink'.
+   at AdminSite.UserControls.ucProjectItems.grvProjectItems_RowDataBound(Object sender, GridViewRowEventArgs e) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 201
+2016-12-14 14:32:07.0385 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.InvalidCastException: Unable to cast object of type 'System.Web.UI.LiteralControl' to type 'System.Web.UI.WebControls.HyperLink'.
+   at AdminSite.UserControls.ucProjectItems.grvProjectItems_RowDataBound(Object sender, GridViewRowEventArgs e) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 201
+2016-12-14 14:32:07.0666 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.InvalidCastException: Unable to cast object of type 'System.Web.UI.LiteralControl' to type 'System.Web.UI.WebControls.HyperLink'.
+   at AdminSite.UserControls.ucProjectItems.grvProjectItems_RowDataBound(Object sender, GridViewRowEventArgs e) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 201
+2016-12-14 14:32:07.0699 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:32:07.0867 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:33:27.9556 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:33:27.9826 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:33:31.7683 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:33:31.7733 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:33:31.8388 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in D:\TNHien\Projects\DinhTan\AdminSite\Utilities.cs:line 431
+2016-12-14 14:33:31.8538 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 113
+2016-12-14 14:33:34.1753 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:33:34.1793 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:33:35.3369 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:33:35.3369 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:33:35.3729 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in D:\TNHien\Projects\DinhTan\AdminSite\Utilities.cs:line 431
+2016-12-14 14:33:35.3896 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in D:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 113
+2016-12-14 14:33:40.4477 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:33:40.4477 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:33:42.4067 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:33:42.4165 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-12-14 14:33:45.6774 INFO  -  [ucOtherItems][StartBidingOther]-[CatId: 3] Status: Start...
+2016-12-14 14:33:45.6814 INFO  -  [ucOtherItems]grvSubOtherItems_RowDataBound Status: Start...
+2016-12-14 14:33:45.6973 INFO  -  [ucOtherItems]grvSubOtherItems_RowDataBound Status: End.
+2016-12-14 14:33:45.6973 INFO  -  [ucOtherItems]grvSubOtherItems_RowDataBound Status: Start...
+2016-12-14 14:33:49.6045 INFO  -  [ucOtherItems]grvSubOtherItems_RowDataBound Status: End.
+2016-12-14 14:33:49.6045 INFO  -  [ucOtherItems]grvSubOtherItems_RowDataBound Status: Start...
+2016-12-14 14:33:50.1777 INFO  -  [ucOtherItems]grvSubOtherItems_RowDataBound Status: End.
+2016-12-14 14:33:50.1827 INFO  -  [ucOtherItems]grvSubOtherItems_RowDataBound Status: Start...
+2016-12-14 14:33:52.9610 INFO  -  [ucOtherItems]grvSubOtherItems_RowDataBound Status: End.
+2016-12-14 14:33:52.9610 INFO  -  [ucOtherItems]grvSubOtherItems_RowDataBound Status: Start...
+2016-12-14 14:33:52.9610 INFO  -  [ucOtherItems]grvSubOtherItems_RowDataBound Status: End.
+2016-12-14 14:33:52.9790 INFO  -  [ucOtherItems]grvSubOtherItems_RowDataBound Status: Start...
+2016-12-14 14:33:52.9790 INFO  -  [ucOtherItems]grvSubOtherItems_RowDataBound Status: End.
+2016-12-14 14:33:52.9790 INFO  -  [ucOtherItems]grvSubOtherItems_RowDataBound Status: Start...
+2016-12-14 14:33:52.9910 INFO  -  [ucOtherItems]grvSubOtherItems_RowDataBound Status: End.
+2016-12-14 14:33:52.9910 INFO  -  [ucOtherItems]grvSubOtherItems_RowDataBound Status: Start...
+2016-12-14 14:33:52.9910 INFO  -  [ucOtherItems]grvSubOtherItems_RowDataBound Status: End.
+2016-12-14 14:33:52.9910 INFO  -  [ucOtherItems][StartBidingOther] Status: End.
+2016-12-14 14:33:53.0130 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-12-14 14:33:53.0220 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.

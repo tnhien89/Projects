@@ -1,0 +1,4 @@
+[Aug/01/2017 06:24:21.004PM] (30) Company.DataAccess.MenuRepository.Get DEBUG itemKey: lockscreen-3.html 
+[Aug/01/2017 06:24:21.073PM] (15) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Aug/01/2017 06:47:25.807PM] (30) Company.DataAccess.MenuRepository.Get DEBUG itemKey: index.html 
+[Aug/01/2017 06:47:25.828PM] (30) Company.DataAccess.MenuRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 

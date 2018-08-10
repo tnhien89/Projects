@@ -1,0 +1,461 @@
+2015-05-12 00:43:09.8711 ERROR  -  [Default][btnLogin_Click] Exception: {0} Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at AdminSite.Default.btnLogin_Click(Object sender, EventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Default.aspx.cs:line 38
+2015-05-12 01:09:25.2098 ERROR  -  [ucProjectItems][btnAdd_Click] Exception: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at AdminSite.UserControls.ucProjectItems.btnAdd_Click(Object sender, EventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 126
+2015-05-12 01:09:30.5870 ERROR  -  [ucProjectItems][btnAdd_Click] Exception: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at AdminSite.UserControls.ucProjectItems.btnAdd_Click(Object sender, EventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 126
+2015-05-12 01:10:54.3348 ERROR  -  [ucProjectItems][btnAdd_Click] Exception: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at AdminSite.UserControls.ucProjectItems.btnAdd_Click(Object sender, EventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 126
+2015-05-12 01:12:17.1995 ERROR  -  [ucProjectItems][btnAdd_Click] Exception: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at AdminSite.UserControls.ucProjectItems.btnAdd_Click(Object sender, EventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 126
+2015-05-12 01:13:11.6573 ERROR  -  [ucProjectItems][btnAdd_Click] Exception: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at AdminSite.UserControls.ucProjectItems.btnAdd_Click(Object sender, EventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 126
+2015-05-12 09:40:08.3474 ERROR  -  [ucProjectItems][btnAdd_Click] Exception: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at AdminSite.UserControls.ucProjectItems.btnAdd_Click(Object sender, EventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 126
+2015-05-12 09:40:15.8218 ERROR  -  [ucProjectItems][btnAdd_Click] Exception: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at AdminSite.UserControls.ucProjectItems.btnAdd_Click(Object sender, EventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 126
+2015-05-12 09:42:39.5576 ERROR  -  [ProjectDetail][StartUploadImage] Exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Upload\Images\Projects\05122015094239168\tata-0-9857-1431341174.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at AdminSite.ProjectDetail.StartUploadImage() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\ProjectDetail.aspx.cs:line 112
+2015-05-12 09:42:39.5950 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 09:42:39.5950 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 09:42:39.6455 ERROR  -  [DataAccessHelpers][ExecuteStored] Error: System.Data.SqlClient.SqlException (0x80131904): Procedure or function sp_Peojects_Insert_Update has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at AdminSite.DataAccessHelpers.ExecuteStored(String stored, Hashtable hashTable) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccessHelpers.cs:line 261
+ClientConnectionId:ea5a0f04-dfd9-4a67-9e8f-ce06b67b301f
+2015-05-12 09:43:40.5798 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 09:43:40.5798 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 09:43:40.6524 ERROR  -  [DataAccessHelpers][ExecuteStored] Error: System.Data.SqlClient.SqlException (0x80131904): @UpdatedBy is not a parameter for procedure sp_Peojects_Insert_Update.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at AdminSite.DataAccessHelpers.ExecuteStored(String stored, Hashtable hashTable) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccessHelpers.cs:line 261
+ClientConnectionId:b6680bee-3d3f-4607-8c9e-592e5a3dbb92
+2015-05-12 09:44:22.5047 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 09:44:22.5047 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 09:50:55.5558 ERROR  -  [ProjectDetail][StartUploadImage] Exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Upload\Images\Projects\05122015095055299\tata-0-9857-1431341174.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at AdminSite.ProjectDetail.StartUploadImage() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\ProjectDetail.aspx.cs:line 112
+2015-05-12 09:50:55.5917 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 09:50:55.5947 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 09:50:55.7533 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.DataKeyArray.get_Item(Int32 index)
+   at AdminSite.UserControls.ucProjectItems.grvProjectItems_RowDataBound(Object sender, GridViewRowEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 198
+2015-05-12 09:53:13.1250 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.DataKeyArray.get_Item(Int32 index)
+   at AdminSite.UserControls.ucProjectItems.grvProjectItems_RowDataBound(Object sender, GridViewRowEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 199
+2015-05-12 09:54:41.0701 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.DataKeyArray.get_Item(Int32 index)
+   at AdminSite.UserControls.ucProjectItems.grvProjectItems_RowDataBound(Object sender, GridViewRowEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 199
+2015-05-12 10:06:00.0281 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:06:01.4205 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:24:38.9866 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:24:39.0006 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:26:51.9955 ERROR  -  [Utilities][SaveFileToServer] Error: System.InvalidOperationException: An asynchronous operation cannot be started at this time. Asynchronous operations may only be started within an asynchronous handler or module or during certain events in the Page lifecycle. If this exception occurred while executing a Page, ensure that the Page is marked <%@ Page Async="true" %>. This exception may also indicate an attempt to call an "async void" method, which is generally unsupported within ASP.NET request processing. Instead, the asynchronous method should return a Task, and the caller should await it.
+   at System.Web.AspNetSynchronizationContext.OperationStarted()
+   at System.Net.WebClient.DownloadFileAsync(Uri address, String fileName, Object userToken)
+   at System.Net.WebClient.DownloadFileAsync(Uri address, String fileName)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 234
+2015-05-12 10:26:52.0035 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:29:03.2710 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:29:06.6959 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:29:47.6110 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:29:47.6110 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:30:43.8847 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:30:43.8947 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:32:36.2147 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:32:36.2257 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:33:51.4785 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:33:51.4895 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:35:15.8592 ERROR  -  [Utilities][SaveFileToServer] Error: System.InvalidOperationException: An asynchronous operation cannot be started at this time. Asynchronous operations may only be started within an asynchronous handler or module or during certain events in the Page lifecycle. If this exception occurred while executing a Page, ensure that the Page is marked <%@ Page Async="true" %>. This exception may also indicate an attempt to call an "async void" method, which is generally unsupported within ASP.NET request processing. Instead, the asynchronous method should return a Task, and the caller should await it.
+   at System.Web.AspNetSynchronizationContext.OperationStarted()
+   at System.Net.WebClient.DownloadFileAsync(Uri address, String fileName, Object userToken)
+   at System.Net.WebClient.DownloadFileAsync(Uri address, String fileName)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 234
+2015-05-12 10:35:28.7233 ERROR  -  [Utilities][SaveFileToServer] Error: System.InvalidOperationException: An asynchronous operation cannot be started at this time. Asynchronous operations may only be started within an asynchronous handler or module or during certain events in the Page lifecycle. If this exception occurred while executing a Page, ensure that the Page is marked <%@ Page Async="true" %>. This exception may also indicate an attempt to call an "async void" method, which is generally unsupported within ASP.NET request processing. Instead, the asynchronous method should return a Task, and the caller should await it.
+   at System.Web.AspNetSynchronizationContext.OperationStarted()
+   at System.Net.WebClient.DownloadFileAsync(Uri address, String fileName, Object userToken)
+   at System.Net.WebClient.DownloadFileAsync(Uri address, String fileName)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 234
+2015-05-12 10:35:32.7231 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:36:43.3754 ERROR  -  [Utilities][SaveFileToServer] Error: System.InvalidOperationException: An asynchronous operation cannot be started at this time. Asynchronous operations may only be started within an asynchronous handler or module or during certain events in the Page lifecycle. If this exception occurred while executing a Page, ensure that the Page is marked <%@ Page Async="true" %>. This exception may also indicate an attempt to call an "async void" method, which is generally unsupported within ASP.NET request processing. Instead, the asynchronous method should return a Task, and the caller should await it.
+   at System.Web.AspNetSynchronizationContext.OperationStarted()
+   at System.Net.WebClient.DownloadFileAsync(Uri address, String fileName, Object userToken)
+   at System.Net.WebClient.DownloadFileAsync(Uri address, String fileName)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 234
+2015-05-12 10:36:43.3914 ERROR  -  [Utilities][SaveFileToServer] Error: System.InvalidOperationException: An asynchronous operation cannot be started at this time. Asynchronous operations may only be started within an asynchronous handler or module or during certain events in the Page lifecycle. If this exception occurred while executing a Page, ensure that the Page is marked <%@ Page Async="true" %>. This exception may also indicate an attempt to call an "async void" method, which is generally unsupported within ASP.NET request processing. Instead, the asynchronous method should return a Task, and the caller should await it.
+   at System.Web.AspNetSynchronizationContext.OperationStarted()
+   at System.Net.WebClient.DownloadFileAsync(Uri address, String fileName, Object userToken)
+   at System.Net.WebClient.DownloadFileAsync(Uri address, String fileName)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 234
+2015-05-12 10:36:43.3914 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:38:26.8046 ERROR  -  [Utilities][SaveFileToServer] Error: System.InvalidOperationException: An asynchronous operation cannot be started at this time. Asynchronous operations may only be started within an asynchronous handler or module or during certain events in the Page lifecycle. If this exception occurred while executing a Page, ensure that the Page is marked <%@ Page Async="true" %>. This exception may also indicate an attempt to call an "async void" method, which is generally unsupported within ASP.NET request processing. Instead, the asynchronous method should return a Task, and the caller should await it.
+   at System.Web.AspNetSynchronizationContext.OperationStarted()
+   at System.Net.WebClient.DownloadFileAsync(Uri address, String fileName, Object userToken)
+   at System.Net.WebClient.DownloadFileAsync(Uri address, String fileName)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 234
+2015-05-12 10:38:26.8156 ERROR  -  [Utilities][SaveFileToServer] Error: System.InvalidOperationException: An asynchronous operation cannot be started at this time. Asynchronous operations may only be started within an asynchronous handler or module or during certain events in the Page lifecycle. If this exception occurred while executing a Page, ensure that the Page is marked <%@ Page Async="true" %>. This exception may also indicate an attempt to call an "async void" method, which is generally unsupported within ASP.NET request processing. Instead, the asynchronous method should return a Task, and the caller should await it.
+   at System.Web.AspNetSynchronizationContext.OperationStarted()
+   at System.Net.WebClient.DownloadFileAsync(Uri address, String fileName, Object userToken)
+   at System.Net.WebClient.DownloadFileAsync(Uri address, String fileName)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 234
+2015-05-12 10:38:26.8156 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:42:13.5471 ERROR  -  [Utilities][SaveFileToServer] Error: System.InvalidOperationException: An asynchronous operation cannot be started at this time. Asynchronous operations may only be started within an asynchronous handler or module or during certain events in the Page lifecycle. If this exception occurred while executing a Page, ensure that the Page is marked <%@ Page Async="true" %>. This exception may also indicate an attempt to call an "async void" method, which is generally unsupported within ASP.NET request processing. Instead, the asynchronous method should return a Task, and the caller should await it.
+   at System.Web.AspNetSynchronizationContext.OperationStarted()
+   at System.Net.WebClient.DownloadFileAsync(Uri address, String fileName, Object userToken)
+   at System.Net.WebClient.DownloadFileAsync(Uri address, String fileName)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 234
+2015-05-12 10:42:13.5771 ERROR  -  [Utilities][SaveFileToServer] Error: System.InvalidOperationException: An asynchronous operation cannot be started at this time. Asynchronous operations may only be started within an asynchronous handler or module or during certain events in the Page lifecycle. If this exception occurred while executing a Page, ensure that the Page is marked <%@ Page Async="true" %>. This exception may also indicate an attempt to call an "async void" method, which is generally unsupported within ASP.NET request processing. Instead, the asynchronous method should return a Task, and the caller should await it.
+   at System.Web.AspNetSynchronizationContext.OperationStarted()
+   at System.Net.WebClient.DownloadFileAsync(Uri address, String fileName, Object userToken)
+   at System.Net.WebClient.DownloadFileAsync(Uri address, String fileName)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 234
+2015-05-12 10:42:13.5771 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:43:34.4560 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: An exception occurred during a WebClient request. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Upload\Images\Projects\a-IMG-1474-7712-1431336703-8483-1431355984-05122015104246983.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 234
+2015-05-12 10:43:34.4720 ERROR  -  [Utilities][SaveFileToServer] Error: System.Net.WebException: An exception occurred during a WebClient request. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Upload\Images\Projects\a-IMG-1488-8527-1431336703-05122015104334472.jpg'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at AdminSite.Utilities.SaveFileToServer(String url, String dir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 234
+2015-05-12 10:43:34.4720 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 254
+2015-05-12 10:46:01.7425 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 260
+2015-05-12 10:48:26.7027 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 260
+2015-05-12 13:33:10.2271 ERROR  -  [VacanciesDAL][GetAll] Error: System.ArgumentException: Input string was not in a correct format.Couldn't store <> in Id Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at AdminSite.DataAccess.VacanciesDAL.GetAll() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccess\VacanciesDAL.cs:line 23
+2015-05-12 13:33:17.5135 ERROR  -  [VacanciesDAL][GetAll] Error: System.ArgumentException: Input string was not in a correct format.Couldn't store <> in Id Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at AdminSite.DataAccess.VacanciesDAL.GetAll() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccess\VacanciesDAL.cs:line 23
+2015-05-12 13:37:47.5462 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 96
+2015-05-12 13:37:47.5462 ERROR  -  [VacanciesDAL][GetAll] Error: System.ArgumentException: Input string was not in a correct format.Couldn't store <> in Id Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at AdminSite.DataAccess.VacanciesDAL.GetAll() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccess\VacanciesDAL.cs:line 23
+2015-05-12 13:37:53.7165 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 96
+2015-05-12 16:20:22.4493 ERROR  -  [VacanciesDAL][GetAll] Error: System.ArgumentException: Input string was not in a correct format.Couldn't store <> in Id Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at AdminSite.DataAccess.VacanciesDAL.GetAll() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccess\VacanciesDAL.cs:line 23
+2015-05-12 20:39:40.8010 ERROR  -  [Default][btnLogin_Click] Exception: {0} Error: System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at AdminSite.Default.StartCheckLogin() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Default.aspx.cs:line 42
+2015-05-12 20:39:41.2012 ERROR  -  [Default][btnLogin_Click] Exception: {0} Error: System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at AdminSite.Default.StartCheckLogin() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Default.aspx.cs:line 42
+2015-05-12 20:43:21.1956 ERROR  -  [Default][btnLogin_Click] Exception: {0} Error: System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at AdminSite.Default.StartCheckLogin() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Default.aspx.cs:line 42
+2015-05-12 20:43:22.4100 ERROR  -  [Default][btnLogin_Click] Exception: {0} Error: System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at AdminSite.Default.StartCheckLogin() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Default.aspx.cs:line 42
+2015-05-12 20:43:22.9618 ERROR  -  [Default][btnLogin_Click] Exception: {0} Error: System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at AdminSite.Default.StartCheckLogin() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Default.aspx.cs:line 42
+2015-05-12 20:43:23.4326 ERROR  -  [Default][btnLogin_Click] Exception: {0} Error: System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at AdminSite.Default.StartCheckLogin() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Default.aspx.cs:line 42
+2015-05-12 20:43:24.0879 ERROR  -  [Default][btnLogin_Click] Exception: {0} Error: System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at AdminSite.Default.StartCheckLogin() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Default.aspx.cs:line 42
+2015-05-12 20:43:25.4948 ERROR  -  [Default][btnLogin_Click] Exception: {0} Error: System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at AdminSite.Default.StartCheckLogin() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Default.aspx.cs:line 42
+2015-05-12 20:43:26.2145 ERROR  -  [Default][btnLogin_Click] Exception: {0} Error: System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at AdminSite.Default.StartCheckLogin() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Default.aspx.cs:line 42
+2015-05-12 20:43:26.8640 ERROR  -  [Default][btnLogin_Click] Exception: {0} Error: System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at AdminSite.Default.StartCheckLogin() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Default.aspx.cs:line 42
+2015-05-12 20:43:27.4421 ERROR  -  [Default][btnLogin_Click] Exception: {0} Error: System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at AdminSite.Default.StartCheckLogin() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Default.aspx.cs:line 42
+2015-05-12 20:43:28.0759 ERROR  -  [Default][btnLogin_Click] Exception: {0} Error: System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at AdminSite.Default.StartCheckLogin() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Default.aspx.cs:line 42
+2015-05-12 21:08:30.4357 ERROR  -  [Default][btnLogin_Click] Exception: {0} Error: System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at AdminSite.Default.StartCheckLogin() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Default.aspx.cs:line 43
+2015-05-12 21:10:12.8289 ERROR  -  [Default][btnLogin_Click] Exception: {0} Error: System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at AdminSite.Default.StartCheckLogin() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Default.aspx.cs:line 43
+2015-05-12 21:37:12.0587 ERROR  -  [VacanciesDAL][GetAll] Error: System.ArgumentException: Input string was not in a correct format.Couldn't store <> in Id Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at AdminSite.DataAccess.VacanciesDAL.GetAll() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccess\VacanciesDAL.cs:line 23
+2015-05-12 21:37:32.1148 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 256
+2015-05-12 21:37:32.1148 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 256
+2015-05-12 21:37:46.0391 ERROR  -  [VacanciesDAL][GetAll] Error: System.ArgumentException: Input string was not in a correct format.Couldn't store <> in Id Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at AdminSite.DataAccess.VacanciesDAL.GetAll() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccess\VacanciesDAL.cs:line 23
+2015-05-12 22:06:54.0012 ERROR  -  [VacanciesDAL][GetAll] Error: System.ArgumentException: Input string was not in a correct format.Couldn't store <> in Id Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at AdminSite.DataAccess.VacanciesDAL.GetAll() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccess\VacanciesDAL.cs:line 23
+2015-05-12 22:07:02.7024 ERROR  -  [VacanciesDAL][GetAll] Error: System.ArgumentException: Input string was not in a correct format.Couldn't store <> in Id Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at AdminSite.DataAccess.VacanciesDAL.GetAll() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccess\VacanciesDAL.cs:line 23
+2015-05-12 22:07:24.2436 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 256
+2015-05-12 22:07:24.2436 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 256
+2015-05-12 22:08:24.5094 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-12 22:08:24.5094 ERROR  -  [VacanciesDAL][GetAll] Error: System.ArgumentException: Input string was not in a correct format.Couldn't store <> in Id Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at AdminSite.DataAccess.VacanciesDAL.GetAll() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccess\VacanciesDAL.cs:line 23
+2015-05-12 22:15:31.3320 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-12 22:15:56.3674 ERROR  -  [VacanciesDAL][GetAll] Error: System.ArgumentException: Input string was not in a correct format.Couldn't store <> in Id Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at AdminSite.DataAccess.VacanciesDAL.GetAll() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccess\VacanciesDAL.cs:line 23
+2015-05-12 22:17:55.7668 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-12 22:18:58.0614 ERROR  -  [VacanciesDAL][GetAll] Error: System.ArgumentException: Input string was not in a correct format.Couldn't store <> in Id Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at AdminSite.DataAccess.VacanciesDAL.GetAll() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccess\VacanciesDAL.cs:line 23
+2015-05-12 22:19:00.7154 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-12 22:19:00.7204 ERROR  -  [VacanciesDAL][GetAll] Error: System.ArgumentException: Input string was not in a correct format.Couldn't store <> in Id Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at AdminSite.DataAccess.VacanciesDAL.GetAll() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccess\VacanciesDAL.cs:line 23
+2015-05-12 22:19:14.1467 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-12 22:19:37.3476 ERROR  -  [VacanciesDAL][GetAll] Error: System.ArgumentException: Input string was not in a correct format.Couldn't store <> in Id Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at AdminSite.DataAccess.VacanciesDAL.GetAll() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccess\VacanciesDAL.cs:line 23
+2015-05-12 22:21:43.7410 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-12 22:21:54.4079 ERROR  -  [VacanciesDAL][GetAll] Error: System.ArgumentException: Cannot set Column 'Id' to be null. Please use DBNull instead.
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at AdminSite.DataAccess.VacanciesDAL.GetAll() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccess\VacanciesDAL.cs:line 23
+2015-05-12 22:22:15.8173 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-12 22:47:35.6361 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-12 22:54:06.5275 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100

@@ -1,0 +1,32 @@
+F:\TNHien\Git Projects\Company\Company.DataAccess\obj\Debug\Company.DataAccess.csprojResolveAssemblyReference.cache
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Debug\NLog.config
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Debug\Company.DataAccess.dll.config
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Debug\Company.DataAccess.dll
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Debug\Company.DataAccess.pdb
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Debug\Company.Extensions.dll
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Debug\Company.Interfaces.dll
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Debug\Company.Models.dll
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Debug\NLog.dll
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Debug\Company.Extensions.pdb
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Debug\Company.Interfaces.pdb
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Debug\Company.Models.pdb
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Debug\NLog.xml
+F:\TNHien\Git Projects\Company\Company.DataAccess\obj\Debug\Company.DataAccess.dll
+F:\TNHien\Git Projects\Company\Company.DataAccess\obj\Debug\Company.DataAccess.pdb
+D:\TNHien\Projects\GitProjects\Company\Company.DataAccess\bin\Debug\NLog.config
+D:\TNHien\Projects\GitProjects\Company\Company.DataAccess\bin\Debug\Company.DataAccess.dll.config
+D:\TNHien\Projects\GitProjects\Company\Company.DataAccess\bin\Debug\Company.DataAccess.dll
+D:\TNHien\Projects\GitProjects\Company\Company.DataAccess\bin\Debug\Company.DataAccess.pdb
+D:\TNHien\Projects\GitProjects\Company\Company.DataAccess\bin\Debug\Company.Extensions.dll
+D:\TNHien\Projects\GitProjects\Company\Company.DataAccess\bin\Debug\Company.Interfaces.dll
+D:\TNHien\Projects\GitProjects\Company\Company.DataAccess\bin\Debug\Company.Models.dll
+D:\TNHien\Projects\GitProjects\Company\Company.DataAccess\bin\Debug\NLog.dll
+D:\TNHien\Projects\GitProjects\Company\Company.DataAccess\bin\Debug\Company.Extensions.pdb
+D:\TNHien\Projects\GitProjects\Company\Company.DataAccess\bin\Debug\Company.Interfaces.pdb
+D:\TNHien\Projects\GitProjects\Company\Company.DataAccess\bin\Debug\Company.Models.pdb
+D:\TNHien\Projects\GitProjects\Company\Company.DataAccess\bin\Debug\NLog.xml
+D:\TNHien\Projects\GitProjects\Company\Company.DataAccess\obj\Debug\Company.DataAccess.csprojResolveAssemblyReference.cache
+D:\TNHien\Projects\GitProjects\Company\Company.DataAccess\obj\Debug\Company.DataAccess.dll
+D:\TNHien\Projects\GitProjects\Company\Company.DataAccess\obj\Debug\Company.DataAccess.pdb
+F:\TNHien\Git Projects\Company\Company.DataAccess\obj\Debug\Company.DataAccess.g.resources
+D:\TNHien\Projects\GitProjects\Company\Company.DataAccess\obj\Debug\Company.DataAccess.g.resources

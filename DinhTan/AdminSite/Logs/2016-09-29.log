@@ -1,0 +1,95 @@
+2016-09-29 13:42:43.7472 ERROR  -  [DataAccessHelpers][ExecuteStoredReturnDataSet] Error: System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at AdminSite.DataAccessHelpers.ExecuteStoredReturnDataSet(String stored, Object obj) in E:\TNHien\Projects\DinhTan\AdminSite\DataAccessHelpers.cs:line 408
+ClientConnectionId:9dfc8ffe-81ae-4f96-b67f-6c8288cdf30e
+Error Number:18456,State:1,Class:14
+2016-09-29 13:43:04.4019 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in E:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 234
+2016-09-29 13:43:04.4134 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-09-29 13:43:04.4409 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-09-29 13:43:17.4826 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in E:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 234
+2016-09-29 13:43:17.4871 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in E:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 234
+2016-09-29 13:43:17.5297 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-09-29 13:43:17.5407 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-09-29 15:33:08.0103 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in E:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 234
+2016-09-29 15:33:08.0356 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-09-29 15:33:08.0831 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-09-29 15:33:27.0716 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in E:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 234
+2016-09-29 15:33:27.0851 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-09-29 15:33:27.0971 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-09-29 15:34:14.2528 INFO  -  [ucOtherItems][StartBidingOtherType] Status: Start...
+2016-09-29 15:34:14.2528 INFO  -  [ucOtherItems]grvOtherItems_RowDataBound Status: Start...
+2016-09-29 15:34:14.2703 INFO  -  [ucOtherItems]grvOtherItems_RowDataBound Status: End.
+2016-09-29 15:34:14.2703 INFO  -  [ucOtherItems]grvOtherItems_RowDataBound Status: Start...
+2016-09-29 15:34:14.2703 INFO  -  [ucOtherItems]grvOtherItems_RowDataBound Status: End.
+2016-09-29 15:34:14.2703 INFO  -  [ucOtherItems]grvOtherItems_RowDataBound Status: Start...
+2016-09-29 15:34:14.2873 INFO  -  [ucOtherItems]grvOtherItems_RowDataBound Status: End.
+2016-09-29 15:34:14.2873 INFO  -  [ucOtherItems]grvOtherItems_RowDataBound Status: Start...
+2016-09-29 15:34:14.2873 INFO  -  [ucOtherItems]grvOtherItems_RowDataBound Status: End.
+2016-09-29 15:34:14.2873 INFO  -  [ucOtherItems]grvOtherItems_RowDataBound Status: Start...
+2016-09-29 15:34:14.3016 INFO  -  [ucOtherItems]grvOtherItems_RowDataBound Status: End.
+2016-09-29 15:34:14.3016 INFO  -  [ucOtherItems]grvOtherItems_RowDataBound Status: Start...
+2016-09-29 15:34:14.3016 INFO  -  [ucOtherItems]grvOtherItems_RowDataBound Status: End.
+2016-09-29 15:34:14.3016 INFO  -  [ucOtherItems][StartBidingOtherType] Status: End.
+2016-09-29 15:34:14.3217 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-09-29 15:34:14.3327 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-09-29 15:34:14.3327 INFO  -  [ucSortOther][StartBindingOtherTypeItems] Status: Start...
+2016-09-29 15:34:14.3497 INFO  -  [ucSortOther][StartBindingOtherTypeItems] Status: End.
+2016-09-29 15:39:18.9022 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-09-29 15:39:18.9127 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-09-29 15:39:21.3617 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in E:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 234
+2016-09-29 15:39:21.3652 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-09-29 15:39:21.3832 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-09-29 15:39:33.7994 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.InvalidCastException: Unable to cast object of type 'System.Web.UI.LiteralControl' to type 'System.Web.UI.WebControls.HyperLink'.
+   at AdminSite.UserControls.ucProjectItems.grvProjectItems_RowDataBound(Object sender, GridViewRowEventArgs e) in E:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 201
+2016-09-29 15:39:33.8044 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-09-29 15:39:33.8155 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-09-29 15:39:40.0545 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.InvalidCastException: Unable to cast object of type 'System.Web.UI.LiteralControl' to type 'System.Web.UI.WebControls.HyperLink'.
+   at AdminSite.UserControls.ucProjectItems.grvProjectItems_RowDataBound(Object sender, GridViewRowEventArgs e) in E:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 201
+2016-09-29 15:39:40.0795 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.InvalidCastException: Unable to cast object of type 'System.Web.UI.LiteralControl' to type 'System.Web.UI.WebControls.HyperLink'.
+   at AdminSite.UserControls.ucProjectItems.grvProjectItems_RowDataBound(Object sender, GridViewRowEventArgs e) in E:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 201
+2016-09-29 15:39:40.0983 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.InvalidCastException: Unable to cast object of type 'System.Web.UI.LiteralControl' to type 'System.Web.UI.WebControls.HyperLink'.
+   at AdminSite.UserControls.ucProjectItems.grvProjectItems_RowDataBound(Object sender, GridViewRowEventArgs e) in E:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 201
+2016-09-29 15:39:40.1194 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.InvalidCastException: Unable to cast object of type 'System.Web.UI.LiteralControl' to type 'System.Web.UI.WebControls.HyperLink'.
+   at AdminSite.UserControls.ucProjectItems.grvProjectItems_RowDataBound(Object sender, GridViewRowEventArgs e) in E:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 201
+2016-09-29 15:39:40.1303 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-09-29 15:39:40.1303 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.
+2016-09-29 15:39:52.6592 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in E:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 234
+2016-09-29 15:39:52.6834 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in E:\TNHien\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 234
+2016-09-29 15:39:52.6954 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: Start...
+2016-09-29 15:39:52.6954 INFO  -  [ucMenuAdmin][StartAddMenuOther] Status: End.

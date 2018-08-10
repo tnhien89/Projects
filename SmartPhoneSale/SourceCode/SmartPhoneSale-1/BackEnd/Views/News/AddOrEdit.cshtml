@@ -1,0 +1,78 @@
+﻿@using BackEnd.Models
+@model News
+
+@{
+    ViewBag.Title = "AddOrEdit";
+    var formAction = Model.Id > 0 ? "Edit" : "Add";
+}
+
+<div class="row">
+    <div class="card card-outlined">
+        <div class="card-head">
+            <header>
+                @if (Model.Id > 0)
+                {
+                    @("Edit News")
+                }
+                else
+                {
+                    @("Post News")
+                }
+            </header>
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm(formAction, "News", FormMethod.Post, new { @class = "form form-validae" }))
+            {
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input type="text" name="Title_VN" class="form-control" value="@Model.Title_VN" />
+                            <label>Title</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            @Html.DropDownListFor(m => m.MenuId, ViewData["ListMenu"] as List<SelectListItem>, new { @class = "form-control", required = "" })
+                            <label>Menu</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="form-group">
+                            <textarea name="Description_VN" class="form-control control-2-rows">@Model.Description_VN</textarea>
+                            <label>Description</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <textarea id="content_ckeditor" name="Content_VN" class="form-control control-5-rows control-ckeditor" required>@Html.Raw(Model.Content_VN)</textarea>
+                            <label>Content</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-primary" value="Save" />
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/Scripts/ckeditor/ckeditor.js"></script>
+    <script src="~/Scripts/ckeditor/adapters/jquery.js"></script>
+    <script>
+        $(function () {
+            $('#content_ckeditor').ckeditor();
+        });
+    </script>
+}

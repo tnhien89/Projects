@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Truong day nghe phun xam</title>
+    @Html.Partial("~/Views/Shared/_SiteHeaderPartial.cshtml")
+    <meta name="viewport" content="width=device-width" />
+
+    @*@Styles.Render("~/Content/css")*@
+    @Scripts.Render("~/bundles/modernizr")
+
+    <link href="~/Content/animate.css" rel="stylesheet" />
+    <link href="~/Content/main.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/MenuFrontEnd.css" rel="stylesheet" />
+
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/Scripts/jquery-migrate-1.2.1.js"></script>
+    <script src="~/Scripts/jquery-ui-1.9.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        function ShowMenu(id) {
+            $(".child-menu").addClass("hide");
+            if ($("#child-c-" + id + " li").length > 0) {
+                $("#child" + id).addClass("hide");
+                $("#child-c-" + id).removeClass("hide");
+            } else {
+                $("#child" + id).removeClass("hide");
+            }
+        }
+        $(document.body).click(function () {
+            $(".child-menu").addClass("hide");
+        });
+        $(".btn-submenu").click(function () {
+            $("#menu-reg").slideToggle();
+        });
+
+        $(document).on('click', '.btn-menu', function (e) {
+            $(".topmenu").toggleClass("hide-on-mobile");
+        });
+
+        $('#btn_menu').on('click', function (e) {
+            $(".topmenu").toggleClass("hide-on-mobile");
+        });
+
+        //$(".btn-menu").click(function () {
+        //    if ($('.topmenu').hasClass('hide-on-mobile')) {
+        //        $('.topmenu').removeClass('hide-on-mobile');
+        //    }
+        //    else {
+        //        $('.topmenu').addClass('hide-on-mobile');
+        //    }
+        //    //$(".topmenu").toggleClass("hide-on-mobile");
+        //});
+    </script>
+
+</head>
+
+@{
+    MvcFrontEnd.BusinessObjects.ContactBOL info = MvcFrontEnd.DataAccess.ContactsDAL.GetInfo();
+}
+
+<body>
+    <div class="menu-header">
+        <div class="menu-top">
+            <div class="container">
+                @Html.Partial("~/Views/Shared/_TopInfoPartial.cshtml", info)
+            </div>
+        </div>
+        <div class="container">
+            <div class="row row-menu">
+                <div class="col-md-12 button-menu-responsive">
+                    <button type="button" id="btn_menu" class="btn-menu"><i class="fa fa-align-justify"></i></button>
+                </div>
+                <div class="col-md-11 col-md-offset-1">
+                    <div class="topmenu hide-on-mobile">
+
+                        <!-- menu static-->
+                        @Html.Partial("~/Views/Shared/_MenuPartialStatic.cshtml")
+                        <!-- end -->
+                        <!-- menu dynamic -->
+                        @*<ul id="ucFontEndMenuBar_ulMenuBar">
+                            <li><a class="lik-menu active-link" href="Home.aspx">Trang Chủ</a></li>
+                            @Html.Partial("~/Views/Shared/_MenuPartial.cshtml", MvcFrontEnd.DataAccess.CategoryDAL.GetAll())*@
+                        @*<li>
+                                <a class="lik-menu" href="About.aspx">Giới Thiệu</a>
+                                <ul>
+                                    <li><a class="lik-menu" href="About.aspx#10">Lịch sử hình thành và phát triển</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="lik-menu" href="#">Dịch Vụ</a></li>
+                            <li>
+                                <a class="lik-menu" href="Projects.aspx">Dự Án</a>
+                                <ul>
+                                    <li><a class="lik-menu" href="Projects.aspx?MenuId=29">Dự Án 1</a></li>
+                                    <li><a class="lik-menu" href="Projects.aspx?MenuId=30">Dự án 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="lik-menu" href="News.aspx">Tin Tức</a></li>
+                            <li>
+                                <a class="lik-menu" href="#">Tuyển Dụng</a>
+                                <ul>
+                                    <li><a class="lik-menu" href="Recruitment.aspx?MenuId=31">Tuyễn Kỹ sư Xây dựng</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="lik-menu" href="#">Liên Hệ</a>
+                                <ul>
+                                    <li><a class="lik-menu" href="ContactInfo.aspx">Địa chỉ liên lạc</a></li>
+                                    <li><a class="lik-menu" href="ContactForm.aspx">Gởi liên hệ</a></li>
+                                </ul>
+                            </li>*@
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="clr"></div>
+    <div class="bg-eachpage">
+        <div class="bg-white-opac">
+            <div class="container">
+                <h1>@ViewBag.Title</h1>
+                @*<div class="cbr">
+                        <a href="/">Trang chủ</a> »
+                        <span class="CMSBreadCrumbsCurrentItem">Liên hệ</span>
+                    </div>*@
+            </div>
+        </div>
+    </div>
+
+    <div class="container margin-top-10 form-group">
+
+
+
+
+
+        <div class="clr"></div>
+
+        <div class="border-title">
+            @*<h2 style="color:#333;">@ViewBag.Title</h2>
+            <div class="ico-border"><hr></div>*@
+        </div>
+
+        <div class="padding-total-10">
+
+            <div class="news-detail">
+                @RenderSection("featured", required: false)
+                <section>
+                    @RenderBody()
+                </section>
+            </div>
+        </div>
+
+    </div>
+
+    @Html.Partial("~/Views/Shared/_FooterPartial.cshtml", info)
+
+    @*@Scripts.Render("~/bundles/jquery")*@
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

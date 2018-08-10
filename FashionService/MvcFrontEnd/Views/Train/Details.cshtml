@@ -1,0 +1,9 @@
+﻿@using MvcFrontEnd.BusinessObjects
+@model NewsBOL
+
+@{
+    ViewBag.Title = Model.Name_VN;
+    Layout = "~/Views/Shared/_LayoutDetails.cshtml";
+}
+
+@Html.Raw(Model.Content_VN)

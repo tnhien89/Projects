@@ -1,0 +1,342 @@
+2015-05-14 00:21:52.6784 ERROR  -  [ucAbout][StartLoadAboutDetail] Exception: System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucAbout.StartLoadAboutDetail() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucAbout.ascx.cs:line 34
+2015-05-14 00:23:24.0557 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 00:23:24.0707 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 00:23:26.3287 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 10:35:25.4290 ERROR  -  [ucAbout][StartLoadAboutDetail] Exception: System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucAbout.StartLoadAboutDetail() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucAbout.ascx.cs:line 34
+2015-05-14 10:43:39.6556 ERROR  -  [ucAbout][StartLoadAboutDetail] Exception: System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucAbout.StartLoadAboutDetail() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucAbout.ascx.cs:line 34
+2015-05-14 10:43:40.1672 ERROR  -  [ucAbout][StartLoadAboutDetail] Exception: System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucAbout.StartLoadAboutDetail() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucAbout.ascx.cs:line 34
+2015-05-14 10:43:41.5677 ERROR  -  [ucAbout][StartLoadAboutDetail] Exception: System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucAbout.StartLoadAboutDetail() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucAbout.ascx.cs:line 34
+2015-05-14 10:46:46.8633 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 10:47:12.6523 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 10:47:12.6873 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 10:47:12.6873 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 10:53:45.0285 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 10:54:05.6415 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 10:54:10.5010 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 10:54:10.5402 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 10:54:58.2872 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:17:35.2107 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:17:52.1350 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:17:52.1680 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 15:17:52.1680 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 15:20:30.8873 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:29:42.8805 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:30:02.8364 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:30:12.7531 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:31:18.0254 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:32:57.3358 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:34:31.4186 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:36:00.4034 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:36:17.5928 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:38:05.8933 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:38:18.2134 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:39:00.5348 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:40:48.5344 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:55:23.9563 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:55:39.8915 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:57:00.5629 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:57:16.2081 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:57:16.2391 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 15:57:16.2391 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 15:57:18.3165 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:57:32.3772 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:58:57.0122 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:59:04.2422 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:59:04.2763 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 15:59:04.2763 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 15:59:06.2018 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:59:24.7916 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 15:59:30.3397 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:00:32.2076 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:00:32.2076 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:02:56.0119 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:03:07.1160 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:03:47.4209 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:03:48.5120 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:03:51.2439 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:03:56.3725 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:05:50.1715 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:05:50.1715 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:06:13.8755 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:06:18.8992 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:06:52.9084 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:06:52.9084 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:07:44.2125 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:07:50.4465 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:08:00.4192 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:08:11.8480 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:08:14.8376 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:08:28.3123 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:11:06.2555 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:11:41.7922 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:12:01.4093 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:12:59.1148 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:13:07.0015 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:13:07.0445 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:13:07.0475 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:13:09.1190 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:13:30.4714 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:13:37.4838 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:13:53.4365 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:15:40.0743 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:16:14.5050 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:16:24.9347 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:16:24.9707 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:16:24.9707 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:16:26.8305 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:17:50.9568 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:18:01.5105 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:18:33.2852 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:18:51.7970 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:22:32.5026 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:22:53.2345 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:23:16.0998 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:23:20.7940 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:23:23.8076 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:24:11.3954 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:27:34.6793 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:27:56.6043 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:28:09.9363 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:28:09.9643 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:28:09.9643 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:28:12.1321 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:29:31.8150 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:29:37.2172 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:29:37.2462 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:29:37.2462 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:29:38.8720 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:29:47.7446 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:29:47.7446 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:29:47.7518 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:29:49.4825 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:31:36.1514 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:31:45.1986 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:31:45.2276 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:31:45.2276 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:31:46.8513 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:32:52.5425 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:33:01.2108 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:33:03.1934 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:33:26.6265 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:33:33.6310 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:33:35.3104 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:33:44.0718 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:33:48.5543 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:33:50.3636 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:34:06.3489 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:34:13.2116 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:34:15.1607 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:34:51.5550 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:34:57.6623 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:34:59.9302 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:35:23.5822 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:35:29.3094 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:35:30.8244 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:35:55.5544 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:36:01.4583 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:36:03.2236 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:36:24.2412 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:37:30.1047 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:37:35.4009 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:37:35.4289 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:37:35.4289 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:37:37.3517 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:38:09.5538 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:38:19.8646 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:38:19.8927 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:38:19.8927 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:38:21.5691 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:39:02.9320 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:39:24.5935 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:39:59.3462 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:40:10.3129 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:40:29.0505 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:41:19.0922 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:43:53.4684 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:43:53.4684 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:44:16.1912 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:44:21.4166 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:48:18.5507 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:48:18.5507 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:53:00.3470 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:53:12.5701 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:53:27.7524 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:53:32.7943 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 295
+2015-05-14 16:53:35.8675 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100
+2015-05-14 16:58:21.2714 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 100

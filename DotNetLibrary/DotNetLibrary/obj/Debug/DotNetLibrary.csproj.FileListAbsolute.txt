@@ -1,0 +1,5 @@
+D:\TNHien\Gits\projects\DotNetLibrary\DotNetLibrary\obj\Debug\DotNetLibrary.csprojResolveAssemblyReference.cache
+D:\TNHien\Gits\projects\DotNetLibrary\DotNetLibrary\bin\Debug\DotNetLibrary.dll
+D:\TNHien\Gits\projects\DotNetLibrary\DotNetLibrary\bin\Debug\DotNetLibrary.pdb
+D:\TNHien\Gits\projects\DotNetLibrary\DotNetLibrary\obj\Debug\DotNetLibrary.dll
+D:\TNHien\Gits\projects\DotNetLibrary\DotNetLibrary\obj\Debug\DotNetLibrary.pdb

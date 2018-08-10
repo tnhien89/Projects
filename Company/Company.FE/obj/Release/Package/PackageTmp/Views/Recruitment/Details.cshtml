@@ -1,0 +1,75 @@
+﻿@using Company.Models
+@using System.Collections
+@model PostInfo
+
+@{
+    ViewBag.Title = Model.Title == null ? "" : Model.Title;
+    Hashtable townItems = ViewData["TownItems"] == null ? new Hashtable() : ViewData["TownItems"] as Hashtable;
+
+    if (!string.IsNullOrEmpty(Model.Town) && townItems[Model.Town] != null)
+    {
+        Model.Town = townItems[Model.Town].ToString();
+    }
+}
+
+<div class="gallery-top agileits-w3layouts chitietcongviec">
+    <!-- container-wrap -->
+    <div class="container">
+        <h4>@Model.Title</h4>
+        <div class="row">
+            <div class="col-md-7">
+                <p>Thông tin liên hệ</p>
+                <table class="table table-striped table-bordered">
+                    <tr>
+                        <td>Người liên hệ:</td>
+                        <td>@Model.ContactPerson</td>
+                    </tr>
+                    <tr>
+                        <td>Tên Công Ty</td>
+                        <td>@Model.CompanyName</td>
+                    <tr>
+                        <td>Địa chỉ Công Ty:	</td>
+                        <td>@Model.GetCompanyAddress()</td>
+                    </tr>
+                    @*<tr>
+                        <td>Hạn nộp hồ sơ:</td>
+                        <td>14-08-2017</td>
+                    </tr>*@
+                    <tr>
+                        <td>Email:</td>
+                        <td>@Model.Email</td>
+                    </tr>
+                    <tr>
+                        <td>Điện thoại:</td>
+                        <td>@Model.PhoneNumber</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-5">
+                <p>Nộp đơn</p>
+                <form>
+                    <div class="form-group">
+                        <label>Họ và tên: *</label>
+                        <input type="text" class="form-control" placeholder="Điền họ và tên">
+                    </div>
+                    <div class="form-group">
+                        <label>Địa chỉ email: *</label>
+                        <input type="email" class="form-control" placeholder="Điền email">
+                    </div>
+                    <div class="form-group">
+                        <label>Số điện thoại: *</label>
+                        <input type="text" class="form-control" placeholder="Điền số điện thoại">
+                    </div>
+
+                    <button type="submit" class="btn btn-default btn1 btn-1 btn-1b w3-agile">NỘP ĐƠN</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                @Html.Raw(Model.Content)
+            </div>
+        </div>
+    </div>
+    <!-- //container -->
+</div>

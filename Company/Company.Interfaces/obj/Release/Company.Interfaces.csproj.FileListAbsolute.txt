@@ -1,0 +1,9 @@
+F:\TNHien\Git Projects\Company\Company.Interfaces\bin\Release\Company.Interfaces.dll
+F:\TNHien\Git Projects\Company\Company.Interfaces\bin\Release\Company.Interfaces.pdb
+F:\TNHien\Git Projects\Company\Company.Interfaces\bin\Release\Company.Models.dll
+F:\TNHien\Git Projects\Company\Company.Interfaces\bin\Release\Company.Extensions.dll
+F:\TNHien\Git Projects\Company\Company.Interfaces\bin\Release\Company.Models.pdb
+F:\TNHien\Git Projects\Company\Company.Interfaces\bin\Release\Company.Extensions.pdb
+F:\TNHien\Git Projects\Company\Company.Interfaces\obj\Release\Company.Interfaces.csprojResolveAssemblyReference.cache
+F:\TNHien\Git Projects\Company\Company.Interfaces\obj\Release\Company.Interfaces.dll
+F:\TNHien\Git Projects\Company\Company.Interfaces\obj\Release\Company.Interfaces.pdb

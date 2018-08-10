@@ -1,0 +1,13 @@
+﻿@using FrontEnd.Models
+@model SiteConfig
+
+<div class="row page-banner"></div>
+<div class="row page-header">
+    @*<div class="col-sm-6">
+        <img src="@FrontEnd.Utilities.GetSiteLogoUrl(Model.Logo)"/>
+    </div>*@
+    <div class="col-sm-12">
+        @Html.Raw(Model.HeaderText) 
+    </div>
+</div>
+@*@Html.Partial("_MenuBar", FrontEnd.Utilities.GetAllMenu())*@

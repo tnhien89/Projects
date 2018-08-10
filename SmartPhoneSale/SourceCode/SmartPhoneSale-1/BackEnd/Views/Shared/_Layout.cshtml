@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - iPhoneGiaSiXachTay.Com - Admin</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+<body class="menubar-hoverable menubar-pin menubar-first">
+    <header id="header">
+        <div class="headerbar">
+            @*<div class="headerbar-right">
+                <img alt="" src="">
+                <p>
+                    asdfgsgasdg
+                </p>
+                <p>adafsdgasdg</p>
+
+            </div>*@
+        </div>
+    </header>
+    <div id="base">
+
+        <div id="content" class="main-content">
+            @RenderSection("featured", required: false)
+            <section>
+                @RenderBody()
+            </section>
+        </div>
+
+        <div id="menubar" class="menubar-inverse">
+            <div class="menubar-fixed-panel">
+                <div>
+                    <a class="btn btn-icon-toggle btn-default menubar-toggle" data-toggle="menubar" href="javascript:void(0);">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <div class="expanded">
+                    <a href="@Url.Action("Index", "Home")">
+                        <span class="text-lg text-bold text-primary ">Admin Site</span>
+                    </a>
+                </div>
+            </div>
+            <div class="nano">
+                <div class="nano-content">
+                    <div style="padding-bottom: 1px;" class="menubar-scroll-panel">
+                        <!-- BEGIN MAIN MENU -->
+
+
+                        <ul id="main-menu" class="gui-controls gui-controls-tree nav">
+                            <!-- Menu Getting started -->
+                            <li>
+                                <a id="main-menu-home" href="@Url.Action("Index", "Home")" data-url="">
+                                    <div class="gui-icon"><i class="fa fa-home fa-fw"></i></div>
+                                    <span class="title">Home</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Index", "Users")" data-url="users">
+                                    <div class="gui-icon"><i class="fa fa-user fa-fw"></i></div>
+                                    <span class="title">Quản Lý Users</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Index", "Menu")" data-url="menu">
+                                    <div class="gui-icon"><i class="fa fa-list fa-fw"></i></div>
+                                    <span class="title">Quản Lý Menu</span>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="@Url.Action("Index", "News")" data-url="news">
+                                    <div class="gui-icon"><i class="fa fa-newspaper-o fa-fw"></i></div>
+                                    <span class="title">Quản Lý Bài Viết</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Header", "Setup")" data-url="setup">
+                                    <div class="gui-icon"><i class="fa fa-database fa-fw"></i></div>
+                                    <span class="title">Setup</span>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="@Url.Action("Header", "Setup")" data-url="header">Header</a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("Footer", "Setup")" data-url="footer">Footer</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul><!--end .main-menu -->
+                        <!-- END MAIN MENU -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryui")
+    @Scripts.Render("~/bundles/js")
+
+    <script>
+        $(document).ready(function () {
+            var url = window.location.href;
+            var isActiveHome = true;
+
+            $('#main-menu a').each(function (idx, item) {
+                if ($(item).hasClass('active'))
+                    $(item).removeClass('active');
+
+                if ($(item).parent().hasClass('active expanded'))
+                    $(item).parent().removeClass('active expanded');
+
+                if ($(item).attr('data-url').length) {
+                    var data_url = '/' + $(item).attr('data-url');
+                    if (url.toLowerCase().indexOf(data_url) >= 0) {
+                        $(item).addClass('active');
+                        $(item).parent().addClass('active expanded');
+
+                        isActiveHome = false;
+                    }
+                }
+            });
+
+            if (isActiveHome) {
+                $('#main-menu-home').addClass('active');
+                $('#main-menu-home').parent().addClass('active expanded');
+            }
+        });
+    </script>
+    
+    @RenderSection("scripts", required: false)
+</body>
+</html>

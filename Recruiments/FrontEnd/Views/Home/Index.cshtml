@@ -1,0 +1,65 @@
+﻿@using FrontEnd.Models
+@model List<News>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<style>
+    td {
+        width: 100%;
+    }
+</style>
+
+<div class="row">
+    <div class="col-lg-12">
+        <table class="table" id="table_news_all" style="width: 100%;">
+            <thead style="display: none;">
+                <tr>
+                    <th>jksdhf</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (News news in Model)
+                {
+                    <tr>
+                        <td>
+                            <div class="news-header">
+                                <a href="@Url.Action("Index", "News", new { id = news.Id })">
+                                    @news.Title_VN
+                                </a>
+                            </div>
+                            <div class="news-content">
+                                @Html.Raw(news.Content_VN)
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+            @*@foreach (News news in Model)
+            {
+                <tr>
+                    <td>
+                        <h1>@news.Title_VN</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>@news.Content_VN</td>
+                </tr>
+            }*@
+        </table>
+    </div>
+
+</div>
+
+@section scripts{
+    <script src="~/Scripts/DataTables/jquery.dataTables.min.js"></script>
+    <script>
+        $('#table_news_all').DataTable({
+            'lengthMenu': [[1, 5, 10, -1], [1, 5, 10, "All"]],
+            'pageLength': 1,
+            'bSort': false
+        });
+    </script>
+}

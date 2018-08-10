@@ -1,0 +1,153 @@
+﻿@using MvcFrontEnd.Models
+@using MvcFrontEnd.BusinessObjects
+@model AllCategoriesModel
+
+@{
+    ViewBag.Title = string.IsNullOrEmpty(Model.Title) ? "Dịch Vụ" : Model.Title;
+    ViewBag.PageType = "Service";
+    int itemIndex = 0;
+}
+
+@foreach (MenuBOL menu in Model.Roots)
+{
+    if (itemIndex == 0)
+    {
+        @Html.Raw("<div class='row'>")
+    }
+
+    itemIndex++;
+
+    <div class="col-md-3 col-sm-6 col-sx-12">
+        <div class="thumbnail no-padding text-center">
+            @*<a href="/Khoa-hoc/Phun-xam.aspx" class="title-thumb">
+                    Phun xăm
+                </a>*@
+            <a href="@Url.Action("Index", "Service", new { id = menu.Id })" class="thumb-img">
+                <img src="@menu.ImageUrl" class="img-responsive">
+            </a>
+            <div class="h-thumbn">
+                @menu.Name_VN
+            </div>
+            <div class="form-group">
+                <a href="@Url.Action("Index", "Service", new { id = menu.Id })" class="btn btn-default btn-purple">Xem thêm</a>
+            </div>
+        </div>
+    </div>
+
+    @*@Html.Raw("<div class='col-md-3'><div class='box-item'>")
+        @Html.Raw(string.Format("<div class='img'><a href='{0}' title='{1}'><img src='{2}' alt='{1}' /></a></div>", Url.Action("Details", "Service", new { id = news.Id }), news.Name_VN, news.ImageUrl))
+        @Html.Raw(string.Format("<div class='name'><a href='{0}' title='{1}'>{1}</a></div><div class='short'></div>", Url.Action("Details", "Service", new { id = news.Id }), news.Name_VN))
+        @Html.Raw("</div></div>")*@
+
+    if (itemIndex == 4)
+    {
+        itemIndex = 0;
+        @Html.Raw("</div>")
+    }
+}
+
+@foreach (NewsBOL news in Model.News)
+{
+    if (itemIndex == 0)
+    {
+        @Html.Raw("<div class='row'>")
+    }
+
+    itemIndex++;
+
+    <div class="col-md-3 col-sm-6 col-sx-12">
+        <div class="thumbnail no-padding text-center">
+            @*<a href="/Khoa-hoc/Phun-xam.aspx" class="title-thumb">
+                    Phun xăm
+                </a>*@
+            <a href="@Url.Action("Details", "Service", new { id = news.Id })" class="thumb-img">
+                <img src="@news.ImageUrl" class="img-responsive">
+            </a>
+            <div class="h-thumbn">
+                @news.Name_VN
+            </div>
+            <div class="form-group">
+                <a href="@Url.Action("Details", "Service", new { id = news.Id })" class="btn btn-default btn-purple">Xem thêm</a>
+            </div>
+        </div>
+    </div>
+
+    @*@Html.Raw("<div class='col-md-3'><div class='box-item'>")
+        @Html.Raw(string.Format("<div class='img'><a href='{0}' title='{1}'><img src='{2}' alt='{1}' /></a></div>", Url.Action("Details", "Service", new { id = news.Id }), news.Name_VN, news.ImageUrl))
+        @Html.Raw(string.Format("<div class='name'><a href='{0}' title='{1}'>{1}</a></div><div class='short'></div>", Url.Action("Details", "Service", new { id = news.Id }), news.Name_VN))
+        @Html.Raw("</div></div>")*@
+
+    if (itemIndex == 4)
+    {
+        itemIndex = 0;
+        @Html.Raw("</div>")
+    }
+}
+
+@if (itemIndex > 0)
+{
+    @Html.Raw("</div>")
+}
+
+@*<div class="mid-content">
+    <script>
+                                    $(function () {
+                                        $("#box-service .item a").hover(
+                                            function () {
+                                                $(this).parents(".box-item").addClass("hover");
+                                            }, function () {
+                                                $(this).parents(".box-item").removeClass("hover");
+                                            }
+                                        );
+                                    })
+    </script>
+    <div id="List_View">
+        @foreach (MenuBOL menu in Model.Roots)
+        {
+            if (itemIndex == 0)
+            {
+                @Html.Raw("<div class='View1'>")
+            }
+
+            itemIndex++;
+
+            @Html.Raw("<div class='item'><div class='box-item'>")
+            @Html.Raw(string.Format("<div class='img'><a href='{0}' title='{1}'><img src='{2}' alt='{1}' /></a></div>", Url.Action("Index", "Service", new { id = menu.Id }), menu.Name_VN, menu.ImageUrl))
+            @Html.Raw(string.Format("<div class='name'><a href='{0}' title='{1}'>{1}</a></div><div class='short'></div>", Url.Action("Index", "Service", new { id = menu.Id }), menu.Name_VN))
+            @Html.Raw("</div></div>")
+
+            if (itemIndex == 3)
+            {
+                itemIndex = 0;
+                @Html.Raw("</div>")
+            }
+        }
+
+        @foreach (NewsBOL news in Model.News)
+        {
+            if (itemIndex == 0)
+            {
+                @Html.Raw("<div class='View1'>")
+            }
+
+            itemIndex++;
+
+            @Html.Raw("<div class='item'><div class='box-item'>")
+            @Html.Raw(string.Format("<div class='img'><a href='{0}' title='{1}'><img src='{2}' alt='{1}' /></a></div>", Url.Action("Details", "Service", new { id = news.Id }), news.Name_VN, news.ImageUrl))
+            @Html.Raw(string.Format("<div class='name'><a href='{0}' title='{1}'>{1}</a></div><div class='short'></div>", Url.Action("Details", "Service", new { id = news.Id }), news.Name_VN))
+            @Html.Raw("</div></div>")
+
+            if (itemIndex == 3)
+            {
+                itemIndex = 0;
+                @Html.Raw("</div>")
+            }
+        }
+
+        @if (itemIndex > 0)
+        {
+            @Html.Raw("</div>")
+        }
+    </div>
+</div>*@
+

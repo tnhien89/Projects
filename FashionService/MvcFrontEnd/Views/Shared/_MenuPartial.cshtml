@@ -1,0 +1,95 @@
+﻿@using MvcFrontEnd.Models
+@using MvcFrontEnd.BusinessObjects
+
+@model AllCategoriesModel
+
+@{
+    if (Model.Roots.Count > Model.CurrentIndex)
+    {
+        Model.CheckId = Model.Roots[Model.CurrentIndex].Id;
+
+        while (Model.Roots[Model.CurrentIndex].IsChecked)
+        {
+            if (Model.CurrentIndex >= Model.Roots.Count - 1)
+            {
+                return;
+            }
+
+            Model.CurrentIndex++;
+        }
+
+        Model.Roots[Model.CurrentIndex].IsChecked = true;
+    }
+    else
+    {
+        return;
+    }
+}
+
+@Html.Raw(string.Format("<li><a class='lik-menu' href='{0}'>{1}</a>", @Url.Action("Index", Model.PageType, new { id = Model.Roots[Model.CurrentIndex].Id }), Model.Roots[Model.CurrentIndex].Name_VN))
+
+@for (int i = Model.CurrentIndex + 1; i < Model.Roots.Count; i++)
+{
+    if (Model.Roots[i].ParentId == Model.CheckId && !Model.Roots[i].IsChecked)
+    {
+        if (!Model.HasChildren)
+        {
+            Model.HasChildren = true;
+            if (Model.Roots[Model.CurrentIndex].ParentId > 0)
+            {
+                @Html.Raw("<ul>")
+            }
+        }
+
+        @Html.Partial("~/Views/Shared/_MenuPartial.cshtml", new AllCategoriesModel()
+        {
+            PageType = Model.PageType,
+            CurrentIndex = i,
+            Roots = Model.Roots,
+            News = Model.News
+        })
+    }
+}
+
+@*@foreach (NewsBOL item in Model.News)
+{
+    if (item.ParentId == Model.Roots[Model.CurrentIndex].Id)
+    {
+        if (!Model.HasChildren)
+        {
+            Model.HasChildren = true;
+
+            if (Model.Roots[Model.CurrentIndex].ParentId > 0)
+            {
+                @Html.Raw("<ul class='list-sub'>")
+            }
+        }
+
+        if (Model.PageType == "About")
+        {
+            @Html.Raw(string.Format("<li><a class='lik-menu' href='{0}'>{1}</a>", @Url.Action("Index", Model.PageType, new { id = item.Id }), item.Name_VN))
+        }
+        else
+        {
+            @Html.Raw(string.Format("<li><a class='lik-menu' href='{0}'>{1}</a>", @Url.Action("Details", Model.PageType, new { id = item.Id }), item.Name_VN))
+        }
+    }
+}*@
+
+@if (Model.HasChildren)
+{
+    @Html.Raw("</ul>")
+}
+
+@Html.Raw("</li>")
+
+@if (Model.CurrentIndex < Model.Roots.Count - 1)
+{
+    @Html.Partial("~/Views/Shared/_MenuPartial.cshtml", new AllCategoriesModel()
+        {
+            PageType = Model.PageType,
+            CurrentIndex = Model.CurrentIndex + 1,
+            Roots = Model.Roots,
+            News = Model.News
+        })
+}

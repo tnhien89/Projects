@@ -1,0 +1,16 @@
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Release\NLog.config
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Release\Company.DataAccess.dll.config
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Release\Company.DataAccess.dll
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Release\Company.DataAccess.pdb
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Release\Company.Extensions.dll
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Release\Company.Interfaces.dll
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Release\Company.Models.dll
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Release\NLog.dll
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Release\Company.Extensions.pdb
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Release\Company.Interfaces.pdb
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Release\Company.Models.pdb
+F:\TNHien\Git Projects\Company\Company.DataAccess\bin\Release\NLog.xml
+F:\TNHien\Git Projects\Company\Company.DataAccess\obj\Release\Company.DataAccess.csprojResolveAssemblyReference.cache
+F:\TNHien\Git Projects\Company\Company.DataAccess\obj\Release\Company.DataAccess.g.resources
+F:\TNHien\Git Projects\Company\Company.DataAccess\obj\Release\Company.DataAccess.dll
+F:\TNHien\Git Projects\Company\Company.DataAccess\obj\Release\Company.DataAccess.pdb

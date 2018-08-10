@@ -1,0 +1,49 @@
+﻿@using MvcFrontEnd.BusinessObjects
+@model List<NewsBOL>
+
+<div class="border-title">
+    <h2 style="color:#333;">Tin tức</h2>
+    <div class="ico-border"><hr></div>
+</div>
+<div class="container">
+    @{
+        int i = 0;
+        foreach (NewsBOL news in Model)
+        {
+            if (i == 0)
+            {
+                @Html.Raw("<div class='row'>")
+            }
+
+            <div class="col-md-6 form-group">
+                <div class="row">
+                    <div class="col-md-2 col-xs-3">
+                        <div class="thumbngaythang">
+                            <div class="ic text-center"><i class="fa fa-file-text fa-lg"></i></div>
+                            <div class="date"><p>@news.UpdatedDate.ToString("MMMM dd")<span> @news.UpdatedDate.ToString("yyyy")</span></p></div>
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-xs-9">
+                        <a href="@Url.Action("Details", "News", new { id = news.Id })" class="thumb-tintuc" style="background-image:url('@news.ImageUrl')">
+                            <div class="tomtat">
+                                <div>
+                                    @news.Description_VN
+                                </div>
+                            </div>
+                        </a>
+                        <div class="title-thu">
+                            <a href="@Url.Action("Details", "News", new { id = news.Id })">@news.Name_VN</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            i++;
+            if (i == 2)
+            {
+                i = 0;
+                @Html.Raw("</div>")
+            }
+        }
+    }
+</div>

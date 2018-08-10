@@ -1,0 +1,14 @@
+F:\TNHien\Git Projects\Company\Company.Models\bin\Debug\Company.Models.dll
+F:\TNHien\Git Projects\Company\Company.Models\bin\Debug\Company.Models.pdb
+F:\TNHien\Git Projects\Company\Company.Models\bin\Debug\Company.Extensions.dll
+F:\TNHien\Git Projects\Company\Company.Models\bin\Debug\Company.Extensions.pdb
+F:\TNHien\Git Projects\Company\Company.Models\obj\Debug\Company.Models.csprojResolveAssemblyReference.cache
+F:\TNHien\Git Projects\Company\Company.Models\obj\Debug\Company.Models.dll
+F:\TNHien\Git Projects\Company\Company.Models\obj\Debug\Company.Models.pdb
+D:\TNHien\Projects\GitProjects\Company\Company.Models\bin\Debug\Company.Models.dll
+D:\TNHien\Projects\GitProjects\Company\Company.Models\bin\Debug\Company.Models.pdb
+D:\TNHien\Projects\GitProjects\Company\Company.Models\bin\Debug\Company.Extensions.dll
+D:\TNHien\Projects\GitProjects\Company\Company.Models\bin\Debug\Company.Extensions.pdb
+D:\TNHien\Projects\GitProjects\Company\Company.Models\obj\Debug\Company.Models.csprojResolveAssemblyReference.cache
+D:\TNHien\Projects\GitProjects\Company\Company.Models\obj\Debug\Company.Models.dll
+D:\TNHien\Projects\GitProjects\Company\Company.Models\obj\Debug\Company.Models.pdb

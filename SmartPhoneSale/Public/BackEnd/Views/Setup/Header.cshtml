@@ -1,0 +1,114 @@
+﻿@using BackEnd.Models
+@model SiteConfig
+
+@{
+    ViewBag.Title = "Site Setup";
+}
+
+<div class="row">
+    <div class="card card-outlined">
+        <div class="card-head">
+            <header>
+                Setup Header
+            </header>
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm("Header", "Setup", FormMethod.Post, new { @class = "form form-validate" }))
+            {
+                @Html.HiddenFor(m => m.GoogleMapsLocation)
+                @Html.HiddenFor(m => m.Information)
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group form-group-logo">
+                            <label class="control-label">Logo</label>
+                            <img id="img_box_logo" class="ImagePreviewBox" src="@Model.LogoFullUrl" />
+                            @Html.HiddenFor(m => m.Logo, new { id = "logo_file_name" })
+                            <input type="hidden" id="hidden_latitude" value="@Model.Latitude"/>
+                            <input type="hidden" id="hidden_longitude" value="@Model.longitude" />
+                            <input type="file" id="file_upload_logo" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <textarea id="content_ckeditor" name="HeaderText" class="form-control control-2-rows">@Model.HeaderText</textarea>
+                            <label>Header Text</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-primary" value="Save" />
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/Scripts/ckeditor/ckeditor.js"></script>
+    <script src="~/Scripts/ckeditor/adapters/jquery.js"></script>
+    <script>
+    $(function () {
+        $('#content_ckeditor').ckeditor();
+    });
+    </script>
+
+    <script>
+        $('#file_upload_logo').on('change', function (e) {
+            e.preventDefault();
+
+            var fileUpload = $(this).get(0);
+            var files = fileUpload.files;
+
+            // Create FormData object
+            var formData = new FormData();
+            formData.append('file', files[0]);
+
+            // Adding one more key to FormData object
+            formData.append('fileName', $('#logo_file_name').val());
+
+            $.ajax({
+                url: '/UploadLogo',
+                type: "POST",
+                contentType: false, // Not to set any content header
+                processData: false, // Not to process data
+                data: formData,
+                success: function (result) {
+                    if (!result)
+                    {
+                        console.log('result = null');
+                        return false;
+                    }
+
+                    if (result.Code < 0)
+                    {
+                        toastr.error(result.ErroMessage);
+                        console.log(result.ErroMessage);
+                        return false;
+                    }
+
+                    $('#logo_file_name').val(result.Data);
+                },
+                error: function (err) {
+                    alert(err.statusText);
+                }
+            });
+
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#img_box_logo').attr('src', e.target.result);
+            }
+            reader.readAsDataURL(files[0]);
+
+            return false;
+        });
+    </script>
+
+
+}

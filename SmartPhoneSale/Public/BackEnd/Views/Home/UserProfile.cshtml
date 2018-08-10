@@ -1,0 +1,99 @@
+﻿@using BackEnd.Models
+@model UserProfile
+
+@{
+    ViewBag.Title = "Profile";
+}
+
+<div class="row">
+    <div class="card card-outlined">
+        <div class="card-head">
+            <header>Profile</header>
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm("Profile", "Home", null, FormMethod.Post, new { @class = "form form-validate" }))
+            {
+                @Html.HiddenFor(m => m.Id)
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="FirstName" value="@Model.FirstName" required />
+                            <label>First Name</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="LastName" value="@Model.LastName" required />
+                            <label>Last Name</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="form-group">
+                            @Html.DropDownListFor(m => m.Gender, new List<SelectListItem>() { new SelectListItem() { Text = "Male", Value = "Male" }, new SelectListItem() { Text = "Female", Value = "Female" } }, new { @class = "form-control" })
+                            <label>Gender</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="form-group">
+                            <input type="text" name="IdentityCardNumber" class="form-control" value="@Model.IdentityCardNumber"/>
+                            <label>Identity Card Number</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-date" name="DateOfBirthString" value="@Model.DateOfBirthString" required />
+                            <label>Date of Birth</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="form-group">
+                            <input type="text" name="Username" class="form-control" value="@Model.Username" required />
+                            <label>Username</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="form-group">
+                            <input type="password" name="Password" class="form-control" required />
+                            <label>Password</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="form-group">
+                            <input type="text" name="Phone" class="form-control" value="@Model.Phone" required/>
+                            <label>Phone</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="form-group">
+                            @Html.DropDownListFor(m => m.City, (List<SelectListItem>)ViewData["ListCities"], "Select One", new { @class = "form-control" })
+                            <label>City</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="form-group">
+                            <input type="text" name="Email" class="form-control" value="@Model.Email" required />
+                            <label>Email</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="form-group">
+                            <input type="text" name="Address" class="form-control" value="@Model.Address"/>
+                            <label>Address</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-primary" value="Save"/>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

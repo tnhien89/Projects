@@ -1,0 +1,52 @@
+﻿@using MvcFrontEnd.BusinessObjects
+@model List<NewsBOL>
+
+@{
+    ViewBag.Title = "Các dịch vụ tại Hà Anh";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+
+    int itemIndex = 0;
+}
+
+@foreach (NewsBOL news in Model)
+{
+    if (itemIndex == 0)
+    {
+        @Html.Raw("<div class='row'>")
+    }
+
+    itemIndex++;
+
+    <div class="col-md-3 col-sm-6 col-sx-12">
+        <div class="thumbnail no-padding text-center">
+            @*<a href="/Khoa-hoc/Phun-xam.aspx" class="title-thumb">
+                Phun xăm
+            </a>*@
+            <a href="@Url.Action("Details", "Service", new { id = news.Id })" class="thumb-img">
+                <img src="@news.ImageUrl" class="img-responsive">
+            </a>
+            <div class="h-thumbn">
+                @news.Name_VN
+            </div>
+            <div class="form-group">
+                <a href="@Url.Action("Details", "Service", new { id = news.Id })" class="btn btn-default btn-purple">Xem thêm</a>
+            </div>
+        </div>
+    </div>
+
+    @*@Html.Raw("<div class='col-md-3'><div class='box-item'>")
+    @Html.Raw(string.Format("<div class='img'><a href='{0}' title='{1}'><img src='{2}' alt='{1}' /></a></div>", Url.Action("Details", "Service", new { id = news.Id }), news.Name_VN, news.ImageUrl))
+    @Html.Raw(string.Format("<div class='name'><a href='{0}' title='{1}'>{1}</a></div><div class='short'></div>", Url.Action("Details", "Service", new { id = news.Id }), news.Name_VN))
+    @Html.Raw("</div></div>")*@
+
+    if (itemIndex == 4)
+    {
+        itemIndex = 0;
+        @Html.Raw("</div>")
+    }
+}
+
+@if (itemIndex > 0)
+{
+    @Html.Raw("</div>")
+}

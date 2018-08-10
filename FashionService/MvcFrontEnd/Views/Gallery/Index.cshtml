@@ -1,0 +1,149 @@
+﻿@using MvcFrontEnd.BusinessObjects
+@model List<NewsBOL>
+<link href="~/Content/css/gallery.css" rel="stylesheet" />
+<link href="~/Content/css/jquery.fancybox.css" rel="stylesheet" />
+<link href="~/Content/css/jquery.fancybox-thumbs.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-migrate-1.2.1.js"></script>
+
+@{
+    ViewBag.Title = "Thư Viện";
+}
+
+<div style="padding-bottom: 80px;" class="mid-content">
+
+    <script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+			//$("a.fancybox-thumbs").trigger('click');
+
+			$('.fancybox').fancybox();
+			/*
+			 *  Different effects
+			 */
+			// Change title type, overlay opening speed and opacity
+			$(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedIn : 500,
+						opacity : 0.95
+					}
+				}
+			});
+
+			// Disable opening and closing animations, change title type
+			$(".fancybox-effects-b").fancybox({
+				openEffect  : 'none',
+				closeEffect	: 'none',
+
+				helpers : {
+					title : {
+						type : 'over'
+					}
+				}
+			});
+
+			// Set custom style, close if clicked, change title type and overlay color
+			$(".fancybox-effects-c").fancybox({
+				wrapCSS    : 'fancybox-custom',
+				closeClick : true,
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						css : {
+							'background-color' : '#eee'
+						}
+					}
+				}
+			});
+
+			// Remove padding, set opening and closing animations, close if clicked and disable overlay
+			$(".fancybox-effects-d").fancybox({
+				padding: 0,
+				openEffect : 'elastic',
+				openSpeed  : 150,
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+				closeClick : true,
+				helpers : {
+					overlay : null
+				}
+			});
+
+			/*
+			 *  Button helper. Disable animations, hide close button, change title type and content
+			 */
+
+			$('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+				closeBtn  : true,
+				arrows    : true,
+				nextClick : true,
+				helpers : {
+					thumbs : {
+						width  : 80,
+						height : 80
+					}
+				}
+			});
+
+			//$(".View").first().children().first().find("a.fancybox-thumbs").trigger('click');
+
+		});
+    </script>
+    <div id="List_Item">
+        @{
+            int idx = 0;
+            foreach (NewsBOL news in Model)
+            {
+                if (idx == 0)
+                {
+                    @Html.Raw("<div class='View'>")
+                }
+
+                @Html.Raw("<div class='gallery-item'>")
+                @Html.Raw(string.Format("<a href='{0}' class='fancybox-thumbs' data-fancybox-group='thumb' title='{1}'>", news.ImageUrl, news.Name_VN))
+                @Html.Raw("<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"190\">")
+                @Html.Raw("<tbody><tr>")
+                @Html.Raw(string.Format("<td class=\"img\" align=\"center\"><img src='{0}' alt='{1}' title='{1}'></td>", news.ImageUrl, news.Name_VN))
+                @Html.Raw("</tr></tbody>")
+                @Html.Raw("</table>")
+
+                @Html.Raw(string.Format("<div class=\"info\"><b>{0}</b></div>", news.Name_VN))
+                @Html.Raw("</div>")
+
+                idx++;
+                if (idx >= 3)
+                {
+                    @Html.Raw("</div>")
+                    idx = 0;
+                }
+            }
+
+            if (idx > 0)
+            {
+                @Html.Raw("</div>")
+            }
+        }
+    </div>
+
+    <!--<div  class="tools" >
+       <div class="plugin"></div>
+    </div>
+     -->
+
+
+</div>
+
+@section scripts {
+        <script src="~/Scripts/jquery.cycle.all.js"></script>
+        <script src="~/Scripts/jquery.fancybox.js"></script>
+        <script src="~/Scripts/jquery.fancybox-thumbs.js"></script>
+    }

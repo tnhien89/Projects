@@ -1,0 +1,268 @@
+﻿@using Company.Models
+@model UserInfo
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <style>
+        #loading .svg-icon-loader {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -50px 0 0 -50px;
+        }
+    </style>
+
+    <meta charset="UTF-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <title> Tables </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="~/Assets/images/icons/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="~/Assets/images/icons/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="~/Assets/images/icons/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="~/Assets/images/icons/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="~/Assets/images/icons/favicon.png">
+
+    <!-- HELPERS -->
+    <link rel="stylesheet" type="text/css" href="~/Assets/helpers/animate.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/helpers/boilerplate.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/helpers/border-radius.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/helpers/grid.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/helpers/page-transitions.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/helpers/spacing.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/helpers/typography.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/helpers/utils.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/helpers/colors.css">
+    <!-- MATERIAL -->
+    <link rel="stylesheet" type="text/css" href="~/Assets/material/ripple.css">
+    <!-- ELEMENTS -->
+    <link rel="stylesheet" type="text/css" href="~/Assets/elements/badges.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/elements/buttons.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/elements/content-box.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/elements/dashboard-box.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/elements/forms.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/elements/images.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/elements/info-box.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/elements/invoice.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/elements/loading-indicators.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/elements/menus.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/elements/panel-box.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/elements/response-messages.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/elements/responsive-tables.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/elements/ribbon.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/elements/social-box.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/elements/tables.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/elements/tile-box.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/elements/timeline.css">
+    <!-- ICONS -->
+    <link rel="stylesheet" type="text/css" href="~/Assets/icons/fontawesome/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/icons/linecons/linecons.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/icons/spinnericon/spinnericon.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/icons/typicons/typicons.css" />
+
+    <!-- WIDGETS -->
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/accordion-ui/accordion.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/calendar/calendar.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/carousel/carousel.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/charts/justgage/justgage.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/charts/morris/morris.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/charts/piegage/piegage.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/charts/xcharts/xcharts.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/chosen/chosen.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/colorpicker/colorpicker.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/datatable/datatable.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/datepicker/datepicker.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/datepicker-ui/datepicker.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/dialog/dialog.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/dropdown/dropdown.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/dropzone/dropzone.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/file-input/fileinput.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/input-switch/inputswitch.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/input-switch/inputswitch-alt.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/ionrangeslider/ionrangeslider.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/jcrop/jcrop.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/jgrowl-notifications/jgrowl.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/loading-bar/loadingbar.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/maps/vector-maps/vectormaps.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/markdown/markdown.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/modal/modal.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/multi-select/multiselect.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/multi-upload/fileupload.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/nestable/nestable.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/noty-notifications/noty.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/popover/popover.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/pretty-photo/prettyphoto.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/progressbar/progressbar.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/range-slider/rangeslider.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/slidebars/slidebars.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/slider-ui/slider.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/summernote-wysiwyg/summernote-wysiwyg.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/tabs-ui/tabs.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/timepicker/timepicker.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/tocify/tocify.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/tooltip/tooltip.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/touchspin/touchspin.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/uniform/uniform.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/wizard/wizard.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/widgets/xeditable/xeditable.css">
+    <!-- SNIPPETS -->
+    <link rel="stylesheet" type="text/css" href="~/Assets/snippets/chat.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/snippets/files-box.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/snippets/login-box.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/snippets/notification-box.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/snippets/progress-box.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/snippets/todo.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/snippets/user-profile.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/snippets/mobile-navigation.css">
+    <!-- APPLICATIONS -->
+    <link rel="stylesheet" type="text/css" href="~/Assets/applications/mailbox.css">
+    <!-- Admin theme -->
+    <link rel="stylesheet" type="text/css" href="~/Assets/themes/admin/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/themes/admin/color-schemes/default.css">
+    <!-- Components theme -->
+    <link rel="stylesheet" type="text/css" href="~/Assets/themes/components/default.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/themes/components/border-radius.css">
+    <!-- Admin responsive -->
+    <link rel="stylesheet" type="text/css" href="~/Assets/helpers/responsive-elements.css">
+    <link rel="stylesheet" type="text/css" href="~/Assets/helpers/admin-responsive.css">
+    <!-- Custom Style-->
+    <link rel="stylesheet" type="text/css" href="~/Assets/Style.css" />
+
+    <!-- JS Core -->
+    <script type="text/javascript" src="~/Assets/Scripts/jquery-core.js"></script>
+    <script type="text/javascript" src="~/Assets/Scripts/jquery-ui-core.js"></script>
+    <script type="text/javascript" src="~/Assets/Scripts/jquery-ui-widget.js"></script>
+    <script type="text/javascript" src="~/Assets/Scripts/jquery-ui-mouse.js"></script>
+    <script type="text/javascript" src="~/Assets/Scripts/jquery-ui-position.js"></script>
+    <script type="text/javascript" src="~/Assets/Scripts/transition.js"></script>
+    <script type="text/javascript" src="~/Assets/Scripts/modernizr.js"></script>
+    <script type="text/javascript" src="~/Assets/Scripts/jquery-cookie.js"></script>
+    <script type="text/javascript" src="~/Assets/widgets/parsley/parsley.js"></script>
+    <script type="text/javascript" src="~/Assets/widgets/input-mask/inputmask.js"></script>
+
+    <script type="text/javascript">
+        $(window).load(function(){
+            setTimeout(function() {
+                $('#loading').fadeOut( 400, "linear" );
+            }, 300);
+        });
+    </script>
+
+</head>
+<body>
+    <div id="loading">
+        <div class="svg-icon-loader">
+            <img src="~/Assets/images/svg-loaders/bars.svg" width="40" alt="">
+        </div>
+    </div>
+    <style type="text/css">
+        html, body {
+            height: 100%;
+            background: #fff;
+            overflow: hidden;
+        }
+    </style>
+
+    <script type="text/javascript" src="~/Assets/widgets/wow/wow.js"></script>
+    <script type="text/javascript">
+    /* WOW animations */
+
+    wow = new WOW({
+        animateClass: 'animated',
+        offset: 100
+    });
+    wow.init();
+    </script>
+
+    <div class="center-vertical bg-black">
+        <div class="center-content">
+            <div class="col-md-3 center-margin">
+                @Html.ValidationMessage("Error")
+                <form action="@Url.Action("Login", "Home")" method="post" enctype="multipart/form-data" class="form-horizontal bordered-row" data-parsley-validate>
+                    <div class="content-box wow bounceInDown modal-content">
+                        <h3 class="content-box-header content-box-header-alt bg-default">
+                            <span class="icon-separator">
+                                <i class="glyph-icon icon-cog"></i>
+                            </span>
+                            <span class="header-wrapper">
+                                Admin area
+                                <small>Login to your account.</small>
+                            </span>
+                        </h3>
+                        <div class="content-box-wrapper">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" name="Username" placeholder="Enter username" value="@Model.Username">
+                                    <span class="input-group-addon bg-blue">
+                                        <i class="glyph-icon icon-user"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="password" class="form-control" name="Password" placeholder="Password">
+                                    <span class="input-group-addon bg-blue">
+                                        <i class="glyph-icon icon-unlock-alt"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <a href="" title="Recover password">Forgot Your Password?</a>
+                            </div>
+                            <button class="btn btn-success btn-block">Sign In</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- WIDGETS -->
+    <!-- Bootstrap Dropdown -->
+    <script type="text/javascript" src="~/Assets/widgets/dropdown/dropdown.js"></script>
+    <!-- Bootstrap Tooltip -->
+    <script type="text/javascript" src="~/Assets/widgets/tooltip/tooltip.js"></script>
+    <!-- Bootstrap Popover -->
+    <script type="text/javascript" src="~/Assets/widgets/popover/popover.js"></script>
+    <!-- Bootstrap Progress Bar -->
+    <script type="text/javascript" src="~/Assets/widgets/progressbar/progressbar.js"></script>
+    <!-- Bootstrap Buttons -->
+    <script type="text/javascript" src="~/Assets/widgets/button/button.js"></script>
+    <!-- Bootstrap Collapse -->
+    <script type="text/javascript" src="~/Assets/widgets/collapse/collapse.js"></script>
+    <!-- Superclick -->
+    <script type="text/javascript" src="~/Assets/widgets/superclick/superclick.js"></script>
+    <!-- Input switch alternate -->
+    <script type="text/javascript" src="~/Assets/widgets/input-switch/inputswitch-alt.js"></script>
+    <!-- Slim scroll -->
+    <script type="text/javascript" src="~/Assets/widgets/slimscroll/slimscroll.js"></script>
+    <!-- Slidebars -->
+    <script type="text/javascript" src="~/Assets/widgets/slidebars/slidebars.js"></script>
+    <script type="text/javascript" src="~/Assets/widgets/slidebars/slidebars-demo.js"></script>
+    <!-- PieGage -->
+    <script type="text/javascript" src="~/Assets/widgets/charts/piegage/piegage.js"></script>
+    <script type="text/javascript" src="~/Assets/widgets/charts/piegage/piegage-demo.js"></script>
+    <!-- Screenfull -->
+    <script type="text/javascript" src="~/Assets/widgets/screenfull/screenfull.js"></script>
+    <!-- Content box -->
+    <script type="text/javascript" src="~/Assets/widgets/content-box/contentbox.js"></script>
+    <!-- Material -->
+    <script type="text/javascript" src="~/Assets/widgets/material/material.js"></script>
+    <script type="text/javascript" src="~/Assets/widgets/material/ripples.js"></script>
+
+    <!-- Overlay -->
+    <script type="text/javascript" src="~/Assets/widgets/overlay/overlay.js"></script>
+    <!-- Widgets init for demo -->
+    <script type="text/javascript" src="~/Assets/js-init/widgets-init.js"></script>
+    <!-- Theme layout -->
+    <script type="text/javascript" src="~/Assets/themes/admin/layout.js"></script>
+</body>
+</html>

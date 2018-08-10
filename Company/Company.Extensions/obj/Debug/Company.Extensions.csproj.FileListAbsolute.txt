@@ -1,0 +1,10 @@
+F:\TNHien\Git Projects\Company\Company.Extensions\bin\Debug\Company.Extensions.dll
+F:\TNHien\Git Projects\Company\Company.Extensions\bin\Debug\Company.Extensions.pdb
+F:\TNHien\Git Projects\Company\Company.Extensions\obj\Debug\Company.Extensions.dll
+F:\TNHien\Git Projects\Company\Company.Extensions\obj\Debug\Company.Extensions.pdb
+D:\TNHien\Projects\GitProjects\Company\Company.Extensions\bin\Debug\Company.Extensions.dll
+D:\TNHien\Projects\GitProjects\Company\Company.Extensions\bin\Debug\Company.Extensions.pdb
+D:\TNHien\Projects\GitProjects\Company\Company.Extensions\obj\Debug\Company.Extensions.csprojResolveAssemblyReference.cache
+D:\TNHien\Projects\GitProjects\Company\Company.Extensions\obj\Debug\Company.Extensions.dll
+D:\TNHien\Projects\GitProjects\Company\Company.Extensions\obj\Debug\Company.Extensions.pdb
+F:\TNHien\Git Projects\Company\Company.Extensions\obj\Debug\Company.Extensions.csprojResolveAssemblyReference.cache

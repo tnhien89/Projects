@@ -1,0 +1,1032 @@
+2015-05-16 00:02:49.9337 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:02:49.9627 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:02:49.9627 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:02:49.9697 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:16:09.0549 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-16 00:16:09.0639 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 00:26:43.8255 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:26:43.8285 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:26:43.8285 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:26:43.8285 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:29:33.4913 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 3] Status: Start.
+2015-05-16 00:29:33.5274 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 00:29:35.0684 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:29:35.0684 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:29:35.0684 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:29:35.0805 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:29:50.7330 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:29:50.7350 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:29:50.7350 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:29:50.7350 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:30:56.1640 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 00:31:36.6449 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 3] Status: Start.
+2015-05-16 00:31:36.6781 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 00:31:38.3604 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:31:38.3604 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:31:38.3604 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:31:38.3604 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:31:39.3957 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 00:32:01.3284 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 3] Status: Start.
+2015-05-16 00:32:01.3591 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 00:32:03.1166 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:32:03.1166 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:32:03.1166 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:32:03.1251 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:32:04.0502 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 00:32:14.4260 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 3] Status: Start.
+2015-05-16 00:32:14.4570 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 00:32:15.7421 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:32:15.7421 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:32:15.7491 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:32:15.7491 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:32:16.5699 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 00:32:16.5699 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:32:16.5699 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:32:16.5779 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:32:16.5779 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:32:31.0733 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:32:31.0773 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:32:31.0773 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:32:31.0773 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:32:33.2979 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 00:32:33.2979 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:32:33.2979 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:32:33.2979 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:32:33.3129 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:39:17.4254 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 3] Status: Start.
+2015-05-16 00:39:17.4625 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 00:39:18.8750 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:39:18.8750 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:39:18.8750 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:39:18.8902 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:39:47.1761 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:39:47.1761 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:39:47.1761 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:39:47.1761 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:41:56.4340 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 3] Status: Start.
+2015-05-16 00:41:56.4660 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 00:41:57.9596 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:41:57.9596 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:41:57.9596 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:41:57.9685 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:44:13.7785 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:44:13.7815 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:44:13.7815 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:44:13.7815 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:44:13.7815 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:49:10.6267 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:10.6267 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:49:10.6267 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:49:10.6267 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:10.6407 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:49:26.1652 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 00:49:26.1652 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:26.1712 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:49:26.1712 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:49:26.1712 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:26.1712 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:49:28.2796 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:28.2827 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:49:28.2827 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:49:28.2827 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:28.2827 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:49:30.0815 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 00:49:30.0815 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:30.0815 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:49:30.0933 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:49:30.0933 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:30.0933 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:49:31.3983 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:31.3983 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:49:31.3983 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:49:31.4063 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:31.4063 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:49:33.2000 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 00:49:33.2030 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:33.2030 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:49:33.2030 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:49:33.2030 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:33.2181 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:49:34.6650 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 00:49:34.6650 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:34.6710 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:49:34.6710 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:49:34.6710 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:34.6710 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:49:36.0348 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:36.0348 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:49:36.0348 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:49:36.0348 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:36.0463 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:49:37.2524 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 00:49:37.2524 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:37.2524 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:49:37.2524 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:49:37.2524 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:37.2659 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:49:39.2635 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 00:49:39.2665 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:39.2665 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:49:39.2665 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:49:39.2665 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:49:39.2665 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:50:52.6005 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-16 00:50:52.6005 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 00:50:56.1490 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:50:56.1490 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:50:56.1490 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:50:56.1580 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:50:56.1580 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:50:58.3051 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 00:50:58.3051 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:50:58.3121 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:50:58.3121 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:50:58.3121 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:50:58.3121 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:51:00.1141 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:51:00.1141 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:51:00.1141 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:51:00.1141 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:51:00.1251 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:53:24.9600 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:53:24.9600 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:53:24.9600 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:53:24.9600 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:53:24.9701 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:53:29.7813 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:53:29.7813 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:53:29.7813 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:53:29.8013 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:53:29.8013 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:55:14.4305 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:55:14.4305 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:55:14.4305 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:55:14.4395 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:55:14.4395 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:55:54.8138 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:55:54.8138 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:55:54.8138 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:55:54.8138 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:55:54.8288 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:56:42.8224 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:56:42.8274 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:56:42.8274 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:56:42.8274 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:56:42.8274 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:57:03.5769 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:57:03.5809 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:57:03.5809 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:57:03.5809 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:57:03.5929 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:57:35.9124 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:57:35.9124 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:57:35.9124 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:57:35.9124 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:57:35.9244 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:57:55.2157 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:57:55.2187 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:57:55.2187 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:57:55.2187 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:57:55.2187 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:58:06.5034 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:58:06.5034 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:58:06.5034 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:58:06.5034 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:58:06.5154 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:58:31.6160 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:58:31.6160 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:58:31.6160 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:58:31.6270 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:58:31.6270 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:58:54.9098 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:58:54.9098 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:58:54.9098 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:58:54.9098 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:58:54.9238 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 00:59:06.1275 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 00:59:06.1275 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 00:59:06.1275 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 00:59:06.1405 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 00:59:06.1405 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:00:09.8297 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:00:09.8297 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:00:09.8297 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:00:09.8297 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:00:09.8437 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:00:59.8049 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:00:59.8049 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:00:59.8049 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:00:59.8149 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:00:59.8149 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:01:10.3885 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:01:10.3925 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:01:10.3925 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:01:10.3925 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:01:10.3925 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:02:15.9429 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:02:15.9429 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:02:15.9429 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:02:15.9539 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:02:15.9539 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:02:38.0150 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:02:38.0150 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:02:38.0150 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:02:38.0150 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:02:38.0150 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:03:05.7075 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:03:05.7075 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:03:05.7075 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:03:05.7205 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:03:05.7205 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:03:33.3408 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:03:33.3447 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:03:33.3447 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:03:33.3447 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:03:33.3447 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:03:49.2973 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:03:49.2973 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:03:49.2973 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:03:49.2973 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:03:49.3123 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:04:31.1045 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:04:31.1145 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:04:31.1265 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:04:31.1265 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:04:31.1265 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:04:57.7520 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:04:57.7650 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:04:57.7650 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:04:57.7650 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:04:57.7650 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:04:59.8894 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:04:59.8974 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:04:59.8974 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:04:59.9074 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:04:59.9074 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:05:21.9227 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:05:21.9227 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:05:21.9227 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:05:21.9407 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:05:21.9407 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:05:25.0390 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:05:25.0390 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:05:25.0390 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:05:25.0480 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:05:25.0480 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:07:35.7336 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:07:35.7336 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:07:35.7336 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:07:35.7336 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:07:35.7336 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:09:10.3514 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:09:10.3514 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:09:10.3514 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:09:10.3604 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:09:10.3604 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:12:16.2315 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:12:16.2346 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:12:16.2346 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:12:16.2346 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:12:16.2346 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:13:28.8282 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:13:28.8282 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:13:28.8282 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:13:28.8282 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:13:28.8282 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:17:12.8122 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 01:17:12.8122 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:17:12.8122 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:17:12.8122 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:17:12.8122 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:17:12.8302 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:19:44.5182 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 01:19:44.5182 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:19:44.5182 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:19:44.5182 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:19:44.5182 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:19:44.5320 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:23:49.0386 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 01:23:49.0386 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:23:49.0486 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:23:49.0486 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:23:49.0486 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:23:49.0634 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:23:49.3750 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 01:23:49.3750 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:23:49.3750 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:23:49.3750 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:23:49.3750 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:23:49.3910 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:29:02.5327 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 01:29:02.5327 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:29:02.5327 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:29:02.5327 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:29:02.5467 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:29:02.5467 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:31:04.1685 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 01:31:04.1805 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:31:04.1885 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:31:04.1885 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:31:04.1885 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:31:04.2025 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:32:39.2079 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 01:32:39.2199 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:32:39.2199 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:32:39.2199 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:32:39.2369 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:32:39.2369 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:35:03.5614 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 01:35:03.5664 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:35:03.5664 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:35:03.5794 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:35:03.5794 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:35:03.5794 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:37:23.7722 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 01:37:23.7722 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:37:23.7812 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:37:23.7812 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:37:23.7812 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:37:23.7812 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:40:18.4169 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 01:40:18.4229 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:40:18.4229 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:40:18.4229 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:40:18.4391 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:40:18.4391 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:40:26.3454 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:40:26.3454 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:40:26.3454 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:40:26.3454 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:40:26.3594 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:40:27.3743 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 01:40:27.3743 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:40:27.3743 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:40:27.3743 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:40:27.3743 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:40:27.3903 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:40:30.2318 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-16 01:40:30.2358 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 01:40:37.1378 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-16 01:40:37.2893 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 01:40:46.3135 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:40:46.3135 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:40:46.3135 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:40:46.3135 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:40:46.3285 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:40:47.4757 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:40:47.4757 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:40:47.4757 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:40:47.4847 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:40:47.4847 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:40:51.7576 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 01:40:51.7576 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:40:51.7576 ERROR  -  [ucNewsList][StartLoadHeader] Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.UserControls.ucNewsList.StartLoadHeader(Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucNewsList.ascx.cs:line 46
+2015-05-16 01:40:51.7672 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:40:51.7672 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:40:51.7672 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:46:34.1255 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 3] Status: Start.
+2015-05-16 01:46:34.1565 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 01:46:36.7615 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:46:36.7655 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:46:36.7655 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:46:36.7655 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:47:00.2457 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:47:00.2498 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:47:00.2498 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:47:00.2498 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 01:47:25.6817 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 01:47:25.6817 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 01:47:25.6873 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 01:47:25.6873 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 01:47:25.6873 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 08:47:59.0633 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 3] Status: Start.
+2015-05-16 08:47:59.2925 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 08:48:03.5852 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 08:48:03.7685 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 08:48:03.7685 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 08:48:03.8588 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 08:48:06.7813 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 08:48:06.7813 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 08:48:06.7813 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 08:48:06.7983 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 08:48:06.7983 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 08:48:09.2819 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 08:48:09.2819 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 08:48:09.2819 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 08:48:09.3796 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 08:48:16.5402 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 08:48:16.5462 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 08:48:16.5462 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 08:48:16.5462 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 08:48:16.5462 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 08:48:20.3099 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-16 08:48:20.3482 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 09:36:12.1635 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 09:36:12.2892 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 09:41:57.7662 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 09:41:57.7950 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 09:42:25.5796 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 09:42:41.8943 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 09:42:53.1414 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 09:42:53.1714 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 09:47:14.4342 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 09:47:14.4498 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 09:49:33.0951 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 09:49:33.1108 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 09:52:15.0365 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 09:52:15.0365 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 09:58:49.0966 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 09:58:49.0966 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 09:59:57.4345 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 09:59:57.4385 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:01:06.7993 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:01:06.7993 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:02:11.8448 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:02:11.8448 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:02:41.4910 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:02:41.4910 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:02:58.9457 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:02:58.9457 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:10:13.4896 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:10:13.4896 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:10:39.2238 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:10:39.2238 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:11:57.0336 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:11:57.0336 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:12:21.2746 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:12:21.2746 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:15:21.5586 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:15:21.5626 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:20:09.4872 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:20:09.4872 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:24:09.9493 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:24:09.9523 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:24:47.2277 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:24:47.2347 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:25:40.7295 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:25:40.7336 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:28:53.4275 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:28:53.4275 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:29:17.9488 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:29:17.9529 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:32:14.9861 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:32:14.9861 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:34:01.1182 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:34:01.1182 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:36:01.9570 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:36:01.9570 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:36:24.1186 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:36:24.1186 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:39:01.1596 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:39:01.1596 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:39:38.7686 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:39:38.7866 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:44:27.9051 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:44:27.9391 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:44:46.6258 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:44:46.6258 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:45:24.1521 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:45:24.1561 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:46:18.9119 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:46:18.9119 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:46:44.9232 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:46:44.9232 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:53:36.0804 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:53:36.0934 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:54:15.6177 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:54:15.6257 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:54:49.3063 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:54:49.3133 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:55:21.5030 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:55:21.5030 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 10:56:06.5241 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 10:56:06.5241 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 11:00:11.7340 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 11:00:11.7340 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 11:05:06.5047 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 11:05:06.5350 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 11:05:56.8291 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 1] Status: Start.
+2015-05-16 11:05:56.8685 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 1] Status: End.
+2015-05-16 11:06:02.5368 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 2] Status: Start.
+2015-05-16 11:06:02.5469 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 2] Status: End.
+2015-05-16 11:06:34.8418 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 11:06:34.8438 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 11:09:48.4190 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 11:09:48.4228 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 11:10:04.8402 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 11:10:04.8451 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 12:03:17.3782 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 3] Status: Start.
+2015-05-16 12:03:17.4563 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 3] Status: End.
+2015-05-16 12:03:27.1093 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 2] Status: Start.
+2015-05-16 12:03:27.1093 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 2] Status: End.
+2015-05-16 12:21:49.3336 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 12:21:49.3598 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 12:26:12.4616 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 12:26:12.4946 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 12:26:40.1911 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 12:26:40.1911 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 12:29:29.6060 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 12:29:29.6090 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 12:29:57.8908 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 12:29:57.8908 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 12:30:55.3991 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 12:30:55.3991 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 12:31:28.1821 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 12:31:28.1821 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 12:31:42.5079 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 12:31:42.5079 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 12:36:13.1644 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 12:36:13.1644 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 12:40:46.4315 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 12:40:46.4315 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 12:41:00.3062 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 12:41:00.3132 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 12:41:00.3132 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 12:41:00.3132 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 12:41:00.3132 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 12:41:05.7093 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 12:41:05.7093 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 12:41:05.7093 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 12:41:05.7093 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 12:41:05.7186 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 12:42:25.5249 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 12:42:25.5249 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 13:00:30.6498 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 13:00:30.6498 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 13:00:43.6455 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 13:00:43.6455 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 13:01:25.5008 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 13:01:25.5008 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 13:02:15.2918 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 13:02:15.2968 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 13:04:18.2044 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 13:04:18.2044 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 13:51:02.2958 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 13:51:02.9228 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 13:51:02.9228 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 13:51:03.1169 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 13:51:43.0644 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 13:51:43.0644 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 13:51:43.0644 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 13:51:43.0644 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 13:57:31.2195 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 13:57:31.3209 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 13:57:44.8207 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 13:57:44.8487 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 14:00:47.5714 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 14:00:47.5870 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 14:00:47.5870 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 14:00:47.5870 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 14:01:34.7559 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 14:01:34.7559 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 14:01:34.7559 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 14:01:34.7559 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 14:02:31.4398 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 14:02:31.4555 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 14:02:31.4555 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 14:02:31.4555 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 14:04:23.2801 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 14:04:23.2801 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 14:04:23.2801 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 14:04:23.2801 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 14:04:36.6125 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 14:04:36.6282 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 14:04:36.6282 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 14:04:36.6282 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 14:04:46.3215 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: Start.
+2015-05-16 14:04:46.3215 INFO  -  [ucNewsList][StartLoadHeader]-[MenuId = 1] Status: End.
+2015-05-16 14:04:46.3371 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: Start.
+2015-05-16 14:04:46.3371 INFO  -  [ucNewsList][StartBindingData]-[MenuId = 1] Status: End.
+2015-05-16 14:31:59.7024 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:35:01.9396 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:35:08.2689 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:35:18.3069 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:36:06.6126 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:37:12.7505 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:37:58.4217 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:38:48.8344 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:38:54.7913 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:38:55.8734 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:38:58.2651 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:38:59.9168 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:39:01.1855 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:39:01.9506 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:39:02.6817 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:39:03.2769 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:39:04.0439 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:39:04.9519 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:39:05.5613 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:39:06.1206 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:39:06.6582 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:39:07.1430 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:39:07.6623 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:39:08.9510 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:39:09.4892 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:39:10.0649 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:39:10.6181 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:39:11.0335 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:43:59.8915 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:44:06.3066 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:44:27.0333 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:44:45.9873 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:45:08.7286 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:50:03.5026 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:50:25.6517 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:50:27.8024 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 14:50:27.8024 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 14:50:30.4320 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:50:32.7827 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 14:50:32.7827 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 14:50:34.6134 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:52:01.5965 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:52:03.6200 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 14:52:03.6270 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 14:52:23.6112 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:52:24.7425 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 14:52:24.7425 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 14:52:27.3410 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:52:51.5544 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:53:29.0787 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:53:50.2756 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:53:56.0680 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:54:19.6787 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:55:26.3512 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:55:59.7281 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-16 14:55:59.9625 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 14:56:07.1193 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-16 14:56:07.1193 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 14:56:09.1194 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:56:10.1663 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 14:56:10.1663 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 14:56:12.9946 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:56:17.5105 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:57:14.2903 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 14:57:14.3059 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 14:57:22.1822 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:57:39.2777 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 14:57:39.2777 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 14:57:40.9028 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:58:26.4697 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 14:59:08.4707 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 14:59:08.4707 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 15:00:34.6431 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 15:02:50.3106 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 15:04:00.0877 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 15:04:09.7667 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 15:04:09.7667 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 15:04:32.3486 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 15:09:51.9357 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 18:32:46.1231 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 18:51:38.6707 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 18:52:08.7485 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 18:52:08.7515 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 18:52:49.8583 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 18:52:49.9013 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 18:53:41.5488 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 18:53:41.5648 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 18:53:48.3680 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 18:53:48.3760 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 19:28:12.5944 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 19:28:12.6084 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 19:28:26.1077 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 19:28:26.1167 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 19:29:15.3477 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 19:29:15.3597 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 19:36:40.7383 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 19:36:40.7383 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 19:48:05.0466 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 19:48:05.0466 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 19:48:41.8138 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 19:48:47.2311 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 19:48:47.2541 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 19:52:48.4079 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 19:52:48.4079 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 19:53:07.3704 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 19:53:07.3754 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 19:53:43.2970 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 19:53:43.2970 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 19:53:56.8590 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 19:53:56.8590 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 19:56:59.0265 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 19:56:59.0305 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 19:58:13.4263 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 19:58:13.4263 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 20:00:26.6285 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 2] Status: Start.
+2015-05-16 20:00:26.6445 INFO  -  [ucProjectDetail][StartShowProjectDetail]-[PeojectId = 2] Status: End.
+2015-05-16 20:01:18.6707 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-16 20:01:18.6707 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 20:01:30.7765 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:01:36.7831 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:01:44.9015 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 20:01:44.9065 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 20:10:35.4308 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:10:49.2392 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:10:51.9418 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:10:53.7652 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:10:55.2690 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:10:59.3030 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:11:01.2142 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:15:56.9717 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:18:32.1449 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:19:51.7404 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:20:25.3198 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 20:20:25.3278 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 20:20:28.6139 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:21:02.1022 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:21:59.2239 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:24:01.9343 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:26:35.1915 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:27:55.1509 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:30:35.4844 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 20:30:35.4844 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 20:30:37.2879 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:30:37.9541 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 20:30:37.9541 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 20:30:40.7876 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:30:43.1931 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 20:30:43.1931 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 20:30:45.8850 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 20:31:41.1075 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 21:30:01.5278 ERROR  -  [ucFontEndMenuBar][StartAddSubItemAbout] Exception: System.ArgumentException: Column 'RedirectUrl' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at FrontEndSite.BusinessObject.BOL..ctor(DataRow row) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\BusinessObject\BOL.cs:line 25
+   at FrontEndSite.BusinessObject.MenuBOL..ctor(DataRow row) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\BusinessObject\MenuBOL.cs:line 30
+   at FrontEndSite.UserControls.ucFontEndMenuBar.StartAddSubItemAbout(HtmlGenericControl li, Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucFontEndMenuBar.ascx.cs:line 105
+2015-05-16 21:30:01.5369 ERROR  -  [ucFontEndMenuBar][StartAddSubItemAbout] Exception: System.ArgumentException: Column 'RedirectUrl' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at FrontEndSite.BusinessObject.BOL..ctor(DataRow row) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\BusinessObject\BOL.cs:line 25
+   at FrontEndSite.BusinessObject.MenuBOL..ctor(DataRow row) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\BusinessObject\MenuBOL.cs:line 30
+   at FrontEndSite.UserControls.ucFontEndMenuBar.StartAddSubItemAbout(HtmlGenericControl li, Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucFontEndMenuBar.ascx.cs:line 105
+2015-05-16 21:30:41.3429 ERROR  -  [ucFontEndMenuBar][StartAddSubItemAbout] Exception: System.ArgumentException: Column 'RedirectUrl' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at FrontEndSite.BusinessObject.BOL..ctor(DataRow row) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\BusinessObject\BOL.cs:line 25
+   at FrontEndSite.BusinessObject.MenuBOL..ctor(DataRow row) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\BusinessObject\MenuBOL.cs:line 30
+   at FrontEndSite.UserControls.ucFontEndMenuBar.StartAddSubItemAbout(HtmlGenericControl li, Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucFontEndMenuBar.ascx.cs:line 105
+2015-05-16 21:30:41.3609 ERROR  -  [ucFontEndMenuBar][StartAddSubItemAbout] Exception: System.ArgumentException: Column 'RedirectUrl' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at FrontEndSite.BusinessObject.BOL..ctor(DataRow row) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\BusinessObject\BOL.cs:line 25
+   at FrontEndSite.BusinessObject.MenuBOL..ctor(DataRow row) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\BusinessObject\MenuBOL.cs:line 30
+   at FrontEndSite.UserControls.ucFontEndMenuBar.StartAddSubItemAbout(HtmlGenericControl li, Int32 menuId) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\UserControls\ucFontEndMenuBar.ascx.cs:line 105
+2015-05-16 21:32:06.3302 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 22:05:12.0949 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 22:05:12.2356 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 22:06:59.0708 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 22:08:51.9203 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 22:08:51.9243 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 22:10:43.3767 ERROR  -  [Utilities][SetFullLinkImage] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.Utilities.SetFullLinkImage(String html, String rootImageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\Utilities.cs:line 296
+2015-05-16 22:12:55.4175 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 22:12:55.4216 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 22:18:48.0904 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-16 22:18:48.1024 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 22:18:51.6773 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 22:18:51.6773 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 22:25:31.0495 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-16 22:25:31.0926 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 22:27:22.2198 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-16 22:27:22.2498 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 22:28:17.6645 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-16 22:28:17.6715 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 22:29:07.4633 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-16 22:29:07.4633 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 22:29:55.6722 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 22:29:55.6722 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 22:30:27.5851 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-16 22:30:27.5851 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 22:31:57.0406 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 22:31:57.0406 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 22:32:06.3516 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-16 22:32:06.3516 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 22:32:37.4745 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-16 22:32:37.4851 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 22:33:42.1422 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 22:33:42.1422 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 22:33:50.7934 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-16 22:33:50.7964 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 22:53:13.2900 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 22:53:13.3140 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 22:53:33.5841 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 22:53:33.5841 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 22:53:33.8012 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 22:53:33.8012 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 22:54:11.2286 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 22:54:11.2336 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 22:55:42.7353 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 22:55:42.7353 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 22:56:18.6399 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 22:56:18.6399 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 23:03:40.7996 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 23:03:40.8146 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 23:12:26.1380 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 23:12:26.1730 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 23:12:58.1757 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 23:12:58.1757 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 23:13:13.3901 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 23:13:13.3901 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 23:15:31.3199 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-16 23:15:31.3199 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 23:15:39.4461 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 23:15:39.4531 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 23:16:38.5959 INFO  -  [ucProjectsList][StartBindingProjects]-[MenuId = 25] Status: Start.
+2015-05-16 23:16:38.5959 INFO  -  [ucProjectsList][StartBindingProjects] Status: End.
+2015-05-16 23:16:43.4037 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 23:16:43.4087 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 23:16:47.1216 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 23:16:47.1287 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 23:16:54.5850 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 23:16:54.5850 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 23:18:38.0398 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 23:18:38.0458 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 23:19:32.7293 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 23:19:32.7293 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 23:21:13.2460 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 23:21:13.2490 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 23:21:29.5412 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 23:21:29.5412 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 23:21:46.7633 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 23:21:46.7672 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 23:25:28.0179 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 23:25:28.0179 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 23:26:05.0718 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 23:26:05.0718 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 23:27:44.8056 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 23:27:44.8146 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 23:28:41.9512 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 23:28:41.9532 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.
+2015-05-16 23:29:26.6562 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: Start.
+2015-05-16 23:29:26.6719 INFO  -  [ucHomeProjects][StartLoadTopNew] Status: End.

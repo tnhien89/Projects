@@ -1,0 +1,47 @@
+﻿<style>
+    .google-maps {
+        width: 100%;
+        height: 500px;
+        display: block;
+        position: relative;
+        float: left;
+    }
+</style>
+
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCWn3zq7RtwVdL2Qzu4F7dmmsqi_fzYJT4&sensor=false">
+</script>
+
+<script type="text/javascript">
+    var map;
+    window.onload = function () {
+
+        var latitude = 10.755602;
+        var longitude = 106.6322762;
+
+        var latlng = new google.maps.LatLng(latitude, longitude);
+        var myOptions = {
+            zoom: 16,
+            center: latlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        map = new google.maps.Map(document.getElementById("googleMaps"), myOptions);
+        var marker = new google.maps.Marker
+        (
+            {
+                position: new google.maps.LatLng(latitude, longitude),
+                map: map,
+                title: 'Beauty Hà Anh'
+            }
+        );
+        var infowindow = new google.maps.InfoWindow({
+            content: 'Beauty Hà Anh' +
+                '<br />84 Đặng Nguyên Cẩn, Phường 13, Quận 6, Tp.HCM'
+        });
+        google.maps.event.addListener(marker, 'click', function () {
+            // Calling the open method of the infoWindow
+            infowindow.open(map, marker);
+        });
+    }
+</script>
+
+<div id="googleMaps" class="google-maps"></div>

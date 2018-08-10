@@ -1,0 +1,33 @@
+﻿@using System.Collections
+
+@{
+    ViewBag.Title = "Tuyển Dụng Theo Quận";
+
+    Hashtable townItems = ViewData["TownItems"] == null ? new Hashtable() : ViewData["TownItems"] as Hashtable;
+    Hashtable countItems = ViewData["CountItems"] == null ? new Hashtable() : ViewData["CountItems"] as Hashtable;
+}
+
+<div class="gallery-top agileits-w3layouts nguoitimviec">
+    <!-- container-wrap -->
+    <div class="container">
+        <h3>Việc Làm Theo Quận</h3>
+        <div class="row">
+            @foreach (DictionaryEntry entry in townItems)
+            {
+                <br />
+                <div class="col-sm-3">
+                    @if (countItems[entry.Key] != null)
+                    {
+                        <a href="@Url.Action("Index", "Town", new { key = entry.Key.ToString() })">@Html.Raw(entry.Value.ToString() + " (" + countItems[entry.Key].ToString() + ")")</a>
+                    }
+                    else
+                    {
+                        <a href="@Url.Action("Index", "Town", new { key = entry.Key.ToString() })">@entry.Value.ToString()</a>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+    <!-- //container -->
+</div>
+

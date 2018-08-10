@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RedirectUrls>
+  <RirectUrl Name="GioiThieu" Id="1" Value="Introductions.aspx"/>
+  <RirectUrl Name="DichVu" Id="2" Value="Services.aspx"/>
+  <RirectUrl Name="DuAn" Id="3" Value="Projects.aspx"/>
+  <RirectUrl Name="TinTuc" Id="4" Value="News.aspx"/>
+  <RirectUrl Name="TuyenDung" Id="5" Value="Recruitment.aspx"/>
+  <RirectUrl Name="IntroHome" Value="Introductions.aspx"/>
+  <RirectUrl Name="IntroDetail" Value="IntroductionDetail.aspx"/>
+  <RirectUrl Name="ProjectDetail" Value="ProjectDetail.aspx"/>
+  <RirectUrl Name="NewsDetail" Value="NewsDetail.aspx"/>
+  <RirectUrl Name="RecruitmentDetail" Value="RecruitmentDetail.aspx"/>
+  <RirectUrl Name="ServiceDetail" Value="ServiceDetail.aspx"/>
+</RedirectUrls>

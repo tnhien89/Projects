@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainFrontEnd.master.cs" Inherits="FrontEndSite.MainFrontEnd" %>
+
+<%@ Register Src="~/UserControls/ucFontEndMenuBar.ascx" TagPrefix="uc1" TagName="ucFontEndMenuBar" %>
+<%@ Register Src="~/UserControls/ucGold.ascx" TagPrefix="uc1" TagName="ucGold" %>
+<%@ Register Src="~/UserControls/ucFrontEndFooter.ascx" TagPrefix="uc1" TagName="ucFrontEndFooter" %>
+<%@ Register Src="~/UserControls/ucExpressLink.ascx" TagPrefix="uc1" TagName="ucExpressLink" %>
+<%@ Register Src="~/UserControls/ucLangue.ascx" TagPrefix="uc1" TagName="ucLangue" %>
+<%@ Register Src="~/UserControls/ucContactMod.ascx" TagPrefix="uc1" TagName="ucContactMod" %>
+<%@ Register Src="~/UserControls/ucFanPage.ascx" TagPrefix="uc1" TagName="ucFanPage" %>
+<%@ Register Src="~/UserControls/ucMainRight.ascx" TagPrefix="uc1" TagName="ucMainRight" %>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>CÔNG TY CỔ PHẦN ĐẦU TƯ XÂY DỰNG ĐỊNH TÂN</title>
+
+    <%--<link href='http://fonts.googleapis.com/css?family=Palanquin:400,500' rel='stylesheet' type='text/css' />--%>
+    <link rel="stylesheet" type="text/css" href="/Content/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Content/bootstrap-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Content/style.css" />
+    <link href="/Content/MenuFrontEnd.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="/Scripts/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/Scripts/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="/Scripts/change.langue.processing.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="page-Header">
+            <div class="container">
+                <div class="row topPage">
+                    <div class="showLogo">
+                        <img src="/Images/logo.png" />
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10">
+                        <div id="langue-bar" class="langue-bar">
+                            <uc1:ucLangue runat="server" ID="ucLangue" />
+                        </div>
+                        <nav class="navbar navbar-default">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-menu-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse topmenu" id="nav-menu-collapse">
+                                <uc1:ucFontEndMenuBar runat="server" ID="ucFontEndMenuBar" />
+                            </div>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <%--<div id="Search-Bar">
+            <div class="container">
+                <div class="row row-Search">
+                    <div class="col-md-7"></div>
+                    <div class="col-md-5">
+                        <div class="input-group custom-search-form">
+                            <input type="text" class="form-control control-search" placeholder="Search"/>
+                            <span class="input-group-btn">
+                                <button class="btn btn-default btn-search" type="button">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>--%>
+
+        <div id="page-content" class="container">
+
+            <div class="row row-content">
+                <div class="col-md-9 content-place-holder">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="col-md-3">
+                    <uc1:ucMainRight runat="server" ID="ucMainRight" />
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="container">
+                <uc1:ucFrontEndFooter runat="server" ID="ucFrontEndFooter" />
+            </div>
+
+        </div>
+    </form>
+
+    <script type="text/javascript">
+        $(function () {
+            var headerHeight = $('#page-Header').innerHeight();
+            //--
+            var contentHeight = window.outerHeight - headerHeight;
+            $('#page-content').attr('style', 'min-height:' + contentHeight + 'px;');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+C:\Hien\WebApp\DinhTan\FrontEndSite\bin\NLog.config
+C:\Hien\WebApp\DinhTan\FrontEndSite\bin\FrontEndSite.dll
+C:\Hien\WebApp\DinhTan\FrontEndSite\bin\FrontEndSite.pdb
+C:\Hien\WebApp\DinhTan\FrontEndSite\bin\HtmlAgilityPack.dll
+C:\Hien\WebApp\DinhTan\FrontEndSite\bin\Newtonsoft.Json.dll
+C:\Hien\WebApp\DinhTan\FrontEndSite\bin\NLog.dll
+C:\Hien\WebApp\DinhTan\FrontEndSite\bin\HtmlAgilityPack.pdb
+C:\Hien\WebApp\DinhTan\FrontEndSite\bin\HtmlAgilityPack.xml
+C:\Hien\WebApp\DinhTan\FrontEndSite\bin\Newtonsoft.Json.xml
+C:\Hien\WebApp\DinhTan\FrontEndSite\bin\NLog.xml
+C:\Hien\WebApp\DinhTan\FrontEndSite\obj\Debug\FrontEndSite.csprojResolveAssemblyReference.cache
+C:\Hien\WebApp\DinhTan\FrontEndSite\obj\Debug\FrontEndSite.dll
+C:\Hien\WebApp\DinhTan\FrontEndSite\obj\Debug\FrontEndSite.pdb
+C:\Hien\WebApp\DinhTan\FrontEndSite\bin\CKEditor.NET.dll
+C:\Hien\WebApp\DinhTan\FrontEndSite\bin\CKEditor.NET.pdb
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\NLog.config
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\FrontEndSite.dll
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\FrontEndSite.pdb
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\CKEditor.NET.dll
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\HtmlAgilityPack.dll
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\Newtonsoft.Json.dll
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\NLog.dll
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\CKEditor.NET.pdb
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\HtmlAgilityPack.pdb
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\HtmlAgilityPack.xml
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\Newtonsoft.Json.xml
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\NLog.xml
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\obj\Debug\FrontEndSite.csprojResolveAssemblyReference.cache
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\obj\Debug\FrontEndSite.dll
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\obj\Debug\FrontEndSite.pdb
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\FrontEndSite.dll.config
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\NLog.config
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\FrontEndSite.dll.config
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\FrontEndSite.dll
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\FrontEndSite.pdb
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\HtmlAgilityPack.dll
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\Newtonsoft.Json.dll
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\NLog.dll
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\HtmlAgilityPack.pdb
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\HtmlAgilityPack.xml
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\Newtonsoft.Json.xml
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\bin\NLog.xml
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\obj\Debug\FrontEndSite.dll
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\obj\Debug\FrontEndSite.pdb
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\obj\Debug\FrontEndSite.csprojResolveAssemblyReference.cache

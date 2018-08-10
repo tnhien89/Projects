@@ -1,0 +1,68 @@
+﻿@using MvcFrontEnd.BusinessObjects
+@model MvcFrontEnd.Models.AdsModel
+
+@{
+}
+
+@foreach (OtherBOL item in Model.Parents)
+{
+    if (item.IsGroup)
+    {
+        var childrens = Model.Childrens.Where(i => i.ParentId == item.Id).ToList();
+        if (childrens.Count == 0)
+        {
+            continue;
+        }
+        
+        @Html.Raw("<div id=\"banner-left-slider\" class='banner-left'>")
+        @Html.Raw("<div class=\"inner-banner\">")
+        @Html.Raw("<div id=\"slider-adv-left\" class=\"jcarousel jcarousel-left\">")
+        @Html.Raw("<div style=\"position: relative; display: block;\" class=\"jcarousel-container jcarousel-container-horizontal\">")
+        @Html.Raw("<div style=\"overflow: hidden; position: relative;\" class=\"jcarousel-clip jcarousel-clip-horizontal\">")
+        @Html.Raw("<ul class='jcarousel-list jcarousel-list-horizontal'>")
+        int idx = 0;
+        foreach (var c in childrens)
+        {
+            @Html.Raw(string.Format("<li jcarouselindex='{0}' class='jcarousel-item jcarousel-item-horizontal jcarousel-item-{0} jcarousel-item-{0}-horizontal'><a href='{2}'><img src='{1}' /></a></li>", idx, c.ImageUrl, c.Link))
+            idx++;
+        }
+
+        @Html.Raw("</ul>")
+        @Html.Raw("</div></div></div>")
+    }
+    else
+    {
+        @Html.Raw("<div id=\"banner-left-slider\" class='banner-left'>")
+        @Html.Raw("<div class=\"inner-banner\">")
+        @Html.Raw(string.Format("<a href='#'><img src='{0}'></a>", item.ImageUrl));
+    }
+
+    @*@Html.Raw("<div id=\"banner-left-slider\" class='banner-left'>")
+    @Html.Raw("<div class=\"inner-banner\">")
+    if (!item.ImageLink.Contains("|"))
+    {
+
+        
+    }
+    else
+    {
+        string[] images = item.ImageLink.Split('|');
+        @Html.Raw("<div id=\"slider-adv-left\" class=\"jcarousel jcarousel-left\">")
+        @Html.Raw("<div style=\"position: relative; display: block;\" class=\"jcarousel-container jcarousel-container-horizontal\">")
+        @Html.Raw("<div style=\"overflow: hidden; position: relative;\" class=\"jcarousel-clip jcarousel-clip-horizontal\">")
+        @Html.Raw("<ul class='jcarousel-list jcarousel-list-horizontal'>")
+    
+        int idx = 0;
+    
+        foreach (string img in images)
+        { 
+            @Html.Raw(string.Format("<li jcarouselindex='{0}' class='jcarousel-item jcarousel-item-horizontal jcarousel-item-{0} jcarousel-item-{0}-horizontal'><a><img src='{1}' /></a></li>", idx, MvcFrontEnd.Utils.GetImagesUrl(img)))
+            idx++;
+        }
+        
+        @Html.Raw("</ul>")
+        @Html.Raw("</div></div></div>")
+    }*@
+
+    @Html.Raw("</div></div>")
+}

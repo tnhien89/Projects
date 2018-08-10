@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Truong day nghe phun xam</title>
+    <link rel="SHORTCUT ICON" href="Images/icon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width" />
+
+    @*@Styles.Render("~/Content/css")*@
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/css/global.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/css/box.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="~/Content/css/news.css"/>
+    <link rel="stylesheet" href="~/Content/css/jquery.nestedAccordion.css" type="text/css" />
+
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/Scripts/jquery-migrate-1.2.1.js"></script>
+    <script src="~/Scripts/jquery-ui-1.9.1.min.js"></script>
+    <script src="~/Scripts/javascript.js"></script>
+    <script type="text/javascript" src="~/Scripts/floater_xlib.js"></script>
+    <script type="text/javascript" src="~/Scripts/yetii.js"></script>
+    <script type="text/javascript" src="~/Scripts/nested-accordion/jquery.nestedAccordion.js"></script>
+    <script src="~/Scripts/jquery.cycle.all.js"></script>
+    <script src="~/Scripts/jquery.jcarousel.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+            $('#slider_middle').before('<div id="nav" class="slider_page">').cycle({ pager: '#nav' });
+            if ($('.jcarousel-left') && $('.jcarousel-left').length) {
+                $('.jcarousel-left ul').each(function (idx, item) {
+                    $(item).jcarousel({
+                        //initCallback: mycarousel_initCallback,
+                        auto: 3, scroll: 1, wrap: 'circular', animation: 2000
+                    });
+                });
+            }
+        });
+
+    </script>
+</head>
+<body>
+    <div id="vnt-wrapper">
+        <div id="vnt-container">
+            <div id="wp-banner-middle">
+                <div id="banners-middle">
+                    <div style="position: relative; width: 765px; height: 330px;" id="slider_middle">
+                        <a style="position: absolute; top: 0px; left: 0px; display: none; z-index: 6; opacity: 0; width: 765px; height: 330px;" onmousedown="return rwt(this,'advertise',48)" href="http://" target="_blank">
+                            <img src="http://www.thammyvienthuytien.com/vnt_upload/weblink/Untitled_7_3.png" alt="">
+                        </a><a onmousedown="return rwt(this,'advertise',18)" href="http://" target="_blank" style="display: none; position: absolute; top: 0px; left: 0px; z-index: 6; opacity: 0; width: 765px; height: 330px;">
+                            <img src="http://www.thammyvienthuytien.com/vnt_upload/weblink/Untitled_2_1.png" alt="">
+                        </a>
+                        <a onmousedown="return rwt(this,'advertise',22)" href="http://" target="_blank" style="display: block; position: absolute; top: 0px; left: 0px; z-index: 7; opacity: 1; width: 765px; height: 330px;">
+                            <img src="http://www.thammyvienthuytien.com/vnt_upload/weblink/banner_trang_trong_1.png" alt="Tets">
+                        </a>
+                        <a onmousedown="return rwt(this,'advertise',45)" href="http://" target="_blank" style="display: none; position: absolute; top: 0px; left: 0px; z-index: 6; opacity: 0; width: 765px; height: 330px;">
+                            <img src="http://www.thammyvienthuytien.com/vnt_upload/weblink/banner_04_1_trong_1.png" alt="">
+                        </a>
+                        <a onmousedown="return rwt(this,'advertise',46)" href="http://" target="_blank" style="display: none; position: absolute; top: 0px; left: 0px; z-index: 6; opacity: 0; width: 765px; height: 330px;">
+                            <img src="http://www.thammyvienthuytien.com/vnt_upload/weblink/banner_trong_5.png" alt="">
+                        </a>
+                        <a onmousedown="return rwt(this,'advertise',47)" href="http://" target="_blank" style="display: none; position: absolute; top: 0px; left: 0px; z-index: 6; opacity: 0; width: 765px; height: 330px;">
+                            <img src="http://www.thammyvienthuytien.com/vnt_upload/weblink/Untitled_6.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="inner">
+                <div class="inner-main">
+                    <div id="vnt-sidebar">
+                        <div class="wp-box-sidebar">
+                            <div class="logo">
+                                <h1>
+                                    <a onmousedown="return rwt(this,'advertise',1)" href='/' target='_self' title='Logo Thẩm mỹ viện Thủy Tiên'><img src='http://www.thammyvienthuytien.com/vnt_upload/weblink/logo_tham_my_vien_thuy_tien.png' width='260' alt='Logo Thẩm mỹ viện Thủy Tiên' class='png' /></a>
+                                </h1>
+                            </div>
+                            <div id="vnt-main-menu">
+                                <div class="main-menu">
+                                    @Html.Partial("~/Views/Shared/_MenuPartial.cshtml")
+                                </div>
+                            </div>
+
+                            <script type="text/javascript">
+                                $("html").addClass("js");
+                                $.fn.accordion.defaults.container = false;
+                                $.fn.accordion.defaults.initShow = ".active";
+                                $(function () {
+                                    $("#menu-accordion").accordion({ event: "hover", showSpeed: 1000, interval: 500 });
+                                    $("html").removeClass("js");
+                                });
+                            </script>
+                            <div class="box" id="box-cat">
+                                <div class="box-title"><div class="fTitle">Dịch vụ</div></div>
+                                <div class="box-content">
+                                    <ul class="accordion" id="menu-accordion">
+                                        @Html.Partial("~/Views/Service/_AllServicesPartial.cshtml", MvcFrontEnd.DataAccess.CategoryDAL.GetAll())
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                           @Html.Partial("~/Views/Shared/_AdsPartial.cshtml", MvcFrontEnd.DataAccess.OtherDAL.GetModel())therDAL.GetAllAds())
+
+                            <div class="box-sidebar-bottom">
+
+                                @*<script>
+                                    $(function(){
+                                        $("#mail-letter #input-email").focus(function(){
+                                            if( $(this).val() == "Nhập email của bạn" ) $(this).val("");
+                                        });
+                                        $("#mail-letter #input-email").blur(function(){
+                                            if( $(this).val() == "" ) $(this).val("Nhập email của bạn");
+                                        });
+                                        $("#mail-letter #btn-reg-recive").click(function(){
+                                            var email = $("#input-email").val();
+                                            var re = /\S+@\S+\.\S+/;
+                                            if( re.test( email ) ) {
+                                                $("#mail-letter .result-mess").load("/load_ajax.php?do=news_letter",
+                                                                                                                                {email_address: email},
+                                                                                                                                function(){
+                                                                                                                                    $("#input-email").val("");
+                                                                                                                                    $(this).css("display", "block");
+                                                                                                                                }) ;
+                                            } else {
+                                                alert("Email không hợp lệ")
+                                            }
+                                        });
+                                    })
+                                                                        </script>*@
+                                <div id="box-left">
+                                    <div id="box-faqs">
+                                        <div class="inner-box">
+                                            <div class="title-box"></div>
+                                            <div class="wp-btn"><a>08.540.43401</a></div>
+                                        </div>
+                                    </div>
+                                    <div id="mail-letter">
+                                        <div class="inner-box">
+                                            <div class="title-box"></div>
+                                            <div class="result-mess" style="display:none;padding:5px 0;"></div>
+                                            <div class="note-reg-mail">Để biết được những  khuyến mãi và thông tin mới nhất của chúng tôi</div>
+                                            <div class="wp-input">
+                                                <input value="Nhập email của bạn" name="email" id="input-email" />
+                                                <input id="btn-reg-recive" value="" type="button" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div id="box-support">
+                                    <ul class="list-support">
+                                        <li class="yahoo-support">
+                                            <a href="javascript:;" onclick="NewWindow('http://www.thammyvienthuytien.com/blocks/support/popup_yahoo.php?lang=vn', 'Chat', 300, 500, 'yes', 'center')">
+                                                <img align="absmiddle" src="/skins/default/images/icon_yahoo_support.png" alt="yahoo" title="yahoo" />
+                                            </a>
+                                            <span></span>
+                                        </li>
+                                        <li class="skype-support">
+                                            <a href="javascript:;" onclick="NewWindow('http://www.thammyvienthuytien.com/blocks/support/popup_skype.php?lang=vn', 'Chat', 300, 500, 'yes', 'center')">
+                                                <img align="absmiddle" src="/skins/default/images/icon_skype_support.png" alt="skype" title="skype" />
+                                            </a>
+                                            <span></span>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-hotline">
+                                        <li class="label">Hotline:</li>
+                                        <li class="list-number">
+                                            <ul></ul>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="vnt-main">
+                        <script>
+                            $(function () {
+                                $("#box-service .item a").hover(
+                                    function () {
+                                        $(this).parents(".box-item").addClass("hover");
+                                    }, function () {
+                                        $(this).parents(".box-item").removeClass("hover");
+                                    }
+                                );
+                            })
+                        </script>
+                        <h1 style="display:none"></h1>
+                        <div id="main-page">
+                            @RenderSection("featured", required: false)
+                            <section>
+                                @RenderBody()
+
+                            </section>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="vnt-footer">
+            <div class="inner">
+                <div id="footer-info">
+                    <div id="box-hotline">08.540.43401</div>
+                    <div id="contact-info-ft">
+                        <div class="contact-item">
+                            <div class="address">82 đường Lê Thị Riêng, P.Bến Thành, Quận 1, TP.HCM</div>
+                            <div class="phone">08.5404.3402</div>
+                        </div><div class="contact-item">
+                            <div class="address">71A đường 3/2, P.11, Q10, Tp.Hồ Chí Minh</div>
+                            <div class="phone">(08) 383.260.93</div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div><div class="clear"></div>
+            </div>
+        </div>
+        <div id="bottom-bar">
+            <div class="inner">
+                <div id="box-statistic">
+                    <div class="row">
+                        <div class="cell label">Lượt truy cập</div>
+                        <div class="cell char">:</div>
+                        <div class="cell data" id="stats_totals"></div>
+                    </div>
+                    <div class="row">
+                        <div class="cell label">Online</div>
+                        <div class="cell char">:</div>
+                        <div class="cell data" id="stats_online"></div>
+                    </div>
+                </div>
+
+                <div class="bt-right">
+                    @*<div id="vnt-social-network">
+                                                    <a href='https://www.facebook.com/pages/Th%E1%BA%A9m-M%E1%BB%B9-Vi%E1%BB%87n-Th%E1%BB%A7y-Ti%C3%AAn/287422441436430' target='_blank'><img src='/vnt_upload/weblink/icon_facebook.png' /></a> &nbsp;
+                                                    <script>
+                        var fbShare = {
+                        url: 'http://thammyvienthuytien.com/',
+                        size: 'small',
+                        google_analytics: 'true'
+                        }</script>
+                                                    <script src="http://widgets.fbshare.me/files/fbshare.js"></script> &nbsp; <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.thammyvienthuytien.com&send=false&layout=button_count&width=80&show_faces=false&font&colorscheme=light&action=like&height=21&appId=168743163249380" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe> &nbsp; <g:plusone href="http://www.thammyvienthuytien.com" size="medium" align="right"></g:plusone> &nbsp;
+                                                </div>*@
+                    <div class="copyright">Copyright © 2012 <strong>TRUNG TÂM ĐÀO TẠO THẨM MỸ THỦY TIÊN</strong></div>
+                </div>
+
+                @*<div id="box-fanpage">
+                        <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FTh%E1%BA%A9m-M%E1%BB%B9-Vi%E1%BB%87n-Th%E1%BB%A7y-Ti%C3%AAn%2F287422441436430&amp;width=280&amp;height=80&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:280px; height:80px;" allowTransparency="true"></iframe>
+
+                    </div>*@
+
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div id="box-hotline-fixed">
+            <div class="btn-display show"></div>
+            <div class="content-box">
+                <div class="label">Hotline</div>
+                <div class="list-otline">08.540.43401</div>
+                <div class="list-support">
+                    <a href="javascript:void(0)" class="yahoo-support" onclick="NewWindow('http://www.thammyvienthuytien.com//blocks/support/popup_yahoo.php?lang=vn', 'Chat', 300, 500, 'yes', 'center')"></a>
+                    <a href="javascript:void(0)" class="skype-support" onclick="NewWindow('http://www.thammyvienthuytien.com//blocks/support/popup_yahoo.php?lang=vn', 'Chat', 300, 500, 'yes', 'center')"></a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="floating_banner_left" style="overflow: hidden; position: absolute; top: 0px; ">
+        <div id="floating_banner_left_content"></div>
+    </div>
+    <div id="floating_banner_right" style="overflow: hidden; position: absolute; top: 0px;">
+        <div id="floating_banner_right_content"></div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $("#box-hotline-fixed .btn-display").click(function () {
+                if ($(this).hasClass("show")) {
+                    $(this).removeClass("show");
+                    $(this).next().animate({
+                        right: "75px"
+                    }, 500);
+                } else {
+                    $(this).addClass("show");
+                    $(this).next().animate({
+                        right: "-100%"
+                    }, 500);
+                }
+            });
+
+            fix_min_height();
+            //$("#box-cat, #box-cat *").on("hover", function(){ fix_min_height(); })
+            $("#menu-accordion").on("hover", function () {
+                fix_min_height();
+            });
+        })
+        $(window).load(function () { initLoaded(); });
+        var slideTime = 700;
+        var rootWidth = 1000;
+        var floatAtBottom = false;
+        function Ad_floating_init() {
+            xMoveTo('floating_banner_right', rootWidth - (rootWidth - screen.width), 0);
+            xMoveTo('floating_banner_left', rootWidth - (screen.width), 0);
+            winOnResize(); // set initial position
+            xAddEventListener(window, 'resize', winOnResize, false);
+            xAddEventListener(window, 'scroll', winOnScroll, false);
+        }
+        function winOnResize() {
+            checkScreenWidth();
+            winOnScroll(); // initial slide
+        }
+        function winOnScroll() {
+            var y = xScrollTop();
+            if (y <= 135) y = 135;
+            if (floatAtBottom) {
+                y += xClientHeight() - xHeight('floating_banner_left');
+            }
+            xSlideTo('floating_banner_left', (screen.width - rootWidth) / 2 - (110 + 15), y, slideTime);
+            xSlideTo('floating_banner_right', (screen.width + rootWidth) / 2 - 2, y, slideTime);
+        }
+        function checkScreenWidth() {
+            if (screen.width <= 1230) {
+                document.getElementById('floating_banner_left').style.display = 'none';
+                document.getElementById('floating_banner_right').style.display = 'none';
+            }
+        }
+
+        Ad_floating_init();
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            }; if (!f._fbq) f._fbq = n;
+            n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+        }(window,
+        document, 'script', '//connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '1466351567006668');
+        fbq('track', "PageView");</script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=1466351567006668&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            }; if (!f._fbq) f._fbq = n;
+            n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+        }(window,
+        document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '1562901604002552');
+        fbq('track', "PageView");</script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=1562901604002552&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+    @*@Scripts.Render("~/bundles/jquery")*@
+    @RenderSection("scripts", required: false)
+</body>
+</html>

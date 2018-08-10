@@ -1,0 +1,76 @@
+C:\Hien\WebApp\DinhTan\AdminSite\bin\NLog.config
+C:\Hien\WebApp\DinhTan\AdminSite\bin\AdminSite.dll
+C:\Hien\WebApp\DinhTan\AdminSite\bin\AdminSite.pdb
+C:\Hien\WebApp\DinhTan\AdminSite\bin\HtmlAgilityPack.dll
+C:\Hien\WebApp\DinhTan\AdminSite\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Hien\WebApp\DinhTan\AdminSite\bin\Newtonsoft.Json.dll
+C:\Hien\WebApp\DinhTan\AdminSite\bin\NLog.dll
+C:\Hien\WebApp\DinhTan\AdminSite\bin\CKEditor.NET.pdb
+C:\Hien\WebApp\DinhTan\AdminSite\bin\HtmlAgilityPack.pdb
+C:\Hien\WebApp\DinhTan\AdminSite\bin\HtmlAgilityPack.xml
+C:\Hien\WebApp\DinhTan\AdminSite\bin\Newtonsoft.Json.xml
+C:\Hien\WebApp\DinhTan\AdminSite\bin\NLog.xml
+C:\Hien\WebApp\DinhTan\AdminSite\obj\Debug\AdminSite.csprojResolveAssemblyReference.cache
+C:\Hien\WebApp\DinhTan\AdminSite\obj\Debug\AdminSite.dll
+C:\Hien\WebApp\DinhTan\AdminSite\obj\Debug\AdminSite.pdb
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\NLog.config
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\AdminSite.dll
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\AdminSite.pdb
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\CKEditor.NET.dll
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\HtmlAgilityPack.dll
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\Microsoft.QualityTools.Testing.Fakes.dll
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\Newtonsoft.Json.dll
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\NLog.dll
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\CKEditor.NET.pdb
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\HtmlAgilityPack.pdb
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\HtmlAgilityPack.xml
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\Newtonsoft.Json.xml
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\NLog.xml
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\obj\Debug\AdminSite.dll
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\obj\Debug\AdminSite.pdb
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\obj\Debug\AdminSite.csprojResolveAssemblyReference.cache
+F:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\AdminSite.dll.config
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\NLog.config
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\AdminSite.dll.config
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\AdminSite.dll
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\AdminSite.pdb
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\CKEditor.NET.dll
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\HtmlAgilityPack.dll
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\Newtonsoft.Json.dll
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\NLog.dll
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\CKEditor.NET.pdb
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\HtmlAgilityPack.pdb
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\HtmlAgilityPack.xml
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\Newtonsoft.Json.xml
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\AdminSite\bin\NLog.xml
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\AdminSite\obj\Debug\AdminSite.dll
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\AdminSite\obj\Debug\AdminSite.pdb
+F:\Hien\Projects\Web Application\DinhTan\Projects\DinhTan\AdminSite\obj\Debug\AdminSite.csprojResolveAssemblyReference.cache
+E:\TNHien\Projects\DinhTan\AdminSite\bin\NLog.config
+E:\TNHien\Projects\DinhTan\AdminSite\bin\AdminSite.dll.config
+E:\TNHien\Projects\DinhTan\AdminSite\bin\AdminSite.dll
+E:\TNHien\Projects\DinhTan\AdminSite\bin\AdminSite.pdb
+E:\TNHien\Projects\DinhTan\AdminSite\bin\HtmlAgilityPack.dll
+E:\TNHien\Projects\DinhTan\AdminSite\bin\Newtonsoft.Json.dll
+E:\TNHien\Projects\DinhTan\AdminSite\bin\NLog.dll
+E:\TNHien\Projects\DinhTan\AdminSite\bin\CKEditor.NET.pdb
+E:\TNHien\Projects\DinhTan\AdminSite\bin\HtmlAgilityPack.pdb
+E:\TNHien\Projects\DinhTan\AdminSite\bin\HtmlAgilityPack.xml
+E:\TNHien\Projects\DinhTan\AdminSite\bin\Newtonsoft.Json.xml
+E:\TNHien\Projects\DinhTan\AdminSite\bin\NLog.xml
+E:\TNHien\Projects\DinhTan\AdminSite\obj\Debug\AdminSite.csprojResolveAssemblyReference.cache
+E:\TNHien\Projects\DinhTan\AdminSite\obj\Debug\AdminSite.dll
+E:\TNHien\Projects\DinhTan\AdminSite\obj\Debug\AdminSite.pdb
+D:\TNHien\Projects\DinhTan\AdminSite\bin\NLog.config
+D:\TNHien\Projects\DinhTan\AdminSite\bin\AdminSite.dll.config
+D:\TNHien\Projects\DinhTan\AdminSite\bin\AdminSite.dll
+D:\TNHien\Projects\DinhTan\AdminSite\bin\AdminSite.pdb
+D:\TNHien\Projects\DinhTan\AdminSite\bin\HtmlAgilityPack.dll
+D:\TNHien\Projects\DinhTan\AdminSite\bin\Newtonsoft.Json.dll
+D:\TNHien\Projects\DinhTan\AdminSite\bin\NLog.dll
+D:\TNHien\Projects\DinhTan\AdminSite\bin\HtmlAgilityPack.pdb
+D:\TNHien\Projects\DinhTan\AdminSite\bin\HtmlAgilityPack.xml
+D:\TNHien\Projects\DinhTan\AdminSite\bin\Newtonsoft.Json.xml
+D:\TNHien\Projects\DinhTan\AdminSite\bin\NLog.xml
+D:\TNHien\Projects\DinhTan\AdminSite\obj\Debug\AdminSite.dll
+D:\TNHien\Projects\DinhTan\AdminSite\obj\Debug\AdminSite.pdb

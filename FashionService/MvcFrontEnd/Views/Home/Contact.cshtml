@@ -1,0 +1,100 @@
+﻿@using MvcFrontEnd.BusinessObjects
+@model ContactBOL
+
+@{
+    ViewBag.Title = "Liên Hệ";
+    Layout = "~/Views/Shared/_LayoutDetails.cshtml";
+}
+
+<div class="map">
+    @Html.Partial("~/Views/Home/_GoogleMapPartial.cshtml")
+</div>
+
+<div class="row clear-fix">
+</div>
+<div class="col-md-8">
+    <h3 class="h3-catename" style="margin:20px 0 20px 0px;">
+        <a href="javascript:void(0)">
+            Liên hệ trực tuyến
+        </a>
+    </h3>
+    <div class="row">
+        @using (Html.BeginForm())
+        {
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Họ Tên: (<span style="color:red">*</span>)</label>
+                <div class="col-sm-9">
+                    <input name="Name_VN" id="Fullname" class="form-control input-sm" type="text">
+                    <span id="ctl00_FullContent_ref1" class="txt" style="color:Red;visibility:hidden;">*</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Địa chỉ: (<span style="color:red">*</span>)</label>
+                <div class="col-sm-9">
+                    <input name="Address_VN" id="Address" class="form-control input-sm" type="text">
+                    <span id="ctl00_FullContent_ref1" class="txt" style="color:Red;visibility:hidden;">*</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Email: (<span style="color:red">*</span>)</label>
+                <div class="col-sm-9">
+                    <input name="Email" id="EmailAddress" class="form-control input-sm" type="text">
+                    <span id="ctl00_FullContent_ref1" class="txt" style="color:Red;visibility:hidden;">*</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Điện thoại: (<span style="color:red">*</span>)</label>
+                <div class="col-sm-9">
+                    <input name="Phone" id="Phone" class="form-control input-sm" type="text">
+                    <span id="ctl00_FullContent_ref1" class="txt" style="color:Red;visibility:hidden;">*</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Tiêu đề: (<span style="color:red">*</span>)</label>
+                <div class="col-sm-9">
+                    <input name="Subject_VN" id="Subject_VN" class="form-control input-sm" type="text">
+                    <span id="ctl00_FullContent_ref1" class="txt" style="color:Red;visibility:hidden;">*</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Nội dung: (<span style="color:red">*</span>)</label>
+                <div class="col-sm-9">
+                    <textarea name="Content_VN" rows="2" cols="20" id="Content_VN" class="form-control input-sm"></textarea>
+                    <span id="ctl00_FullContent_RequiredFieldValidator3" class="txt" style="color:Red;visibility:hidden;">*</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <input value="Gửi thông tin" class="btn btn-sm btn-primary" type="submit">
+            </div>
+            @Html.ValidationSummary()
+
+            @*<div class="input-wrapper clearfix row-captcha">
+                    <div class="item-label fl"><!--Mã bảo vệ-->3 + 3 <span class="font_err">(*)</span></div>
+                    <div class="item-input fl">
+                        <div class="input_l fl" style="width:100%; margin-right:10px; "><div class="input_r"><div class="input_bg "><div class="icon icon_scode"><input class="textfiled required icon_code" name="security_code" id="security_code" maxlength="6" value="" size="10" title="" type="text"></div></div></div></div>&nbsp;
+                        <div class="fl"><img class="captcha-img" src="http://www.thammyvienthuytien.com/includes/sec_image.php?code=jNDI4Mc3" align="absmiddle"></div>
+                    </div>
+                </div>*@
+        }
+    </div>
+
+</div>
+
+<div class="col-md-4">
+    <h3 class="h3-catename" style="margin:20px 0 20px 0;">
+        <a href="javascript:void(0)">
+            Thông tin liên hệ
+        </a>
+    </h3>
+    <div style="line-height:20px;font-size:14px;font-family:Tahoma;">
+
+        <ul style="box-sizing: border-box; padding: 0px; list-style: none; margin-top: 0px; margin-bottom: 10px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; margin-right: 0px !important; margin-left: 0px !important;">
+            <li style="box-sizing: border-box;">Điện thoại: @Model.Phone - Hotline: @Model.Phone</li>
+            <li style="box-sizing: border-box;">Địa chỉ: @Model.Address_VN</li>
+        </ul>
+
+    </div>
+</div>
+
+<div class="clr">
+</div>

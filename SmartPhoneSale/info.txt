@@ -1,0 +1,11 @@
+[3/20/2016 3:49:39 PM] Dung Lê Hoàng: Host name: ftp.iphonegiasixachtay.com ho?c 112.213.89.144
+Username: iphonegiasixach 
+Password: YVAU2937jyqm
+[3/20/2016 3:49:57 PM] Dung Lê Hoàng: em upload code vô dây d? test nhé
+[3/20/2016 3:50:05 PM] Dung Lê Hoàng: MSSQL Host name: mssql173.dotvndns.vn
+
+
+Host: mssql173.dotvndns.vn
+Database name: iphonegiasixachtay_com_db
+User name: iphonegiasixachtay_com_sql
+pwd: 111111@@

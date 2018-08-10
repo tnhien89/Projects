@@ -1,0 +1,254 @@
+﻿@using Company.Models
+@using System.Collections
+@model List<PostInfo>
+
+@{
+    ViewBag.Title = "Posts";
+    Hashtable menu = ViewData["Menu"] == null ? new Hashtable() : ViewData["Menu"] as Hashtable;
+}
+
+<!-- Data tables -->
+<!--<link rel="stylesheet" type="text/css" href="../../assets/widgets/datatable/datatable.css">-->
+<script type="text/javascript" src="~/Assets/widgets/datatable/datatable.js"></script>
+<script type="text/javascript" src="~/Assets/widgets/datatable/datatable-bootstrap.js"></script>
+<script type="text/javascript" src="~/Assets/widgets/datatable/datatable-tabletools.js"></script>
+<script type="text/javascript">
+
+    /* Datatables basic */
+    /* Datatables hide columns */
+
+    $(document).ready(function () {
+        var table = $('#datatable-posts').DataTable({
+            paging: true,
+            columnDefs: [
+                {
+                    targets: 'no-sort', orderable: false
+                }
+            ],
+            order: [[6, 'desc']]
+        });
+
+        $('a.toggle-vis').on('click', function (e) {
+            e.preventDefault();
+
+            // Get the column API object
+            var column = table.column($(this).attr('data-column'));
+
+            // Toggle the visibility
+            column.visible(!column.visible());
+        });
+    });
+
+
+    $(document).ready(function () {
+        $('.dataTables_filter input').attr("placeholder", "Search...");
+    });
+
+    $(document).on('click', '.toggle-vis', function (e) {
+        var btn = $(e.target);
+        var col = btn.attr('data-column');
+        var table = $('#datatable-menu').DataTable();
+        if (table.column(col).visible() === true) {
+            if (btn.hasClass('btn-default')) {
+                btn.removeClass('btn-default');
+            }
+
+            if (!btn.hasClass('btn-primary')) {
+                btn.addClass('btn-primary');
+            }
+        }
+        else {
+            if (!btn.hasClass('btn-default')) {
+                btn.addClass('btn-default');
+            }
+
+            if (btn.hasClass('btn-primary')) {
+                btn.removeClass('btn-primary');
+            }
+        }
+    })
+
+    $(document).on('click', '.checkbox-row', function (e) {
+        //e.preventDefault();
+        var cbx = $(e.target);
+
+        if (cbx.is(":checked")) {
+            $('#cbxCheckAll').prop('checked', isCheckAllCheckBoxItemRow());
+            var btn = $('#btnDelete');
+            if (btn.hasClass('disabled')) {
+                btn.removeClass('disabled');
+            }
+        }
+        else {
+            $('#cbxCheckAll').prop('checked', false);
+            var btn = $('#btnDelete');
+            if (hasCheckItemRow()) {
+                if (btn.hasClass('disabled')) {
+                    btn.removeClass('disabled');
+                }
+            }
+            else {
+                if (!btn.hasClass('disabled')) {
+                    btn.addClass('disabled');
+                }
+            }
+        }
+    });
+
+    $(document).on('click', '#cbxCheckAll', function (e) {
+        //e.preventDefault();
+        var check = $('#cbxCheckAll').is(':checked');
+        //$('#cbxCheckAll').prop('checked');
+        $('.checkbox-row').each(function (idx, cbx) {
+            $(cbx).prop('checked', check);
+        });
+
+        var btn = $('#btnDelete');
+        if (check && btn.hasClass('disabled') && $('.checkbox-row').length && $('.checkbox-row').length > 0) {
+            btn.removeClass('disabled');
+        }
+        else if (!btn.hasClass('disabled')) {
+            btn.addClass('disabled');
+        }
+    });
+
+    $(document).on('click', '#btnDelete', function (e) {
+        e.preventDefault();
+        if (!confirm("Are you sure you want to delete?"))
+        {
+            return false;
+        }
+
+        var btn = $('#btnDelete');
+        btn.addClass('disabled');
+
+        var ids = "";
+        $('.checkbox-row').each(function (idx, item) {
+            if ($(item).is(':checked')) {
+                var id = $(item).attr('data-id');
+                if (id) {
+                    if (ids != "") {
+                        ids += "," + id;
+                    }
+                    else {
+                        ids = id;
+                    }
+                }
+            }
+        });
+
+        $.ajax({
+            url: 'Posts/Delete',
+            type: 'DELETE',
+            data: JSON.stringify({ ids: ids}),
+            dataType: 'json',
+            contentType: 'application/json',
+            success: function(rs) {
+                if (!rs) {
+                    console.log('null result');
+                    btn.removeClass('disabled');
+                    return false;
+                }
+
+                if (rs.Code < 0) {
+                    console.log(rs.ErrorMessage);
+                    alert(rs.Message);
+                    btn.removeClass('disabled');
+                    return false;
+                }
+
+                location.reload();
+            },
+            error: function (xhr, status, error) {
+                console.log(error);
+                alert(error);
+                btn.removeClass('disabled');
+            }
+        });
+    });
+
+    function isCheckAllCheckBoxItemRow() {
+        var rs = true;
+        $('.checkbox-row').each(function (idx, cbx) {
+            if (!$(cbx).is(':checked')) {
+                rs = false;
+                return false;
+            }
+        });
+
+        return rs;
+    }
+
+    function hasCheckItemRow() {
+        var rs = false;
+        $('.checkbox-row').each(function (idx, cbx) {
+            if ($(cbx).is(':checked')) {
+                rs = true;
+                return false;
+            }
+        });
+
+        return rs;
+    }
+</script>
+<div id="page-title">
+    <h2>Posts</h2>
+</div>
+<div class="panel">
+    <div class="panel-body">
+        <h3 class="title-hero">
+            All
+        </h3>
+        <div class="example-box-wrapper">
+            @Html.ValidationMessage("Error")
+            <div class="size-md" style="margin-bottom: 5px;">
+                <a id="btnDelete" class="btn btn-danger btn-md disabled" href="#">Delete</a>
+                <a class="btn btn-primary btn-md toggle-vis" href="#" data-column="1">Title</a>
+                <a class="btn btn-primary btn-md toggle-vis" href="#" data-column="2">Menu</a>
+                <a class="btn btn-primary btn-md toggle-vis" href="#" data-column="3">Image</a>
+                <a class="btn btn-primary btn-md toggle-vis" href="#" data-column="4">Status</a>
+                <a class="btn btn-primary btn-md toggle-vis" href="#" data-column="5">Updated By</a>
+                <a class="btn btn-primary btn-md toggle-vis" href="#" data-column="6">Updated At</a>
+            </div>
+            <table id="datatable-menu" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th class="no-sort" style="width: 20px; text-align: center;">
+                            <div class="checkbox checkbox-primary">
+                                <input id="cbxCheckAll" type="checkbox" class="checkbox-all" value="">
+                            </div>
+                        </th>
+                        <th>Title</th>
+                        <th>Menu</th>
+                        <th>Image</th>
+                        <th>Status</th>
+                        <th>Updated By</th>
+                        <th>Updated At</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (PostInfo item in Model)
+                    {
+                        @Html.Raw("<tr>")
+                        @Html.Raw("<td style='text-align: center;'><div class='checkbox'><input type='checkbox' class='checkbox-row' value='' data-id='" + item.Id.ToString() + "'></div></td>")
+                        @Html.Raw("<td><a href='" + Url.Action("Index", "Posts", new { key = item.ItemKey }) + "'>" + item.Title + "</a></td>")
+                        if (!string.IsNullOrEmpty(item.Type) && menu[item.Type] != null)
+                        {
+                            @Html.Raw("<td>" + menu[item.Type].ToString() + "</td>")
+                        }
+                        else
+                        {
+                            @Html.Raw("<td></td>")
+                        }
+
+                        @Html.Raw("<td class='row-image-thumb'><img src='" + @Url.Action("Files", "Home", new { key = item.Images }) + "' /></td>")
+                        @Html.Raw("<td>" + item.Status + "</td>")
+                        @Html.Raw("<td>" + item.UpdatedByUsername + "</td>")
+                        @Html.Raw("<td>" + (item.UpdatedAt.HasValue ? item.UpdatedAt.Value.ToString("MM/dd/yyyy h:mm tt") : "") + "</td>")
+                        @Html.Raw("</tr>")
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

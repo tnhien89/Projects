@@ -1,0 +1,280 @@
+﻿@using Company.Models
+@using System.Collections
+@model ArrayList
+
+@{
+    ViewBag.Title = "Dịch Vụ Bảo Vệ";
+    List<object> topHotItems = Model.Count > 0 ? Model[0] as List<object> : new List<object>();
+    List<object> topPostItems = Model.Count > 1 ? Model[1] as List<object> : new List<object>();
+    Hashtable townItems = ViewData["TownItems"] == null ? new Hashtable() : ViewData["TownItems"] as Hashtable;
+    Hashtable countItems = ViewData["CountItems"] == null ? new Hashtable() : ViewData["CountItems"] as Hashtable;
+}
+
+<style type="text/css">
+    .rslides {
+        height: 600px !important;
+    }
+</style>
+
+<!-- //header -->
+<!-- banner -->
+<div class="banner">
+    <!-- container -->
+    <div class="container">
+        <div class="banner-agileinfo">
+            <script src="~/Assets/js/responsiveslides.min.js"></script>
+            <script>
+                // You can also use "$(window).load(function() {"
+                $(function () {
+                    // Slideshow 4
+                    $("#slider3").responsiveSlides({
+                        auto: true,
+                        pager: true,
+                        nav: false,
+                        speed: 1000,
+                        namespace: "callbacks",
+                        before: function () {
+                            $('.events').append("<li>before event fired.</li>");
+                        },
+                        after: function () {
+                            $('.events').append("<li>after event fired.</li>");
+                        }
+                    });
+                });
+            </script>
+            <div id="top" class="callbacks_container-wrap">
+                <ul class="rslides" id="slider3">
+                    <li>
+                        <div class="banner-w3text">
+                            <h3>NHÂN VIÊN BẢO VỆ</h3>
+                            <h5>BẢO VỆ ĐẠI QUANG MINH</h5>
+                            <p>Nhân viên bảo vệ ĐẠI QUANG MINH do Ban Giám Đốc trực tiếp tuyển chọn theo tiêu chuẩn bắt buộc và quy trình xét tuyển nghiêm ngặt. Các ứng viên dự tuyển từ nhiều nguồn khác nhau, trong đó đa số là những người đã từng làm việc trong ngành Công an, Quân đội giàu kiến thức chuyên môn và bề dày kinh nghiệm. Tuy nhiên, 100% nhân viên bảo vệ đều phải trải qua khóa đào tạo ban đầu 02 tháng 15 ngày, đồng thời họ phải trải qua đợt sát hạch năng lực và tái huấn luyện hàng năm; có khả năng làm việc gắn kết theo nhóm, hành động tự lực, đạo đức nghề nghiệp, ý thức tổ chức kỷ luật tốt.</p>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="banner-w3text">
+                            <h3>ĐỘI GIÁM SÁT, KIỂM TRA</h3>
+                            <h5>BẢO VỆ ĐẠI QUANG MINH</h5>
+                            <p>
+                                Hoạt động thường xuyên, liên tục kết hợp giữa định kỳ và đột xuất nhằm đánh giá kế hoạch bảo vệ đã cam kết với khách hàng, có được thực hiện đến từng chi tiết hay không; giám sát chất lượng nhân viên phát hiện những sơ hở, thiếu sót của nhân viên nhằm chấn chỉnh kịp thời.
+                                <br /><br />
+                                Công ty Đại Quang Minh luôn có ý thức tư vấn cho khách hàng.
+                            </p>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="banner-w3text">
+                            <h3>BỘ PHẬN CHĂM SÓC KHÁCH HÀNG</h3>
+                            <h5>BẢO VỆ ĐẠI QUANG MINH</h5>
+                            <p>Nhân viên ĐẠI QUANG MINH chăm sóc khách hàng định kỳ gặp gỡ, lắng nghe khách hàng đánh giá chất lượng dịch vụ, những thiếu sót của đội bảo vệ cũng như những vấn đề vướng mắc trong quá trình thực hiện hợp đồng nhằm đem lại chất lượng dịch vụ tốt nhất.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- //container -->
+</div>
+<!-- //banner -->
+<!-- about-team -->
+<div class="about-team agileits-w3layouts" style="display:none">
+    <!-- container-wrap -->
+    <div class="container">
+        <h3>ĐỘI NGŨ QUẢN TRỊ</h3>
+        <div class="team-wthreegrids">
+            <div class="col-md-3 team-grid">
+                <img src="~/Assets/images/t1.jpg" alt="">
+                <h6>convallis id mauris</h6>
+                <div class="team-w3icons w3-agileitsicons">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a class="twt" href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+                        <li><a class="drbl" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+                    </ul>
+                </div>
+                <p> Curabitur orci massa convallis id mauris sed venenatis porttitor at leo nec purus</p>
+            </div>
+            <div class="col-md-3 team-grid">
+                <img src="~/Assets/images/t2.jpg" alt="">
+                <h6>massa convallis</h6>
+                <div class="team-w3icons w3-agileitsicons">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a class="twt" href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+                        <li><a class="drbl" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+                    </ul>
+                </div>
+                <p> Curabitur orci massa convallis id mauris sed venenatis porttitor at leo nec purus</p>
+            </div>
+            <div class="col-md-3 team-grid">
+                <img src="~/Assets/images/t3.jpg" alt="">
+                <h6>leonec purus</h6>
+                <div class="team-w3icons w3-agileitsicons">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a class="twt" href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+                        <li><a class="drbl" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+                    </ul>
+                </div>
+                <p> Curabitur orci massa convallis id mauris sed venenatis porttitor at leo nec purus</p>
+            </div>
+            <div class="col-md-3 team-grid">
+                <img src="~/Assets/images/t4.jpg" alt="">
+                <h6>venenatis portt</h6>
+                <div class="team-w3icons w3-agileitsicons">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a class="twt" href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+                        <li><a class="drbl" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+                    </ul>
+                </div>
+                <p> Curabitur orci massa convallis id mauris sed venenatis porttitor at leo nec purus</p>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <!-- //container -->
+</div>
+<!-- //about-team -->
+<!-- blog -->
+<div class="blog">
+    <!-- container -->
+    <div class="container">
+        <div class="col-md-9 blog-top-left-grid">
+            <div class="left-blog left-single">
+                <div class="blog-left">
+                    <div class="single-left-left Categories">
+                        <h3>TUYỂN DỤNG TIÊU ĐIỂM</h3>
+                    </div>
+                    <div class="list-item-bg panel-list-job">
+                        @if (topHotItems.Count == 0)
+                        {
+                            <span style="text-align: center; display: block; padding: 10px;">Đang cập nhật</span>
+                        }
+                        else
+                        {
+                            foreach (PostInfo item in topHotItems)
+                            {
+                                <div class="list-item">
+                                    <div class="img-thumb">
+                                        <img src="@Url.Action("Files", "Home", new { key = item.Images })" alt="@item.Title">
+                                    </div>
+                                    <span class="red pull-right"><i class=" glyphicon glyphicon-usd"></i><span>@item.GetWageString()</span></span>
+                                    <a href="@Url.Action("Index", "Recruitment", new { key = item.ItemKey })" title="Bảo vệ làm việc tại KCN Tây Bắc, Củ Chi" class="name paddingtop5 green">
+                                        @item.Title
+                                        <img src="~/Assets/images/hot.gif" alt="việc làm hot" align="absmiddle">
+                                    </a>
+                                    <p class="description text-uppercase">
+                                        <i class=" glyphicon glyphicon-hand-right"></i><a href="#" title=" Công ty bảo vệ Thanh Bình Phú Mỹ" class="company-name">@item.CompanyName</a>
+                                        <i class="glyphicon glyphicon-time"></i>
+                                        <small>@item.UpdatedAt.Value.ToString("dd-MM-yyyy")</small>
+                                        <i class="glyphicon glyphicon-map-marker"></i>
+                                        <small>
+                                            @item.GetCompanyAddress()
+                                        </small>
+                                    </p>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="left-blog left-single" style="margin-top: 20px;">
+                <div class="blog-left">
+                    <div class="single-left-left Categories">
+                        <h3>TUYỂN DỤNG MỚI NHẤT</h3>
+                    </div>
+                    <div class="list-item-bg panel-list-job">
+                        @if (topPostItems.Count == 0)
+                        {
+                            <span style="text-align: center; display: block; padding: 10px;">Đang cập nhật</span>
+                        }
+                        else
+                        {
+                            foreach (PostInfo item in topPostItems)
+                            {
+                                <div class="list-item">
+                                    <div class="img-thumb">
+                                        <img src="@Url.Action("Files", "Home", new { key = item.Images })" alt="@item.Title">
+                                    </div>
+                                    <span class="red pull-right"><i class=" glyphicon glyphicon-usd"></i><span>@item.GetWageString()</span></span>
+                                    <a href="@Url.Action("Index", "Recruitment", new { key = item.ItemKey })" title="Bảo vệ làm việc tại KCN Tây Bắc, Củ Chi" class="name paddingtop5 green">
+                                        @item.Title
+                                    </a>
+                                    <p class="description text-uppercase">
+                                        <i class=" glyphicon glyphicon-hand-right"></i><a href="#" title=" Công ty bảo vệ Thanh Bình Phú Mỹ" class="company-name">@item.CompanyName</a>
+                                        <i class="glyphicon glyphicon-time"></i>
+                                        <small>@item.UpdatedAt.Value.ToString("dd-MM-yyyy")</small>
+                                        <i class="glyphicon glyphicon-map-marker"></i>
+                                        <small>
+                                            @item.GetCompanyAddress()
+                                        </small>
+                                    </p>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-3 blog-top-right-grid">
+            <div class="Categories">
+                <h3>Khu Vực Tuyển Bảo Vệ</h3>
+                <ul>
+                    @foreach (DictionaryEntry entry in townItems)
+                    {
+                        <li>
+                            @if (countItems[entry.Key] != null)
+                            {
+                                <a href="@Url.Action("Index", "Town", new { key = entry.Key.ToString() })">@Html.Raw(entry.Value.ToString() + " (" + countItems[entry.Key].ToString() + ")")</a>
+                            }
+                            else
+                            {
+                                <a href="@Url.Action("Index", "Town", new { key = entry.Key.ToString() })">@entry.Value.ToString()</a>
+                            }
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div class="Categories">
+                <h2 class="agileits-title">Chăm Sóc Khách Hàng</h2>
+                <ul class="marked-list w3-agileits-offs1">
+                    <li>
+                        <span>Chi nhánh HCM - </span><a href="tel:0964266679">0964 266 679</a>
+                        <a href="#">group@daiquangminhsecurity.com</a>
+                        <p class="contact_home"><i class="glyphicon glyphicon-home"></i>609/25, Lê Quang Định, P1, Q.Gò Vấp, TP HCM.</p>
+
+                    </li>
+                    <li>
+                        <span>Chi nhánh Hà Nội - </span><a href="tel:02466526711">024 665 26711</a>
+                        <a href="mailto:info@baovedaiquangminh.vn">info@baovedaiquangminh.vn</a>
+                        <p class="contact_home"><i class="glyphicon glyphicon-home"></i>Số 65 - Miếu Đầm - Phường Mễ Trì - Quận Nam Từ Liêm - Tp.Hà Nội.</p>
+
+                    </li>
+                </ul>
+            </div>
+            <img src="~/Assets/images/ads-tuyen-dung.jpg">
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <!-- //container -->
+</div>
+<!-- //blog -->
+<!-- news-bottom -->
+<div class="news-bottom">
+    <!-- container -->
+    <div class="container">
+        <div class="news-w3agileitsinfo">
+            <h3>Fusce ullamcorper </h3>
+            <p>Proin euismod vehicula vestibulum. Fusce ullamcorper aliquet In eget sem consectetur, condimentum velit nec, rhoncus sapien. Cras sit amet ullamcorper dui. Ut euismod lacinia elit sed ullamcorper. Integer mollis neque sed dictum pretium. Integer eget elementum sapien. dolor id egestas. Nulla leo purus, facilisis non cursus ut Fusce ullamcorper aliquet dolor id egestas. Nulla leo purus, facilisis non cursus ut, egestas sed ipsum.</p>
+            <p>Proin euismod vehicula vestibulum. Fusce ullamcorper aliquet In eget sem consectetur, condimentum velit nec, rhoncus sapien. Cras sit amet ullamcorper dui. Ut euismod lacinia elit sed ullamcorper. Integer mollis neque sed dictum pretium. Integer eget elementum sapien. dolor id egestas. Nulla leo purus.</p>
+        </div>
+    </div>
+    <!-- //container -->
+</div>
+<!-- //news-bottom -->

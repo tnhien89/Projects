@@ -1,0 +1,148 @@
+﻿@using BackEnd.Models
+@model List<News>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row">
+    <div class="card card-outlined">
+        <div class="card-head">
+            <header>News</header>
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <tr>
+                    <th>
+                        <input type="checkbox" id="check_all" class="checkbox" />
+                    </th>
+                    <th>#</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Menu</th>
+                    <th>Last Update</th>
+                </tr>
+                @for (int i = 1; i <= Model.Count; i++)
+                {
+                    <tr>
+                        <td>
+                            <input type="checkbox" class="checkbox cbx-row" data-id="@Model[i - 1].Id" />
+                        </td>
+                        <td>@i.ToString()</td>
+                        <td>
+
+                            @if (string.IsNullOrEmpty(Model[i - 1].Title_VN))
+                            {
+                                <a href="@Url.Action("Edit", new { id = Model[i - 1].Id })">@("<")untitled@(">")</a>
+                            }
+                            else
+                            {
+                                <a href="@Url.Action("Edit", new { id = Model[i - 1].Id })">
+                                    @Model[i - 1].Title_VN
+                                </a>
+                            }
+                        </td>
+
+                        <td>@Model[i - 1].Description_VN</td>
+                        <td>@Model[i - 1].MenuName_VN</td>
+                        <td>@Model[i - 1].UpdatedDateString</td>
+                    </tr>
+                }
+            </table>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <input type="button" class="btn btn-primary" value="Add" onclick="window.location.href='@Url.Action("Add")'" />
+                        <input type="button" id="btn_delete" class="btn btn-danger" value="Delete" disabled="disabled" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts
+{
+    <script>
+        var checkAll = false;
+        $('#check_all').on('click', function (e) {
+            var checked = $(this).is(':checked');
+
+            $('.cbx-row').each(function (idx, cbx) {
+                $(cbx).prop('checked', checked);
+            });
+
+            $('#btn_delete').prop('disabled', !checked);
+        });
+
+        $('.cbx-row').on('click', function (e) {
+            var checked = $(this).is(':checked');
+            if (checked) {
+                $('#btn_delete').prop('disabled', false);
+            }
+            else {
+                $('#check_all').prop('checked', false);
+                var hasCheckItem = false;
+
+                $('.cbx-row').each(function (idx, item) {
+                    if ($(item).is(':checked')) {
+                        hasCheckItem = true;
+                        return false;
+                    }
+                });
+
+                $('#btn_delete').prop('disabled', !hasCheckItem);
+            }
+        });
+
+        $('#btn_delete').on('click', function (e) {
+            e.preventDefault();
+            $(this).prop('disabled', true);
+
+            var listId = '';
+            $('.cbx-row').each(function (idx, item) {
+                if ($(item).is(':checked'))
+                {
+                    if (listId != '') {
+                        listId = listId + ',' + $(item).attr('data-id');
+                    }
+                    else {
+                        listId = $(item).attr('data-id');
+                    }
+                }
+            });
+
+            $.ajax({
+                url: 'News/Delete',
+                type: 'DELETE',
+                data: JSON.stringify({ listId: listId }),
+                dataType: 'json',
+                contentType: 'application/json',
+                success: function (result) {
+                    if (!result)
+                    {
+                        console.log('null result');
+                        $(this).prop('disabled', false);
+                        return false;
+                    }
+
+                    if (result.Code < 0)
+                    {
+                        console.log(result.ErrorMessage);
+                        alert(result.ErrorMessage);
+                        $(this).prop('disabled', false);
+                        return false;
+                    }
+
+                    location.reload();
+                },
+                error: function (xhr, status, error) {
+                    console.log(error);
+                    alert(error);
+                    $(this).prop('disabled', false);
+                }
+            });
+        });
+    </script>
+}

@@ -1,0 +1,41 @@
+﻿@using FrontEnd.Models
+@model List<Menu>
+
+@{
+    int menuId = Session["SelectedMenuId"] == null ? 0 : int.Parse(Session["SelectedMenuId"].ToString());
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                @*<div class="navbar-header">
+                    <a class="navbar-brand" href="@Url.Action("Index", "Home")">Trang Chủ</a>
+                </div>*@
+                <ul class="nav navbar-nav">
+                    @if (menuId > 0)
+                    {
+                        <li id="menu_item_home"><a href="@Url.Action("Index", "Home")">Trang Chủ</a></li>
+                    }
+                    else
+                    {
+                        <li id="menu_item_home" class="active"><a href="@Url.Action("Index", "Home")">Trang Chủ</a></li>
+                    }
+
+                    @foreach (Menu menu in Model)
+                    {
+                        if (menuId > 0 && menuId == menu.Id)
+                        {
+                            <li class="active" data-id="@menu.Id"><a href="@Url.Action("Index", "Home", new { menuId = menu.Id })">@menu.Name_VN</a></li>
+                            continue;
+                        }
+
+                        <li data-id="@menu.Id"><a href="@Url.Action("Index", "Home", new { menuId = menu.Id })">@menu.Name_VN</a></li>
+                    }
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+    
+</div>

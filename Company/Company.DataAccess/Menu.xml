@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+  <Item>
+    <Name>Tuyển Dụng</Name>
+    <Type>tuyen-dung</Type>
+  </Item>
+  <!--<Item>
+    <Name>Nhà Tuyển Dụng</Name>
+    <Type>cong-ty-tuyen-dung</Type>
+  </Item>-->
+  <Item>
+    <Name>Việc Làm Theo Quận</Name>
+    <Type>viec-lam-theo-quan</Type>
+  </Item>
+  <Item>
+    <Name>Tin Tức</Name>
+    <Type>tin-tuc</Type>
+  </Item>
+  <Item>
+    <Name>Liên Hệ</Name>
+    <Type>lien-he</Type>
+  </Item>
+</Menu>

@@ -1,0 +1,4 @@
+F:\TNHien\Git Projects\Company\Company.Extensions\bin\Release\Company.Extensions.dll
+F:\TNHien\Git Projects\Company\Company.Extensions\bin\Release\Company.Extensions.pdb
+F:\TNHien\Git Projects\Company\Company.Extensions\obj\Release\Company.Extensions.dll
+F:\TNHien\Git Projects\Company\Company.Extensions\obj\Release\Company.Extensions.pdb

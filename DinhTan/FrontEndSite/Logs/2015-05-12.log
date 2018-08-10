@@ -1,0 +1,22 @@
+2015-05-12 23:54:21.1023 ERROR  -  [DataAccessHelpers][ConnectionString] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.DataAccessHelpers.ConnectionString() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\DataAccessHelpers.cs:line 24
+2015-05-12 23:54:21.1763 ERROR  -  [DataAccessHelpers][ExecuteQuery] Error: System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at FrontEndSite.DataAccessHelpers.ExecuteQuery(String query) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\DataAccessHelpers.cs:line 119
+2015-05-12 23:54:53.1506 ERROR  -  [DataAccessHelpers][ConnectionString] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FrontEndSite.DataAccessHelpers.ConnectionString() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\DataAccessHelpers.cs:line 24
+2015-05-12 23:54:53.1586 ERROR  -  [DataAccessHelpers][ExecuteQuery] Error: System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at System.Data.SqlClient.SqlConnection.PermissionDemand()
+   at System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at FrontEndSite.DataAccessHelpers.ExecuteQuery(String query) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\FrontEndSite\DataAccessHelpers.cs:line 119

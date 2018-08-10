@@ -1,0 +1,103 @@
+[Sep/18/2017 02:29:16.910PM] (8) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 0 - Title: sdafsdfsdf 
+[Sep/18/2017 02:29:17.124PM] (6) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:13:50.950PM] (6) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:16:57.484PM] (25) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 0 - Title: sdafsdfsdf 
+[Sep/18/2017 03:16:57.575PM] (23) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:17:00.488PM] (25) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 03:17:30.681PM] (25) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 1 - Title: sdafsdfsdf 
+[Sep/18/2017 03:17:30.720PM] (25) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:17:33.029PM] (23) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 03:17:45.933PM] (18) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 1 - Title: sdafsdfsdf 
+[Sep/18/2017 03:17:46.064PM] (25) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:17:48.491PM] (23) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 03:17:56.904PM] (25) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 1 - Title: sdafsdfsdf 
+[Sep/18/2017 03:17:57.014PM] (20) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:18:25.940PM] (23) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 03:18:38.124PM] (18) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 1 - Title: sdafsdfsdf 
+[Sep/18/2017 03:18:38.159PM] (18) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:18:41.365PM] (18) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 03:20:23.494PM] (6) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:20:29.877PM] (6) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 03:20:43.859PM] (5) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 1 - Title: sdafsdfsdf 
+[Sep/18/2017 03:20:45.702PM] (8) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:22:21.365PM] (8) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:22:27.098PM] (17) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 03:22:41.953PM] (5) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 1 - Title: sdafsdfsdf 
+[Sep/18/2017 03:22:41.980PM] (11) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:23:49.276PM] (12) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 03:24:03.090PM] (5) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 1 - Title: sdafsdfsdf 
+[Sep/18/2017 03:24:03.115PM] (5) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:26:06.542PM] (12) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:26:22.103PM] (11) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:26:24.422PM] (11) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 03:26:39.182PM] (23) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 1 - Title: sdafsdfsdf 
+[Sep/18/2017 03:26:39.208PM] (21) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:39:58.678PM] (7) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:40:00.968PM] (8) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 03:46:34.198PM] (27) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:46:36.518PM] (11) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 03:46:58.341PM] (28) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 1 - Title: sdafsdfsdf 
+[Sep/18/2017 03:46:58.378PM] (28) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:47:09.725PM] (11) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 03:50:47.631PM] (25) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 03:51:08.601PM] (20) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 1 - Title: sdafsdfsdf 
+[Sep/18/2017 03:51:08.624PM] (25) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:52:55.165PM] (5) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 03:53:01.423PM] (9) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 03:53:29.837PM] (7) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 03:53:50.760PM] (5) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 1 - Title: sdafsdfsdf 
+[Sep/18/2017 03:53:50.794PM] (21) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:54:43.778PM] (13) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 03:54:51.733PM] (13) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 03:55:10.612PM] (28) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 1 - Title: sdafsdfsdf 
+[Sep/18/2017 03:55:10.651PM] (16) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:57:07.946PM] (11) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:57:14.130PM] (5) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 03:57:47.661PM] (7) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 1 - Title: sdafsdfsdf 
+[Sep/18/2017 03:57:47.685PM] (20) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:59:06.780PM] (17) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 03:59:09.022PM] (18) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:02:23.584PM] (9) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 04:02:25.675PM] (11) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:02:46.950PM] (21) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:02:55.586PM] (13) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:03:06.834PM] (11) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:03:13.866PM] (9) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:03:19.505PM] (23) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:03:28.619PM] (17) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:04:15.570PM] (18) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:04:36.944PM] (9) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 1 - Title: sdafsdfsdf 
+[Sep/18/2017 04:04:36.970PM] (18) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 04:05:52.824PM] (18) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 04:05:55.640PM] (19) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:06:15.185PM] (9) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 1 - Title: sdafsdfsdf 
+[Sep/18/2017 04:06:15.220PM] (19) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 04:09:00.222PM] (11) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 04:09:10.622PM] (14) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 04:09:12.420PM] (22) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:10:55.207PM] (11) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 1 - Title: sdafsdfsdf 
+[Sep/18/2017 04:10:55.246PM] (21) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 04:14:26.331PM] (27) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 04:14:32.061PM] (27) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 04:14:34.931PM] (13) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:19:34.474PM] (16) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:19:41.131PM] (11) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 04:19:43.564PM] (11) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:21:05.845PM] (5) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:21:14.967PM] (18) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 04:21:18.981PM] (9) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:22:14.678PM] (14) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:22:22.283PM] (35) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 04:22:25.225PM] (10) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:22:47.005PM] (36) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 1 - Title: sdafsdfsdf 
+[Sep/18/2017 04:22:47.079PM] (10) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 04:24:09.792PM] (19) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:24:34.802PM] (35) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:27:52.643PM] (35) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:28:02.814PM] (8) Company.DataAccess.PostRepository.InsertOrUpdateReturnObject DEBUG Id: 1 - Title: sdafsdfsdf 
+[Sep/18/2017 04:28:02.846PM] (29) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 04:28:04.909PM] (23) Company.DataAccess.PostRepository.Get DEBUG itemKey: sdafsdfsdf 
+[Sep/18/2017 04:37:32.428PM] (33) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 04:37:36.575PM] (33) Company.DataAccess.MenuRepository.Delete DEBUG ids: 1 
+[Sep/18/2017 04:37:36.633PM] (19) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 
+[Sep/18/2017 04:37:40.139PM] (30) Company.DataAccess.PostRepository.Get DEBUG parentId: {0} - records: {1} - condition: {2} - orderFields: {3} - orderType: {4} 

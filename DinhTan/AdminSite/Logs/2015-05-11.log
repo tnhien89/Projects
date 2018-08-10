@@ -1,0 +1,369 @@
+2015-05-11 16:28:23.9894 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 16:28:24.1140 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 16:28:25.1647 ERROR  -  [DataAccessHelpers][ExecuteStored] Error: System.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'sp_News_Insert_Updated'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at AdminSite.DataAccessHelpers.ExecuteStored(String stored, Hashtable hashTable) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccessHelpers.cs:line 261
+ClientConnectionId:bff5c623-1acb-4738-b3e1-15fb6574a680
+2015-05-11 16:29:44.5934 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 16:29:44.6452 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 16:30:21.2634 ERROR  -  [ucNewsItems][btnSubmit_Click] Error: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at AdminSite.UserControls.ucNewsDetail.GoBackPage() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 111
+   at AdminSite.UserControls.ucNewsDetail.btnSubmit_Click(Object sender, EventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 130
+2015-05-11 16:33:30.9156 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 74
+2015-05-11 16:42:01.2340 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 74
+2015-05-11 16:43:31.2332 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 74
+2015-05-11 16:48:48.2366 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 74
+2015-05-11 16:49:50.6443 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 76
+2015-05-11 16:51:16.2618 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 76
+2015-05-11 16:53:12.9555 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 76
+2015-05-11 16:57:33.6560 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 74
+2015-05-11 17:00:00.4557 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.GridViewRowCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 74
+2015-05-11 17:00:49.6970 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.GridViewRowCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 74
+2015-05-11 17:01:13.5984 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.GridViewRowCollection.get_Item(Int32 index)
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 74
+2015-05-11 17:08:01.0954 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.InvalidCastException: Unable to cast object of type 'System.Web.UI.LiteralControl' to type 'System.Web.UI.WebControls.Label'.
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 74
+2015-05-11 17:08:35.3489 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.InvalidCastException: Unable to cast object of type 'System.Web.UI.LiteralControl' to type 'System.Web.UI.WebControls.Label'.
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 74
+2015-05-11 17:12:23.2054 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.InvalidCastException: Unable to cast object of type 'System.Web.UI.LiteralControl' to type 'System.Web.UI.WebControls.Literal'.
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 74
+2015-05-11 17:15:53.9048 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.InvalidCastException: Unable to cast object of type 'System.Web.UI.LiteralControl' to type 'System.Web.UI.WebControls.Label'.
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 74
+2015-05-11 17:16:21.7378 ERROR  -  [ucNewsItems][grvIntroItems_RowDataBound] Error: System.InvalidCastException: Unable to cast object of type 'System.Web.UI.LiteralControl' to type 'System.Web.UI.WebControls.Label'.
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_RowDataBound(Object sender, GridViewRowEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 74
+2015-05-11 17:21:02.7147 ERROR  -  [VacanciesDAL][GetAll] Error: System.ArgumentException: Input string was not in a correct format.Couldn't store <> in Id Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at AdminSite.DataAccess.VacanciesDAL.GetAll() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccess\VacanciesDAL.cs:line 23
+2015-05-11 17:21:02.7346 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 93
+2015-05-11 17:22:02.1800 ERROR  -  [VacanciesDAL][GetAll] Error: System.ArgumentException: Input string was not in a correct format.Couldn't store <> in Id Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at AdminSite.DataAccess.VacanciesDAL.GetAll() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccess\VacanciesDAL.cs:line 23
+2015-05-11 17:22:02.1870 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 93
+2015-05-11 18:28:09.9336 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:28:10.1617 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:28:16.0875 ERROR  -  [VacanciesDAL][GetAll] Error: System.ArgumentException: Input string was not in a correct format.Couldn't store <> in Id Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at AdminSite.DataAccess.VacanciesDAL.GetAll() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccess\VacanciesDAL.cs:line 23
+2015-05-11 18:28:16.1063 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 93
+2015-05-11 18:28:21.0032 ERROR  -  [VacanciesDAL][GetAll] Error: System.ArgumentException: Input string was not in a correct format.Couldn't store <> in Id Column.  Expected type is Int32. ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Data.Common.Int32Storage.Set(Int32 record, Object value)
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   --- End of inner exception stack trace ---
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at AdminSite.DataAccess.VacanciesDAL.GetAll() in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\DataAccess\VacanciesDAL.cs:line 23
+2015-05-11 18:28:21.0032 ERROR  -  [ucNewsDetail][StartShowData] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.UserControls.ucNewsDetail.StartShowData(NewsBOL BOL) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsDetail.ascx.cs:line 93
+2015-05-11 18:29:46.3594 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:29:46.3594 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:30:04.8609 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:30:04.8609 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:31:13.8154 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:31:13.8154 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:33:15.9274 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:33:15.9274 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:36:20.9073 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:36:20.9073 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:37:52.0961 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:37:52.1084 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:39:41.9583 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:39:41.9583 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:40:14.0153 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:40:14.0153 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:43:01.8984 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:43:01.8984 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:44:09.8994 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:44:09.9064 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:45:00.5625 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:45:00.5846 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:45:17.9276 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:45:17.9276 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:45:54.7810 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:45:54.7810 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:47:50.2569 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:47:50.2689 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:48:52.9411 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:48:52.9411 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:50:14.8101 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:50:14.8171 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:50:44.7552 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 18:50:44.7552 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 19:05:19.8287 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 19:05:19.8287 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 19:17:13.0236 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 19:17:13.0316 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 19:18:12.5505 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 19:18:12.5505 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 19:19:04.8726 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 19:19:04.8796 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 19:30:51.2508 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 19:30:51.2648 ERROR  -  [Utilities][ReplaceImageUri] Error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at AdminSite.Utilities.ReplaceImageUri(String html, String imageDir) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\Utilities.cs:line 227
+2015-05-11 22:12:49.0473 ERROR  -  [ucNewsItems][grvIntroItems_Sorting] ExceptionSystem.IndexOutOfRangeException: Cannot find column Name.
+   at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.CheckSort(String sort)
+   at System.Data.DataView.set_Sort(String value)
+   at AdminSite.UserControls.ucNewsItems.SortGridView(String sortExpression, String direction) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 138
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_Sorting(Object sender, GridViewSortEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 117
+2015-05-11 22:12:58.9558 ERROR  -  [ucNewsItems][grvIntroItems_Sorting] ExceptionSystem.IndexOutOfRangeException: Cannot find column Description.
+   at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.CheckSort(String sort)
+   at System.Data.DataView.set_Sort(String value)
+   at AdminSite.UserControls.ucNewsItems.SortGridView(String sortExpression, String direction) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 138
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_Sorting(Object sender, GridViewSortEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 110
+2015-05-11 22:15:01.4381 ERROR  -  [ucNewsItems][grvIntroItems_Sorting] ExceptionSystem.IndexOutOfRangeException: Cannot find column Name.
+   at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.CheckSort(String sort)
+   at System.Data.DataView.set_Sort(String value)
+   at AdminSite.UserControls.ucNewsItems.SortGridView(String sortExpression, String direction) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 138
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_Sorting(Object sender, GridViewSortEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 110
+2015-05-11 22:15:40.5849 ERROR  -  [ucNewsItems][grvIntroItems_Sorting] ExceptionSystem.IndexOutOfRangeException: Cannot find column Name.
+   at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.CheckSort(String sort)
+   at System.Data.DataView.set_Sort(String value)
+   at AdminSite.UserControls.ucNewsItems.SortGridView(String sortExpression, String direction) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 138
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_Sorting(Object sender, GridViewSortEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 110
+2015-05-11 22:15:51.3005 ERROR  -  [ucNewsItems][grvIntroItems_Sorting] ExceptionSystem.IndexOutOfRangeException: Cannot find column Name.
+   at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.CheckSort(String sort)
+   at System.Data.DataView.set_Sort(String value)
+   at AdminSite.UserControls.ucNewsItems.SortGridView(String sortExpression, String direction) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 138
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_Sorting(Object sender, GridViewSortEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 110
+2015-05-11 22:15:53.8643 ERROR  -  [ucNewsItems][grvIntroItems_Sorting] ExceptionSystem.IndexOutOfRangeException: Cannot find column Description.
+   at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.CheckSort(String sort)
+   at System.Data.DataView.set_Sort(String value)
+   at AdminSite.UserControls.ucNewsItems.SortGridView(String sortExpression, String direction) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 138
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_Sorting(Object sender, GridViewSortEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 117
+2015-05-11 22:16:51.9898 ERROR  -  [ucNewsItems][grvIntroItems_Sorting] ExceptionSystem.IndexOutOfRangeException: Cannot find column Name.
+   at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.CheckSort(String sort)
+   at System.Data.DataView.set_Sort(String value)
+   at AdminSite.UserControls.ucNewsItems.SortGridView(String sortExpression, String direction) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 138
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_Sorting(Object sender, GridViewSortEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 110
+2015-05-11 22:21:53.0212 ERROR  -  [ucNewsItems][grvIntroItems_Sorting] ExceptionSystem.IndexOutOfRangeException: Cannot find column Name.
+   at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.CheckSort(String sort)
+   at System.Data.DataView.set_Sort(String value)
+   at AdminSite.UserControls.ucNewsItems.SortGridView(String sortExpression, String direction) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 138
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_Sorting(Object sender, GridViewSortEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 117
+2015-05-11 22:30:42.0648 ERROR  -  [ucNewsItems][grvIntroItems_Sorting] ExceptionSystem.InvalidCastException: Unable to cast object of type 'System.Web.UI.WebControls.TemplateField' to type 'System.Data.DataColumn'.
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_Sorting(Object sender, GridViewSortEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 96
+2015-05-11 22:32:31.6927 ERROR  -  [ucNewsItems][grvIntroItems_Sorting] ExceptionSystem.IndexOutOfRangeException: Cannot find column Name.
+   at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.CheckSort(String sort)
+   at System.Data.DataView.set_Sort(String value)
+   at AdminSite.UserControls.ucNewsItems.SortGridView(String sortExpression, String direction) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 138
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_Sorting(Object sender, GridViewSortEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 110
+2015-05-11 22:37:53.8743 ERROR  -  [ucNewsItems][grvIntroItems_Sorting] ExceptionSystem.IndexOutOfRangeException: Cannot find column DESC.
+   at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.CheckSort(String sort)
+   at System.Data.DataView.set_Sort(String value)
+   at AdminSite.UserControls.ucNewsItems.SortGridView(String sortExpression, String direction) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 139
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_Sorting(Object sender, GridViewSortEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 111
+2015-05-11 22:37:59.2861 ERROR  -  [ucNewsItems][grvIntroItems_Sorting] ExceptionSystem.IndexOutOfRangeException: Cannot find column ASC.
+   at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.CheckSort(String sort)
+   at System.Data.DataView.set_Sort(String value)
+   at AdminSite.UserControls.ucNewsItems.SortGridView(String sortExpression, String direction) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 139
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_Sorting(Object sender, GridViewSortEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 118
+2015-05-11 22:38:59.9285 ERROR  -  [ucNewsItems][grvIntroItems_Sorting] ExceptionSystem.IndexOutOfRangeException: Cannot find column DESC.
+   at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.CheckSort(String sort)
+   at System.Data.DataView.set_Sort(String value)
+   at AdminSite.UserControls.ucNewsItems.SortGridView(String sortExpression, String direction) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 139
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_Sorting(Object sender, GridViewSortEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 111
+2015-05-11 22:39:29.7931 ERROR  -  [ucNewsItems][grvIntroItems_Sorting] ExceptionSystem.IndexOutOfRangeException: Cannot find column ASC.
+   at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.CheckSort(String sort)
+   at System.Data.DataView.set_Sort(String value)
+   at AdminSite.UserControls.ucNewsItems.SortGridView(String sortExpression, String direction) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 139
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_Sorting(Object sender, GridViewSortEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 118
+2015-05-11 22:40:55.8726 ERROR  -  [ucNewsItems][grvIntroItems_Sorting] ExceptionSystem.IndexOutOfRangeException: Cannot find column DESC.
+   at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.CheckSort(String sort)
+   at System.Data.DataView.set_Sort(String value)
+   at AdminSite.UserControls.ucNewsItems.SortGridView(String sortExpression, String direction) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 139
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_Sorting(Object sender, GridViewSortEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 111
+2015-05-11 22:41:30.9599 ERROR  -  [ucNewsItems][grvIntroItems_Sorting] ExceptionSystem.IndexOutOfRangeException: Cannot find column DESC.
+   at System.Data.DataTable.ParseSortString(String sortString)
+   at System.Data.DataView.CheckSort(String sort)
+   at System.Data.DataView.set_Sort(String value)
+   at AdminSite.UserControls.ucNewsItems.SortGridView(String sortExpression, String direction) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 139
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_Sorting(Object sender, GridViewSortEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 111
+2015-05-11 22:54:49.0887 ERROR  -  [ucNewsItems][grvIntroItems_Sorting] ExceptionSystem.NotSupportedException: The data source does not support server-side data paging.
+   at System.Web.UI.DataSourceView.RaiseUnsupportedCapabilityError(DataSourceCapabilities capability)
+   at System.Web.UI.DataSourceSelectArguments.RaiseUnsupportedCapabilitiesError(DataSourceView view)
+   at System.Web.UI.WebControls.ReadOnlyDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at AdminSite.UserControls.ucNewsItems.SortGridView(String sortExpression, String direction) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 141
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_Sorting(Object sender, GridViewSortEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 111
+2015-05-11 22:55:15.3845 ERROR  -  [ucNewsItems][grvIntroItems_Sorting] ExceptionSystem.NotSupportedException: The data source does not support server-side data paging.
+   at System.Web.UI.DataSourceView.RaiseUnsupportedCapabilityError(DataSourceCapabilities capability)
+   at System.Web.UI.DataSourceSelectArguments.RaiseUnsupportedCapabilitiesError(DataSourceView view)
+   at System.Web.UI.WebControls.ReadOnlyDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at AdminSite.UserControls.ucNewsItems.SortGridView(String sortExpression, String direction) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 141
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_Sorting(Object sender, GridViewSortEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 111
+2015-05-11 22:56:51.6762 ERROR  -  [ucNewsItems][grvIntroItems_Sorting] ExceptionSystem.NotSupportedException: The data source does not support server-side data paging.
+   at System.Web.UI.DataSourceView.RaiseUnsupportedCapabilityError(DataSourceCapabilities capability)
+   at System.Web.UI.DataSourceSelectArguments.RaiseUnsupportedCapabilitiesError(DataSourceView view)
+   at System.Web.UI.WebControls.ReadOnlyDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at AdminSite.UserControls.ucNewsItems.SortGridView(String sortExpression, String direction) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 141
+   at AdminSite.UserControls.ucNewsItems.grvIntroItems_Sorting(Object sender, GridViewSortEventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucNewsItems.ascx.cs:line 111
+2015-05-11 23:04:02.5790 ERROR  -  [ucProjectItems][btnAdd_Click] Exception: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at AdminSite.UserControls.ucProjectItems.btnAdd_Click(Object sender, EventArgs e) in f:\Hien\Cong Ty\Web Application\DinhTan\Projects\DinhTan\AdminSite\UserControls\ucProjectItems.ascx.cs:line 126
