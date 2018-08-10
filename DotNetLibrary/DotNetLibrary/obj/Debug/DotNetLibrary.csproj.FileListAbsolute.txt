@@ -3,3 +3,13 @@ D:\TNHien\Gits\projects\DotNetLibrary\DotNetLibrary\bin\Debug\DotNetLibrary.dll
 D:\TNHien\Gits\projects\DotNetLibrary\DotNetLibrary\bin\Debug\DotNetLibrary.pdb
 D:\TNHien\Gits\projects\DotNetLibrary\DotNetLibrary\obj\Debug\DotNetLibrary.dll
 D:\TNHien\Gits\projects\DotNetLibrary\DotNetLibrary\obj\Debug\DotNetLibrary.pdb
+D:\TNHien\GitHub\DotNetLibrary\DotNetLibrary\bin\Debug\NLog.config
+D:\TNHien\GitHub\DotNetLibrary\DotNetLibrary\bin\Debug\DotNetLibrary.dll
+D:\TNHien\GitHub\DotNetLibrary\DotNetLibrary\bin\Debug\DotNetLibrary.pdb
+D:\TNHien\GitHub\DotNetLibrary\DotNetLibrary\bin\Debug\Newtonsoft.Json.dll
+D:\TNHien\GitHub\DotNetLibrary\DotNetLibrary\bin\Debug\NLog.dll
+D:\TNHien\GitHub\DotNetLibrary\DotNetLibrary\bin\Debug\Newtonsoft.Json.xml
+D:\TNHien\GitHub\DotNetLibrary\DotNetLibrary\bin\Debug\NLog.xml
+D:\TNHien\GitHub\DotNetLibrary\DotNetLibrary\obj\Debug\DotNetLibrary.csprojResolveAssemblyReference.cache
+D:\TNHien\GitHub\DotNetLibrary\DotNetLibrary\obj\Debug\DotNetLibrary.dll
+D:\TNHien\GitHub\DotNetLibrary\DotNetLibrary\obj\Debug\DotNetLibrary.pdb

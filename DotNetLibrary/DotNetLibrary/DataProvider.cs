@@ -6,14 +6,15 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Configuration;
+using DotNetLibrary.Interfaces;
 
 namespace DotNetLibrary.DataAccess
 {
-    public class DataProvider
+    public class DataProvider : IDataProvider
     {
-        private static int _commandTimeout = 36000;
+        private int _commandTimeout = 36000;
 
-        private static string ConnectionString()
+        private string ConnectionString()
         {
             try
             {
@@ -27,7 +28,7 @@ namespace DotNetLibrary.DataAccess
             }
         }
 
-        private static SqlCommand CreateSqlCommandQuery(SqlConnection conn, string query, Hashtable hashTable)
+        private SqlCommand CreateSqlCommandQuery(SqlConnection conn, string query, Hashtable hashTable)
         {
             try
             {
@@ -61,7 +62,7 @@ namespace DotNetLibrary.DataAccess
             }
         }
 
-        private static SqlCommand CreateSqlCommandStored(SqlConnection conn, string stored, Hashtable hashTable)
+        private SqlCommand CreateSqlCommandStored(SqlConnection conn, string stored, Hashtable hashTable)
         {
             try
             {
@@ -96,7 +97,7 @@ namespace DotNetLibrary.DataAccess
             }
         }
 
-        public static ResultData<DataSet> ExecuteQuery(string query)
+        public ResultData<DataSet> ExecuteQuery(string query)
         {
             SqlConnection conn = null;
             SqlCommand cmd = null;
@@ -143,7 +144,7 @@ namespace DotNetLibrary.DataAccess
             }
         }
 
-        public static ResultData<DataSet> ExecuteQuery(string query, object obj)
+        public ResultData<DataSet> ExecuteQuery(string query, object obj)
         {
             SqlConnection conn = null;
             SqlCommand cmd = null;
@@ -188,7 +189,7 @@ namespace DotNetLibrary.DataAccess
             }
         }
 
-        public static ResultData<T> ExecuteQueryReturnObject<T>(string query, object obj) where T: new()
+        public ResultData<T> ExecuteQueryReturnObject<T>(string query, object obj) where T: new()
         {
             SqlConnection conn = null;
             SqlCommand cmd = null;
@@ -239,7 +240,7 @@ namespace DotNetLibrary.DataAccess
             }
         }
 
-        public static ResultData<DataSet> ExecuteQuery(string query, Hashtable hashTable)
+        public ResultData<DataSet> ExecuteQuery(string query, Hashtable hashTable)
         {
             SqlConnection conn = null;
             SqlCommand cmd = null;
@@ -284,7 +285,7 @@ namespace DotNetLibrary.DataAccess
             }
         }
 
-        public static ResultData<object> ExecuteScalar(string query)
+        public ResultData<object> ExecuteScalar(string query)
         {
             SqlConnection conn = null;
             SqlCommand cmd = null;
@@ -328,7 +329,7 @@ namespace DotNetLibrary.DataAccess
             }
         }
 
-        public static ResultData<object> ExecuteScalar(string query, Hashtable hashTable)
+        public ResultData<object> ExecuteScalar(string query, Hashtable hashTable)
         {
             SqlConnection conn = null;
             SqlCommand cmd = null;
@@ -371,7 +372,7 @@ namespace DotNetLibrary.DataAccess
             }
         }
 
-        public static ResultData<int> ExecuteStored(string stored, Hashtable hashTable)
+        public ResultData<int> ExecuteStored(string stored, Hashtable hashTable)
         {
             SqlConnection conn = null;
             SqlCommand cmd = null;
@@ -417,7 +418,7 @@ namespace DotNetLibrary.DataAccess
             }
         }
 
-        public static ResultData<int> ExecuteStored(string stored, object obj)
+        public ResultData<int> ExecuteStored(string stored, object obj)
         {
             SqlConnection conn = null;
             SqlCommand cmd = null;
@@ -463,7 +464,7 @@ namespace DotNetLibrary.DataAccess
             }
         }
 
-        public static ResultData<DataSet> ExecuteStoredReturnDataSet(string stored, Hashtable hashTable)
+        public ResultData<DataSet> ExecuteStoredReturnDataSet(string stored, Hashtable hashTable)
         {
             SqlConnection conn = null;
             SqlCommand cmd = null;
@@ -511,7 +512,7 @@ namespace DotNetLibrary.DataAccess
             }
         }
 
-        public static ResultData<DataSet> ExecuteStoredReturnDataSet(string stored, Object obj)
+        public ResultData<DataSet> ExecuteStoredReturnDataSet(string stored, Object obj)
         {
             SqlConnection conn = null;
             SqlCommand cmd = null;
@@ -559,7 +560,7 @@ namespace DotNetLibrary.DataAccess
             }
         }
 
-        public static ResultData<T> ExcuteStoredReturnObject<T>(string stored, object obj) where T: new()
+        public ResultData<T> ExcuteStoredReturnObject<T>(string stored, object obj) where T: new()
         {
             SqlConnection conn = new SqlConnection(ConnectionString());
             SqlCommand cmd = CreateSqlCommandStored(conn, stored, obj.GetParameters());
@@ -610,7 +611,7 @@ namespace DotNetLibrary.DataAccess
             }
         }
 
-        public static ResultData<T> ExcuteStoredReturnObject<T>(string stored, Hashtable hashTable) where T : new()
+        public ResultData<T> ExcuteStoredReturnObject<T>(string stored, Hashtable hashTable) where T : new()
         {
             SqlConnection conn = new SqlConnection(ConnectionString());
             SqlCommand cmd = CreateSqlCommandStored(conn, stored, hashTable);
@@ -660,7 +661,7 @@ namespace DotNetLibrary.DataAccess
                 }
             }
         }
-        public static ResultData<List<T>> ExcuteStoredReturnCollection<T>(string stored, object obj) where T: new()
+        public ResultData<List<T>> ExcuteStoredReturnCollection<T>(string stored, object obj) where T: new()
         {
             SqlConnection conn = new SqlConnection(ConnectionString());
             SqlCommand cmd = CreateSqlCommandStored(conn, stored, obj.GetParameters());
@@ -708,7 +709,7 @@ namespace DotNetLibrary.DataAccess
                 }
             }
         }
-        public static ResultData<ArrayList> ExcuteStoredReturnCollection(string stored, object obj, Type[] types)
+        public ResultData<ArrayList> ExcuteStoredReturnCollection(string stored, object obj, Type[] types)
         {
             SqlConnection conn = new SqlConnection(ConnectionString());
             SqlCommand cmd = CreateSqlCommandStored(conn, stored, obj.GetParameters());
