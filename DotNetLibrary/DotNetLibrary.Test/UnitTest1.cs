@@ -28,7 +28,8 @@ namespace DotNetLibrary.Test
         [Test]
         public void SampleRegisterAndResolveObject()
         {
-            DotNetContainer.Register<IApiProcessor>(new ApiProcessor());
+            //DotNetContainer.Register<IApiProcessor>(new ApiProcessor());
+            DotNetContainer.Register<IApiProcessor, ApiProcessor>();
             IApiProcessor processor = DotNetContainer.Resolve<IApiProcessor>();
             //---
             Console.WriteLine("IApiProcessor Type: {0}", processor.GetType().ToString());
