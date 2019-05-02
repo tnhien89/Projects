@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
 using DotNetLibrary.Interfaces;
+using DotnetLibrary.Container;
 
 namespace DotNetLibrary.Test
 {
@@ -10,7 +11,7 @@ namespace DotNetLibrary.Test
     {
         private readonly IApiProcessor _processor = new ApiProcessor();
 
-        [Test]
+        //[Test]
         public void TestMethod1()
         {
             try
@@ -22,6 +23,15 @@ namespace DotNetLibrary.Test
             {
                 Console.WriteLine(ex.ToString());
             }
+        }
+
+        [Test]
+        public void SampleRegisterAndResolveObject()
+        {
+            DotNetContainer.Register<IApiProcessor>(new ApiProcessor());
+            IApiProcessor processor = DotNetContainer.Resolve<IApiProcessor>();
+            //---
+            Console.WriteLine("IApiProcessor Type: {0}", processor.GetType().ToString());
         }
     }
 }
