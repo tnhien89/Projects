@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace DotnetLibrary.Container
+namespace DotNetLibrary.Container
 {
     public class DotNetContainer
     {
