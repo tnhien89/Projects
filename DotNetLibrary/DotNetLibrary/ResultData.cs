@@ -48,7 +48,7 @@ namespace DotNetLibrary
 
         public ResultData(Exception ex)
         {
-            Code = ex.HResult;
+            Code = int.MinValue;
             Message = ex.Message;
             Error = ex.ToString();
         }

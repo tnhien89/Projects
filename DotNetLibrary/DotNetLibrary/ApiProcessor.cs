@@ -2,9 +2,9 @@
 using System.Net;
 using System.Text;
 using System.IO;
-using System.Net.Http;
 using Newtonsoft.Json;
 using DotNetLibrary.Interfaces;
+using System.Net.Http;
 
 namespace DotNetLibrary
 {
@@ -20,7 +20,6 @@ namespace DotNetLibrary
 
         public async Task<T> DeleteAsync<T>(string url, object obj, int timeout = 60)
         {
-            HttpClient client = new HttpClient();
             Task<T> task = new Task<T>(() => Delete<T>(url, obj, timeout));
             task.Start();
 
