@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DotNetLibrary.Attributes
 {
-    public class IgnoreParamAttribute : Attribute
+    public class ParamIgnoreAttribute : Attribute
     {
     }
 }

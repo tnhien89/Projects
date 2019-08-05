@@ -86,7 +86,7 @@
   <ItemGroup>
     <Compile Include="ApiProcessor.cs" />
     <Compile Include="Attributes\DbColumnAttribute.cs" />
-    <Compile Include="Attributes\IgnoreParamAttribute.cs" />
+    <Compile Include="Attributes\ParamIgnoreAttribute.cs" />
     <Compile Include="DataProvider.cs" />
     <Compile Include="Container\DotNetContainer.cs" />
     <Compile Include="Extensions\DataExtensions.cs" />

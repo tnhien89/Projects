@@ -61,7 +61,7 @@ namespace DotNetLibrary.Extensions
                 }
 
                 var attrs = prop.GetCustomAttributes(false);
-                if (attrs.FirstOrDefault(a => a.GetType() == typeof(IgnoreParamAttribute)) != null)
+                if (attrs.FirstOrDefault(a => a.GetType() == typeof(ParamIgnoreAttribute)) != null)
                 {
                     continue;
                 }
