@@ -7,6 +7,7 @@ namespace DotNetLibrary.Interfaces
 {
     public interface IDataProvider
     {
+        void SetConnectionString(string connectionString);
         ResultData<DataSet> ExecuteQuery(string query);
         ResultData<DataSet> ExecuteQuery(string query, object obj);
         ResultData<T> ExecuteQueryReturnObject<T>(string query, object obj) where T : new();

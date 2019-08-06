@@ -12,20 +12,27 @@ namespace DotNetLibrary.DataAccess
 {
     public class DataProvider : IDataProvider
     {
+        private string _connectionString;
         private int _commandTimeout = 36000;
+
+        public void SetConnectionString(string connectionString)
+        {
+            _connectionString = connectionString;
+        }
 
         private string ConnectionString()
         {
+            if (string.IsNullOrEmpty(_connectionString))
             try
             {
-                string connectionString = ConfigurationManager.ConnectionStrings["DbConnectionString"].ConnectionString;
-
-                return connectionString;
+                _connectionString = ConfigurationManager.ConnectionStrings["DbConnectionString"].ConnectionString;
             }
             catch (Exception ex)
             {
                 throw ex;
             }
+
+            return _connectionString;
         }
 
         private SqlCommand CreateSqlCommandQuery(SqlConnection conn, string query, Hashtable hashTable)
