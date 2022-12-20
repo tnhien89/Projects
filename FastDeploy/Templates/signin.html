@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="Viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fast Deploy - Admin</title>
+
+        <link href="libs/font-awesome/css/all.min.css" rel="stylesheet" />
+        <link href="libs/dripicons/webfont.min.css" rel="stylesheet" />
+
+        <link href="libs/foundation/css/foundation.min.css" rel="stylesheet" />
+        <link href="libs/foundation/css/foundation-prototype.min.css" rel="stylesheet" />
+        <link href="libs/foundation/css/foundation-float.min.css" rel="stylesheet" />
+        <!-- <link href="libs/foundation/css/foundation-rtl.min.css" rel="stylesheet" /> -->
+        
+
+        <link href="css/fast-deploy.min.css" rel="stylesheet" />
+
+        <script src="libs/jquery/jquery.min.js"></script>
+    </head>
+    <body>
+        <section class="login-section">
+            <div class="flex-container align-center">
+                <div class="column align-self-middle login-wrapper">
+                    <a href="#">
+                        <img class="login-logo" src="images/logo.png" />
+                    </a>
+                    <div class="login-header">
+                        <h4>
+                            <i class="fa-regular fa-circle-user"></i>
+                            Sign In
+                        </h4>
+                    </div>
+                    <div class="login-body">
+                        <form>
+                            <div class="grid-container">
+                                <div class="grid-x grid-padding-x">
+                                    <div class="cell">
+                                        <label>Username</label>
+                                    </div>
+                                    <div class="input-group grid-container">
+                                        <input class="input-group-field" type="text">
+                                        <span class="input-group-label">
+                                            <i class="fa fa-user"></i>
+                                        </span>
+                                    </div>
+                                    <div class="cell">
+                                        <label class="float-left">Password</label>
+                                        <a class="float-right">Lost Password?</a>
+                                    </div>
+                                    <div class="input-group grid-container">
+                                        <input class="input-group-field" type="password">
+                                        <span class="input-group-label">
+                                            <i class="fa fa-lock"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="grid-x grid-padding-x" style="margin-top: 15px;">
+                                    <div class="small-8 cell">
+                                        <input id="cbx_remember_me" type="checkbox"/>
+                                        <label for="cbx_remember_me">Remember Me</label>
+                                    </div>
+                                    <div class="small-4 cell text-right">
+                                        <input id="btn_sign_in" type="submit" class="button" value="Sign In"/>
+                                    </div>
+                                </div>
+                                <div class="grid-x grid-padding-x" style="padding-top: 10px;">
+                                    <div class="cell text-center">
+                                        <span class="line-thru">
+                                            <span>OR</span>
+                                        </span>
+                                    </div>
+                                    <div class="cell text-center" style="margin-top: 15px;">
+                                        <label class="display-inline-block">Don't have an account yet?</label>
+                                        <a>Sign Up!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="libs/foundation/js/foundation.min.js"></script>
+        <script>
+            $(document).foundation();
+        </script>
+    </body>
+</html>

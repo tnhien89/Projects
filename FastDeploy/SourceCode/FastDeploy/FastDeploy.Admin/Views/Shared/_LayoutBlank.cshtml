@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link href="~/lib/foundation/css/foundation.min.css" rel="stylesheet" />
+    <link href="~/lib/foundation/css/foundation-prototype.min.css" rel="stylesheet" />
+    <link href="~/lib/foundation/css/foundation-float.min.css" rel="stylesheet" />
+    <link href="~/lib/foundation/css/foundation-rtl.min.css" rel="stylesheet" />
+    <link href="~/lib/dripicons/webfont.min.css" rel="stylesheet" crossorigin="anonymous" />
+    <link href="~/lib/node_modules/typicons.font/src/font/typicons.css" rel="stylesheet" crossorigin="anonymous" />
+    <link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet" crossorigin="anonymous" />
+    <link rel="stylesheet" href="~/scss/login.css" asp-append-version="true" />
+
+    <script src="~/lib/jquery/jquery.min.js"></script>
+</head>
+<body>
+    @RenderBody()
+
+    <script src="~/lib/foundation/js/foundation.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script>
+        $(document).foundation();
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,76 @@
+.upload-avatar-container {
+    text-align: center;
+
+    img {
+        width: 96px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    input {
+        display: none !important;
+    }
+}
+
+.user-status {
+    padding: 4px 6px;
+    border-radius: 3px;
+    background-color: $primary-color-green;
+    color: white;
+}
+
+.user-action {
+    background: none;
+    color: $primary-color-gray;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+
+    &::before {
+        position: absolute;
+        content: "";
+        width: 20px;
+        height: 20px;
+        background-color: $primary-color-blue;
+        opacity: 0;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 50%;
+        z-index: -1;
+    }
+
+    i {
+        color: inherit;
+        z-index: 2;
+    }
+
+    &:hover, &:focus {
+        background: none;
+        color: white;
+        // transform: scale(1.2);
+        // border-radius: 50%;
+        // background: $primary-color-blue;
+        // color: white;
+        // -webkit-transition: all .3s ease;
+        // -moz-transition: all .3s ease;
+        // -o-transition: all .3s ease;
+        // transition: all .3s ease;
+
+        &::before {
+            transform: scale(1.4);
+            opacity: 1;
+            -webkit-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            -o-transition: all .3s ease;
+            transition: all .3s ease;
+        }
+    }
+}

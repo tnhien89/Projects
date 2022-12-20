@@ -1,0 +1,15 @@
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Models\bin\Debug\net6.0\FastDeploy.Models.deps.json
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Models\bin\Debug\net6.0\FastDeploy.Models.dll
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Models\bin\Debug\net6.0\FastDeploy.Models.pdb
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Models\bin\Debug\net6.0\FastDeploy.Utilities.dll
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Models\bin\Debug\net6.0\FastDeploy.Utilities.pdb
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Models\obj\Debug\net6.0\FastDeploy.Models.csproj.AssemblyReference.cache
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Models\obj\Debug\net6.0\FastDeploy.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Models\obj\Debug\net6.0\FastDeploy.Models.AssemblyInfoInputs.cache
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Models\obj\Debug\net6.0\FastDeploy.Models.AssemblyInfo.cs
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Models\obj\Debug\net6.0\FastDeploy.Models.csproj.CoreCompileInputs.cache
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Models\obj\Debug\net6.0\FastDeploy.Models.csproj.CopyComplete
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Models\obj\Debug\net6.0\FastDeploy.Models.dll
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Models\obj\Debug\net6.0\refint\FastDeploy.Models.dll
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Models\obj\Debug\net6.0\FastDeploy.Models.pdb
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Models\obj\Debug\net6.0\ref\FastDeploy.Models.dll

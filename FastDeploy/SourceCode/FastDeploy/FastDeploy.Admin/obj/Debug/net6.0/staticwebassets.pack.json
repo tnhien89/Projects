@@ -1,0 +1,2073 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\images\\deployment-logo.png",
+      "PackagePath": "staticwebassets\\images\\deployment-logo.png"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\images\\user.png",
+      "PackagePath": "staticwebassets\\images\\user.png"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\js\\fd-controls.js",
+      "PackagePath": "staticwebassets\\js\\fd-controls.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\js\\fd-controls.js.map",
+      "PackagePath": "staticwebassets\\js\\fd-controls.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\js\\login.js.map",
+      "PackagePath": "staticwebassets\\js\\login.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\js\\package-lock.json",
+      "PackagePath": "staticwebassets\\js\\package-lock.json"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\js\\package.json",
+      "PackagePath": "staticwebassets\\js\\package.json"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\js\\site.js.map",
+      "PackagePath": "staticwebassets\\js\\site.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\js\\tsconfig.json",
+      "PackagePath": "staticwebassets\\js\\tsconfig.json"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\datatables.net-searchpanes\\dataTables.searchPanes.js",
+      "PackagePath": "staticwebassets\\lib\\datatables.net-searchpanes\\dataTables.searchPanes.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\datatables.net-searchpanes\\dataTables.searchPanes.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables.net-searchpanes\\dataTables.searchPanes.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\datatables.net-select\\dataTables.select.js",
+      "PackagePath": "staticwebassets\\lib\\datatables.net-select\\dataTables.select.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\datatables.net-select\\dataTables.select.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables.net-select\\dataTables.select.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\datatables.net-select\\dataTables.select.min.mjs",
+      "PackagePath": "staticwebassets\\lib\\datatables.net-select\\dataTables.select.min.mjs"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\datatables.net-select\\dataTables.select.mjs",
+      "PackagePath": "staticwebassets\\lib\\datatables.net-select\\dataTables.select.mjs"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\datatables.net-zf\\css\\dataTables.foundation.css",
+      "PackagePath": "staticwebassets\\lib\\datatables.net-zf\\css\\dataTables.foundation.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\datatables.net-zf\\css\\dataTables.foundation.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables.net-zf\\css\\dataTables.foundation.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\datatables.net-zf\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\lib\\datatables.net-zf\\images\\sort_asc.png"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\datatables.net-zf\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\lib\\datatables.net-zf\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\datatables.net-zf\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\lib\\datatables.net-zf\\images\\sort_both.png"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\datatables.net-zf\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\lib\\datatables.net-zf\\images\\sort_desc.png"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\datatables.net-zf\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\lib\\datatables.net-zf\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\datatables.net-zf\\js\\dataTables.foundation.js",
+      "PackagePath": "staticwebassets\\lib\\datatables.net-zf\\js\\dataTables.foundation.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\datatables.net-zf\\js\\dataTables.foundation.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables.net-zf\\js\\dataTables.foundation.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\datatables.net\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\lib\\datatables.net\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\datatables.net\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables.net\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\alarm.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\alarm.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\align-center.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\align-center.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\align-justify.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\align-justify.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\align-left.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\align-left.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\align-right.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\align-right.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\anchor.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\anchor.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\archive.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\archive.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\arrow-down.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\arrow-down.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\arrow-left.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\arrow-left.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\arrow-right.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\arrow-right.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\arrow-thin-down.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\arrow-thin-down.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\arrow-thin-left.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\arrow-thin-left.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\arrow-thin-right.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\arrow-thin-right.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\arrow-thin-up.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\arrow-thin-up.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\arrow-up.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\arrow-up.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\article.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\article.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\backspace.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\backspace.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\basket.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\basket.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\basketball.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\basketball.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\battery-empty.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\battery-empty.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\battery-full.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\battery-full.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\battery-low.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\battery-low.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\battery-medium.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\battery-medium.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\bell.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\bell.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\blog.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\blog.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\bluetooth.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\bluetooth.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\bold.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\bold.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\bookmark.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\bookmark.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\bookmarks.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\bookmarks.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\box.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\box.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\briefcase.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\briefcase.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\brightness-low.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\brightness-low.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\brightness-max.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\brightness-max.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\brightness-medium.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\brightness-medium.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\broadcast.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\broadcast.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\browser-upload.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\browser-upload.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\browser.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\browser.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\brush.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\brush.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\calendar.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\calendar.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\camcorder.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\camcorder.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\camera.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\camera.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\card.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\card.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\cart.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\cart.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\checklist.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\checklist.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\checkmark.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\checkmark.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\chevron-down.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\chevron-down.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\chevron-left.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\chevron-left.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\chevron-right.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\chevron-right.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\chevron-up.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\chevron-up.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\clipboard.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\clipboard.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\clock.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\clock.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\clockwise.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\clockwise.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\cloud-download.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\cloud-download.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\cloud-upload.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\cloud-upload.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\cloud.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\cloud.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\code.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\code.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\contract-2.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\contract-2.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\contract.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\contract.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\conversation.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\conversation.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\copy.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\copy.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\crop.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\crop.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\cross.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\cross.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\crosshair.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\crosshair.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\cutlery.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\cutlery.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\device-desktop.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\device-desktop.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\device-mobile.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\device-mobile.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\device-tablet.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\device-tablet.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\direction.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\direction.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\disc.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\disc.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\document-delete.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\document-delete.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\document-edit.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\document-edit.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\document-new.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\document-new.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\document-remove.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\document-remove.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\document.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\document.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\dot.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\dot.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\dots-2.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\dots-2.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\dots-3.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\dots-3.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\download.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\download.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\duplicate.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\duplicate.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\enter.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\enter.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\exit.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\exit.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\expand-2.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\expand-2.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\expand.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\expand.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\experiment.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\experiment.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\export.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\export.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\feed.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\feed.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\flag.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\flag.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\flashlight.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\flashlight.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\folder-open.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\folder-open.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\folder.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\folder.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\forward.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\forward.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\gaming.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\gaming.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\gear.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\gear.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\graduation.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\graduation.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\graph-bar.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\graph-bar.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\graph-line.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\graph-line.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\graph-pie.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\graph-pie.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\headset.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\headset.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\heart.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\heart.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\help.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\help.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\home.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\home.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\hourglass.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\hourglass.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\inbox.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\inbox.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\information.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\information.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\italic.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\italic.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\jewel.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\jewel.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\lifting.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\lifting.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\lightbulb.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\lightbulb.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\link-broken.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\link-broken.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\link.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\link.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\list.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\list.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\loading.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\loading.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\location.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\location.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\lock-open.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\lock-open.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\lock.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\lock.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\mail.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\mail.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\map.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\map.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\media-loop.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\media-loop.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\media-next.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\media-next.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\media-pause.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\media-pause.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\media-play.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\media-play.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\media-previous.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\media-previous.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\media-record.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\media-record.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\media-shuffle.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\media-shuffle.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\media-stop.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\media-stop.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\medical.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\medical.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\menu.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\menu.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\message.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\message.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\meter.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\meter.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\microphone.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\microphone.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\minus.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\minus.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\monitor.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\monitor.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\move.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\move.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\music.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\music.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\network-1.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\network-1.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\network-2.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\network-2.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\network-3.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\network-3.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\network-4.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\network-4.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\network-5.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\network-5.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\pamphlet.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\pamphlet.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\paperclip.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\paperclip.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\pencil.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\pencil.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\phone.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\phone.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\photo-group.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\photo-group.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\photo.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\photo.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\pill.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\pill.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\pin.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\pin.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\plus.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\plus.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\power.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\power.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\preview.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\preview.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\print.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\print.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\pulse.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\pulse.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\question.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\question.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\reply-all.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\reply-all.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\reply.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\reply.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\return.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\return.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\retweet.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\retweet.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\rocket.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\rocket.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\scale.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\scale.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\search.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\search.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\shopping-bag.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\shopping-bag.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\skip.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\skip.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\stack.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\stack.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\star.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\star.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\stopwatch.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\stopwatch.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\store.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\store.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\suitcase.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\suitcase.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\swap.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\swap.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\tag-delete.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\tag-delete.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\tag.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\tag.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\tags.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\tags.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\thumbs-down.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\thumbs-down.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\thumbs-up.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\thumbs-up.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\ticket.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\ticket.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\time-reverse.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\time-reverse.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\to-do.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\to-do.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\toggles.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\toggles.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\trash.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\trash.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\trophy.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\trophy.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\upload.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\upload.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\user-group.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\user-group.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\user-id.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\user-id.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\user.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\user.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\vibrate.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\vibrate.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\view-apps.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\view-apps.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\view-list-large.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\view-list-large.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\view-list.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\view-list.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\view-thumb.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\view-thumb.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\volume-full.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\volume-full.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\volume-low.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\volume-low.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\volume-medium.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\volume-medium.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\volume-off.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\volume-off.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\wallet.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\wallet.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\warning.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\warning.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\web.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\web.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\weight.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\weight.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\wifi.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\wifi.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\wrong.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\wrong.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\zoom-in.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\zoom-in.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\SVG\\zoom-out.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\SVG\\zoom-out.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\fonts\\dripicons-v2.eot",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\fonts\\dripicons-v2.eot"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\fonts\\dripicons-v2.svg",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\fonts\\dripicons-v2.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\fonts\\dripicons-v2.ttf",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\fonts\\dripicons-v2.ttf"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\fonts\\dripicons-v2.woff",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\fonts\\dripicons-v2.woff"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\img\\dripicons.png",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\img\\dripicons.png"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\webfont.css",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\webfont.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\dripicons\\webfont.min.css",
+      "PackagePath": "staticwebassets\\lib\\dripicons\\webfont.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\brands.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\regular.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\solid.svg"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\css\\foundation-float.css",
+      "PackagePath": "staticwebassets\\lib\\foundation\\css\\foundation-float.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\css\\foundation-float.css.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\css\\foundation-float.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\css\\foundation-float.min.css",
+      "PackagePath": "staticwebassets\\lib\\foundation\\css\\foundation-float.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\css\\foundation-float.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\css\\foundation-float.min.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\css\\foundation-prototype.css",
+      "PackagePath": "staticwebassets\\lib\\foundation\\css\\foundation-prototype.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\css\\foundation-prototype.css.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\css\\foundation-prototype.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\css\\foundation-prototype.min.css",
+      "PackagePath": "staticwebassets\\lib\\foundation\\css\\foundation-prototype.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\css\\foundation-prototype.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\css\\foundation-prototype.min.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\css\\foundation-rtl.css",
+      "PackagePath": "staticwebassets\\lib\\foundation\\css\\foundation-rtl.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\css\\foundation-rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\css\\foundation-rtl.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\css\\foundation-rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\foundation\\css\\foundation-rtl.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\css\\foundation-rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\css\\foundation-rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\css\\foundation.css",
+      "PackagePath": "staticwebassets\\lib\\foundation\\css\\foundation.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\css\\foundation.css.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\css\\foundation.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\css\\foundation.min.css",
+      "PackagePath": "staticwebassets\\lib\\foundation\\css\\foundation.min.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\css\\foundation.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\css\\foundation.min.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\foundation.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\foundation.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\foundation.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\foundation.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\foundation.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\foundation.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\foundation.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\foundation.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.abide.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.abide.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.abide.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.abide.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.abide.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.abide.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.abide.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.abide.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.accordion.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.accordion.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.accordion.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.accordion.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.accordion.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.accordion.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.accordion.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.accordion.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.accordionMenu.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.accordionMenu.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.accordionMenu.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.accordionMenu.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.accordionMenu.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.accordionMenu.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.accordionMenu.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.accordionMenu.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.core.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.core.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.core.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.core.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.core.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.core.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.core.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.core.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.drilldown.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.drilldown.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.drilldown.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.drilldown.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.drilldown.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.drilldown.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.drilldown.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.drilldown.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.dropdown.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.dropdown.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.dropdown.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.dropdown.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.dropdown.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.dropdown.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.dropdown.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.dropdown.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.dropdownMenu.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.dropdownMenu.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.dropdownMenu.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.dropdownMenu.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.dropdownMenu.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.dropdownMenu.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.dropdownMenu.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.dropdownMenu.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.equalizer.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.equalizer.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.equalizer.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.equalizer.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.equalizer.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.equalizer.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.equalizer.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.equalizer.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.interchange.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.interchange.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.interchange.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.interchange.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.interchange.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.interchange.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.interchange.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.interchange.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.magellan.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.magellan.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.magellan.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.magellan.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.magellan.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.magellan.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.magellan.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.magellan.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.offcanvas.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.offcanvas.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.offcanvas.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.offcanvas.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.offcanvas.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.offcanvas.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.offcanvas.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.offcanvas.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.orbit.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.orbit.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.orbit.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.orbit.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.orbit.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.orbit.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.orbit.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.orbit.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.responsiveAccordionTabs.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.responsiveAccordionTabs.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.responsiveAccordionTabs.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.responsiveAccordionTabs.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.responsiveAccordionTabs.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.responsiveAccordionTabs.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.responsiveAccordionTabs.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.responsiveAccordionTabs.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.responsiveMenu.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.responsiveMenu.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.responsiveMenu.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.responsiveMenu.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.responsiveMenu.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.responsiveMenu.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.responsiveMenu.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.responsiveMenu.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.responsiveToggle.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.responsiveToggle.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.responsiveToggle.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.responsiveToggle.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.responsiveToggle.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.responsiveToggle.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.responsiveToggle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.responsiveToggle.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.reveal.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.reveal.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.reveal.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.reveal.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.reveal.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.reveal.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.reveal.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.reveal.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.slider.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.slider.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.slider.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.slider.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.slider.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.slider.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.slider.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.slider.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.smoothScroll.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.smoothScroll.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.smoothScroll.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.smoothScroll.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.smoothScroll.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.smoothScroll.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.smoothScroll.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.smoothScroll.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.sticky.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.sticky.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.sticky.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.sticky.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.sticky.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.sticky.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.sticky.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.sticky.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.tabs.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.tabs.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.tabs.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.tabs.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.tabs.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.tabs.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.tabs.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.tabs.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.toggler.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.toggler.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.toggler.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.toggler.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.toggler.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.toggler.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.toggler.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.toggler.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.tooltip.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.tooltip.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.tooltip.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.tooltip.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.tooltip.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.tooltip.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.tooltip.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.tooltip.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.box.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.box.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.box.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.box.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.box.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.box.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.box.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.box.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.imageLoader.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.imageLoader.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.imageLoader.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.imageLoader.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.imageLoader.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.imageLoader.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.imageLoader.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.imageLoader.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.keyboard.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.keyboard.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.keyboard.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.keyboard.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.keyboard.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.keyboard.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.keyboard.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.keyboard.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.mediaQuery.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.mediaQuery.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.mediaQuery.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.mediaQuery.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.mediaQuery.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.mediaQuery.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.mediaQuery.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.mediaQuery.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.motion.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.motion.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.motion.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.motion.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.motion.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.motion.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.motion.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.motion.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.nest.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.nest.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.nest.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.nest.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.nest.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.nest.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.nest.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.nest.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.timer.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.timer.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.timer.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.timer.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.timer.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.timer.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.timer.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.timer.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.touch.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.touch.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.touch.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.touch.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.touch.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.touch.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.touch.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.touch.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.triggers.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.triggers.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.triggers.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.triggers.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.triggers.min.js",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.triggers.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\foundation\\js\\plugins\\foundation.util.triggers.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\foundation\\js\\plugins\\foundation.util.triggers.min.js.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\node_modules\\.package-lock.json",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\.package-lock.json"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\node_modules\\typicons.font\\package.json",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\typicons.font\\package.json"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\node_modules\\typicons.font\\src\\font\\demo.html",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\typicons.font\\src\\font\\demo.html"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\node_modules\\typicons.font\\src\\font\\typicons.css",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\typicons.font\\src\\font\\typicons.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\node_modules\\typicons.font\\src\\font\\typicons.eot",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\typicons.font\\src\\font\\typicons.eot"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\node_modules\\typicons.font\\src\\font\\typicons.json",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\typicons.font\\src\\font\\typicons.json"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\node_modules\\typicons.font\\src\\font\\typicons.ttf",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\typicons.font\\src\\font\\typicons.ttf"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\node_modules\\typicons.font\\src\\font\\typicons.woff",
+      "PackagePath": "staticwebassets\\lib\\node_modules\\typicons.font\\src\\font\\typicons.woff"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\package-lock.json",
+      "PackagePath": "staticwebassets\\lib\\package-lock.json"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\lib\\package.json",
+      "PackagePath": "staticwebassets\\lib\\package.json"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\scss\\fd-controls.css",
+      "PackagePath": "staticwebassets\\scss\\fd-controls.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\scss\\fd-controls.css.map",
+      "PackagePath": "staticwebassets\\scss\\fd-controls.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\scss\\fd-controls.scss",
+      "PackagePath": "staticwebassets\\scss\\fd-controls.scss"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\scss\\fd-tables.css",
+      "PackagePath": "staticwebassets\\scss\\fd-tables.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\scss\\fd-tables.css.map",
+      "PackagePath": "staticwebassets\\scss\\fd-tables.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\scss\\fd-tables.scss",
+      "PackagePath": "staticwebassets\\scss\\fd-tables.scss"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\scss\\login.css",
+      "PackagePath": "staticwebassets\\scss\\login.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\scss\\login.css.map",
+      "PackagePath": "staticwebassets\\scss\\login.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\scss\\login.scss",
+      "PackagePath": "staticwebassets\\scss\\login.scss"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\scss\\site.css",
+      "PackagePath": "staticwebassets\\scss\\site.css"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\scss\\site.css.map",
+      "PackagePath": "staticwebassets\\scss\\site.css.map"
+    },
+    {
+      "Id": "D:\\TNHien\\Projects\\GitHubs\\Projects\\FastDeploy\\SourceCode\\FastDeploy\\FastDeploy.Admin\\wwwroot\\scss\\site.scss",
+      "PackagePath": "staticwebassets\\scss\\site.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FastDeploy.Admin.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FastDeploy.Admin.props",
+      "PackagePath": "build\\FastDeploy.Admin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FastDeploy.Admin.props",
+      "PackagePath": "buildMultiTargeting\\FastDeploy.Admin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FastDeploy.Admin.props",
+      "PackagePath": "buildTransitive\\FastDeploy.Admin.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

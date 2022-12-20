@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="Viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fast Deploy - Admin</title>
+
+        <link href="libs/font-awesome/css/all.min.css" rel="stylesheet" />
+
+        <link href="libs/dripicons/webfont.min.css" rel="stylesheet" />
+        <link href="libs/boxicons/css/boxicons.min.css" rel="stylesheet"/>
+
+        <link href="libs/foundation/css/foundation.min.css" rel="stylesheet" />
+        <link href="libs/foundation/css/foundation-prototype.min.css" rel="stylesheet" />
+        <link href="libs/foundation/css/foundation-float.min.css" rel="stylesheet" />
+        <!-- <link href="libs/foundation/css/foundation-rtl.min.css" rel="stylesheet" /> -->
+        
+
+        <link href="css/fd-dashboard.min.css" rel="stylesheet" />
+
+        <script src="libs/jquery/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="off-canvas-wrapper">
+            <div id="leftSideBar" class="left-side-bar">
+                <div class="left-side-bar--logo">
+                    <img src="images/logo.png"/>
+                    <h4>
+                        Fast Deploy
+                        <small>ver 1.1</small>
+                    </h4>
+                </div>
+                <!-- <ul class="vertical menu accordion-menu left-side-bar--menu" data-accordion-menu> -->
+                <ul class="vertical menu left-side-bar--menu">
+                    <li class="menu-item">
+                        <a href="dashboard.html">
+                            <i class="fa fa-house-user"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="menu-item" expand-sub-menu="true">
+                        <a>
+                            <i class="fa fa-users"></i>
+                            <span>Thành Viên</span>
+                        </a>
+                        <ul class="menu vertical nested left-side-bar--submenu" style="display: none;">
+                            <li>
+                                <a href="users-list.html">
+                                    <i class='bx bx-list-ul'></i>
+                                    <span>Tất Cả</span>
+                                </a>
+                        </li>
+                            <li>
+                                <a href="add-user.html">
+                                    <i class='bx bx-list-plus' ></i>
+                                    <span>Thêm Mới</span>
+                                </a>
+                        </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class="active">
+                            <i class="fa fa-folder"></i>
+                            <span>Chuyên Mục</span>
+                        </a>
+                        <ul class="menu vertical nested left-side-bar--submenu">
+                            <li>
+                                <a href="#">
+                                    <i class='bx bx-list-ul'></i>
+                                    <span>Tất Cả</span>
+                                </a>
+                        </li>
+                            <li>
+                                <a href="add-category.html" class="active">
+                                    <i class='bx bx-list-plus' ></i>
+                                    <span>Thêm Mới</span>
+                                </a>
+                        </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="off-canvas-content dashboard-content" data-off-canvas-content>
+                <div class="top-bar">
+                    <div class="top-bar-left">
+                        <ul class="dropdown menu" data-dropdown-menu>
+                            <li>
+                                <a id="toggleLeftSideBar" onclick="toggleLeftSideBarOnClick(event)">
+                                    <i class="bx bx-menu"></i>
+                                </a>
+                            </li>
+                            <li class="top-bar--search-box">
+                                <i class='bx bx-search'></i>
+                                <input type="search" placeholder="Search" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top-bar-right">
+                        <ul class="dropdown menu user-profile" data-dropdown-menu>
+                            <li>
+                                <a>
+                                    <i class="fa-regular fa-envelope"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <i class="fa-regular fa-bell"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a onclick="profileUserOnClick(event)">
+                                    <img src="images/account.png"/>
+                                    <!-- <span>
+                                        Hi, Hien Tu Ngoc
+                                        <small>Administrator</small>
+                                    </span>
+                                    <i class="dripicons-chevron-down"></i> -->
+                                </a>
+                                <ul class="menu vertical submenu user-profile--menu">
+                                    <li>
+                                        <a>
+                                            <i class="bx bx-user-circle"></i>
+                                            My Profile
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <i class='bx bxs-user-account'></i>
+                                            Account
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <i class="bx bx-power-off"></i>
+                                            Logout
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <nav id="nav_page_info" aria-label="" role="navigation">
+                    <div class="grid-x">
+                        <div class="cell medium-6">
+                            <h4 class="page-title">Thêm Chuyên Mục</h4>
+                            <ul class="breadcrumbs">
+                                <li>
+                                    <a href="/">Home</a>
+                                </li>
+                                <li>Thêm Chuyên Mục</li>
+                            </ul>
+                        </div>
+                        <div class="cell medium-6">
+                            
+                        </div>
+                    </div>
+                </nav>
+
+                <!--begin form category info-->
+                <form>
+                    <div class="grid-x grid-padding-x grid-container">
+                        <div class="medium-8 cell">
+                            <div class="card">
+                                <div class="card-section">
+                                    <div class="grid-x">
+                                        <div class="cell">
+                                            <label>Tên chuyên mục</label>
+                                            <input type="text"/>
+                                        </div>
+                                        <div class="cell">
+                                            <label>Chuyên mục cha</label>
+                                            <select aria-placeholder="Không bắt buộc"></select>
+                                        </div>
+                                        <div class="cell">
+                                            <label>Tags</label>
+                                            <input type="text" placeholder="Enter để thêm tag"/>
+                                        </div>
+                                        <div class="cell">
+                                            <label>Mô tả</label>
+                                            <textarea rows="1"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="medium-4 cell">
+                            <div class="card">
+                                <div class="card-section">
+                                    <div class="grid-x">
+                                        <div class="cell">
+                                            <label>Ảnh minh họa</label>
+                                        </div>
+                                        <div class="cell">
+                                            <div class="upload-container">
+                                                <div class="preview">
+                                                    <img src="images/upload-images.png"/>
+                                                </div>
+                                                <input type="file" style="display: none;" id="fileUploadMedia" onchange="userChoosedAvatar(event)"/>
+                                            </div>
+                                        </div>
+                                        <div class="cell">
+                                            <label>Trạng thái</label>
+                                            <div class="fd-select">
+                                                <a href="#" class="fd-select--button" data-toggle="ddCategoryStatus"></a>
+                                                <ul id="ddCategoryStatus" class="dropdown-pane" data-dropdown data-close-on-click="true">
+                                                    <li>Published</li>
+                                                    <li>Private</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!--end form user info-->
+            </div>
+        </div>
+
+        <script src="libs/foundation/js/foundation.min.js"></script>
+        <script src="libs/fastdeploy/js/dist/fd-users.js"></script>
+
+        <script>
+            $(document).foundation();
+
+            $(function () {
+                $('.menu-item > ul').toggle();
+            });
+
+            $(document).on('click', function (e) {
+                e.stopPropagation();
+
+                $('.user-profile--menu').hide();
+
+                if ($('#leftSideBar').hasClass('closed')) {
+                    let expands = $('li[expand-sub-menu="true"]');                    
+                    expands.attr('expand-sub-menu', 'false');
+                    expands.find('ul').toggle();
+                }
+            });
+
+            function profileUserOnClick(e) {
+                e.stopPropagation();
+
+                $('.user-profile--menu').toggle();
+            }
+
+            function toggleLeftSideBarOnClick(e) {
+                e.stopPropagation();
+
+                let sideBar = $('#leftSideBar');
+                if (sideBar.hasClass('closed')) {
+                    sideBar.animate({
+                        'width': '240px'
+                    }, function () {
+                        $('.left-side-bar--menu').removeClass('hide-arrow');
+                    });
+
+                    $('.dashboard-content').animate({
+                        'margin-left': '240px'
+                    });
+
+                    sideBar.removeClass('closed');
+                }
+                else {
+                    $('.left-side-bar--menu').addClass('hide-arrow');
+
+                    sideBar.animate({
+                        'width': '50px'
+                    }, function () {
+                        sideBar.addClass('closed');
+                    });
+
+                    $('.dashboard-content').animate({
+                        'margin-left': '50px'
+                    });
+                }
+
+                let expands = $('li[expand-sub-menu="true"]');
+                expands.attr('expand-sub-menu', 'false');
+                expands.find('ul').hide(300);
+            }
+
+            $('.menu-item > a').on('click', function (e) {
+                e.stopPropagation();
+
+                let el = $(e.currentTarget).closest('.menu-item'),
+                    expanded = el.attr('expand-sub-menu');
+                if (expanded != 'true') {
+                    let expands = $('li[expand-sub-menu="true"]');
+                    expands.attr('expand-sub-menu', 'false');
+                    expands.find('ul').toggle();
+                }
+
+                let ul = el.find('ul');
+                if (ul && ul.length) {
+                    if (el.attr('expand-sub-menu') == 'true') {
+                        el.attr('expand-sub-menu', 'false');
+                    }
+                    else {
+                        el.attr('expand-sub-menu', 'true');
+                    }
+
+                    ul.toggle();
+                }
+            });
+
+            $('#ddCategoryStatus > li').on('click', function (e) {
+                e.stopPropagation();
+                
+                let el = $(e.currentTarget);
+                let btn = $('#ddCategoryStatus').parent().find('.fd-select--button');
+                btn.trigger('click');
+                btn.html($(e.currentTarget).html());
+
+                if (!el.hasClass('selected')) {
+                    $('#ddCategoryStatus').find('li.selected').removeClass('selected');
+
+                    el.addClass('selected');
+                }
+            });
+        </script>
+    </body>
+</html>

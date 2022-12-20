@@ -1,0 +1,12 @@
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Utilities\bin\Debug\net6.0\FastDeploy.Utilities.deps.json
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Utilities\bin\Debug\net6.0\FastDeploy.Utilities.dll
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Utilities\bin\Debug\net6.0\FastDeploy.Utilities.pdb
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Utilities\obj\Debug\net6.0\FastDeploy.Utilities.csproj.AssemblyReference.cache
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Utilities\obj\Debug\net6.0\FastDeploy.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Utilities\obj\Debug\net6.0\FastDeploy.Utilities.AssemblyInfoInputs.cache
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Utilities\obj\Debug\net6.0\FastDeploy.Utilities.AssemblyInfo.cs
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Utilities\obj\Debug\net6.0\FastDeploy.Utilities.csproj.CoreCompileInputs.cache
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Utilities\obj\Debug\net6.0\FastDeploy.Utilities.dll
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Utilities\obj\Debug\net6.0\refint\FastDeploy.Utilities.dll
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Utilities\obj\Debug\net6.0\FastDeploy.Utilities.pdb
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.Utilities\obj\Debug\net6.0\ref\FastDeploy.Utilities.dll

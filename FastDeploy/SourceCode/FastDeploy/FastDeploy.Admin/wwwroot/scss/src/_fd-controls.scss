@@ -1,0 +1,41 @@
+﻿@use 'fd-colors';
+
+.fd-checkbox, .fd-radiobox {
+    color: $color-blue;
+    cursor: pointer;
+}
+
+[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'],
+textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 2.4375rem;
+    margin: 0 0 1rem;
+    padding: 0.5rem;
+    border: $input-border;
+    border-radius: 0;
+    background-color: $input-background-color;
+    box-shadow: $input-bow-shadow;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #0a0a0a;
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+    appearance: none; 
+}
+
+[type='text']:focus, [type='password']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='week']:focus, [type='email']:focus, [type='number']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='url']:focus, [type='color']:focus,
+  textarea:focus {
+    outline: none;
+    border: 1px solid $input-focus-border;
+    background-color: $input-background-color;
+    box-shadow: $input-focus-box-shadow;
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out; 
+}
+
+// Placeholder text
+::placeholder {
+    color: $placeholder-color;
+}

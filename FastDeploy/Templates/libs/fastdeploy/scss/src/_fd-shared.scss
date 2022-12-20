@@ -1,0 +1,54 @@
+$primary-color-blue: rgba(10, 116, 255, 0.8);
+$primary-color-light-blue: rgba(87, 160, 255, 0.8);
+$primary-color-purple-blue: rgb(84, 133, 217); // hsla(226, 92%, 63%, 1);
+$primary-color-dark-blue: rgb(3, 60, 135);
+
+$primary-color-gray: #838383;
+$primary-color-dark: #2c3652;
+
+$primary-color-green: #66B032;
+$primary-color-light-green: #9BD770;
+$primary-color-dark-green: #375F1B;
+
+$primary-bg-color: #eff4ff;
+$primary-bg-gradient: linear-gradient(to right, hsl(218deg 64% 59%), hsl(214deg 100% 67% / 80%)); //linear-gradient(to right, #3a7fd5, #6ebce2);
+$primary-bg-gradient-bottom: linear-gradient(to bottom, hsl(218deg 64% 59%), hsl(214deg 100% 67% / 80%));
+
+$primary-select-hover-color: rgba(87, 160, 255, 0.2);
+
+$primary-label-color: #818181;
+$primary-text-color: #000;
+$primary-text-color-light: #f0f0f1;
+$primary-text-color-dark: #424242;
+$primary-text-color-gray: #868b99;
+$primary-text-highlight-color: #2271b1;
+$primary-text-border-color: #cacaca;
+$primary-text-box-shadow: 0 0 5px #cacaca;
+
+$secondary-color-blue: hsl(214deg 100% 61%);
+$secondary-color-light-blue: hsla(207, 83%, 75%, 1);
+$secondary-color-purple-blue: hsl(217, 47%, 52%);
+$secondary-color-dark-blue: hsl(214deg 100% 39%);
+
+$secondary-bg-gradient: linear-gradient(to right, hsl(217, 47%, 52%), hsl(207, 83%, 75%, 1));
+$secondary-bg-gradient-bottom: linear-gradient(to bottom, hsl(217, 47%, 52%), hsl(207, 83%, 75%, 1));
+
+$side-bar-active-background: #2271b1;
+$side-bar-select-background: #2c3338;
+$side-bar-hover-color: #72aee6;
+$side-bar-hover-background: rgba(0, 0, 0, 0.2);
+$side-bar-background-color: #1d2327;
+
+// $bg-color: #ecedf0;
+// $text-color: #939597;
+// $text-highlight-color: #2271b1;
+// $label-color: #5a5a5a;
+// $text-color-light: #f0f0f1;
+// $text-color-dark: #424242;
+// $text-color-gray: #868b99;
+// $side-bar-background-color: #1d2327;
+// $input-border-color: #cacaca;
+//---
+$card-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+//---
+$font-awesome-name: "Font Awesome 6 Free";

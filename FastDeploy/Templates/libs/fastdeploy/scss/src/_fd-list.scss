@@ -1,0 +1,60 @@
+table {
+    &.dataTable {
+        margin: 0 !important;
+    }
+
+    thead {
+        background-color: $primary-color-purple-blue;
+        color: white;
+    }
+
+    tbody {
+        td {
+            line-height: 1;
+        }
+    }
+
+    &.unstriped {
+        tbody {
+            tr {
+                &.even {
+                    >* {
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.list-container {
+    background-color: white;
+    box-shadow: $card-box-shadow;
+
+    .list-header {
+        padding: .9375rem;
+
+        > .cell >* {
+            margin-bottom: 0;
+        }
+
+        .text-search {
+            max-width: 300px;
+            font-size: inherit;
+        }
+    
+        select {
+            max-width: 65px;
+            font-size: inherit;
+            margin-left: .5rem;
+        }
+    }
+
+    .pagination {
+        margin-top: .9rem;
+
+        .current {
+            background-color: $primary-color-blue;
+        }
+    }
+}

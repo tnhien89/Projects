@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "foundation@6.7.5",
+      "destination": "wwwroot/lib/foundation/"
+    },
+    {
+      "library": "jquery@3.6.1",
+      "destination": "wwwroot/lib/jquery/"
+    },
+    {
+      "library": "font-awesome@6.2.1",
+      "destination": "wwwroot/lib/font-awesome/"
+    },
+    {
+      "library": "dripicons@2.0.0",
+      "destination": "wwwroot/lib/dripicons/"
+    },
+    {
+      "library": "datatables.net-zf@2.1.1",
+      "destination": "wwwroot/lib/datatables.net-zf/"
+    },
+    {
+      "library": "datatables.net@2.1.1",
+      "destination": "wwwroot/lib/datatables.net/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "datatables.net-searchpanes@2.1.0",
+      "destination": "wwwroot/lib/datatables.net-searchpanes/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "datatables.net-select@1.5.0",
+      "destination": "wwwroot/lib/datatables.net-select/"
+    }
+  ]
+}

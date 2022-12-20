@@ -1,0 +1,17 @@
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.DataAccess\bin\Debug\net6.0\FastDeploy.DataAccess.deps.json
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.DataAccess\bin\Debug\net6.0\FastDeploy.DataAccess.dll
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.DataAccess\bin\Debug\net6.0\FastDeploy.DataAccess.pdb
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.DataAccess\bin\Debug\net6.0\FastDeploy.Models.dll
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.DataAccess\bin\Debug\net6.0\FastDeploy.Utilities.dll
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.DataAccess\bin\Debug\net6.0\FastDeploy.Models.pdb
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.DataAccess\bin\Debug\net6.0\FastDeploy.Utilities.pdb
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.DataAccess\obj\Debug\net6.0\FastDeploy.DataAccess.csproj.AssemblyReference.cache
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.DataAccess\obj\Debug\net6.0\FastDeploy.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.DataAccess\obj\Debug\net6.0\FastDeploy.DataAccess.AssemblyInfoInputs.cache
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.DataAccess\obj\Debug\net6.0\FastDeploy.DataAccess.AssemblyInfo.cs
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.DataAccess\obj\Debug\net6.0\FastDeploy.DataAccess.csproj.CoreCompileInputs.cache
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.DataAccess\obj\Debug\net6.0\FastDeploy.DataAccess.csproj.CopyComplete
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.DataAccess\obj\Debug\net6.0\FastDeploy.DataAccess.dll
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.DataAccess\obj\Debug\net6.0\refint\FastDeploy.DataAccess.dll
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.DataAccess\obj\Debug\net6.0\FastDeploy.DataAccess.pdb
+D:\TNHien\Projects\GitHubs\Projects\FastDeploy\SourceCode\FastDeploy\FastDeploy.DataAccess\obj\Debug\net6.0\ref\FastDeploy.DataAccess.dll

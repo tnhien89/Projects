@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FastDeploy.Admin</title>
+
+    <link href="~/lib/foundation/css/foundation.min.css" rel="stylesheet" />
+    <link href="~/lib/foundation/css/foundation-prototype.min.css" rel="stylesheet" />
+    <link href="~/lib/foundation/css/foundation-float.min.css" rel="stylesheet" />
+    <link href="~/lib/foundation/css/foundation-rtl.min.css" rel="stylesheet" />
+    <link href="~/lib/dripicons/webfont.min.css" rel="stylesheet" crossorigin="anonymous" />
+    <link href="~/lib/node_modules/typicons.font/src/font/typicons.css" rel="stylesheet" crossorigin="anonymous" />
+    <link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet" crossorigin="anonymous" />
+    <link rel="stylesheet" href="~/scss/site.css" asp-append-version="true" />
+
+    <script src="~/lib/jquery/jquery.min.js"></script>
+</head>
+<body>
+    <div class="off-canvas-wrap" data-offcanvas="">
+        <div class="inner-wrap">
+            <div id="col_left" style="width: 260px;">
+                <a id="toggle_col_left">
+                    <span>
+                        <i class="dripicons-menu"></i>
+                    </span>
+                </a>
+                <div style="padding: 0; top: 0; position: relative; visibility: visible;">
+                    <div class="company-info">
+                        <img src="~/images/deployment-logo.png" />
+                        <h3 style="display: block;">
+                            Fast Deploy
+                            <small>1.0</small>
+                        </h3>
+                    </div>
+                    <div class="side-bar">
+                        <ul id="menu_show_hide">
+                            <li>
+                                <a id="menu_dashboard" title="Dashboard">
+                                    <i class="dripicons-monitor"></i>
+                                    <span>Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a title="Quản Lý Users">
+                                    <i class="dripicons-user"></i>
+                                    <span>Quản Lý Users</span>
+                                    <h4>
+                                        <b class="fa fa-circle"></b>
+                                    </h4>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="@Url.Action("Index", "Users")">Danh Sách</a>
+                                    </li>
+                                    <li>
+                                        <a>Thêm Mới</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a title="Quản Lý Danh Mục">
+                                    <i class="dripicons-list"></i>
+                                    <span>Quản Lý Danh Mục</span>
+                                    <h4>
+                                        <b class="fa fa-circle"></b>
+                                    </h4>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a>Danh Sách</a>
+                                    </li>
+                                    <li>
+                                        <a>Thêm Mới</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a title="Quản Lý Bài Viết">
+                                    <i class="dripicons-document-edit"></i>
+                                    <span>Quản Lý Bài Viết</span>
+                                    <h4>
+                                        <b class="fa fa-circle"></b>
+                                    </h4>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a>Danh Sách</a>
+                                    </li>
+                                    <li>
+                                        <a>Thêm Mới</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="paper_wrapper">
+                <!--top nav-->
+                <div class="top-bar" id="responsive-menu">
+                    <div class="top-bar-left">
+                        <ul class="dropdown menu" data-dropdown-menu data-options="disableHover: true; clickOpen: true;">
+                            <li class="has-submenu">
+                                <a href="#">
+                                    <i class="text-green fa fa-envelope"></i>
+                                    <span class="label fd-msg-noft">52</span>
+                                </a>
+                                <ul class="submenu menu vertical" data-submenu>
+                                    <li>
+                                        <span class="label round bg-green">MESSAGE</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <h3>
+                                                Message Title 1
+                                                <b class="text-red typcn typcn-media-record"></b>
+                                            </h3>
+                                            <p>Message text</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <h3>
+                                                Message Title 2
+                                                <b class="text-green typcn typcn-media-record"></b>
+                                            </h3>
+                                            <p>Message text 2</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="#">
+                                    <i class="text-blue fa fa-bell"></i>
+                                    <span class="label fd-noft">25</span>
+                                </a>
+                                <ul class="submenu menu vertical" data-submenu>
+                                    <li>
+                                        <span class="label round bg-blue">ALERT</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <h3>
+                                                Message Title 1
+                                                <b class="text-red typcn typcn-media-record"></b>
+                                            </h3>
+                                            <p>Message text</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <h3>
+                                                Message Title 2
+                                                <b class="text-green typcn typcn-media-record"></b>
+                                            </h3>
+                                            <p>Message text 2</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-search-text">
+                                <div class="search-prefix-icon"></div>
+                                <input type="search" placeholder="Search">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top-bar-right">
+                        <ul class="dropdown menu" data-dropdown-menu data-options="disableHover: true; clickOpen: true;">
+                            <li class="has-submenu menu-profile">
+                                <a href="#">
+                                    <img class="admin-pic img-circle" src="~/images/user.png" />
+                                    <span>Hi, Admin User</span>
+                                </a>
+                                <ul class="submenu menu vertical" data-submenu>
+                                    <li>
+                                        <i class="dripicons-user"></i>
+                                        <a href="#">
+                                            <h4>
+                                                Profile
+                                                <span class="text-aqua typcn typcn-media-record"></span>
+                                            </h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <i class="dripicons-folder-open"></i>
+                                        <a href="#">
+                                            <h4>
+                                                Account
+                                                <span class="text-blue typcn typcn-media-record"></span>
+                                            </h4>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <i class="dripicons-exit"></i>
+                                        <a href="#">
+                                            <h4>
+                                                Logout
+                                                <span class="text-red typcn typcn-media-record"></span>
+                                            </h4>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--end top nav-->
+                <ul class="breadcrumbs ">
+                    <li>
+                        <a href="#"><span class="dripicons-home" style="top: -1px;"></span></a>
+                    </li>
+                    <li>Tables</li>
+                    <li>Table dynamic</li>
+                </ul>
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/foundation/js/foundation.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script>
+        $(document).foundation();
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
