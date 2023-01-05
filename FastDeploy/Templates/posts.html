@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fast Deploy - Admin</title>
+
+    <link href="libs/font-awesome/css/all.min.css" rel="stylesheet" />
+
+    <link href="libs/dripicons/webfont.min.css" rel="stylesheet" />
+    <link href="libs/boxicons/css/boxicons.min.css" rel="stylesheet" />
+
+    <link href="libs/foundation/css/foundation.min.css" rel="stylesheet" />
+    <link href="libs/foundation/css/foundation-prototype.min.css" rel="stylesheet" />
+    <link href="libs/foundation/css/foundation-float.min.css" rel="stylesheet" />
+
+    <link href="libs/datatables.net-zf/css/dataTables.foundation.min.css" rel="stylesheet" />
+
+    <link href="css/fd-dashboard.min.css" rel="stylesheet" />
+
+    <script src="libs/jquery/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="off-canvas-wrapper">
+        <div id="leftSideBar" class="left-side-bar">
+            <div class="left-side-bar--logo">
+                <img src="images/logo.png" />
+                <h4>
+                    Fast Deploy
+                </h4>
+            </div>
+            <!-- <ul class="vertical menu accordion-menu left-side-bar--menu" data-accordion-menu> -->
+            <ul class="vertical menu left-side-bar--menu">
+                <li class="menu-item">
+                    <a href="dashboard.html">
+                        <i class="fa fa-house-user"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a>
+                        <i class="fa-solid fa-user"></i>
+                        <span>Users</span>
+                    </a>
+                    <ul class="left-side-bar--submenu">
+                        <li>
+                            <a href="users-list.html">
+                                <i class='bx bx-list-ul'></i>
+                                <span>All Users</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="add-user.html">
+                                <i class='bx bx-list-plus'></i>
+                                <span>New User</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item" expand-sub-menu="true">
+                    <a class="active">
+                        <i class="fa-solid fa-file-pen"></i>
+                        <span>Posts</span>
+                    </a>
+                    <ul class="left-side-bar--submenu" style="display: none;">
+                        <li>
+                            <a href="posts.html" class="active">
+                                <i class='bx bx-list-ul'></i>
+                                <span>All Posts</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="add-user.html">
+                                <i class='bx bx-list-plus'></i>
+                                <span>New Post</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="post-categories.html">
+                                <i class='bx bx-folder'></i>
+                                <span>Categories</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a>
+                        <i class="fa-solid fa-cubes"></i>
+                        <span>Products</span>
+                    </a>
+                    <ul class="left-side-bar--submenu">
+                        <li>
+                            <a href="products.html">
+                                <i class='bx bx-list-ul'></i>
+                                <span>All Products</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="add-product.html">
+                                <i class='bx bx-list-plus'></i>
+                                <span>New Product</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="product-categories.html">
+                                <i class='bx bx-folder'></i>
+                                <span>Categories</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="off-canvas-content dashboard-content" data-off-canvas-content>
+            <div class="top-bar">
+                <div class="top-bar-left">
+                    <ul class="dropdown menu" data-dropdown-menu>
+                        <li>
+                            <a id="toggleLeftSideBar">
+                                <i class="bx bx-menu"></i>
+                            </a>
+                        </li>
+                        <li class="top-bar--search-box">
+                            <i class='bx bx-search'></i>
+                            <input type="search" placeholder="Search" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-bar-right">
+                    <ul class="dropdown menu user-profile" data-dropdown-menu>
+                        <li>
+                            <a>
+                                <i class="fa-regular fa-envelope"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <i class="fa-regular fa-bell"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="user-profile--button">
+                                <img src="images/account.png" />
+                                <!-- <span>
+                                        Hi, Hien Tu Ngoc
+                                        <small>Administrator</small>
+                                    </span>
+                                    <i class="dripicons-chevron-down"></i> -->
+                            </a>
+                            <ul class="menu vertical submenu user-profile--menu">
+                                <li>
+                                    <a>
+                                        <i class="bx bx-user-circle"></i>
+                                        My Profile
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <i class='bx bxs-user-account'></i>
+                                        Account
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <i class="bx bx-power-off"></i>
+                                        Logout
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <nav id="nav_page_info" aria-label="" role="navigation">
+                <div class="grid-x">
+                    <div class="cell medium-6">
+                        <h4 class="page-title">Posts</h4>
+                        <ul class="breadcrumbs">
+                            <li>
+                                <a href="dashboard.html">Home</a>
+                            </li>
+                            <li>Posts</li>
+                        </ul>
+                    </div>
+                    <div class="cell medium-6 text-right">
+                        <button class="button" type="button" onclick="location.href='new-post.html'">
+                            <span aria-hidden="true">
+                                <i class="fa fa-plus"></i>
+                            </span>
+                            <span>New Post</span>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+            <!--begin Posts table-->
+            <div class="grid-x grid-padding-x">
+                <div class="cell">
+                    <div class="list-container">
+                        <div class="grid-x list-header">
+                            <div class="medium-6 cell">
+                                <input type="search" placeholder="Tìm theo tên hoặc email" class="text-search" />
+                            </div>
+                            <div class="medium-6 cell text-right">
+                                <span>Hiển thị</span>
+                                <select class="fd-select" id="selectShowRecords">
+                                    <option value="10" class="selected">10</option>
+                                    <option value="25">25</option>
+                                    <option value="50">50</option>
+                                    <option value="100">100</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grid-x">
+                            <div class="cell">
+                                <table id="tblPosts" class="unstriped center-first-col">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 40px;">
+                                                <div class="fd-checkbox" style="color: white;">
+                                                    <input type="checkbox" class="check-all"/>
+                                                </div>
+                                            </th>
+                                            <th>Title</th>
+                                            <th>Category</th>
+                                            <th>Tags</th>
+                                            <th>Author</th>
+                                            <th>Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="fd-checkbox">
+                                                    <input type="checkbox"/>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="media-group">
+                                                    <div class="media media-circle">
+                                                        <img src="demo/categories/f.jpg" />
+                                                    </div>
+                                                    <div class="media-text">
+                                                        <a class="title">C# Corner Poem By ChatGPT</a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>Blog</td>
+                                            <td>Technology</td>
+                                            <td>Admin</td>
+                                            <td>Jan 05, 2023</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end Posts table-->
+        </div>
+    </div>
+
+    <script src="libs/foundation/js/foundation.min.js"></script>
+
+    <script src="libs/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="libs/datatables.net-zf/js/dataTables.foundation.min.js"></script>
+
+    <script src="libs/fastdeploy/ts/dist/fastdeploy.min.js"></script>
+
+    <script>
+        $(document).foundation();
+
+        $('#tblPosts').DataTable({
+            "columnDefs": [
+                { "orderable": false, "targets": 0 }
+            ],
+            order: [
+                [1, 'asc']
+            ],
+            dom: "rtp"
+        });
+
+        FastDeploy.initialize();
+    </script>
+</body>
+
+</html>

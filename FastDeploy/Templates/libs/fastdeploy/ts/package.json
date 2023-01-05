@@ -1,0 +1,21 @@
+{
+  "name": "fastdeploy",
+  "version": "1.0.0",
+  "description": "FastDeploy JS",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Hien TN",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.5.14",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.4",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "babel-loader": "^9.1.0"
+  }
+}

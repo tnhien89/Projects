@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/expand",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "strict": true,
+        "stripInternal": true,
+        "module": "ES6",
+        "target": "ES6",
+        "moduleResolution": "node"
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

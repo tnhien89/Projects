@@ -7,11 +7,16 @@ $primary-color-gray: #838383;
 $primary-color-dark: #2c3652;
 
 $primary-color-green: #66B032;
-$primary-color-light-green: #9BD770;
+$primary-color-light-green: #c3ff68;
 $primary-color-dark-green: #375F1B;
+
+$primary-color-yellow: rgba(245, 229, 27, 1);
+$primary-color-dark-yellow: rgba(189, 155, 25, 1);
+$primary-color-light-yellow: rgba(255, 255, 126, 1);
 
 $primary-bg-color: #eff4ff;
 $primary-bg-gradient: linear-gradient(to right, hsl(218deg 64% 59%), hsl(214deg 100% 67% / 80%)); //linear-gradient(to right, #3a7fd5, #6ebce2);
+$primary-bg-gradient-left: linear-gradient(to left, hsl(218deg 64% 59%), hsl(214deg 100% 67% / 80%));
 $primary-bg-gradient-bottom: linear-gradient(to bottom, hsl(218deg 64% 59%), hsl(214deg 100% 67% / 80%));
 
 $primary-select-hover-color: rgba(87, 160, 255, 0.2);
@@ -31,6 +36,7 @@ $secondary-color-purple-blue: hsl(217, 47%, 52%);
 $secondary-color-dark-blue: hsl(214deg 100% 39%);
 
 $secondary-bg-gradient: linear-gradient(to right, hsl(217, 47%, 52%), hsl(207, 83%, 75%, 1));
+$secondary-bg-gradient-left: linear-gradient(to left, hsl(217, 47%, 52%), hsl(207, 83%, 75%, 1));
 $secondary-bg-gradient-bottom: linear-gradient(to bottom, hsl(217, 47%, 52%), hsl(207, 83%, 75%, 1));
 
 $side-bar-active-background: #2271b1;
@@ -38,6 +44,8 @@ $side-bar-select-background: #2c3338;
 $side-bar-hover-color: #72aee6;
 $side-bar-hover-background: rgba(0, 0, 0, 0.2);
 $side-bar-background-color: #1d2327;
+
+$logo-gradient-text-color: linear-gradient(to right, $primary-color-yellow, $secondary-color-light-blue, $secondary-color-light-blue, $secondary-color-blue);
 
 // $bg-color: #ecedf0;
 // $text-color: #939597;

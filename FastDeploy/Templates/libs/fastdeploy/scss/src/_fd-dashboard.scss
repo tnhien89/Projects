@@ -31,9 +31,9 @@
         white-space: nowrap;
 
         img {
-            width: 40px;
+            width: auto;
             height: 40px;
-            margin: 5px 0 0 5px;
+            margin: 9px 0 0 5px;
             float: left;
         }
 
@@ -42,21 +42,17 @@
             line-height: inherit;
             margin-bottom: 0;
             margin-left: 55px;
-            font-size: 16px;
+            text-transform: uppercase;
+            background: linear-gradient(to right, rgb(245, 229, 27), hsl(207deg, 83%, 75%), hsl(207deg, 83%, 75%), hsl(214deg, 100%, 61%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: rgba(0,0,0,0);
+            font-family: "Source Sans Pro";
+            font-size: 19px;
+            font-weight: 800;
             position: relative;
-            color: white;
-
-            small {
-                position: absolute;
-                top: 15px;
-                right: 15px;
-                color: $primary-text-color-light;
-                letter-spacing: 2px;
-                border: 2px solid rgba(255, 255, 255, 0.3);
-                padding: 8px 6px;
-                border-radius: 15px;
-                font-size: 10px;
-            }
+            color: #fff;
+            font-style: italic;
         }
     }
 
@@ -87,6 +83,7 @@
                 position: relative;
                 margin-right: 10px;
                 color: $secondary-color-light-blue;
+                min-width: 16px;
             }
         }
     }
@@ -157,13 +154,16 @@
     }
 
     i.bx {
-        top: 3px;
-        font-size: 16px;
+        top: 1px;
+        // font-size: 16px;
     }
 
     .left-side-bar--submenu {
+        padding-top: .2rem;
+        padding-bottom: .2rem;
+
         li > a {
-            padding: 0.575rem 1rem;
+            padding: 0.5rem 1rem;
         }
 
         a.active > span {
@@ -335,6 +335,7 @@
             .user-profile--menu {
                 display: none;
                 top: 45px !important;
+                background-color: white;
                 // left: 0 !important;
 
                 li {
@@ -346,7 +347,7 @@
                     a {
                         border-radius: 2px;
                         color: $primary-text-color; //#7d7d7d;
-                        display: block;
+                        display: inline-block;
                         line-height: 20.8px;
                         line-height: 1.3rem;
                         padding: 4px 10px;
@@ -357,6 +358,7 @@
                             font-size: 1.1rem;
                             margin-right: 3px;
                             vertical-align: middle;
+                            color: $secondary-color-dark-blue;
                         }
                     }
                 }

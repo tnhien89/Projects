@@ -27,7 +27,6 @@
                     <img src="images/logo.png"/>
                     <h4>
                         Fast Deploy
-                        <small>ver 1.1</small>
                     </h4>
                 </div>
                 <!-- <ul class="vertical menu accordion-menu left-side-bar--menu" data-accordion-menu> -->
@@ -170,11 +169,15 @@
                                         </div>
                                         <div class="cell">
                                             <label>Chuyên mục cha</label>
-                                            <select aria-placeholder="Không bắt buộc"></select>
+                                            <select class="fd-select">
+                                                <option class="selected disabled" value="">Trống</option>
+                                            </select>
                                         </div>
                                         <div class="cell">
                                             <label>Tags</label>
-                                            <input type="text" placeholder="Enter để thêm tag"/>
+                                            <div class="input-tokens-container">
+                                                <input type="text" class="token-input" placeholder="Nhập dấu , hoặc Enter để thêm Tag"/>
+                                            </div>
                                         </div>
                                         <div class="cell">
                                             <label>Mô tả</label>
@@ -201,13 +204,17 @@
                                         </div>
                                         <div class="cell">
                                             <label>Trạng thái</label>
-                                            <div class="fd-select">
-                                                <a href="#" class="fd-select--button" data-toggle="ddCategoryStatus"></a>
-                                                <ul id="ddCategoryStatus" class="dropdown-pane" data-dropdown data-close-on-click="true">
-                                                    <li>Published</li>
-                                                    <li>Private</li>
+                                            <select class="fd-select">
+                                                <option value="Published" class="selected">Published</option>
+                                                <option value="Private">Private</option>
+                                            </select>
+                                            <!-- <div class="fd-select">
+                                                <a href="#" class="fd-select--button" data-value="Published">Published</a>
+                                                <ul id="ddCategoryStatus" class="fd-select--dropdown">
+                                                    <li data-value="Published" class="selected">Published</li>
+                                                    <li data-value="Private">Private</li>
                                                 </ul>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -220,10 +227,12 @@
         </div>
 
         <script src="libs/foundation/js/foundation.min.js"></script>
-        <script src="libs/fastdeploy/js/dist/fd-users.js"></script>
+        <script src="libs/fastdeploy/ts/dist/fastdeploy.min.js"></script>
 
         <script>
             $(document).foundation();
+            //---
+            FastDeploy.initialize();
 
             $(function () {
                 $('.menu-item > ul').toggle();
@@ -304,21 +313,6 @@
                     }
 
                     ul.toggle();
-                }
-            });
-
-            $('#ddCategoryStatus > li').on('click', function (e) {
-                e.stopPropagation();
-                
-                let el = $(e.currentTarget);
-                let btn = $('#ddCategoryStatus').parent().find('.fd-select--button');
-                btn.trigger('click');
-                btn.html($(e.currentTarget).html());
-
-                if (!el.hasClass('selected')) {
-                    $('#ddCategoryStatus').find('li.selected').removeClass('selected');
-
-                    el.addClass('selected');
                 }
             });
         </script>

@@ -30,7 +30,6 @@
                 <img src="images/logo.png" />
                 <h4>
                     Fast Deploy
-                    <small>ver 1.1</small>
                 </h4>
             </div>
             <!-- <ul class="vertical menu accordion-menu left-side-bar--menu" data-accordion-menu> -->
@@ -88,7 +87,7 @@
                 <div class="top-bar-left">
                     <ul class="dropdown menu" data-dropdown-menu>
                         <li>
-                            <a id="toggleLeftSideBar" onclick="toggleLeftSideBarOnClick(event)">
+                            <a id="toggleLeftSideBar">
                                 <i class="bx bx-menu"></i>
                             </a>
                         </li>
@@ -111,7 +110,7 @@
                             </a>
                         </li>
                         <li>
-                            <a onclick="profileUserOnClick(event)">
+                            <a class="user-profile--button">
                                 <img src="images/account.png" />
                                 <!-- <span>
                                         Hi, Hien Tu Ngoc
@@ -562,7 +561,7 @@
     <script src="libs/datatables.net/js/jquery.dataTables.min.js"></script>
     <script src="libs/datatables.net-zf/js/dataTables.foundation.min.js"></script>
 
-    <script src="libs/fastdeploy/js/dist/fd-users.js"></script>
+    <script src="libs/fastdeploy/ts/dist/fastdeploy.min.js"></script>
 
     <script>
         $(document).foundation();
@@ -577,87 +576,7 @@
             dom: "rtp"
         });
 
-        $(function () {
-            $('.menu-item > ul').toggle();
-        });
-
-        $(document).on('click', function (e) {
-            e.stopPropagation();
-
-            $('.user-profile--menu').hide();
-
-            if ($('#leftSideBar').hasClass('closed')) {
-                let expands = $('li[expand-sub-menu="true"]');
-                expands.attr('expand-sub-menu', 'false');
-                expands.find('ul').toggle();
-            }
-        });
-
-        function profileUserOnClick(e) {
-            e.stopPropagation();
-
-            $('.user-profile--menu').toggle();
-        }
-
-        function toggleLeftSideBarOnClick(e) {
-            e.stopPropagation();
-
-            let sideBar = $('#leftSideBar');
-            if (sideBar.hasClass('closed')) {
-                sideBar.animate({
-                    'width': '240px'
-                }, function () {
-                    $('.left-side-bar--menu').removeClass('hide-arrow');
-                });
-
-                $('.dashboard-content').animate({
-                    'margin-left': '240px'
-                });
-
-                sideBar.removeClass('closed');
-            }
-            else {
-                $('.left-side-bar--menu').addClass('hide-arrow');
-
-                sideBar.animate({
-                    'width': '50px'
-                }, function () {
-                    sideBar.addClass('closed');
-                });
-
-                $('.dashboard-content').animate({
-                    'margin-left': '50px'
-                });
-            }
-
-            let expands = $('li[expand-sub-menu="true"]');
-            expands.attr('expand-sub-menu', 'false');
-            expands.find('ul').hide(300);
-        }
-
-        $('.menu-item > a').on('click', function (e) {
-            e.stopPropagation();
-
-            let el = $(e.currentTarget).closest('.menu-item'),
-                expanded = el.attr('expand-sub-menu');
-            if (expanded != 'true') {
-                let expands = $('li[expand-sub-menu="true"]');
-                expands.attr('expand-sub-menu', 'false');
-                expands.find('ul').toggle();
-            }
-
-            let ul = el.find('ul');
-            if (ul && ul.length) {
-                if (el.attr('expand-sub-menu') == 'true') {
-                    el.attr('expand-sub-menu', 'false');
-                }
-                else {
-                    el.attr('expand-sub-menu', 'true');
-                }
-
-                ul.toggle();
-            }
-        });
+        FastDeploy.initialize();
     </script>
 </body>
 
