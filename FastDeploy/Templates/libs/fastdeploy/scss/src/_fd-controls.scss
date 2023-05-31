@@ -8,6 +8,8 @@
         margin: 0 auto;
         overflow: hidden;
         cursor: pointer;
+        border: 2px solid $primary-color-light-blue;
+        border-radius: 5px;
 
         img {
             width: 100%;
@@ -66,9 +68,9 @@
             transition: box-shadow .5s, border-color .25s ease-in-out, -webkit-box-shadow .5s;
         }
 
-        &[data-value=''] {
-            color: $primary-text-color-gray;
-        }
+        // &[data-value=''] {
+        //     color: $primary-text-color-gray;
+        // }
     }
 
     .fd-select--dropdown {

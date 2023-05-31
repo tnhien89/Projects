@@ -16,6 +16,7 @@
     <link href="libs/foundation/css/foundation-float.min.css" rel="stylesheet" />
     <!-- <link href="libs/foundation/css/foundation-rtl.min.css" rel="stylesheet" /> -->
 
+    <link href="libs/summernote/summernote-lite.min.css" rel="stylesheet"/>
 
     <link href="css/fd-dashboard.min.css" rel="stylesheet" />
 
@@ -34,7 +35,7 @@
             <!-- <ul class="vertical menu accordion-menu left-side-bar--menu" data-accordion-menu> -->
             <ul class="vertical menu left-side-bar--menu">
                 <li class="menu-item">
-                    <a href="dashboard.html" class="active">
+                    <a href="dashboard.html">
                         <i class="fa fa-house-user"></i>
                         <span>Dashboard</span>
                     </a>
@@ -59,12 +60,12 @@
                         </li>
                     </ul>
                 </li>
-                <li class="menu-item">
-                    <a>
+                <li class="menu-item" expand-sub-menu="true">
+                    <a class="active">
                         <i class="fa-solid fa-file-pen"></i>
                         <span>Posts</span>
                     </a>
-                    <ul class="left-side-bar--submenu">
+                    <ul class="left-side-bar--submenu" style="display: none;">
                         <li>
                             <a href="posts.html">
                                 <i class='bx bx-list-ul'></i>
@@ -72,7 +73,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="add-user.html">
+                            <a href="new-post.html" class="active">
                                 <i class='bx bx-list-plus'></i>
                                 <span>New Post</span>
                             </a>
@@ -176,27 +177,106 @@
             <nav id="nav_page_info" aria-label="" role="navigation">
                 <div class="grid-x">
                     <div class="cell medium-6">
-                        <h4 class="page-title">Dashboard</h4>
+                        <h4 class="page-title">New Post</h4>
                         <ul class="breadcrumbs">
                             <li>
                                 <a href="dashboard.html">Home</a>
                             </li>
-                            <li>Dashboard</li>
+                            <li>New Post</li>
                         </ul>
                     </div>
-                    <div class="cell medium-6">
-
+                    <div class="cell medium-6 text-right">
                     </div>
                 </div>
             </nav>
+
+            <!--begin form post info-->
+            <form>
+                <div class="grid-x grid-padding-x grid-container">
+                    <div class="large-8 medium-12 cell">
+                        <div class="card">
+                            <div class="card-section">
+                                <div class="grid-x">
+                                    <div class="cell">
+                                        <label>Title</label>
+                                        <input type="text"/>
+                                    </div>
+                                    <div class="cell">
+                                        <label>Category</label>
+                                        <select class="fd-select">
+                                            <option class="selected disabled" value="">None</option>
+                                        </select>
+                                    </div>
+                                    <div class="cell">
+                                        <label>Tags</label>
+                                        <div class="input-tokens-container">
+                                            <input type="text" class="token-input" placeholder="Nhập dấu , hoặc Enter để thêm Tag"/>
+                                        </div>
+                                    </div>
+                                    <div class="cell">
+                                        <label>Description</label>
+                                        <textarea rows="1"></textarea>
+                                    </div>
+                                    <div class="cell">
+                                        <label>Content</label>
+                                        <div id="toolbar-container"></div>
+                                        <div id="ckePostContent" class="fd-editor"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="large-4 medium-12 cell">
+                        <div class="card">
+                            <div class="card-section">
+                                <div class="grid-x">
+                                    <div class="cell">
+                                        <label>Thumbnail</label>
+                                    </div>
+                                    <div class="cell">
+                                        <div class="upload-container">
+                                            <div class="preview">
+                                                <img class="img-preview" src="images/upload-images.png"/>
+                                            </div>
+                                            <input type="file" class="file-upload" style="display: none;" id="fileUploadMedia" onchange="userChoosedAvatar(event)"/>
+                                        </div>
+                                    </div>
+                                    <div class="cell">
+                                        <label>Status</label>
+                                        <select class="fd-select">
+                                            <option value="Publish" class="selected">Publish</option>
+                                            <option value="Draft">Draft</option>
+                                            <option value="Pending">Pending</option>
+                                        </select>
+                                        <!-- <div class="fd-select">
+                                            <a href="#" class="fd-select--button" data-value="Published">Published</a>
+                                            <ul id="ddCategoryStatus" class="fd-select--dropdown">
+                                                <li data-value="Published" class="selected">Published</li>
+                                                <li data-value="Private">Private</li>
+                                            </ul>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="medium-12 cell">
+                        <input type="submit" class="button" value="Save"/>
+                    </div>
+                </div>
+            </form>
+            <!--end form post info-->
         </div>
     </div>
 
     <script src="libs/foundation/js/foundation.min.js"></script>
+    <script src="libs/summernote/summernote-lite.min.js"></script>
     <script src="libs/fastdeploy/ts/dist/fastdeploy.min.js"></script>
 
     <script>
         $(document).foundation();
+
+        $('#ckePostContent').summernote();
 
         FastDeploy.initialize();
     </script>

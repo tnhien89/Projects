@@ -68,6 +68,7 @@ input[type=search]::-webkit-search-cancel-button {
 
 .button {
   padding: 0.85em 1.5em;
+  margin-bottom: 0;
   background-color: rgba(10, 116, 255, 0.8);
 }
 .button.btn-circle {
@@ -80,10 +81,8 @@ input[type=search]::-webkit-search-cancel-button {
 .button.zoom-hover {
   background: none;
 }
-.button span:first-child {
-  margin-right: 5px;
-}
 .button i {
+  margin-right: 5px;
   color: white;
 }
 .button:hover, .button:focus {
@@ -179,6 +178,23 @@ input[type=search]::-webkit-search-cancel-button {
 }
 .media-text .text {
   display: block;
+}
+
+.note-editor.note-airframe, .note-editor.note-frame {
+  border: 1px solid #cacaca;
+  border-radius: 0;
+}
+.note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable {
+  min-height: 150px;
+  background-color: white;
+}
+
+.note-editor .note-toolbar .note-color-all .note-dropdown-menu, .note-popover .popover-content .note-color-all .note-dropdown-menu {
+  min-width: 346px;
+}
+
+.cell-action {
+  padding-top: 8px;
 }
 
 table.dataTable {
@@ -437,6 +453,10 @@ table.center-first-col tr th:first-child, table.center-first-col tr td:first-chi
   display: none !important;
 }
 
+.left-side-bar.closed .left-side-bar--menu li:hover > ul {
+  display: block !important;
+}
+
 .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after {
   border-color: #f0f0f1 transparent transparent;
 }
@@ -616,6 +636,14 @@ table.center-first-col tr th:first-child, table.center-first-col tr td:first-chi
 .breadcrumbs li a:hover {
   text-decoration: none;
   color: #2271b1;
+}
+
+.ck .ck-editor__editable_inline {
+  min-height: 150px;
+  max-height: 500px;
+}
+.ck .ck-editor__editable_inline p {
+  margin-bottom: 0;
 }
 
 .upload-avatar-container {

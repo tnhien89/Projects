@@ -82,6 +82,7 @@ input[type="search"]::-webkit-search-cancel-button {
 
 .button {
     padding: 0.85em 1.5em;
+    margin-bottom: 0;
     background-color: $primary-color-blue;
 
     &.btn-circle {
@@ -96,13 +97,8 @@ input[type="search"]::-webkit-search-cancel-button {
         background: none;
     }
 
-    span {
-        &:first-child {
-            margin-right: 5px;
-        }
-    }
-
     i {
+        margin-right: 5px;
         color: white;
     }
 
@@ -211,4 +207,24 @@ input[type="search"]::-webkit-search-cancel-button {
     .text {
         display: block;
     }
+}
+
+.note-editor.note-airframe, .note-editor.note-frame {
+    border: 1px solid $primary-text-border-color;
+    border-radius: 0;
+
+    .note-editing-area {
+        .note-editable {
+            min-height: 150px;
+            background-color: white;
+        }
+    }
+}
+
+.note-editor .note-toolbar .note-color-all .note-dropdown-menu, .note-popover .popover-content .note-color-all .note-dropdown-menu {
+    min-width: 346px;
+}
+
+.cell-action {
+    padding-top: 8px;
 }

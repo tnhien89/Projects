@@ -182,9 +182,17 @@
     }
 }
 
-// .left-side-bar--submenu {
-//     display: flex;
-// }
+.left-side-bar.closed {
+    .left-side-bar--menu {
+        li {
+            &:hover {
+                > ul {
+                    display: block !important;
+                }
+            }
+        }
+    }
+}
 
 .accordion-menu {
     .is-accordion-submenu-parent:not(.has-submenu-toggle) {
@@ -421,6 +429,17 @@
                 text-decoration: none;
                 color: $primary-text-highlight-color;
             }
+        }
+    }
+}
+
+.ck {
+    .ck-editor__editable_inline {
+        min-height: 150px;
+        max-height: 500px;
+
+        p {
+            margin-bottom: 0;
         }
     }
 }

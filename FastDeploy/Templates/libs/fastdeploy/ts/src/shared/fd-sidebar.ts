@@ -21,6 +21,12 @@ export default class FastDeploySideBar {
 }
 
 function toggleLeftSideBarOnClick(e: JQuery.ClickEvent): void {
+    if ($('#leftSideBar').hasClass('closed')) {
+        e.preventDefault();
+
+        return;
+    }
+
     e.stopPropagation();
 
     let sideBar = $('#leftSideBar');

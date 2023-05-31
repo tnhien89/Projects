@@ -1,5 +1,5 @@
 import FastDeployShared from "./shared/fd-shared";
-import { initControls } from "./controls/fd-controls";
+import { initControls, initImagePicker } from "./controls/fd-controls";
 
 interface IFastDeploy {
     initialize(): void;
@@ -29,4 +29,8 @@ class FastDeployModel implements IFastDeploy {
 export function initialize(): void {
     let model: IFastDeploy = new FastDeployModel();
     model.initialize();
+}
+
+export function imagePicker(container: JQuery<HTMLElement>): void {
+    initImagePicker(container);
 }
